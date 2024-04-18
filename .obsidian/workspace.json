@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md",
-                "mode": "source",
+                "file": "05 - Fleeting/202404181840 Custom Information Cards.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md",
+                "file": "05 - Fleeting/202404181840 Custom Information Cards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md",
+                "file": "05 - Fleeting/202404181840 Custom Information Cards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md"
+                "file": "05 - Fleeting/202404181840 Custom Information Cards.md"
               }
             }
           }
@@ -152,8 +152,8 @@
   },
   "active": "45477e3500e6bbb1",
   "lastOpenFiles": [
-    "05 - Fleeting/202404181840 Custom Information Cards.md",
     "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md",
+    "05 - Fleeting/202404181840 Custom Information Cards.md",
     "01 - Projects/Custom Information Cards Plugin",
     "06 - Daily/2024-04-18.md",
     "06 - Daily/202404181841.md",
