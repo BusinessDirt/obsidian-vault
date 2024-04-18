@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9c0438e9cd417ccd",
+        "id": "2fb55a4f7619be8e",
         "type": "tabs",
         "children": [
           {
-            "id": "2bec36f114a7802d",
+            "id": "45477e3500e6bbb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/Informatik/Von-Neumann-Architektur.md",
+                "file": "02 - Areas/Chemie/Isocyansäure.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 200
   },
   "right": {
     "id": "d806eb3197e224c5",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Areas/Informatik/Von-Neumann-Architektur.md",
+                "file": "02 - Areas/Chemie/Isocyansäure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Areas/Informatik/Von-Neumann-Architektur.md",
+                "file": "02 - Areas/Chemie/Isocyansäure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Areas/Informatik/Von-Neumann-Architektur.md"
+                "file": "02 - Areas/Chemie/Isocyansäure.md"
               }
             }
           }
@@ -145,18 +145,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "github-sync:Sync with Remote": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2bec36f114a7802d",
+  "active": "45477e3500e6bbb1",
   "lastOpenFiles": [
+    "02 - Areas/Chemie/Isocyansäure.md",
+    "02 - Areas/Informatik/Von-Neumann-Architektur.md",
     "README.md",
     "Untitled.md",
     "99 - Meta/01 - Excalidraw/Von-Neumann-Architektur 2024-04-18 00.00.55.excalidraw.md",
-    "02 - Areas/Informatik/Von-Neumann-Architektur.md",
     "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
     "99 - Meta/Preloaded Classes/202404180007 Game CSS Classes.md",
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
@@ -180,7 +179,6 @@
     "02 - Areas/Informatik/Endliche Automaten.md",
     "02 - Areas/Informatik/Baum.md",
     "02 - Areas/Informatik/Binärbaum.md",
-    "02 - Areas/Informatik/Knoten.md",
     "99 - Meta/01 - Excalidraw",
     "Excalidraw",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
