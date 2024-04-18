@@ -146,7 +146,8 @@
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "45477e3500e6bbb1",
