@@ -1,5 +1,4 @@
 [
-  "remotely-save",
   "obsidian-latex-suite",
   "obsidian-icon-folder",
   "obsidian-completr",
@@ -10,5 +9,5 @@
   "obsidian-importer",
   "obsidian-excalidraw-plugin",
   "execute-code",
-  "github-sync"
+  "obsidian-git"
 ]
