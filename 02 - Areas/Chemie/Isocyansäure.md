@@ -2,12 +2,7 @@
 date: 2024-04-17T18:44
 tags:
   - Chemie
-cssclasses: 
-information: 
-	Strukturformel:
-		Name: Isocyansäure
-		Summenformel: HNCO
-		Kurzbeschreibung: test
+cssclasses: []
 ---
 
 ```json
