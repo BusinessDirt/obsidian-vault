@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "02 - Areas/Informatik/Von-Neumann-Architektur.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "02 - Areas/Informatik/Von-Neumann-Architektur.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "02 - Areas/Informatik/Von-Neumann-Architektur.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "02 - Areas/Informatik/Von-Neumann-Architektur.md"
               }
             }
           }
@@ -138,7 +138,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -146,12 +145,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
+      "remotely-save:Remotely Save": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "2bec36f114a7802d",
   "lastOpenFiles": [
+    "README.md",
     "Untitled.md",
     "99 - Meta/01 - Excalidraw/Von-Neumann-Architektur 2024-04-18 00.00.55.excalidraw.md",
     "02 - Areas/Informatik/Von-Neumann-Architektur.md",
@@ -179,7 +181,6 @@
     "02 - Areas/Informatik/Baum.md",
     "02 - Areas/Informatik/Binärbaum.md",
     "02 - Areas/Informatik/Knoten.md",
-    "00 - Maps of Content/Informatik.md",
     "99 - Meta/01 - Excalidraw",
     "Excalidraw",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
