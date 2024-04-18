@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "6c53b4d1f9ccd44e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c0438e9cd417ccd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bec36f114a7802d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5ad209dd7820c468",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a0c7f73af5f7353",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2888c0f8e844e72f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2ce73e7ecc1ee47a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ef2e2bef847b0954",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 293.5
+  },
+  "right": {
+    "id": "d806eb3197e224c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "259303a399869a10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d797e5f07bea1ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "950c1fa2dc7b85d6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1aa1f2485df08c2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "be1cabbd7847c6ba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "remotely-save:Remotely Save": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "2bec36f114a7802d",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "99 - Meta/01 - Excalidraw/Von-Neumann-Architektur 2024-04-18 00.00.55.excalidraw.md",
+    "02 - Areas/Informatik/Von-Neumann-Architektur.md",
+    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+    "99 - Meta/Preloaded Classes/202404180007 Game CSS Classes.md",
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
+    "03 - Resources/Von-Neumann_Architektur.svg",
+    "02 - Areas/Computergraphik/Raytracing.md",
+    "02 - Areas/Informatik/Untitled.md",
+    "00 - Maps of Content/Computergraphik.md",
+    "02 - Areas/Computergraphik/Untitled.md",
+    "00 - Maps of Content/Computerlinguistik.md",
+    "02 - Areas/Computerlinguistik/Syntax.md",
+    "02 - Areas/Computergraphik/OpenGL.md",
+    "02 - Areas/Computerlinguistik/Kontextfreie Grammatik.md",
+    "02 - Areas/Computergraphik",
+    "02 - Areas/Mathe/Vektor.md",
+    "02 - Areas/Computerlinguistik/Computerlinguistik.md",
+    "02 - Areas/Informatik/Informatik.md",
+    "02 - Areas/Informatik/Liste.md",
+    "02 - Areas/Informatik/Künstliche Intelligenz.md",
+    "02 - Areas/Informatik/Haskell.md",
+    "02 - Areas/Informatik/Graph.md",
+    "02 - Areas/Informatik/Endliche Automaten.md",
+    "02 - Areas/Informatik/Baum.md",
+    "02 - Areas/Informatik/Binärbaum.md",
+    "02 - Areas/Informatik/Knoten.md",
+    "00 - Maps of Content/Informatik.md",
+    "99 - Meta/01 - Excalidraw",
+    "Excalidraw",
+    "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
+    "03 - Resources/IMG_20230228_092655.jpg",
+    "03 - Resources/IMG_20221110_091441.jpg",
+    "99 - Meta/Preloaded Classes",
+    "99 - Meta/00 - Templates",
+    "99 - Meta",
+    "07 - Archives",
+    "06 - Daily",
+    "05 - Fleeting",
+    "04 - Permanent"
+  ]
+}

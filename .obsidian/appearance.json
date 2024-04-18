@@ -1,0 +1,18 @@
+{
+  "accentColor": "#43cfea",
+  "cssTheme": "Vanilla AMOLED",
+  "enabledCssSnippets": [
+    "colored-sidebar",
+    "general-tweaks",
+    "japanese-font-support",
+    "minecraft",
+    "notebook-backgrounds",
+    "runescapes",
+    "daily-notes-theme"
+  ],
+  "translucency": false,
+  "theme": "obsidian",
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono"
+}

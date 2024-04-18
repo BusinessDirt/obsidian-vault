@@ -1,0 +1,3 @@
+- gibt mögliche Energiemesswerte in der Quantenmechanik an (Energieoperator)
+- gibt außerdem die zeitliche Entwicklung der Messwerte an
+- [Wikipedia](https://de.wikipedia.org/wiki/Hamiltonoperator)

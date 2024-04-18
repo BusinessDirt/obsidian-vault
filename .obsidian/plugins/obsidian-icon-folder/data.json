@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": "- Maps of Content",
+        "icon": "BoBxGlobeAlt",
+        "for": "everything",
+        "order": 0
+      },
+      {
+        "rule": "- Projects",
+        "icon": "BoBxsPen",
+        "for": "everything",
+        "order": 1
+      },
+      {
+        "rule": "- Areas",
+        "icon": "BoBxsPackage",
+        "for": "everything",
+        "order": 2
+      },
+      {
+        "rule": "- Resources",
+        "icon": "BoBxsBook",
+        "for": "everything",
+        "order": 3
+      },
+      {
+        "rule": "- Permanent",
+        "icon": "BoBxsFile",
+        "for": "everything",
+        "order": 4
+      },
+      {
+        "rule": "- Fleeting",
+        "icon": "BoBxsPencil",
+        "for": "everything",
+        "order": 5
+      },
+      {
+        "rule": "- Daily",
+        "icon": "BoBxCalendarEvent",
+        "for": "everything",
+        "order": 6
+      },
+      {
+        "rule": "- Archives",
+        "icon": "BoBxsArchive",
+        "for": "everything",
+        "order": 7
+      },
+      {
+        "rule": "- Meta",
+        "icon": "BoBxSelection",
+        "for": "everything",
+        "order": 8
+      },
+      {
+        "rule": "- Templates",
+        "icon": "BoBxRuler",
+        "for": "everything",
+        "order": 9
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  }
+}

@@ -1,0 +1,1 @@
+Dieselbe Bedeutung kann durch viele verschiedene sprachliche Formen ausgedrückt werden
