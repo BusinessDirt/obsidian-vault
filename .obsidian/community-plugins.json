@@ -10,5 +10,6 @@
   "obsidian-excalidraw-plugin",
   "execute-code",
   "obsidian-git",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "sample-plugin"
 ]
