@@ -5,7 +5,7 @@ tags: []
 Use yaml to structure the cards and then use a plugin to generate html elements with custom css classes.
 
 Example:
-```yaml
+```inforcards
 h1:
 	bla
 ```
