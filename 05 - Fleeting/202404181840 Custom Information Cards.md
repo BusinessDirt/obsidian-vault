@@ -6,9 +6,12 @@ Use yaml to structure the cards and then use a plugin to generate html elements 
 
 Example:
 ```infocards
-Allgemeines:
-	Strukturformel: img
-	Name: "Isocyansäure"
+{
+	"Allgemeines": {
+		"Strukturformel": "img",
+		"Name": "Isocyansäure"
+	}
+}
 ```
 
 ## Basic Features
