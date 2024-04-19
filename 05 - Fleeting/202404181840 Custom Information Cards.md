@@ -9,7 +9,13 @@ Example:
 {
 	"Allgemeines": {
 		"Strukturformel": "img",
-		"Name": "Isocyansäure"
+		"Name": "Isocyansäure",
+		"Heading 2": {
+			"test": "testing",
+			"Heading 3": {
+				"test 2": "testing 2"
+			}
+		}
 	}
 }
 ```
