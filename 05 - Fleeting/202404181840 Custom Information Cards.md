@@ -7,16 +7,18 @@ Use yaml to structure the cards and then use a plugin to generate html elements 
 Example:
 ```infocards
 {
+	"Strukturformel": {
+		"img": "insert link here"
+	},
 	"Allgemeines": {
-		"Strukturformel": "img",
 		"Name": "Isocyansäure",
-		"Heading 2": {
-			"test": "testing",
-			"Heading 3": {
-				"test 2": "testing 2"
-			}
-		}
-	}
+		"Summenformel": "HNCO",
+		"Kurzbeschreibung": "oberhalb von 0°C wenig beständige Flüssigkeit, die zur Polymerisation neigt."
+	},
+	"Externe Identifikatoren / Datenbanken": {
+		"CAS-Nummer": "75-13-8"
+	},
+	"Eigenschaften"
 }
 ```
 
