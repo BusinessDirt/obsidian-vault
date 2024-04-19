@@ -18,7 +18,13 @@ Example:
 	"Externe Identifikatoren / Datenbanken": {
 		"CAS-Nummer": "75-13-8"
 	},
-	"Eigenschaften"
+	"Eigenschaften": {
+		"Molare Masse": "43,03 g*mol^-1",
+		"Aggregatszustand": "flüssig",
+		"Schmelzpunkt": "-86°C",
+		"Siedepunkt": "23,5°C",
+		"pK_s-Wert": "3,92"
+	}
 }
 ```
 
