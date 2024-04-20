@@ -44,3 +44,7 @@ Für 4 Personen
 2. Shrimps oder Iberico Schwein fein hacken. Zwiebelhälfte schälen und ebenfalls klein schneiden. Shrimps oder Iberico Schwein mit Zwiebel, Ingwer, Sesamöl, Pfeffer, und Salz gut mischen.
 3. Die Füllung in die Mitte der Teigkreise geben. Teigkreise zusammenfalten und dabei die Nahtseite abwechselnd ineinander in Falten legen. Es soll dabei so etwas wie eine Zick-Zack Naht entstehen.
 4. Dim Sum im Bambuskörbchen über Dampf 10 Minuten garen. Für die Sauce Sojasauce und Weinessige mischen und dazu servieren.
+
+<iframe src="https://eatsmarter.de/rezepte/gedaempfte-dim-sum-1" style="width: 100%; height: 30em;"/>
+
+
