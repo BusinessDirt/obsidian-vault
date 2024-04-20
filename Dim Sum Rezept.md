@@ -8,7 +8,7 @@ cssclasses:
 ---
 # Zutaten
 ```recipe
-[
+{"recipes": [
 	"Selbstgemachter Teig": {
 		"Weizenstärke": "200g",
 		"Schrimps oder Iberico Schwein": "125g",
@@ -31,7 +31,7 @@ cssclasses:
 		"Sojasauce": "6EL",
 		"Weinessig": "4EL"
 	}
-]
+]}
 ```
 
 ## Küchengeräte 
