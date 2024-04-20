@@ -7,7 +7,7 @@ cssclasses:
   - page-manila
 ---
 # Zutaten
-200 g[Weizenstärke](https://eatsmarter.de/lexikon/warenkunde/getreide/weizen "Weizenstärke-Rezepte")
+200g Weizenstärke
 125g Shrimps oder Iberico Schwein
 1/2 Zwiebel
 1 Msp. frisch geriebener Ingwer
