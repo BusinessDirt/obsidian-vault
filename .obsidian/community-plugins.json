@@ -11,5 +11,6 @@
   "execute-code",
   "obsidian-git",
   "table-editor-obsidian",
-  "information-cards-obsidian"
+  "information-cards-obsidian",
+  "hot-reload"
 ]
