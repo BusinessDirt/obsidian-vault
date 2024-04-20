@@ -6,6 +6,7 @@ tags:
 cssclasses: []
 ---
 # Zutaten
+Für 4 Personen
 ```recipe
 [
 	{
