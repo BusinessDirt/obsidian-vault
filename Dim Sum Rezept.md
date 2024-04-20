@@ -7,7 +7,32 @@ cssclasses:
   - page-manila
 ---
 # Zutaten
-``````
+```recipe
+[
+	"Selbstgemachter Teig": {
+		"Weizenstärke": "200g",
+		"Schrimps oder Iberico Schwein": "125g",
+		"Zwiebel": "1/2",
+		"frisch geriebener Ingwer": "1 Msp.",
+		"Sesamöl": "1 EL",
+		"Pfeffer aus der Mühle": "",
+		"Salz": "",
+		"Sojasauce": "6EL",
+		"Weinessig": "4EL"
+	},
+	"TK Teig": {
+		"TK Dim Sum Teigblätter": "20 Stück",
+		"Schrimps oder Iberico Schwein": "125g",
+		"Zwiebel": "1/2",
+		"frisch geriebener Ingwer": "1 Msp.",
+		"Sesamöl": "1 EL",
+		"Pfeffer aus der Mühle": "",
+		"Salz": "",
+		"Sojasauce": "6EL",
+		"Weinessig": "4EL"
+	}
+]
+```
 
 - 200g Weizenstärke
 - 125g Shrimps oder Iberico Schwein
