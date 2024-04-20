@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 - Fleeting/202404181840 Custom Information Cards.md",
+                "file": "Dim Sum Rezept.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05 - Fleeting/202404181840 Custom Information Cards.md",
+                "file": "Dim Sum Rezept.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05 - Fleeting/202404181840 Custom Information Cards.md",
+                "file": "Dim Sum Rezept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 - Fleeting/202404181840 Custom Information Cards.md"
+                "file": "Dim Sum Rezept.md"
               }
             }
           }
@@ -152,8 +152,11 @@
   },
   "active": "45477e3500e6bbb1",
   "lastOpenFiles": [
-    "02 - Areas/Chemie/Isocyansäure.md",
     "05 - Fleeting/202404181840 Custom Information Cards.md",
+    "Dim Sum Rezept.md",
+    "04 - Permanent/Rezepte/Untitled.md",
+    "04 - Permanent/Rezepte",
+    "02 - Areas/Chemie/Isocyansäure.md",
     "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md",
     "01 - Projects/Custom Information Cards Plugin",
     "06 - Daily/2024-04-18.md",
@@ -185,10 +188,7 @@
     "02 - Areas/Computergraphik/OpenGL.md",
     "02 - Areas/Computerlinguistik/Kontextfreie Grammatik.md",
     "02 - Areas/Computergraphik",
-    "02 - Areas/Mathe/Vektor.md",
-    "02 - Areas/Computerlinguistik/Computerlinguistik.md",
     "99 - Meta/01 - Excalidraw",
-    "Excalidraw",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
     "03 - Resources/IMG_20221110_091441.jpg"
