@@ -22,7 +22,7 @@ cssclasses:
 		"Weinessig": "4EL"
 	},
 	{
-		"name": TK Teig",
+		"name": "TK Teig",
 		"TK Dim Sum Teigblätter": "20 Stück",
 		"Schrimps oder Iberico Schwein": "125g",
 		"Zwiebel": "1/2",
