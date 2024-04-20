@@ -8,8 +8,9 @@ cssclasses:
 ---
 # Zutaten
 ```recipe
-{"recipes": [
-	"Selbstgemachter Teig": {
+[
+	{
+		"name": "Selbstgemachter Teig",
 		"Weizenstärke": "200g",
 		"Schrimps oder Iberico Schwein": "125g",
 		"Zwiebel": "1/2",
@@ -20,7 +21,8 @@ cssclasses:
 		"Sojasauce": "6EL",
 		"Weinessig": "4EL"
 	},
-	"TK Teig": {
+	{
+		"name": TK Teig",
 		"TK Dim Sum Teigblätter": "20 Stück",
 		"Schrimps oder Iberico Schwein": "125g",
 		"Zwiebel": "1/2",
@@ -31,7 +33,7 @@ cssclasses:
 		"Sojasauce": "6EL",
 		"Weinessig": "4EL"
 	}
-]}
+]
 ```
 
 ## Küchengeräte 
