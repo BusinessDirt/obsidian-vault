@@ -37,5 +37,27 @@ foo pat31 ... pat3n = expr3
 ## Verfeinerung des Pattern-Match durch Wächter
 ```haskell
 foo pat21 ... pat2n
-	| grd211, ..., grd21i 
+	| grd211, ..., grd21i = expr21
+	| grd221, ..., grd22i = expr22
+```
+
+## Nachgeschobene lokale Definition pro Funktionsgleichung
+```haskell
+foo pat31 ... pat3n
+	| grd311, ..., grd31k = expr31
+  where idA = exprA
+		idB = exprB
+```
+
+## Beispiele
+```haskell
+show_signed :: Integer -> String
+show_signed 0 = " 0"
+show_signed i | i>=0 = "+" ++ (show i)
+			  | otherwise = (show i)
+
+printPercent :: Double -> String
+printPercent x = lzero ++ (show p2) ++ "%"
+  where
+    
 ```
