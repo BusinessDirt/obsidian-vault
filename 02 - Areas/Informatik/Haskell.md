@@ -6,11 +6,18 @@ tags:
   - Programmiersprache
 cssclasses:
 ---
-# Funktionen
-In Haskell sind Funktionen ähnlich wie in der [[Lineare Abbildungen|Mathematik]] definiert:
-```Haskell
-succ :: Integer -> Integer
-succ x = x + 1
+# Wichtige Ausdrücke
+- Cons-Constructor: `(:) :: a -> [a] -> [a]`
+- Listen Aufzählungen: `[1,3..99]`
+- List-Comprehensions: `[x | x <- [1..9], even x]`
+- Konditional: `if .. then .. else ..`
+- Lokale Definition: `let .. in ..`
+- Pattern Matching `case .. of ..`
+
+# Notationen zur Funktionsdefinition
+## Typdeklaration (optional)
+```haskell
+foo :: typ1 -> ... -> typ3 -> ergebnistyp
+foo var1 var2 var3 = expr1
 ```
 
-Definiert eine Funktion mit Namen 'succ', welche eine ganze Zahl auf ihren Nachfolger abbildet. Der Name des Arguments ist frei wählbar.
