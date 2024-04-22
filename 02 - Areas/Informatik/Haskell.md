@@ -15,14 +15,27 @@ cssclasses:
 - Pattern Matching `case .. of ..`
 
 # Notationen zur Funktionsdefinition
+
+## Standartdefinition
 - Typdeklaration (optional) (Zeile 1)
 - Funktionsname (in gleicher Spalte beginnen) (‘foo’)
 - Funktionsparameter (‘var1 var2 var3’)
 - Funktionsrumpf (‘expr1’)
-- Fallunterscheidung durch Mustervergleiche
 
 ```haskell
 foo :: typ1 -> ... -> typ3 -> ergebnistyp
 foo var1 var2 var3 = expr1
 ```
 
+## Fallunterscheidung durch Mustervergleiche
+```haskell
+foo pat_1 ... pat_n = expr1
+foo pat21 ... pat2n = expr2
+foo pat31 ... pat3n = expr3
+```
+
+## Verfeinerung des Pattern-Match durch Wächter
+```haskell
+foo pat21 ... pat2n
+	| grd211, ..., grd21i 
+```
