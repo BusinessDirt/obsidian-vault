@@ -54,10 +54,14 @@ foo pat31 ... pat3n
 show_signed :: Integer -> String
 show_signed 0 = " 0"
 show_signed i | i>=0 = "+" ++ (show i)
-			  | otherwise = (show i)
+              | otherwise = (show i)
 
 printPercent :: Double -> String
 printPercent x = lzero ++ (show p2) ++ "%"
   where
-    
+    p2 :: Double
+    p2 = (fromIntegral (round' (1000.0*x))) / 10.0
+    lzero = if p2 < 10.0 then "0" else ""
+    round' :: Double -> Int
+    round' z = round z
 ```
