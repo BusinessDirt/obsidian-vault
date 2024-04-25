@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
+                "file": "00 - Maps of Content/Studium/Logik und Diskrete Strukturen.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
+                "file": "00 - Maps of Content/Studium/Logik und Diskrete Strukturen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
+                "file": "00 - Maps of Content/Studium/Logik und Diskrete Strukturen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md"
+                "file": "00 - Maps of Content/Studium/Logik und Diskrete Strukturen.md"
               }
             }
           }
@@ -152,8 +152,13 @@
   },
   "active": "45477e3500e6bbb1",
   "lastOpenFiles": [
-    "02 - Areas/Informatik/Haskell.md",
     "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
+    "00 - Maps of Content/Studium/Logik und Diskrete Strukturen.md",
+    "00 - Maps of Content/Studium/Untitled 1.md",
+    "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt01.pdf",
+    "00 - Maps of Content/Studium/Untitled.md",
+    "00 - Maps of Content/Studium",
+    "02 - Areas/Informatik/Haskell.md",
     "04 - Permanent/Rezepte/Dim Sum Rezept.md",
     "04 - Permanent/202404181839.md",
     "05 - Fleeting/202404181840 Custom Information Cards.md",
@@ -184,11 +189,6 @@
     "02 - Areas/Computergraphik/Raytracing.md",
     "02 - Areas/Informatik/Untitled.md",
     "00 - Maps of Content/Computergraphik.md",
-    "02 - Areas/Computergraphik/Untitled.md",
-    "00 - Maps of Content/Computerlinguistik.md",
-    "02 - Areas/Computerlinguistik/Syntax.md",
-    "02 - Areas/Computergraphik",
-    "99 - Meta/01 - Excalidraw",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
     "03 - Resources/IMG_20221110_091441.jpg"
