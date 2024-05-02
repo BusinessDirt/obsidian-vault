@@ -11,8 +11,10 @@
             "id": "f7ab7bea8359c8cf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf"
+              }
             }
           }
         ]
@@ -144,6 +150,7 @@
   },
   "active": "f7ab7bea8359c8cf",
   "lastOpenFiles": [
+    "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
     "99 - Meta/Preloaded Classes/202404180007 Game CSS Classes.md",
     "02 - Areas/Computerlinguistik/Variabilität.md",
     "07 - Archives/202404181842.md",
@@ -151,7 +158,6 @@
     "00 - Maps of Content/Informatik.md",
     "00 - Maps of Content/Studium/Logik und Diskrete Strukturen.md",
     "00 - Maps of Content/Studium/Algorithmen und Datenstrukturen.md",
-    "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/202404251858 Tutorium 01.md",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/AlgoDat_SoSe24_Tutorium_01.pdf",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/1-Grundlagen.pdf",
