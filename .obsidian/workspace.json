@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf"
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf"
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf"
               }
             }
           }
@@ -150,6 +150,8 @@
   },
   "active": "f7ab7bea8359c8cf",
   "lastOpenFiles": [
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-01.pdf",
+    "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf",
     "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
     "99 - Meta/Preloaded Classes/202404180007 Game CSS Classes.md",
     "02 - Areas/Computerlinguistik/Variabilität.md",
@@ -161,7 +163,6 @@
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/202404251858 Tutorium 01.md",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/AlgoDat_SoSe24_Tutorium_01.pdf",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/1-Grundlagen.pdf",
-    "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf",
     "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt01.pdf",
     "00 - Maps of Content/Studium/Untitled 1.md",
     "00 - Maps of Content/Studium/Untitled.md",
@@ -185,7 +186,6 @@
     "02 - Areas/Informatik/Von-Neumann-Architektur.md",
     "README.md",
     "Untitled.md",
-    "99 - Meta/01 - Excalidraw/Von-Neumann-Architektur 2024-04-18 00.00.55.excalidraw.md",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
