@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "380390b3128520b8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "64dcd87a64b0685b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-05.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
