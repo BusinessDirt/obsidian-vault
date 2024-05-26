@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "b1d91e654aefe945",
+        "id": "e7a60e6470652270",
         "type": "tabs",
         "children": [
           {
-            "id": "f7ab7bea8359c8cf",
+            "id": "d495c3a1e943c8d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "380390b3128520b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64dcd87a64b0685b",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf"
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-05.pdf"
               }
             }
           }
@@ -83,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf"
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md"
               }
             }
           }
@@ -142,11 +160,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f7ab7bea8359c8cf",
+  "active": "d495c3a1e943c8d9",
   "lastOpenFiles": [
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-05.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Untitled.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-06.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-01.pdf",
     "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf",
     "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
@@ -172,17 +198,11 @@
     "04 - Permanent/Rezepte",
     "02 - Areas/Chemie/Isocyansäure.md",
     "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md",
-    "01 - Projects/Custom Information Cards Plugin",
     "06 - Daily/2024-04-18.md",
     "06 - Daily/202404181841.md",
-    "07 - Archives",
-    "06 - Daily",
-    "05 - Fleeting",
     "03 - Resources/202404181838.md",
     "01 - Projects/202404181837.md",
     "02 - Areas/Informatik/Von-Neumann-Architektur.md",
-    "README.md",
-    "Untitled.md",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
