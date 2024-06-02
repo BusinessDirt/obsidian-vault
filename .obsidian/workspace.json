@@ -6,6 +6,26 @@
       {
         "id": "e7a60e6470652270",
         "type": "tabs",
+        "dimension": 36.15751789976134,
+        "children": [
+          {
+            "id": "0469eaecdb01243d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202406021653 Probeklausur 06.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "383c1a22bd0eb65c",
+        "type": "tabs",
+        "dimension": 63.84248210023866,
         "children": [
           {
             "id": "d495c3a1e943c8d9",
@@ -13,24 +33,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-07.pdf"
-              }
-            }
-          },
-          {
-            "id": "0469eaecdb01243d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausur 07.md",
-                "mode": "source",
-                "source": false
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-06.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausur 07.md",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-06.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausur 07.md",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-06.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausur 07.md"
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-06.pdf"
               }
             }
           }
@@ -161,11 +168,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0469eaecdb01243d",
+  "active": "d495c3a1e943c8d9",
   "lastOpenFiles": [
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausur 07.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-07.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/202406021653 Probeklausur 06.md",
+    "03 - Resources/Studium/Rechnerarchitektur/202406011604 Probeklausur 07.md",
+    "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-06.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-01.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-05.pdf",
@@ -197,8 +205,6 @@
     "06 - Daily/2024-04-18.md",
     "06 - Daily/202404181841.md",
     "03 - Resources/202404181838.md",
-    "01 - Projects/202404181837.md",
-    "02 - Areas/Informatik/Von-Neumann-Architektur.md",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
