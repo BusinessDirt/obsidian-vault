@@ -3,7 +3,7 @@ date: 2024-06-02T15:45
 tags: []
 ---
 # Aufgabe P1)
-# Teil a
+# Teil A
 $f(x) = Y = \overline{x_{1}}\overline{x_{2}}\overline{x_{3}}\overline{x_{4}} + \overline{x_{1}}{x_{2}}{x_{3}}{x_{4}} + {x_{1}}\overline{x_{2}}\overline{x_{3}}\overline{x_{4}} + {x_{1}}\overline{x_{2}}\overline{x_{3}}{x_{4}}+ {x_{1}}\overline{x_{2}}{x_{3}}{x_{4}}+ {x_{1}}{x_{2}}\overline{x_{3}}\overline{x_{4}}+ {x_{1}}{x_{2}}\overline{x_{3}}{x_{4}}$
 $m_{k} \in 0 \leq k \leq 2^4 - 1$, $k$ wird als Binärzahl $z_{0}z_{1}z_{2}z_{3}$ geschrieben. Wenn $z_i=0$, dann wird die negierte Variable $\overline{x_{i}}$ verwendet und umgekehrt. 
 $\implies \quad Y = m_{0} + m_{7} + m_{8} + m_{9} + m_{11} + m_{12} + m_{13}$
@@ -61,7 +61,7 @@ Dominanzprüfung:
 
 $\implies \quad Y = P_{1} + P_{2} + P_{3} + P_{5} = {x_{2}}{x_{3}}{x_{4}} + \overline{x_{2}}\overline{x_{3}}\overline{x_{4}} + x_{1}\overline{x_{2}}x_{4} + x_{1}\overline{x_{3}}$
 
-## Teil b
+## Teil B
 - Ursprünglicher Term hat 7 Minterms:
     - Jedes AND-Gatter hat 4 Eingänge (4 ANDs pro Minterm) =$7\cdot 4$= 28 ANDs
     - Jede NOT-Verknüpfung pro Minterm = $7\cdot 4$= 28 NOTs
@@ -75,11 +75,11 @@ Gesamtkosten vor der Optimierung: $28 \space\text{ANDs} + 28\space\text {NOTs}
 
 Gesamtkosten nach der Optimierung:  $11 \space\text{ANDs} + 3\space\text {NOTs} + 1 \space\text{OR} = 15$.
 
-## Teil c
+## Teil C
 In diesem Fall könnte ein Karnaugh-Diagramm verwendet werden, um dieselben Gruppen von Einsen zu finden, die der Quine-McCluskey-Algorithmus identifiziert hat.
 # Aufgabe P2)
 a) (ii)
 b) (i)
 c) (iv)
-d)
-e)
+d) (iv)
+e) (iii)
