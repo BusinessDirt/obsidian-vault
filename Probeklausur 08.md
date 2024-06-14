@@ -19,7 +19,7 @@ c)
 | :-----------: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | $(-90)_{10}$  |   1   |   0   |   1   |   0   |   0   |   1   |   1   |   0   |
 | $(-110)_{10}$ |   1   |   0   |   0   |   1   |   0   |   0   |   1   |   0   |
-|   Übertrag    |   0   |   0   |   0   |   0   |   1   |   1   |   0   |   0   |
+|   Übertrag    |       |       |       |       |   1   |   1   |       |       |
 |       +       |   0   |   1   |   1   |   1   |   0   |   0   |   0   |   0   |
 (ii) Ja, weil der Bit 7 ‘0’ ist und die Zahl somit positiv geworden ist was durch Addition zweier negativer Zahlen nicht passieren kann. Außerdem ist die kleinste Darstellbare Zahl -128 und $-90 + (-110)$ ist definitiv größer als -128
 
@@ -37,5 +37,6 @@ b) $S = 1$, $Exponent = (11000 0111)_{2} = (135)_{10}$, $Bias = 127$,
 $Signifikant = (0000 1100 0000 0000 0000 000)_{2} = \left( \frac{1}{32} + \frac{1}{64} \right)_{10} = 0,046875$
 $$(-1)^S \cdot (1 + Signifikant) \cdot 2^{(Exponent-Bias)} = (-1)^{1} \cdot (1 + 0,046875) \cdot 2^{(135-127)}$$$$=-1,046875 \cdot 2^8 = -268$$
 # Aufgabe P4
-a) (i)
-b) 
+|  a  |  b  |  c  |  d   |  e   |
+| :-: | :-: | :-: | :--: | :--: |
+| (i) | (i) | (i) | (iv) | (iv) |
