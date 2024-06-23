@@ -4,18 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "900753bc03dd66b9",
+        "id": "9ac44a647d11a7e7",
         "type": "tabs",
         "children": [
           {
-            "id": "c00cf5c4feaf795a",
+            "id": "0469eaecdb01243d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202406141811 Probeklausur 08.md",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202406232019 Probeklausur 09.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e7a60e6470652270",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d495c3a1e943c8d9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf"
               }
             }
           }
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202406141811 Probeklausur 08.md",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "202406141811 Probeklausur 08.md",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "202406141811 Probeklausur 08.md"
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf"
               }
             }
           }
@@ -150,25 +166,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c00cf5c4feaf795a",
+  "active": "d495c3a1e943c8d9",
   "lastOpenFiles": [
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
-    "202406141811 Probeklausur 08.md",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-07.pdf",
-    "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202406011604 Probeklausur 07.md",
+    "03 - Resources/Studium/Rechnerarchitektur/202406232019 Probeklausur 09.md",
+    "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
     "03 - Resources/Studium/Rechnerarchitektur/202406021653 Probeklausur 06.md",
-    "02 - Areas/Informatik/Heap Sort.md",
-    "02 - Areas/Informatik/Haskell.md",
-    "02 - Areas/Informatik/Binärbaum.md",
-    "02 - Areas/Informatik/Endliche Automaten.md",
-    "02 - Areas/Informatik/Baum.md",
-    "Heap Sort.md",
-    "02 - Areas/Informatik/Untitled.md",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-06.pdf",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-05.pdf",
+    "Heap Sort.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
+    "02 - Areas/Informatik/Heap Sort.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-07.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/202406011604 Probeklausur 07.md",
+    "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-01.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-05.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/Untitled.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf",
     "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf",
     "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
     "99 - Meta/Preloaded Classes/202404180007 Game CSS Classes.md",
@@ -181,12 +195,14 @@
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/202404251858 Tutorium 01.md",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/AlgoDat_SoSe24_Tutorium_01.pdf",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/1-Grundlagen.pdf",
-    "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt01.pdf",
     "00 - Maps of Content/Studium/Untitled 1.md",
     "00 - Maps of Content/Studium/Untitled.md",
+    "02 - Areas/Informatik/Haskell.md",
     "04 - Permanent/Rezepte/Dim Sum Rezept.md",
     "04 - Permanent/202404181839.md",
     "05 - Fleeting/202404181840 Custom Information Cards.md",
+    "04 - Permanent/Rezepte/Untitled.md",
+    "02 - Areas/Chemie/Isocyansäure.md",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
