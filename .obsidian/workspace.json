@@ -11,8 +11,28 @@
             "id": "fb3dcd4696cd50f5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "52806c9544b0e13c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16a0a7eb7244e9a8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf"
+              }
             }
           }
         ]
@@ -81,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md"
+              }
             }
           }
         ]
@@ -144,6 +168,8 @@
   },
   "active": "fb3dcd4696cd50f5",
   "lastOpenFiles": [
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
     "conflict-files-obsidian-git.md",
     "202406141811 Probeklausur 08.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
@@ -176,10 +202,7 @@
     "00 - Maps of Content/Studium/Algorithmen und Datenstrukturen.md",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/202404251858 Tutorium 01.md",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/AlgoDat_SoSe24_Tutorium_01.pdf",
-    "03 - Resources/Studium/Algorithmen und Datenstrukturen/1-Grundlagen.pdf",
     "00 - Maps of Content/Studium/Untitled 1.md",
-    "00 - Maps of Content/Studium/Untitled.md",
-    "04 - Permanent/Rezepte/Dim Sum Rezept.md",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
