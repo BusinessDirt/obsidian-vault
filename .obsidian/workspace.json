@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dbb9d9ad568be4f9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +161,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c00cf5c4feaf795a",
+  "active": "dbb9d9ad568be4f9",
   "lastOpenFiles": [
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
     "202406141811 Probeklausur 08.md",
