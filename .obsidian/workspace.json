@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "900753bc03dd66b9",
+        "id": "15df56f02065b890",
         "type": "tabs",
         "children": [
           {
-            "id": "c00cf5c4feaf795a",
+            "id": "fb3dcd4696cd50f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "202406141811 Probeklausur 08.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dbb9d9ad568be4f9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202406141811 Probeklausur 08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "202406141811 Probeklausur 08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "202406141811 Probeklausur 08.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -161,10 +142,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dbb9d9ad568be4f9",
+  "active": "fb3dcd4696cd50f5",
   "lastOpenFiles": [
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
+    "conflict-files-obsidian-git.md",
     "202406141811 Probeklausur 08.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/202406232019 Probeklausur 09.md",
+    "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-07.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
     "03 - Resources/Studium/Rechnerarchitektur/202406011604 Probeklausur 07.md",
@@ -192,12 +177,9 @@
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/202404251858 Tutorium 01.md",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/AlgoDat_SoSe24_Tutorium_01.pdf",
     "03 - Resources/Studium/Algorithmen und Datenstrukturen/1-Grundlagen.pdf",
-    "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt01.pdf",
     "00 - Maps of Content/Studium/Untitled 1.md",
     "00 - Maps of Content/Studium/Untitled.md",
     "04 - Permanent/Rezepte/Dim Sum Rezept.md",
-    "04 - Permanent/202404181839.md",
-    "05 - Fleeting/202404181840 Custom Information Cards.md",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
