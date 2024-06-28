@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Maps of Content/Studium/Rechnerarchitektur.md",
+                "file": "02 - Areas/Medizin/Myokarditis.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,25 +23,11 @@
             "id": "a1ee1b9f7bd525fa",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "52806c9544b0e13c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "16a0a7eb7244e9a8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf"
+                "file": "02 - Areas/Medizin/Perikard.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -111,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Maps of Content/Studium/Rechnerarchitektur.md",
+                "file": "02 - Areas/Medizin/Myokarditis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Maps of Content/Studium/Rechnerarchitektur.md",
+                "file": "02 - Areas/Medizin/Myokarditis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Maps of Content/Studium/Rechnerarchitektur.md"
+                "file": "02 - Areas/Medizin/Myokarditis.md"
               }
             }
           }
@@ -178,8 +164,15 @@
   },
   "active": "fb3dcd4696cd50f5",
   "lastOpenFiles": [
-    "05 - Fleeting/202404181840 Custom Information Cards.md",
+    "02 - Areas/Medizin/Endokard.md",
+    "02 - Areas/Medizin/Myokarditis.md",
+    "02 - Areas/Medizin/Epikard.md",
+    "02 - Areas/Medizin/Perikard.md",
+    "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
     "00 - Maps of Content/Studium/Rechnerarchitektur.md",
+    "02 - Areas/Medizin",
+    "02 - Areas/Medizin.md",
+    "05 - Fleeting/202404181840 Custom Information Cards.md",
     "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md",
     "01 - Projects/202404181837.md",
     "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
@@ -190,7 +183,6 @@
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
-    "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "202406141811 Probeklausur 08.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
@@ -208,12 +200,6 @@
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-01.pdf",
     "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf",
     "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
-    "99 - Meta/Preloaded Classes/202404180007 Game CSS Classes.md",
-    "02 - Areas/Computerlinguistik/Variabilität.md",
-    "07 - Archives/202404181842.md",
-    "00 - Maps of Content/Physik.md",
-    "00 - Maps of Content/Informatik.md",
-    "03 - Resources/Studium/Algorithmen und Datenstrukturen/AlgoDat_SoSe24_Tutorium_01.pdf",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
