@@ -5,4 +5,4 @@ tags:
   - Herz
 ---
 # Definition
-Unter einer **Myokarditis** versteht man eine akute oder chronische Entzündung des Herzmuskelgewebes. Sind das [[Endokard]] und das [[Epikard]] mitbetroffen, spricht man von einer **Pankarditis**. Da meist das [[Perikard]] mitbetroffen und eine Differenzierung klinisch wenig relevant ist, spricht man oft von einer **Perimyokarditis**.
+Unter einer **Myokarditis** versteht man eine akute oder chronische Entzündung des Herzmuskelgewebes. Sind das [[Herz#Endokard|Endokard]] und das [[Herz#Epikard|Epikard]] mitbetroffen, spricht man von einer **Pankarditis**. Da meist das [[Herz#Perikard|Perikard]] mitbetroffen und eine Differenzierung klinisch wenig relevant ist, spricht man oft von einer **Perimyokarditis**.

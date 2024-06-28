@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fb3dcd4696cd50f5",
+            "id": "92a4ec0a5694ba65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/Medizin/Myokarditis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1ee1b9f7bd525fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Areas/Medizin/Perikard.md",
+                "file": "02 - Areas/Anatomie/Herz.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Areas/Medizin/Myokarditis.md",
+                "file": "02 - Areas/Anatomie/Herz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Areas/Medizin/Myokarditis.md",
+                "file": "02 - Areas/Anatomie/Herz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Areas/Medizin/Myokarditis.md"
+                "file": "02 - Areas/Anatomie/Herz.md"
               }
             }
           }
@@ -162,10 +150,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb3dcd4696cd50f5",
+  "active": "92a4ec0a5694ba65",
   "lastOpenFiles": [
-    "02 - Areas/Medizin/Endokard.md",
     "02 - Areas/Medizin/Myokarditis.md",
+    "02 - Areas/Anatomie/Herz.md",
+    "02 - Areas/Medizin/Endokard.md",
+    "02 - Areas/Anatomie",
+    "00 - Maps of Content/Anatomie.md",
+    "00 - Maps of Content/Anatomie.md",
     "02 - Areas/Medizin/Epikard.md",
     "02 - Areas/Medizin/Perikard.md",
     "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
@@ -191,15 +183,10 @@
     "02 - Areas/Informatik/Haskell.md",
     "02 - Areas/Informatik/Binärbaum.md",
     "02 - Areas/Informatik/Endliche Automaten.md",
-    "02 - Areas/Informatik/Baum.md",
-    "Heap Sort.md",
-    "02 - Areas/Informatik/Untitled.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-06.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-05.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-01.pdf",
-    "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/blatt02.pdf",
-    "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
