@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a1ee1b9f7bd525fa",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "52806c9544b0e13c",
@@ -101,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
+                "file": "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
+                "file": "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md"
+                "file": "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md"
               }
             }
           }
@@ -166,10 +177,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb3dcd4696cd50f5",
+  "active": "a1ee1b9f7bd525fa",
   "lastOpenFiles": [
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
+    "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
     "conflict-files-obsidian-git.md",
     "202406141811 Probeklausur 08.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
