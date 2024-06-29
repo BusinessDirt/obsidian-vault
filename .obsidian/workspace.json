@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/Anatomie/Herz.md",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Areas/Anatomie/Herz.md",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Areas/Anatomie/Herz.md",
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Areas/Anatomie/Herz.md"
+                "file": "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md"
               }
             }
           }
@@ -152,8 +152,8 @@
   },
   "active": "92a4ec0a5694ba65",
   "lastOpenFiles": [
-    "02 - Areas/Medizin/Myokarditis.md",
     "02 - Areas/Anatomie/Herz.md",
+    "02 - Areas/Medizin/Myokarditis.md",
     "02 - Areas/Medizin/Endokard.md",
     "02 - Areas/Anatomie",
     "00 - Maps of Content/Anatomie.md",
