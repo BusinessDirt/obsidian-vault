@@ -1,5 +1,5 @@
 {
-  "lastOpenLanguageTab": "haskell",
+  "lastOpenLanguageTab": "python",
   "timeout": 10000,
   "allowInput": true,
   "wslMode": false,
@@ -27,7 +27,7 @@
   "csArgs": "",
   "csFileExtension": "csx",
   "csInject": "",
-  "pythonPath": "python",
+  "pythonPath": "py",
   "pythonArgs": "",
   "pythonEmbedPlots": true,
   "pythonFileExtension": "py",
