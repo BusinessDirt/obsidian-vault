@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5f7d70250b4c810d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e7a60e6470652270",
@@ -166,7 +177,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0469eaecdb01243d",
+  "active": "5f7d70250b4c810d",
   "lastOpenFiles": [
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/202406232019 Probeklausur 09.md",
