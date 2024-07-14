@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fb67cbab8807a8b5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e7a60e6470652270",
@@ -166,7 +177,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cd1dda5da8d1590b",
+  "active": "fb67cbab8807a8b5",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "202407071549 Probeklausur 11.md",
