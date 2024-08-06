@@ -18,8 +18,5 @@ tags:
 - https://docs.vulkan.org/spec/latest/
 - https://registry.khronos.org/vulkan/specs/1.3/html/
 
-# Progress
-1. [[Vulkan Pipeline]]
-2. [[Shader System]]
-3. [[Asset System]]
-5. [[Entity Component System]]
+# Architecture
+![[Mixture 2024-08-06 15.43.19.excalidraw]]

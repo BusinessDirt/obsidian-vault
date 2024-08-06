@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f5595e0e89108fe1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Projects/Onyx/Mixture.md",
+                "file": "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Projects/Onyx/Mixture.md",
+                "file": "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Projects/Onyx/Mixture.md"
+                "file": "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md"
               }
             }
           }
@@ -134,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,13 +162,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8b7b31f570334902",
+  "active": "f5595e0e89108fe1",
   "lastOpenFiles": [
-    "01 - Projects/Onyx/Shader System.md",
+    "01 - Projects/Onyx/Mixture.md",
+    "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md",
+    "01 - Projects/Onyx/Entity Component System.md",
     "01 - Projects/Onyx/Asset System.md",
     "01 - Projects/Onyx/Vulkan Pipeline.md",
-    "01 - Projects/Onyx/Entity Component System.md",
-    "01 - Projects/Onyx/Mixture.md",
+    "01 - Projects/Onyx/Shader System.md",
     "01 - Projects/Onyx/Extras.md",
     "Heap Sort.md",
     "01 - Projects/Onyx/Untitled.md",
@@ -182,7 +195,6 @@
     "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md",
     "01 - Projects/202404181837.md",
     "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202406011604 Probeklausur 07.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
