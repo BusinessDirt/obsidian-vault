@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9ac44a647d11a7e7",
+        "id": "2421673958975583",
         "type": "tabs",
         "children": [
           {
-            "id": "cd1dda5da8d1590b",
+            "id": "8b7b31f570334902",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/202407071549 Probeklausur 11.md",
+                "file": "Onyx.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "fb67cbab8807a8b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/202407141646 Probeklausur 12.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "e7a60e6470652270",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cbc09542e4652dd7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-12.pdf"
               }
             }
           }
@@ -114,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/202407141646 Probeklausur 12.md",
+                "file": "Onyx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/202407141646 Probeklausur 12.md",
+                "file": "Onyx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Resources/Studium/Rechnerarchitektur/202407141646 Probeklausur 12.md"
+                "file": "Onyx.md"
               }
             }
           }
@@ -179,43 +150,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb67cbab8807a8b5",
+  "active": "8b7b31f570334902",
   "lastOpenFiles": [
+    "Heap Sort.md",
+    "Onyx.md",
+    "01 - Projects/Onyx/Untitled.md",
+    "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
+    "01 - Projects/Onyx",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-12.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-11.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/202407141646 Probeklausur 12.md",
-    "conflict-files-obsidian-git.md",
     "03 - Resources/Studium/Rechnerarchitektur/202407071549 Probeklausur 11.md",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
-    "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
-    "02 - Areas/Medizin/Myokarditis.md",
-    "02 - Areas/Medizin",
     "02 - Areas/Anatomie/Herz.md",
+    "02 - Areas/Medizin/Myokarditis.md",
+    "02 - Areas/Medizin/Endokard.md",
     "02 - Areas/Anatomie",
-    "00 - Maps of Content/Studium/Rechnerarchitektur.md",
     "00 - Maps of Content/Anatomie.md",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
-    "03 - Resources/Studium/Rechnerarchitektur/202406232019 Probeklausur 09.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202406021653 Probeklausur 06.md",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-06.pdf",
-    "Heap Sort.md",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
-    "02 - Areas/Informatik/Heap Sort.md",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-07.pdf",
-    "03 - Resources/Studium/Rechnerarchitektur/202406011604 Probeklausur 07.md",
+    "00 - Maps of Content/Anatomie.md",
+    "02 - Areas/Medizin/Epikard.md",
+    "02 - Areas/Medizin/Perikard.md",
+    "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
+    "00 - Maps of Content/Studium/Rechnerarchitektur.md",
+    "02 - Areas/Medizin",
+    "02 - Areas/Medizin.md",
+    "05 - Fleeting/202404181840 Custom Information Cards.md",
+    "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md",
+    "01 - Projects/202404181837.md",
     "03 - Resources/Studium/Rechnerarchitektur/202405262039 Probeklausur 05.md",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-01.pdf",
-    "03 - Resources/Studium/Rechnerarchitektur/Untitled.md",
-    "03 - Resources/Studium/Logik und Diskrete Strukturen/Übungsblätter/202404251550 Blatt01.md",
-    "99 - Meta/Preloaded Classes/202404180007 Game CSS Classes.md",
-    "02 - Areas/Computerlinguistik/Variabilität.md",
-    "07 - Archives/202404181842.md",
-    "00 - Maps of Content/Physik.md",
-    "00 - Maps of Content/Informatik.md",
-    "00 - Maps of Content/Studium/Logik und Diskrete Strukturen.md",
-    "00 - Maps of Content/Studium/Algorithmen und Datenstrukturen.md",
+    "03 - Resources/Studium/Rechnerarchitektur/202406011604 Probeklausur 07.md",
+    "03 - Resources/Studium/Rechnerarchitektur/202406021653 Probeklausur 06.md",
+    "03 - Resources/Studium/Rechnerarchitektur/202406232019 Probeklausur 09.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
+    "conflict-files-obsidian-git.md",
+    "202406141811 Probeklausur 08.md",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-07.pdf",
+    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
