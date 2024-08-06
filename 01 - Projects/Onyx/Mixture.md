@@ -9,6 +9,9 @@ tags:
 cssclasses:
   - center-images
   - recolor-images
+  - max-width-images
+  - page-blueprint
+  - page-grid
 ---
 # Principles
 - Syntax similar to [vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap/)
