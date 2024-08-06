@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Projects/Onyx/Mixture.md",
+                "file": "01 - Projects/Onyx/Renderer Subsystem.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Projects/Onyx/Mixture.md",
+                "file": "01 - Projects/Onyx/Renderer Subsystem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Projects/Onyx/Mixture.md",
+                "file": "01 - Projects/Onyx/Renderer Subsystem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Projects/Onyx/Mixture.md"
+                "file": "01 - Projects/Onyx/Renderer Subsystem.md"
               }
             }
           }
@@ -151,11 +151,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7b87cba3b82884dd",
+  "active": "2888c0f8e844e72f",
   "lastOpenFiles": [
+    "01 - Projects/Onyx/Mixture.md",
+    "01 - Projects/Onyx/Renderer Subsystem.md",
+    "01 - Projects/Onyx/Untitled.md",
     "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
-    "01 - Projects/Onyx/Mixture.md",
     "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md",
     "01 - Projects/Onyx/Entity Component System.md",
     "01 - Projects/Onyx/Asset System.md",
@@ -163,7 +165,6 @@
     "01 - Projects/Onyx/Shader System.md",
     "01 - Projects/Onyx/Extras.md",
     "Heap Sort.md",
-    "01 - Projects/Onyx/Untitled.md",
     "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
     "01 - Projects/Onyx",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-12.pdf",
@@ -183,7 +184,6 @@
     "02 - Areas/Medizin",
     "02 - Areas/Medizin.md",
     "05 - Fleeting/202404181840 Custom Information Cards.md",
-    "01 - Projects/Custom Information Cards Plugin/Custom Information Cards Plugin.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
