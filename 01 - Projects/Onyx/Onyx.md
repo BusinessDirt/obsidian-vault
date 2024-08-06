@@ -13,11 +13,7 @@ tags:
 - Portability to mac and eventually linux
 
 # Progress
-1. Vulkan Pipeline
-2. Shader System
-3. Buffer Setup
-4. Extras
-
-| Vulkan Pipeline | Shader System | Buffer Setup | Extras |
-| :-------------: | :-----------: | :----------: | :----: |
-|                 |               |              |        |
+1. [[Vulkan Pipeline]]
+2. [[Shader System]]
+3. [[Asset System]]
+5. [[Entity Component System]]
