@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Onyx.md",
+                "file": "01 - Projects/Onyx/Onyx.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Onyx.md",
+                "file": "01 - Projects/Onyx/Onyx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Onyx.md",
+                "file": "01 - Projects/Onyx/Onyx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Onyx.md"
+                "file": "01 - Projects/Onyx/Onyx.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -153,7 +153,7 @@
   "active": "8b7b31f570334902",
   "lastOpenFiles": [
     "Heap Sort.md",
-    "Onyx.md",
+    "01 - Projects/Onyx/Onyx.md",
     "01 - Projects/Onyx/Untitled.md",
     "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
     "01 - Projects/Onyx",
