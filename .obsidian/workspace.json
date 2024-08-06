@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "00aa81369f741a04",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Projects/Onyx/Renderer Subsystem.md",
+                "file": "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Projects/Onyx/Renderer Subsystem.md",
+                "file": "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Projects/Onyx/Renderer Subsystem.md"
+                "file": "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md"
               }
             }
           }
@@ -151,10 +162,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2888c0f8e844e72f",
+  "active": "00aa81369f741a04",
   "lastOpenFiles": [
-    "01 - Projects/Onyx/Mixture.md",
     "01 - Projects/Onyx/Renderer Subsystem.md",
+    "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md",
+    "01 - Projects/Onyx/Mixture.md",
     "01 - Projects/Onyx/Untitled.md",
     "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
@@ -183,7 +195,6 @@
     "00 - Maps of Content/Studium/Rechnerarchitektur.md",
     "02 - Areas/Medizin",
     "02 - Areas/Medizin.md",
-    "05 - Fleeting/202404181840 Custom Information Cards.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",

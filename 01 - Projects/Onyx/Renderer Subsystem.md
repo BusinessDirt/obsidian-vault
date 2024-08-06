@@ -21,3 +21,4 @@ tags:
 - Draw Calls
 
 # Renderer Lifecycle
+![[Renderer Subsystem 2024-08-06 22.02.43.excalidraw]]
