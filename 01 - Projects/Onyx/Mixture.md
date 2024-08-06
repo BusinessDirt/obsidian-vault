@@ -8,9 +8,7 @@ tags:
   - cpp
 cssclasses:
   - center-images
-  - page-grid
   - recolor-images
-  - page-manila
 ---
 # Principles
 - Syntax similar to [vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap/)
