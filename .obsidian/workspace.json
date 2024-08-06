@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f5595e0e89108fe1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md",
+                "file": "01 - Projects/Onyx/Mixture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md",
+                "file": "01 - Projects/Onyx/Mixture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md"
+                "file": "01 - Projects/Onyx/Mixture.md"
               }
             }
           }
@@ -162,10 +151,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f5595e0e89108fe1",
+  "active": "8b7b31f570334902",
   "lastOpenFiles": [
-    "01 - Projects/Onyx/Mixture.md",
     "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md",
+    "01 - Projects/Onyx/Mixture.md",
     "01 - Projects/Onyx/Entity Component System.md",
     "01 - Projects/Onyx/Asset System.md",
     "01 - Projects/Onyx/Vulkan Pipeline.md",
