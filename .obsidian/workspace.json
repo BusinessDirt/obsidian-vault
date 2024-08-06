@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Projects/Onyx/Renderer Subsystem.md",
+                "file": "01 - Projects/Onyx/Mixture.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "00aa81369f741a04",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md",
+                "file": "01 - Projects/Onyx/Mixture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md",
+                "file": "01 - Projects/Onyx/Mixture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md"
+                "file": "01 - Projects/Onyx/Mixture.md"
               }
             }
           }
@@ -162,7 +151,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "00aa81369f741a04",
+  "active": "7b87cba3b82884dd",
   "lastOpenFiles": [
     "01 - Projects/Onyx/Renderer Subsystem.md",
     "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md",
