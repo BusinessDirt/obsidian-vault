@@ -4,4 +4,4 @@ tags:
   - Vulkan
   - cpp
 ---
-Citrine is a layer of abstraction to the default vulkan.h header. It includes better err
+Citrine is a layer of abstraction to the default vulkan.h header. It includes better error handling as well as wrappers for Vulkan objects.
