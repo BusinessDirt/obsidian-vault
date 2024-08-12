@@ -40,3 +40,5 @@ Allocation through a DescriptorPool
 		- ShaderStageFlags
 	- VertexInputAttributes
 	- VertexInputBindings
+
+=> create a `map<uint32_t, std::vector<DescriptorSet>>` from these informations
