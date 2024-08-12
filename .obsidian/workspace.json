@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Projects/Onyx/Citrine.md",
+                "file": "01 - Projects/Onyx/Descriptors.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "fc09413d6c815e54",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Projects/Onyx/Citrine.md",
+                "file": "01 - Projects/Onyx/Descriptors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Projects/Onyx/Citrine.md",
+                "file": "01 - Projects/Onyx/Descriptors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Projects/Onyx/Citrine.md"
+                "file": "01 - Projects/Onyx/Descriptors.md"
               }
             }
           }
@@ -162,12 +151,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc09413d6c815e54",
+  "active": "7b87cba3b82884dd",
   "lastOpenFiles": [
     "01 - Projects/Onyx/Mixture.md",
-    "01 - Projects/Onyx/Citrine.md",
-    "01 - Projects/Onyx/Citrine.md",
     "01 - Projects/Onyx/Renderer Subsystem.md",
+    "01 - Projects/Onyx/Descriptors.md",
     "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md",
     "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
