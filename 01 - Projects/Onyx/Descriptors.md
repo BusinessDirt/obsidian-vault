@@ -16,4 +16,4 @@ Contains information about a Buffer, Image, etc in the form of a binding
 	- One DescriptorBinding per Set that describes the memory
 
 # Allocation
-- Allocation through a DescriptorPool
+Allocation through a DescriptorPool
