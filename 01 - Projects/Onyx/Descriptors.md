@@ -27,3 +27,7 @@ Allocation through a DescriptorPool
 - The user just has to write the buffer/image info to the the descriptor 
 	- Buffers and images might also be create inside the pipeline for further abstraction
 		- There could be an issue related to setting the values
+
+## Shader Reflection Structure
+- ShaderInformation
+	- 
