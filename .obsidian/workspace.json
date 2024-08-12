@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fc09413d6c815e54",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,7 +162,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7b87cba3b82884dd",
+  "active": "fc09413d6c815e54",
   "lastOpenFiles": [
     "01 - Projects/Onyx/Mixture.md",
     "01 - Projects/Onyx/Citrine.md",
