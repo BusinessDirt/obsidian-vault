@@ -30,4 +30,13 @@ Allocation through a DescriptorPool
 
 ## Shader Reflection Structure
 - ShaderInformation
-	- 
+	- PushConstantInformation
+		- Size
+		- Offset
+	- Uniform Buffers
+		- Set
+		- Binding
+		- Size
+		- ShaderStageFlags
+	- VertexInputAttributes
+	- VertexInputBindings
