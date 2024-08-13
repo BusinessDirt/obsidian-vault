@@ -21,4 +21,8 @@ Push Constants for Local
 2. Reflect on shaders to obtain information
 	1. Collect Vertex Input Attributes and Bindings
 	2. Collect Push Constant Information
-	3. Collect UBO and other 
+	3. Collect UBO and other Descriptor informations
+		1. only support 2 sets, set 0 for globals and set 1 for instance
+		2. other sets might be supported further down the line 
+3. Allocate Descriptors
+4. Bind required sets in pipeline creation
