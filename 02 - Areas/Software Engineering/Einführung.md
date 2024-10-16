@@ -35,17 +35,10 @@ Nicht jede Anwendung fällt in eine dieser Kategorien sonder kann auch in mehrer
 # Ethik
 
 <div style="display: flex; flex-direction: column; width: 100%;">
-  <div style="display: flex; flex-direction: row; width: 100%; background-color: #1e1e1e; border-radius: 1em; margin-bottom: .5em; border: 3px solid #252525; padding: 0.5em;">
-    <p style="color: wheat; border: 2px solid wheat; padding: .5em; border-radius: .5em; aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center; background-color: #1e1e1e; margin: 0;">1</p>
+  <div style="display: flex; flex-direction: row; width: 100%; background-color: #1e1e1e; border-radius: 1em; margin-bottom: .5em; border: 3px solid #252525; padding: .5em;">
+    <p style="color: wheat; border: 2px solid wheat; border-radius: .5em; display: flex; align-items: center; justify-content: center; background-color: #1e1e1e; margin: 0; width: 3em; height: 3em; font-size: 1.5em; font-weight: bold;">1</p>
   </div>
 </div>
-
-<div style="display: flex; flex-direction: column; width: 100%;">
-  <div style="display: flex; flex-direction: row; width: 100%; background-color: #1e1e1e; border-radius: 1em; margin-bottom: .5em; border: 3px solid #252525; padding: 0em 1em;">
-    <p style="color: wheat; border: 2px solid wheat; border-radius: .5em; aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center; background-color: #1e1e1e; margin: 0; width: auto; height: 100%;">1</p>
-  </div>
-</div>
-
 
 1. ÖFFENTLICHKEIT - Softwareentwickler müssen im Einklang mit dem öffentlichen Interesse handeln.
 2. KUNDEN UND ARBEITGEBER - Softwareentwickler handeln in einer Weise, die im besten Interesse ihres Kunden und ihres Arbeitgebers liegt und mit dem öffentlichen Interesse vereinbar ist.
