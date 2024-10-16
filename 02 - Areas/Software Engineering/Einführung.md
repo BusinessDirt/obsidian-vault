@@ -22,10 +22,14 @@ tags:
 - Maßgeschneiderte Produkte
 
 ## Produkttypen
+Nicht jede Anwendung fällt in eine dieser Kategorien sonder kann auch in mehrere fallen.
+
 - Eigenständige Anwendungen: z.B. MS Office, Adobe Cloud, etc.
 - Interaktive transaktionsbasierte Anwendungen: z.B. Amazon, Gmail
 - Eingebettete Kontrollsysteme: Anwendungen, die ihre eigene Hardware kontrollieren; z.B. ABS, Mikrowelle, etc.
 - Batch-Verarbeitungs Anwendungen: z.B. periodische Abrechnungen
 - Unterhaltungssysteme: z.B. Spiele, Netflix, etc.
-- Datenerfassungssysteme: Sensoren sammeln Daten (oft in hostilen Umgebungen); z.B: Öl Sensor im M
-- 
+- Datenerfassungssysteme: Sensoren sammeln Daten (oft in hostilen Umgebungen); z.B: Öl Sensor im Motor
+- Systeme der Systeme: zusammenfassung mehrere System in ein System
+
+# Ethik
