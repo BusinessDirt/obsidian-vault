@@ -33,11 +33,18 @@ Nicht jede Anwendung fällt in eine dieser Kategorien sonder kann auch in mehrer
 - Systeme der Systeme: zusammenfassung mehrere System in ein System
 
 # Ethik
-<div style="display: flex; flex-direction: down; width: 100%;">
-	<div style="display: flex; flex-direction: right; width: 100%; background: #1e1e1e; border-radius: 1em; margin-bottom: .5em; border: 3px solid #252525; padding: 0em 1em 0em 1em;">
-		<p style="color: wheat; border: 2px solid wheat; padding: .5em; border-radius: .5em; aspect-ratio: 1 / 1">1</p>
-	</div>
+<div style="display: flex; flex-direction: column; width: 100%;"> 
+	<div style="display: flex; flex-direction: row; width: 100%; background: #1e1e1e; border-radius: 1em; margin-bottom: .5em; border: 3px solid #252525; padding: 0em 1em 0em 1em;">
+		<p style="color: wheat; border: 2px solid wheat; padding: .5em; border-radius: .5em; aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center;">1</p> 
+	</div> 
 </div>
+
+<div style="display: flex; flex-direction: down; width: 100%;"> 
+	<div style="display: flex; flex-direction: right; width: 100%; background: #1e1e1e; border-radius: 1em; margin-bottom: .5em; border: 3px solid #252525; padding: 0em 1em 0em 1em;"> 
+		<p style="color: wheat; border: 2px solid wheat; padding: .5em; border-radius: .5em; aspect-ratio: 1 / 1">1</p> 
+	</div> 
+</div>
+
 1. ÖFFENTLICHKEIT - Softwareentwickler müssen im Einklang mit dem öffentlichen Interesse handeln.
 2. KUNDEN UND ARBEITGEBER - Softwareentwickler handeln in einer Weise, die im besten Interesse ihres Kunden und ihres Arbeitgebers liegt und mit dem öffentlichen Interesse vereinbar ist.
 3. PRODUKT - Softwareentwickler müssen sicherstellen, dass ihre Produkte und die damit verbundenen Änderungen den höchstmöglichen professionellen Standards entsprechen.
