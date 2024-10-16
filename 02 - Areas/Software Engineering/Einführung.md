@@ -33,13 +33,6 @@ Nicht jede Anwendung fällt in eine dieser Kategorien sonder kann auch in mehrer
 - Systeme der Systeme: zusammenfassung mehrere System in ein System
 
 # Ethik
-
-<div style="display: flex; flex-direction: column; width: 100%;">
-  <div style="display: flex; flex-direction: row; width: 100%; background-color: #1e1e1e; border-radius: 1em; margin-bottom: .5em; border: 3px solid #252525; padding: .5em;">
-    <p style="color: wheat; border: 2px solid wheat; border-radius: .5em; display: flex; align-items: center; justify-content: center; background-color: #1e1e1e; margin: 0; width: 3em; height: 3em; font-size: 1.5em; font-weight: bold;">1</p>
-  </div>
-</div>
-
 1. ÖFFENTLICHKEIT - Softwareentwickler müssen im Einklang mit dem öffentlichen Interesse handeln.
 2. KUNDEN UND ARBEITGEBER - Softwareentwickler handeln in einer Weise, die im besten Interesse ihres Kunden und ihres Arbeitgebers liegt und mit dem öffentlichen Interesse vereinbar ist.
 3. PRODUKT - Softwareentwickler müssen sicherstellen, dass ihre Produkte und die damit verbundenen Änderungen den höchstmöglichen professionellen Standards entsprechen.
