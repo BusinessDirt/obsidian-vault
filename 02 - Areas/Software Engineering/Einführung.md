@@ -33,3 +33,17 @@ Nicht jede Anwendung fällt in eine dieser Kategorien sonder kann auch in mehrer
 - Systeme der Systeme: zusammenfassung mehrere System in ein System
 
 # Ethik
+<div style="display: flex; flex-direction: down; width: 100%;">
+	<div style="display: flex; flex-direction: right; width: 100%">
+		<p style="width: 100%; background: white;">Test</p>
+		<p style="width: 100%; background: white;">Test</p>
+	</div>
+</div>
+1. ÖFFENTLICHKEIT - Softwareentwickler müssen im Einklang mit dem öffentlichen Interesse handeln.
+2. KUNDEN UND ARBEITGEBER - Softwareentwickler handeln in einer Weise, die im besten Interesse ihres Kunden und ihres Arbeitgebers liegt und mit dem öffentlichen Interesse vereinbar ist.
+3. PRODUKT - Softwareentwickler müssen sicherstellen, dass ihre Produkte und die damit verbundenen Änderungen den höchstmöglichen professionellen Standards entsprechen.
+4. URTEIL - Softwareentwickler müssen in ihrem beruflichen Urteilsvermögen Integrität und Unabhängigkeit wahren.
+5. MANAGEMENT - Manager und Führungskräfte im Bereich der Softwaretechnik müssen einen ethischen Ansatz für das Management der Softwareentwicklung und -wartung verfolgen und fördern.
+6. BERUF - Softwareentwickler fördern die Integrität und das Ansehen des Berufsstandes im Einklang mit dem öffentlichen Interesse.
+7. KOLLEGEN - Softwareentwickler sollen ihren Kollegen gegenüber fair sein und sie unterstützen.
+8. SELBSTVERSTÄNDLICHKEIT - Softwareentwickler nehmen an lebenslangem Lernen in Bezug auf die Ausübung ihres Berufs teil und fördern einen ethischen Ansatz bei der Ausübung des Berufs.
