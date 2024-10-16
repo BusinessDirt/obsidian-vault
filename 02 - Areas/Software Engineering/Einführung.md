@@ -35,7 +35,7 @@ Nicht jede Anwendung fällt in eine dieser Kategorien sonder kann auch in mehrer
 # Ethik
 <div style="display: flex; flex-direction: down; width: 100%;">
 	<div style="display: flex; flex-direction: right; width: 100%; background: #1e1e1e; border-radius: 1em; margin-bottom: .5em; border: 3px solid #252525; padding: 0em 1em 0em 1em;">
-		<p style="color: wheat; border: 2px solid wheat; padding: .5em; border-radius: .5em">1</p>
+		<p style="color: wheat; border: 2px solid wheat; padding: .5em; border-radius: .5em; aspect-ratio: 1 / 1">1</p>
 	</div>
 </div>
 1. ÖFFENTLICHKEIT - Softwareentwickler müssen im Einklang mit dem öffentlichen Interesse handeln.
