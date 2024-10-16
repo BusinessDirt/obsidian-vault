@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shader System.md",
+                "file": "02 - Areas/Software Engineering/Einführung.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shader System.md",
+                "file": "02 - Areas/Software Engineering/Einführung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shader System.md",
+                "file": "02 - Areas/Software Engineering/Einführung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shader System.md"
+                "file": "02 - Areas/Software Engineering/Einführung.md"
               }
             }
           }
@@ -153,8 +153,14 @@
   },
   "active": "7b87cba3b82884dd",
   "lastOpenFiles": [
+    "01 - Projects/Onyx/Shader System.md",
+    "02 - Areas/Software Engineering/Einführung.md",
+    "02 - Areas/Software Engineering/Untitled.md",
+    "02 - Areas/Software Engineering",
+    "02 - Areas/Untitled.md",
+    "Software Engineering.md",
+    "02 - Areas/Informatik/Software Engineering.md",
     "01 - Projects/Onyx/Descriptors.md",
-    "Shader System.md",
     "01 - Projects/Onyx/Mixture.md",
     "01 - Projects/Onyx/Renderer Subsystem.md",
     "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md",
@@ -164,7 +170,6 @@
     "01 - Projects/Onyx/Entity Component System.md",
     "01 - Projects/Onyx/Asset System.md",
     "01 - Projects/Onyx/Vulkan Pipeline.md",
-    "01 - Projects/Onyx/Shader System.md",
     "01 - Projects/Onyx/Extras.md",
     "Heap Sort.md",
     "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
@@ -179,16 +184,11 @@
     "02 - Areas/Anatomie",
     "00 - Maps of Content/Anatomie.md",
     "00 - Maps of Content/Anatomie.md",
-    "02 - Areas/Medizin/Epikard.md",
-    "02 - Areas/Medizin/Perikard.md",
-    "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
-    "00 - Maps of Content/Studium/Rechnerarchitektur.md",
     "02 - Areas/Medizin",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-08.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-07.pdf",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-02.pdf",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
