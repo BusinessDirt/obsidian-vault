@@ -7,6 +7,7 @@ cssclasses:
   - callout
   - no-embed-border
   - image-borders
+  - max-width-images
 ---
 <div style="background-color=black;color:white">
 <i>This page is only for keeping CSS classes ready for autocomplete.</i>

@@ -1,3 +1,10 @@
+---
+date: 2024-10-16T16:17
+tags:
+  - Mathe
+  - Analysis
+  - LinAlg
+---
 # Aussagenlogik
 Die Aussagenlogik untersucht die Struktur von Sätzen (Aussagen) $A, B, \dots$ hinsichtlich ihres Wahrheitswerts. Sätze (Aussagen) können entweder $wahr$ ($w$) oder $falsch$ ($f$) sein.
 ## Rechenregeln

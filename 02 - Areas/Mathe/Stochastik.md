@@ -1,3 +1,9 @@
+---
+date: 2024-10-16T16:17
+tags:
+  - Mathe
+  - Stochastik
+---
 # Stochastik
 ## Begriffe und Beispiele
 > Ergebnisraum: Die Menge aller Ergebnisse ($\Omega = \{1, 2, 3, 4, ..., 8\}$)

@@ -50,6 +50,11 @@ img {
   margin-right: auto !important;
 }
 
+.max-width-images img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
 .no-embed-border {
   --embed-border-left: 0px solid black !important;
 }
