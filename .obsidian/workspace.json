@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/Physik/Darwin-Term.md",
+                "file": "02 - Areas/Physik/Feinstruktur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Darwin-Term"
+              "title": "Feinstruktur"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Areas/Physik/Darwin-Term.md",
+                "file": "02 - Areas/Physik/Feinstruktur.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Darwin-Term"
+              "title": "Backlinks for Feinstruktur"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Areas/Physik/Darwin-Term.md",
+                "file": "02 - Areas/Physik/Feinstruktur.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Darwin-Term"
+              "title": "Outgoing links from Feinstruktur"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Areas/Physik/Darwin-Term.md"
+                "file": "02 - Areas/Physik/Feinstruktur.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Darwin-Term"
+              "title": "Outline of Feinstruktur"
             }
           }
         ],
@@ -169,6 +169,9 @@
   },
   "active": "a5fb3a8b0a30a0c4",
   "lastOpenFiles": [
+    "02 - Areas/Physik/Spin-Bahn-Kopplung.md",
+    "02 - Areas/Physik/Feinstruktur.md",
+    "02 - Areas/Physik/Darwin-Term.md",
     "02 - Areas/Physik/Astrophysik.md",
     "02 - Areas/Physik/Allgemeine Relativitätstheorie.md",
     "02 - Areas/Software Engineering/Einführung.md",
@@ -192,10 +195,7 @@
     "02 - Areas/Mathe/Vollständige Induktion.md",
     "01 - Projects/Onyx/Mixture.md",
     "conflict-files-obsidian-git.md",
-    "01 - Projects/BDUI/BDUI.md",
     "01 - Projects/BDUI",
-    "01 - Projects/Onyx/Shader System.md",
-    "02 - Areas/Software Engineering/Untitled.md",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-12.pdf",
