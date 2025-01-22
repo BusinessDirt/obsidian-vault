@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/Physik/Astrophysik.md",
+                "file": "04 - Permanent/Rezepte/Dim Sum Rezept.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Astrophysik"
+              "title": "Dim Sum Rezept"
             }
           }
         ]
@@ -168,8 +168,20 @@
   },
   "active": "c4c264e906e9f1d6",
   "lastOpenFiles": [
-    "02 - Areas/Physik/Allgemeine Relativitätstheorie.md",
-    "02 - Areas/Software Engineering/Einführung.md",
+    "06 - Daily/2024-04-18.md",
+    "07 - Archives/202404181842.md",
+    "00 - Maps of Content/Studium/Algorithmen und Datenstrukturen.md",
+    "00 - Maps of Content/Studium/Logik und Diskrete Strukturen.md",
+    "00 - Maps of Content/Studium/Rechnerarchitektur.md",
+    "00 - Maps of Content/Mathe.md",
+    "00 - Maps of Content/Informatik.md",
+    "00 - Maps of Content/Computerlinguistik.md",
+    "00 - Maps of Content/Computergraphik.md",
+    "00 - Maps of Content/Chemie.md",
+    "00 - Maps of Content/Anatomie.md",
+    "01 - Projects/BDUI/BDUI.md",
+    "01 - Projects/BDUI/UI Framework.md",
+    "01 - Projects/BDUI/Vulkan Renderer.md",
     "02 - Areas/Physik/Spin-Bahn-Kopplung.md",
     "02 - Areas/Physik/Spezielle Relativitätstheorie.md",
     "02 - Areas/Physik/Materiewelle.md",
@@ -182,18 +194,6 @@
     "02 - Areas/Physik/Impuls.md",
     "02 - Areas/Physik/Hamiltonoperator.md",
     "02 - Areas/Physik/Feinstruktur.md",
-    "02 - Areas/Physik/Elektronensrahlröhre.md",
-    "02 - Areas/Physik/Elektromagnetische Strahlung.md",
-    "02 - Areas/Physik/Elektrisches Feld.md",
-    "02 - Areas/Physik/Dopplereffekt.md",
-    "02 - Areas/Physik/Dirac-Gleichung.md",
-    "02 - Areas/Physik/Darwin-Term.md",
-    "02 - Areas/Physik/Astrophysik.md",
-    "02 - Areas/Medizin/Myokarditis.md",
-    "02 - Areas/Mathe/Gruppen, Ringe, Körper.md",
-    "02 - Areas/Mathe/Euklidischer Vektorraum.md",
-    "02 - Areas/Mathe/Dimension.md",
-    "02 - Areas/Mathe/Abbildungen.md",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",
     "01 - Projects/BDUI",

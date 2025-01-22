@@ -1,7 +1,7 @@
 ---
 date: 2024-04-17T20:14
 tags:
-  - Informatik
+  - Physik
 cssclasses: []
 ---
 <div style="display: flex; gap: 1em; margin-bottom: 1em;">

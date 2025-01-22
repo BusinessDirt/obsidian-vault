@@ -1,7 +1,7 @@
 ---
 date: 2024-04-17T20:14
 tags:
-  - Informatik
+  - Physik
 cssclasses: []
 ---
 - Im Raum um eine Ladung herrscht ein elektrisches Feld. Dieses elektrische Feld überträgt die Kraftwirkung dieser Ladung auf andere Ladungen

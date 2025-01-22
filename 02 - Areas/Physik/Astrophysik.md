@@ -1,7 +1,8 @@
 ---
 date: 2024-04-17T20:14
 tags:
-  - Informatik
+  - Physik
+  - Astrophysik
 cssclasses: []
 ---
 # 0. Wozu Astronomie / Astrophysik

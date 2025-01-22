@@ -1,7 +1,7 @@
 ---
 date: 2024-04-17T20:14
 tags:
-  - Informatik
+  - Physik
 cssclasses: []
 ---
 - Bewegen sich Ladungsträger senkrecht oder schräg zu einem Magnetfeld, so wirkt eine Lorentzkraft auf die Ladungsträger
