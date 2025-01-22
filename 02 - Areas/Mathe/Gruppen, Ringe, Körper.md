@@ -1,3 +1,10 @@
+---
+date: 2024-10-16T16:17
+tags:
+  - Mathe
+  - Analysis
+  - LinAlg
+---
 # Gruppen
 ## Verknüpfung
 Sei $M$ eine Menge. Eine Verknüpfung $\circ$ auf $M$ ist eine Abbildung $\circ : M \times M \to M,(a,b) \to a \circ b$.

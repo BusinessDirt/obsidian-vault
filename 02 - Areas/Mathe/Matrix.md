@@ -1,3 +1,9 @@
+---
+date: 2024-10-16T16:17
+tags:
+  - Mathe
+  - LinAlg
+---
 ($m \times n$ Matrix über $K, K^{m\times n}$). Seien $m,n \in \mathbb{N}$ und $a_{ij} \in K$ für $i=1,\dots, m$ und $j = 1,\dots, n$. Das rechteckige Schema mit $m$ Zeilen und $n$ Spalten
 
 $$A={\begin{pmatrix}a_{11}&a_{12}&\cdots &a_{1n}\\a_{21}&a_{22}&\cdots &a_{2n}\\\vdots &\vdots &&\vdots \\a_{m1}&a_{m2}&\cdots &a_{mn}\\\end{pmatrix}}$$

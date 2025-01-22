@@ -1,3 +1,10 @@
+---
+date: 2024-10-16T16:17
+tags:
+  - Mathe
+  - LinAlg
+  - Analysis
+---
 Seien $V$ und $W$ $K$-[[Vektor#Vektorräume|Vektorräume]]. Eine [[Abbildungen|Abbildung]] $f:V \to W$ heißt lineare Abbildung oder Vektorraumhomomorphismus  genau dann, wenn gilt:
 1) $\forall \vec{u},\vec{v} \in V: \quad f(\vec{u}+\vec{v}) = f(\vec{u}) + f(\vec{v})$
 2) $\forall \lambda \in K : \quad f(\lambda \vec{v}) = \lambda f(\vec{v})$

@@ -1,3 +1,9 @@
+---
+date: 2024-10-16T16:17
+tags:
+  - Mathe
+  - LinAlg
+---
 - Ein Vektor ist eine Wegbeschreibung von einem Punkt $A$ zu einem anderen Punkt $B$
 - Verwendung in der Mathematik und der [[Informatik]]
 
