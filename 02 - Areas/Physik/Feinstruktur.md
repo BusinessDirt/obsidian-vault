@@ -1,3 +1,9 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+cssclasses: []
+---
 # Feinstrukturkonstante
 - physikale Konstante der Dimension Zahl
 - gibt die Stärke der [[Elektromagnetische Strahlung|elektromagnetischen]] Wechselwirkung an

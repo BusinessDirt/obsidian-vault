@@ -1,3 +1,10 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+  - Computerlinguistik
+cssclasses: []
+---
 - Der Begriff "Wort" ist ungenau, wenn nicht weiter spezifiziert.
 - Ist das abstrakte Wort oder ein konkretes Vorkommen gemeint?
 - Unterscheidungen:

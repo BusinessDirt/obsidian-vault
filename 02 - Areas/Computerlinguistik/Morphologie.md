@@ -1,3 +1,10 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+  - Computerlinguistik
+cssclasses: []
+---
 # Flexionsmorphologie
 - Markierung von Tempus, Person, Kasus, Numerus, ...
 - Aufbau von Wortformen aus Basis und Flexionsendung (Wort als Flexionsparadigma): der Mann - des Mannes

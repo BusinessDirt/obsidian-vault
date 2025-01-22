@@ -1,3 +1,9 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+cssclasses: []
+---
 # Dirac-Gleichung eines ungeladenen Teilchens
 Die Dirac-Gleichung ist ein System von vier gekoppelten partiellen Differentialgleichungen für die vier Komponentenfunktionen des Dirac-Spinors ${\displaystyle \psi (x)}$. Die Variable ${\displaystyle x}$ steht hier für ${\displaystyle x=(x^{0},x^{1},x^{2},x^{3})\,,}$ worin der obere Index 0 die Zeit ${\displaystyle t=x^{0}}$ und die Indizes 1 bis 3 die Ortskoordinaten ${\displaystyle (x^{1},x^{2},x^{3})}$ bezeichnen.
 <br>

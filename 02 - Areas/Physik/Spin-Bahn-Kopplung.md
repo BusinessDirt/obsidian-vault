@@ -1,3 +1,9 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+cssclasses: []
+---
 - Wechselwirkung, die in der Atom-, Kern- oder Elementarteilchenphysik auftritt
 - Stärke ist abhängig von der Stellung des Spins des Teilchens relativ zu seinem Bahndrehimpuls
 - Trägt bei gebundenenen Teilchen der [[Feinstruktur]] bei

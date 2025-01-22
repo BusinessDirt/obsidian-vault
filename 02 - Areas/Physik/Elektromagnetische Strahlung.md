@@ -1,3 +1,9 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+cssclasses: []
+---
 <div style="display: flex; gap: 1em; margin-bottom: 1em;">
 	<div class="img-25" style="width: 50%;"><img src="https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2020/04/Elektromagnetisches_Spektrum-Farbspektrum-1024x576.png"></div> 
 	<ul>

@@ -1,3 +1,10 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+  - Computerlinguistik
+cssclasses: []
+---
 - griech. morphé (Form, Gestalt) + logos (Sinn, Lehre) $\implies$ Formenlehre
 - Aufbau von Wörtern aus kleinsten bedeutungstragenden Einheiten
 - interne Struktur des Wortes

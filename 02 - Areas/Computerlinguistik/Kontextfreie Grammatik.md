@@ -1,3 +1,10 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+  - Computerlinguistik
+cssclasses: []
+---
 # Symbole
 - **Terminale**: Wörter wie zum Beispiel "Buch"
 - **Nicht-Terminale**: [[Syntax|syntaktische]] Label wie "NP" oder "NN"

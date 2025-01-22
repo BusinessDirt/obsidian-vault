@@ -1,3 +1,10 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+  - Computerlinguistik
+cssclasses: []
+---
 Dieselbe sprachliche Form kann verschiedene Informationen ausdrücken (erst durch den Kontext kann erschlossen werden, was gemeint ist).
 
 ## Typen von Ambiguität

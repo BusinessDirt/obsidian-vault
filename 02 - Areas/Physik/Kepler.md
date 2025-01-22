@@ -1,3 +1,9 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+cssclasses: []
+---
 # Keplersche Gesetze
 **Erstes Keplersches Gesetz**
 Die Planeten bewegen sich auf [[Ellipse|elliptischen]] Bahnen. In einem ihrer Brennpunkte steht die Sonne.

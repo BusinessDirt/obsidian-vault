@@ -1,3 +1,9 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+cssclasses: []
+---
 Wellenlänge eines Elementarteilchens (z.B. Elektron)
 
 # De-Broglie-Wellenlänge

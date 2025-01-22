@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e5bcc150423d8737",
+        "id": "6c8254ef26f90f27",
         "type": "tabs",
         "children": [
           {
-            "id": "0a572d9353a0f794",
+            "id": "c4c264e906e9f1d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Projects/BDUI/BDUI.md",
+                "file": "02 - Areas/Physik/Astrophysik.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "BDUI"
-            }
-          },
-          {
-            "id": "3c8dd37c08aaaed3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Projects/BDUI/BDUI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BDUI"
-            }
-          },
-          {
-            "id": "590beb66c1780ae9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Astrophysik"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,44 +166,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "590beb66c1780ae9",
+  "active": "c4c264e906e9f1d6",
   "lastOpenFiles": [
-    "01 - Projects/BDUI/BDUI.md",
-    "conflict-files-obsidian-git.md",
-    "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md",
+    "02 - Areas/Physik/Allgemeine Relativitätstheorie.md",
     "02 - Areas/Software Engineering/Einführung.md",
+    "02 - Areas/Physik/Spin-Bahn-Kopplung.md",
+    "02 - Areas/Physik/Spezielle Relativitätstheorie.md",
+    "02 - Areas/Physik/Materiewelle.md",
+    "02 - Areas/Physik/Magnetisches Feld.md",
+    "02 - Areas/Physik/Magnetische Flussdichte.md",
+    "02 - Areas/Physik/Lorentzkraft.md",
+    "02 - Areas/Physik/Kernfusion.md",
+    "02 - Areas/Physik/Kepler.md",
+    "02 - Areas/Physik/Induktion.md",
+    "02 - Areas/Physik/Impuls.md",
+    "02 - Areas/Physik/Hamiltonoperator.md",
+    "02 - Areas/Physik/Feinstruktur.md",
+    "02 - Areas/Physik/Elektronensrahlröhre.md",
+    "02 - Areas/Physik/Elektromagnetische Strahlung.md",
+    "02 - Areas/Physik/Elektrisches Feld.md",
+    "02 - Areas/Physik/Dopplereffekt.md",
+    "02 - Areas/Physik/Dirac-Gleichung.md",
+    "02 - Areas/Physik/Darwin-Term.md",
+    "02 - Areas/Physik/Astrophysik.md",
+    "02 - Areas/Medizin/Myokarditis.md",
+    "02 - Areas/Mathe/Gruppen, Ringe, Körper.md",
+    "02 - Areas/Mathe/Euklidischer Vektorraum.md",
+    "02 - Areas/Mathe/Dimension.md",
+    "02 - Areas/Mathe/Abbildungen.md",
     "02 - Areas/Software Engineering",
-    "01 - Projects/Onyx/Renderer Subsystem.md",
-    "01 - Projects/Onyx/Shader System.md",
-    "01 - Projects/Onyx/Mixture.md",
-    "01 - Projects/Onyx/Descriptors.md",
     "01 - Projects/Onyx",
-    "01 - Projects/BDUI/Vulkan Renderer.md",
-    "01 - Projects/BDUI/UI Framework.md",
-    "01 - Projects/BDUI/Untitled.md",
     "01 - Projects/BDUI",
-    "03 - Resources/Studium/Rechnerarchitektur/202407071549 Probeklausur 11.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202407141646 Probeklausur 12.md",
-    "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md",
     "01 - Projects",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-12.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-11.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-10.pdf",
-    "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202406281808 Probeklausur 10.md",
-    "02 - Areas/Medizin/Myokarditis.md",
     "02 - Areas/Medizin",
-    "02 - Areas/Anatomie/Herz.md",
     "02 - Areas/Anatomie",
-    "00 - Maps of Content/Studium/Rechnerarchitektur.md",
-    "00 - Maps of Content/Anatomie.md",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
-    "03 - Resources/Studium/Rechnerarchitektur/202406232019 Probeklausur 09.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202406141811 Probeklausur 08.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202406021653 Probeklausur 06.md",
-    "Heap Sort.md",
-    "02 - Areas/Informatik/Heap Sort.md",
-    "03 - Resources/Studium/Rechnerarchitektur/202406011604 Probeklausur 07.md",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",

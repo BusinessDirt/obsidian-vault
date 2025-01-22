@@ -1,3 +1,10 @@
+---
+date: 2024-04-17T20:14
+tags:
+  - Informatik
+  - Computerlinguistik
+cssclasses: []
+---
 - kleinste bedeutungsunterscheidende Einheit auf Systemebene
 - hat selbst keine Bedeutung
 - Klasse von Phonen mit derselben bedeutungsunterscheidenenden (distinktiven) Funktion
