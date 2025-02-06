@@ -14,29 +14,14 @@
               "type": "markdown",
               "state": {
                 "file": "02 - Areas/Computerlinguistik/NLTK.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "NLTK"
             }
-          },
-          {
-            "id": "86563da4bc768984",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,10 +166,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "86563da4bc768984",
+  "active": "83bbed96ac317428",
   "lastOpenFiles": [
-    "02 - Areas/Computerlinguistik/NLTK.md",
     "conflict-files-obsidian-git.md",
+    "02 - Areas/Computerlinguistik/NLTK.md",
     "99 - Meta/Preloaded Classes/202404180007 Game CSS Classes.md",
     "99 - Meta/Preloaded Classes/202502061742 Cards CSS Classes.md",
     "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
