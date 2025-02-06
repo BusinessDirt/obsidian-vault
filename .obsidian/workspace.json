@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "68fd549b90bcbe75",
+        "id": "07f4e56c553a87c7",
         "type": "tabs",
         "children": [
           {
-            "id": "7ecd67ce3a72ba1f",
+            "id": "83bbed96ac317428",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 - Areas/Computerlinguistik/NLTK.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "NLTK"
+            }
+          },
+          {
+            "id": "86563da4bc768984",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,8 +181,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7ecd67ce3a72ba1f",
+  "active": "86563da4bc768984",
   "lastOpenFiles": [
+    "02 - Areas/Computerlinguistik/NLTK.md",
+    "conflict-files-obsidian-git.md",
+    "99 - Meta/Preloaded Classes/202404180007 Game CSS Classes.md",
+    "99 - Meta/Preloaded Classes/202502061742 Cards CSS Classes.md",
+    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
     "04 - Permanent/Rezepte/Dim Sum Rezept.md",
     "06 - Daily/2024-04-18.md",
     "07 - Archives/202404181842.md",
@@ -184,12 +209,6 @@
     "02 - Areas/Physik/Materiewelle.md",
     "02 - Areas/Physik/Magnetisches Feld.md",
     "02 - Areas/Physik/Magnetische Flussdichte.md",
-    "02 - Areas/Physik/Lorentzkraft.md",
-    "02 - Areas/Physik/Kernfusion.md",
-    "02 - Areas/Physik/Kepler.md",
-    "02 - Areas/Physik/Induktion.md",
-    "02 - Areas/Physik/Impuls.md",
-    "02 - Areas/Physik/Hamiltonoperator.md",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",
     "01 - Projects/BDUI",
