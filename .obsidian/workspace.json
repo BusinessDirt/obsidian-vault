@@ -25,16 +25,17 @@
             "id": "1c1ee20dad9b2274",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "02 - Areas/Rechnernetze und Verteilte Systeme/ISO OSI-Schichtenmodell.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "ISO OSI-Schichtenmodell"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +181,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1c1ee20dad9b2274",
+  "active": "f8f7efd936e436f0",
   "lastOpenFiles": [
     "02 - Areas/Rechnernetze und Verteilte Systeme/ISO OSI-Schichtenmodell.md",
     "Cyclic Redundancy Check.md",
