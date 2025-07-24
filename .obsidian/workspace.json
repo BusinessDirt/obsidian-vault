@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Cyclic Redundancy Check"
             }
+          },
+          {
+            "id": "1c1ee20dad9b2274",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +180,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f8f7efd936e436f0",
+  "active": "1c1ee20dad9b2274",
   "lastOpenFiles": [
     "02 - Areas/Rechnernetze und Verteilte Systeme/ISO OSI-Schichtenmodell.md",
     "Cyclic Redundancy Check.md",
