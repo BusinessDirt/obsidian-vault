@@ -14,6 +14,19 @@ aliases:
 
 ## Aufgaben
 1. **Adressierung**: Jedes Gerät erhält eine IP-Adresse
-2. Paketvermittlung: Daten werden in Pakete zerlegt und weitergeleitet
-3. Routing: Bestimmung des besten Weges durch das Netzwerk
-4. Fragmentierung
+2. **Paketvermittlung**: Daten werden in Pakete zerlegt und weitergeleitet
+3. **Routing**: Bestimmung des besten Weges durch das Netzwerk
+4. **Fragmentierung**: Große Pakete werden ggf. in kleinere aufgeteilt
+
+## IPv4
+
+> **32-Bit-Adresse** (z.B. <code>192.168.0.1</code>)
+> $2^{32} \approx 4,3\text{ Mrd Adressen}$
+> Nicht mehr ausreichend auf Grund der zunehmenden Gerätezahl
+
+### Aufbau eines Pakets
+- Header (mit Absender, Empfänger, TTL, usw.)
+- Nutzdaten (z.B. eine HTTP-Anfrage)
+
+
+
