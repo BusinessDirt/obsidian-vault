@@ -22,4 +22,4 @@ aliases:
 
 ## Funktion
 1. Sender schickt einfach Datenpakete los - “Fire and Forget”
-2. Empfänger 
+2. Empfänger nimmt ankommende Pakete, ohne Rückmeldung.
