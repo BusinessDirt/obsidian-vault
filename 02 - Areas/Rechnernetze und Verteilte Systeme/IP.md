@@ -28,7 +28,6 @@ aliases:
 - Header (mit Absender, Empfänger, TTL, usw.)
 - Nutzdaten (z.B. eine HTTP-Anfrage)
 
-
 ## IPv6
 
 > **128-Bit-Adresse** (z.B. `2001:0db8:85a3:0000:0000:8a2e:0370:7334`)
@@ -44,4 +43,5 @@ aliases:
 
 ### Kurzschreibweise
 - Führende Nullen dürfen weggelassen werden
-- Mehrere aufeinanderfolgende `0000` können zu `::` zusammengefasst werden
+- Beliebig viele aufeinanderfolgende `0000` können zu `::` zusammengefasst werden (aber nur einmal pro Adresse)
+- `2001:0db8:85a3:0000:0000:8a2e:0370:7334` → `2001:db8:85a3::8a2e:370:7334`
