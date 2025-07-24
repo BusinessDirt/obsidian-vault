@@ -24,4 +24,4 @@ tags:
 - Enthält Flags zur Steuerung der [[IP]]-Konfiguration:
 	- **”M-Flag” = Managed (nutze DHCPv6 für Adressvergabe)**
 	- **”O-Flag” = Other (nutze DHCPv6 nur für andere Infos, z.B. [[DNS]]**
-- Ermöglicht [[SLAAC]] 
+- Ermöglicht [[SLAAC]] (automatische [[IP|IP-Adressvergabe]] ohne [[DHCP]])
