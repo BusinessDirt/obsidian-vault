@@ -7,6 +7,7 @@ tags:
   - OSI-Schicht-2
 aliases:
   - Media Access Control
+  - MAC-Adresse
 ---
 >  Eine MAC-Adresse (**Media Access Control**) ist eine physikalische Adresse, die einem Netzwerkadapter fest zugewiesen ist.
 >  Sie ist weltweit eindeutig (meist in die Hardware eingebrannt) und besteht aus 48 Bit, dargestellt in 6 Gruppen zu je 2 Hex-Zeichen. Beispiel: <code>00:1A:2B:3C:4D:5E</code>

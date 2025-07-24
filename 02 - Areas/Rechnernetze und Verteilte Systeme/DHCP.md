@@ -7,4 +7,5 @@ tags:
   - OSI-Schicht-7
   - OSI-Schicht-6
   - OSI-Schicht-5
+aliases:
 ---
