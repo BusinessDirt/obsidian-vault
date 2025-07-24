@@ -36,4 +36,5 @@ aliases:
 | Stateless | Gerät erhält Adresse per **[[SLAAC]]**, aber z.B. [[DNS]] per DHCPv6 |
 > Ob ein Gerät DHCPv6 oder [[SLAAC]] verwendet, entscheidet der **[[Router]]** über Flags im [[Router#Router Advertisement (RA)|Router-Advertisements (RA)]]:
 > **”M-Flag” = Managed (nutze DHCPv6 für Adressvergabe)**
-> **”O-Flag” = Other (nutze DHCPv6 nur für andere Infos, **
+> **”O-Flag” = Other (nutze DHCPv6 nur für andere Infos, z.B. [[DNS]]**
+
