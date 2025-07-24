@@ -13,4 +13,5 @@ aliases:
 > **Vorteil**: E-Mails bleiben auf dem Server - Zugriff von mehreren Geräten möglich
 > **Port**: 143 (bzw. 993 für IMAPS)
 > **Besonderheit**: Synchronisiert Ordner, Status (gelesen/ungelesen)
-> → 
+> → Ideal für moderne E-Mail Nutzung
+
