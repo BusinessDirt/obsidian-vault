@@ -14,4 +14,6 @@ aliases:
 > **Verwendet für**: Dateien übertragen zwischen Client und Server
 > **Port**: 21
 > **Funktionen**: Hochladen, Herunterladen, Umbenennen, Löschen von Dateien
-> **Sicherheit**: Keine Verschlüsselung bei klassischem
+> **Sicherheit**: Keine Verschlüsselung bei klassischem FTP
+> 	→ Alternativen: **FTPS** (FTP + TLS) oder **SFTP** (über SSH)
+> → Klassisches Tool für Webseiten-Uploads oder Dateiverwaltung auf Servern

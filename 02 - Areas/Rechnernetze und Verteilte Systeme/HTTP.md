@@ -16,4 +16,4 @@ aliases:
 > **Problem**: Keine **Verschlüsselung** - Daten können mitgelesen oder manipuliert werden
 
 ## HTTPS
-> **Was?** Dasselbe wie HTTP, **aber mit Verschlüsselung**
+> **Was?** Dasselbe wie HTTP, **aber mit Verschlüsselung** über [[TLS]]
