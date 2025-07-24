@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/Rechnernetze und Verteilte Systeme/TCP.md",
+                "file": "02 - Areas/Rechnernetze und Verteilte Systeme/ISO OSI-Schichtenmodell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCP"
+              "title": "ISO OSI-Schichtenmodell"
             }
           }
         ]
@@ -169,12 +169,16 @@
   },
   "active": "83bbed96ac317428",
   "lastOpenFiles": [
-    "02 - Areas/Rechnernetze und Verteilte Systeme/MAC.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/FTP.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/POP3.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme/TCP.md",
-    "02 - Areas/Rechnernetze und Verteilte Systeme/HTTP.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme/ISO OSI-Schichtenmodell.md",
-    "02 - Areas/Rechnernetze und Verteilte Systeme/IP.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/IMAP.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/SMTP.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/HTTP.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme/UDP.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/MAC.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/IP.md",
     "Untitled.md",
     "02 - Areas/Computerlinguistik/NLTK.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme",
@@ -192,10 +196,6 @@
     "00 - Maps of Content/Mathe.md",
     "00 - Maps of Content/Informatik.md",
     "00 - Maps of Content/Computerlinguistik.md",
-    "00 - Maps of Content/Computergraphik.md",
-    "00 - Maps of Content/Chemie.md",
-    "00 - Maps of Content/Anatomie.md",
-    "01 - Projects/BDUI/BDUI.md",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",
     "01 - Projects/BDUI",

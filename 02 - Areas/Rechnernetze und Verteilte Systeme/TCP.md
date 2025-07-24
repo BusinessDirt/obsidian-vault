@@ -10,4 +10,11 @@ aliases:
 ---
 ## Eigenschaften
 - Verbindungsorientiert: Es wird zuerst eine Verbindung zwischen Sender und Empfänger aufgebaut (Handshake)
-- Zuver
+- Zuverlässig: Pakete werden in der richtigen Reihenfolge und vollständig übergeben
+- Fehlererkennung & -korrektur: Bestätigungen (ACKs) und Wiederholungen bei Paketverlust
+- Datenstrom-orientiert: Die Daten werden als fortlaufender Strom von Bytes übertragen.
+
+## Anwendungsbeispiele
+- Web ([[HTTP|HTTP/HTTPS]])
+- E-Mail ([[SMTP]], [[IMAP]], [[POP3]])
+- Dateiübertragung ([[FTP]])
