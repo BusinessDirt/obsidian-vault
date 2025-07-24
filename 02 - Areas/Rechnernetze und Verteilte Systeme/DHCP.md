@@ -30,7 +30,10 @@ aliases:
 > Funktioniert ähnlich, aber mit ein paar Unterschieden
 
 ### Varianten
-| Modus     | Beschreibung                                                  |
-| :-------- | :------------------------------------------------------------ |
-| Stateful  | DHCPv6 vergibt vollständige IPv6-Adressen (wie bei IPv4-DHCP) |
-| Stateless | Gerät erhält Adresse per **[[SLAAC]]**                        |
+| Modus     | Beschreibung                                                         |
+| :-------- | :------------------------------------------------------------------- |
+| Stateful  | DHCPv6 vergibt vollständige IPv6-Adressen (wie bei IPv4-DHCP)        |
+| Stateless | Gerät erhält Adresse per **[[SLAAC]]**, aber z.B. [[DNS]] per DHCPv6 |
+> Ob ein Gerät DHCPv6 oder [[SLAAC]] verwendet, entscheidet der **[[Router]]** über Flags im [[Router#Router Advertisement (RA)|Router-Advertisements (RA)]]:
+> **”M-Flag” = Managed (nutze DHCPv6 für Adressvergabe)**
+> **”O-Flag” = Other (nutze DHCPv6 nur für andere Infos, **
