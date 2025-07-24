@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISO OSI-Schichtenmodell.md",
+                "file": "202507241511.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ISO OSI-Schichtenmodell"
+              "title": "202507241511"
             }
           }
         ],
@@ -184,8 +184,9 @@
   },
   "active": "2200ec0314a2eff4",
   "lastOpenFiles": [
-    "MAC.md",
     "ISO OSI-Schichtenmodell.md",
+    "202507241511.md",
+    "MAC.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme",
     "conflict-files-obsidian-git.md",
     "02 - Areas/Computerlinguistik/NLTK.md",
@@ -210,7 +211,6 @@
     "01 - Projects/BDUI/Vulkan Renderer.md",
     "02 - Areas/Physik/Spin-Bahn-Kopplung.md",
     "02 - Areas/Physik/Spezielle Relativitätstheorie.md",
-    "02 - Areas/Physik/Materiewelle.md",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",
     "01 - Projects/BDUI",
