@@ -11,6 +11,9 @@ tags:
 aliases:
   - HyperText Transfer Protocol
 ---
-> **Was?** Ein Protokoll, mit dem dein Browser 
+> **Was?** Ein Protokoll, mit dem dein Browser Webseiten von einem Server abruft.
+> **Wie?** Es regelt den Austausch von Daten wie Text, Bildern, Videos zwischen **Client** und **Webserver**
+> **Problem**: Keine **Verschlüsselung** - Daten können mitgelesen oder manipuliert werden
 
 ## HTTPS
+> **Was?** Dasselbe wie HTTP, **aber mit Verschlüsselung**
