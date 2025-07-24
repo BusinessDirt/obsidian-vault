@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,10 +196,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0f90fb07187ea72a",
+  "active": "10bf79db4d8d73a9",
   "lastOpenFiles": [
-    "02 - Areas/Rechnernetze und Verteilte Systeme/NAT.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme/IPsec.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/NAT.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme/SLAAC.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme/IMAP.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme/IP.md",
