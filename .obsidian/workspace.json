@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/Computerlinguistik/NLTK.md",
-                "mode": "preview",
+                "file": "02 - Areas/Rechnernetze und Verteilte Systeme/HTTP.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NLTK"
+              "title": "HTTP"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202507241511.md",
+                "file": "02 - Areas/Rechnernetze und Verteilte Systeme/MAC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202507241511"
+              "title": "MAC"
             }
           }
         ],
@@ -184,12 +184,16 @@
   },
   "active": "2200ec0314a2eff4",
   "lastOpenFiles": [
-    "ISO OSI-Schichtenmodell.md",
-    "202507241511.md",
-    "MAC.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/HTTP.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/ISO OSI-Schichtenmodell.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/MAC.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/TCP.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/IP.md",
+    "02 - Areas/Rechnernetze und Verteilte Systeme/UDP.md",
+    "Untitled.md",
+    "02 - Areas/Computerlinguistik/NLTK.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme",
     "conflict-files-obsidian-git.md",
-    "02 - Areas/Computerlinguistik/NLTK.md",
     "99 - Meta/Preloaded Classes/202404180007 Game CSS Classes.md",
     "99 - Meta/Preloaded Classes/202502061742 Cards CSS Classes.md",
     "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
@@ -207,10 +211,6 @@
     "00 - Maps of Content/Chemie.md",
     "00 - Maps of Content/Anatomie.md",
     "01 - Projects/BDUI/BDUI.md",
-    "01 - Projects/BDUI/UI Framework.md",
-    "01 - Projects/BDUI/Vulkan Renderer.md",
-    "02 - Areas/Physik/Spin-Bahn-Kopplung.md",
-    "02 - Areas/Physik/Spezielle Relativitätstheorie.md",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",
     "01 - Projects/BDUI",
