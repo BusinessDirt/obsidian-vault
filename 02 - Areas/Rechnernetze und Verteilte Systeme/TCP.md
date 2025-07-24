@@ -5,6 +5,7 @@ tags:
   - Rechnernetze
   - Internet
   - OSI-Schicht-4
+  - Protocol
 aliases:
   - Transmission Control Protocol
 ---
