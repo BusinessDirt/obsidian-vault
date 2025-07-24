@@ -10,6 +10,7 @@ aliases:
   - Internet Protocol
   - IPv4
   - IPv6
+  - IP-Adresse
 ---
 > IP (Internet Protocol) ist grundlegend für die Kommunikation im Internet.
 > Es sorgt dafür, dass Datenpakete den richtigen Weg von einem Absender zu einem Empfänger finden - ähnlich wie eine Postadresse bei einem Brief
