@@ -16,3 +16,12 @@ tags:
 4. **Router entscheidet den nächsten Schritt**: Der Router schaut in seine **Routing-Tabelle** und fragt sich: “Über welches Interface/Netz muss ich dieses Paket weiterschicken, um es näher ans Ziel zu bringen?”
 
 # Router Advertisement (RA)
+> Ein **Router Advertisement** ist eine **Nachricht im [[IP#IPv6|IPv6-Netzwerk]]**, die Router regelmäßig an alle Geräte im lokalen Netzwerk senden.
+> Sie ist Teil des [[NDP|Neighbor Discovery Protocols]]
+
+- Teilt Geräten mit, welcher [[IP#IPv6|IPv6]]-Präfix im Netzwerk verwendet wird
+- Gibt das **Standard-Gateway** (den Router selbst) an
+- Enthält Flags zur Steuerung der [[IP]]-Konfiguration:
+	- **”M-Flag” = Managed (nutze DHCPv6 für Adressvergabe)**
+	- **”O-Flag” = Other (nutze DHCPv6 nur für andere Infos, z.B. [[DNS]]**
+- Ermöglicht [[SLAAC]] 
