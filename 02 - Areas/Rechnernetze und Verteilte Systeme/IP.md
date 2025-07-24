@@ -20,7 +20,7 @@ aliases:
 
 ## IPv4
 
-> **32-Bit-Adresse** (z.B. <code>192.168.0.1</code>)
+> **32-Bit-Adresse** (z.B. `192.168.0.1`)
 > $2^{32} \approx 4,3\text{ Mrd Adressen}$
 > Nicht mehr ausreichend auf Grund der zunehmenden Gerätezahl
 
@@ -29,4 +29,19 @@ aliases:
 - Nutzdaten (z.B. eine HTTP-Anfrage)
 
 
+## IPv6
 
+> **128-Bit-Adresse** (z.B. `2001:0db8:85a3:0000:0000:8a2e:0370:7334`)
+> $2^{128} \approx 340\text{ Sextillionen Adressen}$
+> Genug Adressen für jedes Sandkorn auf der Erde
+
+### Vorteile gegenüber IPv4
+- **Mehr Adressen**
+- **Besseres Routing** (hierarchische Struktur)
+- **Sicherheitsfunktionen** ([[IPsec]] ist Pflicht)
+- **Kein [[NAT]] mehr nötig** (jedes Gerät kann global adressierbar sein)
+- **Einfachere Konfiguration mit [[SLAAC]]** (automatische Adresszuweisung)
+
+### Kurzschreibweise
+- Führende Nullen dürfen weggelassen werden
+- Mehrere aufeinanderfolgende `0000` können zu `::` zusammengefasst werden
