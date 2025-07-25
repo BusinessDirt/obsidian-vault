@@ -48,9 +48,19 @@
               "icon": "lucide-file",
               "title": "Formale Sprachen"
             }
+          },
+          {
+            "id": "d3e656b960e1b8be",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -196,11 +206,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "123ebc4395517662",
+  "active": "d3e656b960e1b8be",
   "lastOpenFiles": [
-    "02 - Areas/Kleene-Stern.md",
-    "02 - Areas/Pumping-Lemma.md",
+    "07 - Archives/202404181842.md",
+    "00 - Maps of Content/Anatomie.md",
+    "02 - Areas/Einführung.md",
+    "06 - Daily/2024-04-18.md",
     "02 - Areas/Formale Sprachen.md",
+    "02 - Areas/Pumping-Lemma.md",
+    "02 - Areas/Kleene-Stern.md",
     "02 - Areas/Endliche Automaten.md",
     "02 - Areas/Reguläre Ausdrücke.md",
     "02 - Areas/Von-Neumann-Architektur.md",
@@ -210,7 +224,6 @@
     "02 - Areas/Computergraphik/Raytracing.md",
     "02 - Areas/Allgemeine Relativitätstheorie.md",
     "02 - Areas/ARP.md",
-    "02 - Areas/Einführung.md",
     "02 - Areas/AdBlue.md",
     "02 - Areas/Baum.md",
     "02 - Areas/Herz.md",
@@ -222,9 +235,6 @@
     "99 - Meta/01 - Excalidraw/Von-Neumann-Architektur 2024-04-18 00.00.55.excalidraw.md",
     "99 - Meta/01 - Excalidraw/Renderer Subsystem 2024-08-06 22.02.43.excalidraw.md",
     "99 - Meta/01 - Excalidraw/Mixture 2024-08-06 15.43.19.excalidraw.md",
-    "99 - Meta/01 - Excalidraw/202406281808 Probeklausur 10 2024-06-28 18.13.08.excalidraw.md",
-    "02 - Areas/POP3.md",
-    "02 - Areas/IMAP.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",

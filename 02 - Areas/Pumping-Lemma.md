@@ -3,7 +3,7 @@ date: 2025-07-25T11:29
 tags:
   - Informatik
 ---
-> Das **Pumping-Lemma** ist ein **Beweiswerkzeug**, um zu zeigen, dass **eine Sprache nicht regulär** ist
+> Das **Pumping-Lemma** ist ein **Beweiswerkzeug**, um zu zeigen, dass **eine [[Formale Sprachen|Sprache]] nicht regulär** ist
 
 ## Idee
 Wenn eine Sprache regulär ist, dann gibt es eine maximale “Pumping-Länge” $p$, sodass **alle langen Wörter** aus der Sprache in 3 Teile aufgeteilt werden können:
@@ -24,7 +24,6 @@ Sprache: $L = \{ a^n b^n \mid n \geq 0 \}$
 - Wähle $w=a^pb^p \in L$
 - Zerlege: $w=xyz$, wobei $|xy|\leq p$ und $|y|\geq 0$
 	- Beispielhaft: $x= a^k$, $y=a^m$ ($m>0$), $z=a^{p-k-m}b^p$
-- → $y$ besteht nur aus a’s (weil die ersten $p$ Zeichen nur a sind)
-- Wiederhole $y$: $xy^2z$ hat mehr a’s als b’s
-- → $xy^2z \notin L$, Wiederspruch!
+- Pumpen (z.B. $i=2$): $xy^{2}z=a^ka^{2m}a^{p-k-m}b^p=a^{p+m}b^p$
+- → $xy^2z \notin L$, Wiederspruch da mehr a’s als b’s
 → $L$ ist nicht regulär
