@@ -12,4 +12,18 @@ aliases:
 > Ein endlicher Automat ist ein mathematisches Modell, das Wörter akzeptiert oder ablehnt, indem es durch Zustände über Eingabesymbole wandert.
 
 
-## DFA (Deterministisc)
+## DFA (Deterministischer Endlicher Automat)
+Ein DFA ist ein 5-Tupel
+$$A=(Q, \Sigma, \delta, q_{0},F)$$
+
+| Symbol   | Bedeutung                                  |
+| :------- | :----------------------------------------- |
+| $Q$      | endliche Menge von Zuständen               |
+| $\Sigma$ | Eingabealphabet                            |
+| $\delta$ | Übergangsfunktion: $Q \times \Sigma \to Q$ |
+| $q_{0}$  | Startzustand $\in Q$                       |
+| $F$      | akzeptierende Endzustände $\subseteq Q$    |
+
+Eigenschaften:
+- Deterministisch: Für jeden Zustand und jedes Zeichen gibt es genau einen Übergang
+- Jeder Zustand hat höchstens einen Übergang pro Eingabesymbol
