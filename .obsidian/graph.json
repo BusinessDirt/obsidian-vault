@@ -1,38 +1,38 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
-  "showAttachments": false,
+  "showTags": false,
+  "showAttachments": true,
   "hideUnresolved": true,
-  "showOrphans": true,
-  "collapse-color-groups": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#Mathe  ",
       "color": {
         "a": 1,
-        "rgb": 2711295
+        "rgb": 4683263
       }
     },
     {
       "query": "tag:#Physik  ",
       "color": {
         "a": 1,
-        "rgb": 4276286
+        "rgb": 14765567
       }
     },
     {
       "query": "tag:#Chemie  ",
       "color": {
         "a": 1,
-        "rgb": 6084269
+        "rgb": 16755789
       }
     },
     {
       "query": "tag:#Informatik  ",
       "color": {
         "a": 1,
-        "rgb": 9539985
+        "rgb": 4521398
       }
     }
   ],
@@ -47,5 +47,5 @@
   "linkStrength": 1,
   "linkDistance": 46,
   "scale": 0.37560012975137996,
-  "close": false
+  "close": true
 }
