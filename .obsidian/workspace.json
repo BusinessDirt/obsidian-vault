@@ -62,8 +62,23 @@
               "icon": "lucide-file",
               "title": "Reguläre Ausdrücke"
             }
+          },
+          {
+            "id": "cac4e71b838d8928",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Areas/Kontextfreie Grammatik.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kontextfreie Grammatik"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -209,10 +224,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2888c0f8e844e72f",
+  "active": "cac4e71b838d8928",
   "lastOpenFiles": [
-    "00 - Maps of Content/Informatik.md",
     "00 - Maps of Content/Chemie.md",
+    "00 - Maps of Content/Informatik.md",
     "00 - Maps of Content/Mathe.md",
     "00 - Maps of Content/Computerlinguistik.md",
     "00 - Maps of Content/Computergraphik.md",
