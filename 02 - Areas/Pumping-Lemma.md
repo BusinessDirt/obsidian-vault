@@ -23,6 +23,8 @@ Sprache: $L = \{ a^n b^n \mid n \geq 0 \}$
 - Angenommen, $L$ ist regulär → es gibt ein Pumping-Lemma mit Länge $p$
 - Wähle $w=a^pb^p \in L$
 - Zerlege: $w=xyz$, wobei $|xy|\leq p$ und $|y|\geq 0$
+	- Beispielhaft: $x= a^k$, $y=a^m$ ($m>0$), $z=a^{p-k-m}b^p$
 - → $y$ besteht nur aus a’s (weil die ersten $p$ Zeichen nur a sind)
 - Wiederhole $y$: $xy^2z$ hat mehr a’s als b’s
-- → $xy^2z \notin L$, Wiederspruch
+- → $xy^2z \notin L$, Wiederspruch!
+→ $L$ ist nicht regulär
