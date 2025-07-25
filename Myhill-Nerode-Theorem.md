@@ -20,5 +20,5 @@ Behauptung: $L$ ist nicht regulär
 Beweisidee mit Myhill-Nerode:
 - Betrachte die Wörter $x_{n}=a^n$
 - Für jedes $x_n$ hängt davon ab, wie viele $a$’s es gibt, um mit gleich vielen $b$’s in $L$ zu sein
-- Für $n \neq m$, gilt:
-  $$x_{n}b^n \in L, \quad x_{m}b^n \notin L \quad \Rightarrow x_{n}\not\$$
+- Für $n \neq m$, gilt: $$x_{n}b^n \in L, \quad x_{m}b^n \notin L \quad \Rightarrow x_{n}\not\equiv_{L} x_{m}$$
+- Es gibt also unendlich viele verschiedene Äquivalenzklassen → nicht regulär
