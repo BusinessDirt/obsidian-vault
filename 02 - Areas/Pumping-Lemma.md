@@ -19,4 +19,10 @@ Man kann den mittleren Teil $y$ beliebig oft wiederholen, und das neue Wort blei
 ## Beispiel
 Sprache: $L = \{ a^n b^n \mid n \geq 0 \}$
 **Behauptung**: $L$ ist nicht regulär.
-**Beweisidee mit Pumping-Lemma**
+**Beweisidee mit Pumping-Lemma**:
+- Angenommen, $L$ ist regulär → es gibt ein Pumping-Lemma mit Länge $p$
+- Wähle $w=a^pb^p \in L$
+- Zerlege: $w=xyz$, wobei $|xy|\leq p$ und $|y|\geq 0$
+- → $y$ besteht nur aus a’s (weil die ersten $p$ Zeichen nur a sind)
+- Wiederhole $y$: $xy^2z$ hat mehr a’s als b’s
+- → $xy^2z \notin L$, Wiederspruch
