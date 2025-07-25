@@ -3,4 +3,20 @@ date: 2025-07-25T11:29
 tags:
   - Informatik
 ---
-> 
+> Das **Pumping-Lemma** ist ein **Beweiswerkzeug**, um zu zeigen, dass **eine Sprache nicht regulär** ist
+
+## Idee
+Wenn eine Sprache regulär ist, dann gibt es eine maximale “Pumping-Länge” $p$, sodass **alle langen Wörter** aus der Sprache in 3 Teile aufgeteilt werden können:
+$$w=xyz$$
+mit folgenden Eigenschaften:
+1. $|xy|\leq p$
+2. $|y|>0$ ($y$ ist nicht leer)
+3. Für alle $i \geq 0: xy^iz \in L$
+
+### Bedeutung
+Man kann den mittleren Teil $y$ beliebig oft wiederholen, und das neue Wort bleibt immer noch in der Sprache - **wenn die Sprache regulär ist**
+
+## Beispiel
+Sprache: $L = \{ a^n b^n \mid n \geq 0 \}$
+**Behauptung**: $L$ ist nicht regulär.
+**Beweisidee mit Pumping-Lemma**
