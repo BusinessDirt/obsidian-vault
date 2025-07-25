@@ -32,7 +32,7 @@ Formale Sprachen sind künstliche Sprachen, die es Computern ermöglichen, Date
 - Erfordern mehr Speicher oder Struktur (z.B. einen Stack)
 - Können **nicht** durch [[Reguläre Ausdrücke|reguläre Ausdrücke]] dargestellt werden
 - Können **nicht** mit einem [[Endliche Automaten|endlichen Automaten]] akzeptiert werden.
-- Oft analysiert mit dem [[Pumping-Lemma]] oder dem **Myhill-Nerode-Theorem**, um die Nicht-Regularität zu zeigen
+- Oft analysiert mit dem [[Pumping-Lemma]] oder dem [[Myhill-Nerode-Theorem]], um die Nicht-Regularität zu zeigen
 
 ### Beispiele
 1. $\left\{ a^{n}b^{n}\space |\space n \geq 0\right\}$ → Man muss sich “merken”, wie viele `a` vorkamen → braucht mehr als endlichen Speicher
