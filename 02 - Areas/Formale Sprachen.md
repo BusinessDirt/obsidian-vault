@@ -15,13 +15,13 @@ Formale Sprachen sind künstliche Sprachen, die es Computern ermöglichen, Date
 - Sind geschlossen unter:
 	- Vereinigung
 	- Konkatenation
-	- Kleene-Stern (`*`)
+	- [[Kleene-Stern]]
 	- Durchschnitt
 	- Komplement
 
 ### Beispiele
-1. $\left\{ w \in \{ a,b \}* | \text{w enthält nur a und b}\right\}$
-2. $\left\{ w \in \{ 0,1 \}* | \text{w enthält eine gerade Anzahl von 0en}\right\}$
+1. $\left\{ w \in \{ a,b \}* |\space\text{w enthält nur a und b}\right\}$
+2. $\left\{ w \in \{ 0,1 \}* |\space\text{w enthält eine gerade Anzahl von 0en}\right\}$
 3. $\left\{ a^{n}b^{n}\space |\space n \leq 3\right\}$ → endlich viele Wörter → regulär
 
 ## Nicht-reguläre Sprachen
@@ -35,4 +35,6 @@ Formale Sprachen sind künstliche Sprachen, die es Computern ermöglichen, Date
 - Oft analysiert mit dem [[Pumping-Lemma]] oder dem **Myhill-Nerode-Theorem**, um die Nicht-Regularität zu zeigen
 
 ### Beispiele
-1. $\left\{ a^{n}b^{n}\space |\space n \geq 0\right\}$ → Man muss sich “merken”, wie viele 
+1. $\left\{ a^{n}b^{n}\space |\space n \geq 0\right\}$ → Man muss sich “merken”, wie viele `a` vorkamen → braucht mehr als endlichen Speicher
+2. $\left\{ ww\space |\space w \in \{ a,b \}* \right\}$ → z.B. `abababab`, `aa`, `baba` → Man muss die erste Hälfte speichern → nicht regulär
+3. $\left\{ w \in \{ a,b \}*|\space \text{Anzahl a} = \text{Anzahl b} \right\}$ → Zählt Zeichen → nicht mit endlichen Automaten lösbar

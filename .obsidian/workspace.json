@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/Formale Sprachen.md",
+                "file": "Pumping Lemma.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Formale Sprachen"
+              "title": "Pumping Lemma"
             }
           },
           {
@@ -198,6 +198,7 @@
   "active": "23e668cdb6672b1d",
   "lastOpenFiles": [
     "02 - Areas/Reguläre Ausdrücke.md",
+    "Pumping Lemma.md",
     "02 - Areas/Formale Sprachen.md",
     "02 - Areas/Endliche Automaten.md",
     "02 - Areas/Von-Neumann-Architektur.md",
@@ -223,7 +224,6 @@
     "02 - Areas/POP3.md",
     "02 - Areas/IMAP.md",
     "02 - Areas/TLS.md",
-    "02 - Areas/SMTP.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",
