@@ -2,15 +2,14 @@
 date: 2024-04-17T20:14
 tags:
   - Informatik
+  - Mathe
 cssclasses: 
 aliases:
   - endliche Automaten
   - endlichen Automaten
   - endlicher Automat
 ---
-- Implementierung von [[Formale Sprachen]]
+> Ein endlicher Automat ist ein mathematisches Modell, das Wörter akzeptiert oder ablehnt, indem es durch Zustände über Eingabesymbole wandert.
 
-# Funktionsweise
-- Ablaufdiagramm
-	- gibt erlaubte Zeichen vor
-	- gibt erlaubte Zeichenreihenfolge vor
+
+## DFA (Deterministisc)
