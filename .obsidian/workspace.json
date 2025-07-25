@@ -67,18 +67,13 @@
             "id": "cac4e71b838d8928",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Areas/Kontextfreie Grammatik.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kontextfreie Grammatik"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,8 +219,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cac4e71b838d8928",
+  "active": "123ebc4395517662",
   "lastOpenFiles": [
+    "02 - Areas/Endliche Automaten.md",
+    "02 - Areas/Kontextfreie Grammatik.md",
     "00 - Maps of Content/Chemie.md",
     "00 - Maps of Content/Informatik.md",
     "00 - Maps of Content/Mathe.md",
@@ -233,7 +230,6 @@
     "00 - Maps of Content/Computergraphik.md",
     "02 - Areas/Kleene-Stern.md",
     "02 - Areas/Formale Sprachen.md",
-    "02 - Areas/Endliche Automaten.md",
     "02 - Areas/Reguläre Ausdrücke.md",
     "07 - Archives/202404181842.md",
     "00 - Maps of Content/Anatomie.md",
@@ -252,7 +248,6 @@
     "02 - Areas/Herz.md",
     "02 - Areas/Allomorph.md",
     "02 - Areas/Formale Sprachen",
-    "02 - Areas/Cyclic Redundancy Check.md",
     "02 - Areas/Rechnernetze und Verteilte Systeme",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",

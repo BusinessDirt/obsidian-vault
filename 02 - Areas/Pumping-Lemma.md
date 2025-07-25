@@ -4,7 +4,7 @@ tags:
   - Informatik
 ---
 > Das **Pumping-Lemma** ist ein **Beweiswerkzeug**, um zu zeigen, dass **eine [[Formale Sprachen|Sprache]] nicht regulär** ist
-
+	 
 ## Idee
 Wenn eine Sprache regulär ist, dann gibt es eine maximale “Pumping-Länge” $p$, sodass **alle langen Wörter** aus der Sprache in 3 Teile aufgeteilt werden können:
 $$w=xyz$$
