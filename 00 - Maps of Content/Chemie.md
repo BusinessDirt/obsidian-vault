@@ -4,8 +4,8 @@ tags:
   - MOC
   - Chemie
 ---
-1. [[02 - Areas/Chemie/AdBlue|AdBlue]]
-2. [[02 - Areas/Chemie/Ammoniak|Ammoniak]]
-3. [[02 - Areas/Chemie/Harnstoff|Harnstoff]]
-4. [[02 - Areas/Chemie/Isocyansäure|Isocyansäure]]
-5. [[02 - Areas/Chemie/Selektive katalytische Reduktion|Selektive katalytische Reduktion]]
+1. [[AdBlue|AdBlue]]
+2. [[Ammoniak|Ammoniak]]
+3. [[Harnstoff|Harnstoff]]
+4. [[Isocyansäure|Isocyansäure]]
+5. [[Selektive katalytische Reduktion|Selektive katalytische Reduktion]]

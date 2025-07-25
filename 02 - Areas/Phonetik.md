@@ -8,7 +8,7 @@ cssclasses: []
 - Laute der natürlichen Sprache
 - welche Laute sind in einer betreffenden Sprache unterscheidbar?
 
-## Wofür wichtig in der [[02 - Areas/Computerlinguistik/Computerlinguistik]]
+## Wofür wichtig in der [[02 - Areas/Computerlinguistik]]
 
 ## Artikulatorische Phonetik
 > Physiologie der Lautproduktion
