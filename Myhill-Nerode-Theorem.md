@@ -9,4 +9,7 @@ Zwei Wörter $x$ und $y$ sind nicht unterscheidbar in Bezug auf eine Sprache $L$
 # Formale Definition
 Für eine Sprache $L \subseteq \Sigma^*$
 Definiere eine Relation $\equiv_{L}$ auf $\Sigma^*$ wie folgt:
-$$x \equiv_{L}$$
+$$x \equiv_{L} y \iff \forall z \in \Sigma^* : xz \in L \iff yz \in L$$
+Das heißt: Zwei Wörter $x$ und $y$ sind äquivalent, wenn das Anhängen beliebiger Wörter $z$ entweder beide in $L$ oder beide nicht in $L$ liegen
+Diese Relation ist eine Äquivalenzrelation (reflexiv, symmetrisch, transitiv)
+→ Eine Sprache $L \subseteq \Sigma^*$ ist regulär genau dann, wenn die Äquivalen
