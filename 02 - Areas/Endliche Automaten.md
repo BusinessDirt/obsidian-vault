@@ -2,9 +2,13 @@
 date: 2024-04-17T20:14
 tags:
   - Informatik
-cssclasses: []
+cssclasses: 
+aliases:
+  - endliche Automaten
+  - endlichen Automaten
+  - endlicher Automat
 ---
-- Implementierung von [[Formalen Sprachen]]
+- Implementierung von [[Formale Sprachen]]
 
 # Funktionsweise
 - Ablaufdiagramm

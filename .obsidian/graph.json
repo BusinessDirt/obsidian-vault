@@ -22,13 +22,6 @@
       }
     },
     {
-      "query": "tag:#Computerlinguistik  ",
-      "color": {
-        "a": 1,
-        "rgb": 16759552
-      }
-    },
-    {
       "query": "tag:#Chemie  ",
       "color": {
         "a": 1,
@@ -54,5 +47,5 @@
   "linkStrength": 1,
   "linkDistance": 46,
   "scale": 0.37560012975137996,
-  "close": false
+  "close": true
 }
