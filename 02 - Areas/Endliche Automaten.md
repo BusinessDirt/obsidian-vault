@@ -24,6 +24,17 @@ $$A=(Q, \Sigma, \delta, q_{0},F)$$
 | $q_{0}$  | Startzustand $\in Q$                       |
 | $F$      | akzeptierende Endzustände $\subseteq Q$    |
 
-Eigenschaften:
+### Eigenschaften
 - Deterministisch: Für jeden Zustand und jedes Zeichen gibt es genau einen Übergang
 - Jeder Zustand hat höchstens einen Übergang pro Eingabesymbol
+
+## NFA (Nichtdeterministischer Endlicher Automat)
+Ein NFA ist fast wie ein DFA, aber die Übergangsfunktion ist “lockerer”
+$$A=(Q, \Sigma, \delta, q_{0},F)$$
+Unterschied:
+$$\delta:Q \times \Sigma \to P(Q)$$
+→ kann mehrere oder keine Übergange für ein Symbol geben.
+
+### Eigenschaften
+- Nichtdeterminismus: In einem Zustand kann es mehrere mögliche Übergänge für dasselbe Symbol geben
+- Kann auch $\epsilon$-Übergänge haben (Übergang ohne Eingabezeichen)
