@@ -12,4 +12,16 @@ Formale Sprachen sind künstliche Sprachen, die es Computern ermöglichen, Date
 > Eine Sprache ist **regulär**, wenn sie von einem [[Endliche Automaten|endlichen Automaten]] (DFA oder NFA) erkannt werden kann oder durch einen [[Reguläre Ausdrücke|regulären Ausdruck]] beschrieben werden kann
 
 ### Eigenschaften
-- Können mit deterministischen (DFA) oder nichtdeterministischen [[Endliche Automaten|endlichen Automaten]] 
+- Können mit deterministischen (DFA) oder nichtdeterministischen [[Endliche Automaten|endlichen Automaten]] (NFA) dargestellt werden
+- Können durch [[Reguläre Ausdrücke|reguläre Ausdrücke]] beschrieben werden
+- Sind geschlossen unter:
+	- Vereinigung
+	- Konkatenation
+	- Kleene-Stern (`*`)
+	- Durchschnitt
+	- Komplement
+
+### Beispiele
+1. $\left\{ w \in \{ a,b \}* | \text{w enthält nur a und b}\right\}$
+2. $\left\{ w \in \{ 0,1 \}* | \text{w enthält eine gerade Anzahl von 0en}\right\}$
+3. $\left\{ a^{n}b^{n} | n \leq 3\right\}$
