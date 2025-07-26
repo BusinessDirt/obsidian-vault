@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "385ffddbe4147c67",
+        "id": "c810e5ffad8973ee",
         "type": "tabs",
         "children": [
           {
-            "id": "123ebc4395517662",
+            "id": "feab4d6e6a40912e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Areas/CYK-Algorithmus.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CYK-Algorithmus"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cyk",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,8 +163,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "123ebc4395517662",
+  "active": "feab4d6e6a40912e",
   "lastOpenFiles": [
+    "02 - Areas/CYK-Algorithmus.md",
     "02 - Areas/Kontextfreie Grammatik.md",
     "Myhill-Nerode-Theorem.md",
     "02 - Areas/Formale Sprachen.md",
