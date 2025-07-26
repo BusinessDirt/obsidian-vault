@@ -34,18 +34,7 @@ _Beweis:_ Die für den Beweis erforderlichen Mengen sind im obigen Bild dargeste
 
 ##  2 Zufallsvariablen und Binomialverteilung
 ### 2.1 Zufallsvariablen
-<p class="external-refference"><span>Bsp</span>Monopoly: im Gefängnis</p>
-
-Wie viele Runden dauert es bis zum nächsten Pasch?
-Würfelergebnisse:
-Spieler 1: $\omega_1=[(1;2), (5;3), (4;4)]$ -> $X(\omega_1)=3$
-Spieler 2: $\omega_2=[(6;6), (2;4), (1;5)]$ -> $X(\omega_2)=1$
-Spieler 3: $\omega_3=[(6;5), (3;3), (5;2)]$ -> $X(\omega_3)=2$
-Eine Abbildung $X$, die jedem Ergebniss $\omega$ aus $\Omega$ eine Reelle Zahl zuordnet, heißt Zufallsvariable. 
-$$X: \Omega \to \mathbb{R}$$
-$$\omega \to X(\omega)$$
-
-### 2.2 Die Wahrscheinlichkeitsverteilung einer Zufallsvariable
+#### 2.2 Die Wahrscheinlichkeitsverteilung einer Zufallsvariable
 Wie sieht es mit den Wahrscheinlichkeiten der Werte einer Zufallsvariable aus?
 Eine Funktion $P$, die jedem Wert eines ZV X die Wahscheinlichkeit $P(X=X_1)$ zuschreibt, heißt Wahrscheinlichkeitsverteilung der ZV X.
 

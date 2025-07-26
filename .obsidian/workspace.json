@@ -35,7 +35,8 @@
               "title": "Stochastik"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,10 +182,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "feab4d6e6a40912e",
+  "active": "c38bed615c01ef76",
   "lastOpenFiles": [
-    "02 - Areas/Stochastik.md",
     "Stochastische Unabhängigkeit.md",
+    "02 - Areas/Stochastik.md",
     "02 - Areas/CYK-Algorithmus.md",
     "02 - Areas/Kontextfreie Grammatik.md",
     "Myhill-Nerode-Theorem.md",
