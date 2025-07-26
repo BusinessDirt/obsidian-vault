@@ -32,16 +32,6 @@ _Beweis:_ Es ist $\emptyset \cup \Omega =\Omega$ und $\emptyset \cap \Omega =\em
 
 _Beweis:_ Die für den Beweis erforderlichen Mengen sind im obigen Bild dargestellt. Die Menge $A\cup B$ kann danach als Vereinigung von drei disjunkten Mengen dargestellt werden:
 
-## Verknüpfte Ereignisse
-Verknüpfte Ereignisse und ihre Wahrscheinlichkeiten lassen sich gut in Mengendiagrammen, Vierfeldertafeln und Baumdiagrammen darstellen
-
-## Stochastische Unabhängigkeit
-Sei $(\Omega ,\Sigma ,P)$ ein Wahrscheinlichkeitsraum $I$ eine nichtleere Indexmenge und sei $(A_{i})_{i\in I}$ eine Familie von Ereignissen. Die Familie von Ereignissen heißt unabhängig, wenn für jede endliche nichtleere Teilmenge $J$ von $I$ gilt, dass
-
-$$P\left(\bigcap _{j\in J}A_{j}\right)=\prod _{j\in J}P(A_{j})$$
-
-Jede Paarmenge und die Gesamtmenge muss unabhängig sein
-
 ##  2 Zufallsvariablen und Binomialverteilung
 ### 2.1 Zufallsvariablen
 <p class="external-refference"><span>Bsp</span>Monopoly: im Gefängnis</p>
