@@ -50,7 +50,7 @@ namespace AssetManagement {
 		-CheckCache(hash) Blob
 		-WriteCache(hash, blob) void
 	}
-	
+
 	class ShaderAsset {
 		+UUID ID
 		+string Name
@@ -61,12 +61,12 @@ namespace AssetManagement {
 
 namespace CompilerCore {
 
-	class ShaderCompiler {	
+	class ShaderCompiler {
 		<<Static Utility>>
 		%% The Asset Manager calls this
 		+Compile(source, stage, targetPlatform) CompileResult
 	}
-	
+
 	class CompileResult {
 		+vector~uint32~ SPIRV
 		+string Source
@@ -79,8 +79,8 @@ namespace CompilerCore {
 		+Init()
 		+CompileToSPIRV(hlsl, stage) Blob
 		+CompileToDXIL(hlsl, stage) Blob
-	} 
-	
+	}
+
 	class SPIRVCrossWrapper {
 		%% Wraps spirv-cross.lib
 		+ConvertSPIRV_To_MSL(spirvBlob) string
@@ -109,7 +109,7 @@ namespace D3D12 {
 	}
 }
 
-  
+
 
 namespace Mixture {
 	class IShader {
@@ -118,7 +118,7 @@ namespace Mixture {
 	}
 }
 
-  
+
 
 %% Interfaces
 IShader <--- VulkanShader
