@@ -7,7 +7,7 @@ tags:
 cssclasses:
 ---
 # Wichtige Ausdrücke
-- Cons-Constructor: `(:) :: a -> [a] -> [a]`
+- Constructor: `(:) :: a -> [a] -> [a]`
 - Listen Aufzählungen: `[1,3..99]`
 - List-Comprehensions: `[x | x <- [1..9], even x]`
 - Konditional: `if .. then .. else ..`
@@ -16,7 +16,7 @@ cssclasses:
 
 # Notationen zur Funktionsdefinition
 
-## Standartdefinition
+## Standarddefinition
 - Typdeklaration (optional) (Zeile 1)
 - Funktionsname (in gleicher Spalte beginnen) (‘foo’)
 - Funktionsparameter (‘var1 var2 var3’)
