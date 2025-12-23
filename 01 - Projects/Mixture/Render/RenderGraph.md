@@ -58,12 +58,14 @@ Inside the `Execute` lambda, you get access to the actual GPU resources.
 
 ```cpp
 graph->AddPass<MyPassData>("My Pass",
-    [&](RenderGraphBuilder& builder, MyPassData& data) {
+    [&](RenderGraphBuilder& builder, MyPassData& data) 
+    {
         // Setup
-        data.Output = builder.Create("MyTexture", { .Width = 100, .Height = 100, ... });
+        data.Output = ...;
         builder.Write(data.Output);
     },
-    [&](RenderGraphRegistry& registry, const MyPassData& data, Ref<ICommandList> cmd) {
+    [&](RenderGraphRegistry& registry, const MyPassData& data, Ref<ICommandList> cmd) 
+    {
         // Execute
         auto tex = registry.GetTexture(data.Output);
         // ... Bind and Draw

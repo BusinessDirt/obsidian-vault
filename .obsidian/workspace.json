@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "414004d52ba5131d",
+        "id": "d40a17e851b55371",
         "type": "tabs",
         "children": [
           {
-            "id": "645afd01ce1a88ee",
+            "id": "d3c8f4c941d8c3d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Projects/Mixture/Index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Index"
-            }
-          },
-          {
-            "id": "dd1fc44a097c54b3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Projects/Mixture/Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline"
             }
           },
           {
@@ -198,13 +180,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dd1fc44a097c54b3",
+  "active": "d3c8f4c941d8c3d7",
   "lastOpenFiles": [
+    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Excalidraw.excalidraw.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
+    "01 - Projects/Mixture/Platform/Vulkan/Index.md",
+    "01 - Projects/Mixture/Assets/Untitled.md",
+    "01 - Projects/Mixture/Assets",
+    "01 - Projects/Mixture/Index.md",
+    "01 - Projects/Mixture/Platform/Vulkan/CommandSystem.md",
+    "01 - Projects/Mixture/Render/RenderGraph.md",
     "RHI Buffers and Descriptors.md",
     "01 - Projects/Mixture/Render Graph Architecture.md",
     "01 - Projects/Mixture/Untitled.md",
     "conflict-files-obsidian-git.md",
-    "01 - Projects/Mixture/Index.md",
     "01 - Projects/Mixture",
     "02 - Areas/Myhill-Nerode-Theorem.md",
     "02 - Areas/Stochastische Unabhängigkeit.md",
@@ -220,14 +211,6 @@
     "02 - Areas/TCP.md",
     "02 - Areas/Syntax.md",
     "02 - Areas/Stochastik.md",
-    "02 - Areas/Spin-Bahn-Kopplung.md",
-    "02 - Areas/Spezielle Relativitätstheorie.md",
-    "02 - Areas/Semantik.md",
-    "02 - Areas/Selektive katalytische Reduktion.md",
-    "02 - Areas/SSL.md",
-    "02 - Areas/SMTP.md",
-    "02 - Areas/SLAAC.md",
-    "02 - Areas/Russellsche Antinomie.md",
     "01 - Projects/BDUI",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",
@@ -235,7 +218,6 @@
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-11.pdf",
     "02 - Areas/Anatomie",
     "02 - Areas/Medizin",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-09.pdf",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
