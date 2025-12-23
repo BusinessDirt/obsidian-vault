@@ -6,116 +6,55 @@ tags:
 ---
 ```mermaid
 classDiagram
-
-%% ---------------------------------------------------------
-
-%% GROUP 1: ASSET MANAGEMENT (High Level Logic)
-
-%% ---------------------------------------------------------
-
 namespace AssetManagement {
 
-class AssetManager {
-
--string m_CacheDirectory
-
--Map~UUID, Ref<IAsset>~ m_LoadedAssets
-
-+GetShader(path) Ref<IShader>
-
--CheckCache(hash) Blob
-
--WriteCache(hash, blob) void
-
+	class AssetManager {
+		-string m_CacheDirectory
+		-Map~UUID, Ref<IAsset>~ m_LoadedAssets
+		+GetShader(path) Ref<IShader>
+		-CheckCache(hash) Blob
+		-WriteCache(hash, blob) void
+	}
+	
+	class ShaderAsset {
+		+UUID ID
+		+string Name
+		+Blob BinaryData
+		+vector~string~ Dependencies
+	}
 }
-
-  
-
-class ShaderAsset {
-
-+UUID ID
-
-+string Name
-
-+Blob BinaryData
-
-+vector~string~ Dependencies
-
-}
-
-}
-
-  
-
-%% ---------------------------------------------------------
-
-%% GROUP 2: CROSS-COMPILER CORE (The "Brain")
-
-%% ---------------------------------------------------------
 
 namespace CompilerCore {
 
-class ShaderCompiler {
+	class ShaderCompiler {	
+		<<Static Utility>>
+		%% The Asset Manager calls this
+		+Compile(source, stage, targetPlatform) CompileResult
+	}
+	
+	class CompileResult {
+		+vector~uint32~ SPIRV
+		+string MSLSource
+		+vector~byte~ DXIL
+		+bool Success
+	}
 
-<<Static Utility>>
-
-%% The Asset Manager calls this
-
-+Compile(source, stage, targetPlatform) CompileResult
-
-}
-
-  
-
-class CompileResult {
-
-+vector~uint32~ SPIRV
-
-+string MSLSource
-
-+vector~byte~ DXIL
-
-+bool Success
-
-}
-
-  
-
-class DXCWrapper {
-
-%% Wraps dxcompiler.dll / libdxcompiler.dylib
-
-+Init()
-
-+CompileToSPIRV(hlsl, stage) Blob
-
-+CompileToDXIL(hlsl, stage) Blob
+	class DXCWrapper {
+		%% Wraps dxcompiler.dll / libdxcompiler.dylib
+		+Init()
+		+CompileToSPIRV(hlsl, stage) Blob
+		+CompileToDXIL(hlsl, stage) Blob
+	} 
+	
+	class SPIRVCrossWrapper {
+		%% Wraps spirv-cross.lib
+		+ConvertSPIRV_To_MSL(spirvBlob) string
+		+ConvertSPIRV_To_GLSL(spirvBlob) string
+	}
 
 }
 
-  
-
-class SPIRVCrossWrapper {
-
-%% Wraps spirv-cross.lib
-
-+ConvertSPIRV_To_MSL(spirvBlob) string
-
-+ConvertSPIRV_To_GLSL(spirvBlob) string
-
-}
-
-}
-
-  
-
-%% ---------------------------------------------------------
-
-%% GROUP 3: PLATFORM BACKENDS (Platform/Folder)
-
-%% ---------------------------------------------------------
-
-namespace Platform_Vulkan {
+namespace Vulkan {
 
 class VulkanShader {
 
@@ -129,7 +68,7 @@ class VulkanShader {
 
   
 
-namespace Platform_Metal {
+namespace Metal {
 
 class MetalShader {
 
@@ -143,7 +82,7 @@ class MetalShader {
 
   
 
-namespace Platform_D3D12 {
+namespace D3D12 {
 
 class D3D12Shader {
 
@@ -157,7 +96,7 @@ class D3D12Shader {
 
   
 
-namespace Platform_Common {
+namespace Mixture {
 
 class IShader {
 
@@ -179,37 +118,37 @@ class IShader {
 
 %% Interfaces
 
-Platform_Common.IShader <|-- Platform_Vulkan.VulkanShader
+IShader <|-- VulkanShader
 
-Platform_Common.IShader <|-- Platform_Metal.MetalShader
+IShader <|-- MetalShader
 
-Platform_Common.IShader <|-- Platform_D3D12.D3D12Shader
+IShader <|-- D3D12Shader
 
   
 
 %% Asset Manager Flow
 
-AssetManagement.AssetManager --> CompilerCore.ShaderCompiler : 1. Request Compile
+AssetManager --> ShaderCompiler : 1. Request Compile
 
-AssetManagement.AssetManager --> AssetManagement.ShaderAsset : 2. Stores Result in RAM/Disk
+AssetManager --> ShaderAsset : 2. Stores Result in RAM/Disk
 
-AssetManagement.AssetManager ..> Platform_Common.IShader : 3. Factory Creates GPU Object
+AssetManager ..> IShader : 3. Factory Creates GPU Object
 
   
 
 %% Compiler Logic
 
-CompilerCore.ShaderCompiler --> CompilerCore.DXCWrapper : Uses for HLSL->SPIRV/DXIL
+ShaderCompiler --> DXCWrapper : Uses for HLSL->SPIRV/DXIL
 
-CompilerCore.ShaderCompiler --> CompilerCore.SPIRVCrossWrapper : Uses if Target == Metal/GL
+ShaderCompiler --> SPIRVCrossWrapper : Uses if Target == Metal/GL
 
   
 
 %% Factory Logic (How the Shader is created)
 
-Platform_Vulkan.VulkanShader ..> CompilerCore.CompileResult : Consumes SPIRV
+VulkanShader ..> CompileResult : Consumes SPIRV
 
-Platform_Metal.MetalShader ..> CompilerCore.CompileResult : Consumes MSL
+MetalShader ..> CompileResult : Consumes MSL
 
-Platform_D3D12.D3D12Shader ..> CompilerCore.CompileResult : Consumes DXIL
+D3D12Shader ..> CompileResult : Consumes DXIL
 ```
