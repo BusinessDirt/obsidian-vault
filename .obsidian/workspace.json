@@ -11,10 +11,14 @@
             "id": "d3c8f4c941d8c3d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 - Projects/Mixture/Assets/Shader System.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Shader System"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01 - Projects/Mixture/Assets/Shader System.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Shader System"
             }
           },
           {
@@ -182,15 +187,16 @@
   },
   "active": "d3c8f4c941d8c3d7",
   "lastOpenFiles": [
+    "01 - Projects/Mixture/Assets/Assets System.md",
+    "01 - Projects/Mixture/Assets/Shader System.md",
+    "01 - Projects/Mixture/Platform/Vulkan/CommandSystem.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Excalidraw.excalidraw.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
     "01 - Projects/Mixture/Platform/Vulkan/Index.md",
-    "01 - Projects/Mixture/Assets/Untitled.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture/Index.md",
-    "01 - Projects/Mixture/Platform/Vulkan/CommandSystem.md",
     "01 - Projects/Mixture/Render/RenderGraph.md",
     "RHI Buffers and Descriptors.md",
     "01 - Projects/Mixture/Render Graph Architecture.md",
@@ -209,8 +215,6 @@
     "02 - Areas/UDP.md",
     "02 - Areas/TLS.md",
     "02 - Areas/TCP.md",
-    "02 - Areas/Syntax.md",
-    "02 - Areas/Stochastik.md",
     "01 - Projects/BDUI",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",
