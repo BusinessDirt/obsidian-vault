@@ -4,151 +4,31 @@ tags:
   - Mixture
   - Assets
 ---
-```mermaid
-classDiagram
-namespace AssetManagement {
+# Asset System
 
-	class AssetManager {
-		-string m_CacheDirectory
-		-Map~UUID, Ref<IAsset>~ m_LoadedAssets
-		+GetShader(path) Ref<IShader>
-		-CheckCache(hash) Blob
-		-WriteCache(hash, blob) void
-	}
-	
-	class ShaderAsset {
-		+UUID ID
-		+string Name
-		+Blob BinaryData
-		+vector~string~ Dependencies
-	}
-}
+The **Asset System** is responsible for the importing, loading, management, and caching of all external resources used by the engine. It ensures that resources are loaded efficiently, duplicated loads are avoided, and processed data is cached for quick subsequent runs.
 
-namespace CompilerCore {
+## Core Component: AssetManager
 
-	class ShaderCompiler {	
-		<<Static Utility>>
-		%% The Asset Manager calls this
-		+Compile(source, stage, targetPlatform) CompileResult
-	}
-	
-	class CompileResult {
-		+vector~uint32~ SPIRV
-		+string MSLSource
-		+vector~byte~ DXIL
-		+bool Success
-	}
+The `AssetManager` is the singleton (or global service) that handles all asset requests.
 
-	class DXCWrapper {
-		%% Wraps dxcompiler.dll / libdxcompiler.dylib
-		+Init()
-		+CompileToSPIRV(hlsl, stage) Blob
-		+CompileToDXIL(hlsl, stage) Blob
-	} 
-	
-	class SPIRVCrossWrapper {
-		%% Wraps spirv-cross.lib
-		+ConvertSPIRV_To_MSL(spirvBlob) string
-		+ConvertSPIRV_To_GLSL(spirvBlob) string
-	}
+### Responsibilities
 
-}
+1. **Resource Loading**: It provides a unified interface (`GetAsset<T>(path/uuid)`) to retrieve assets.
+2. **Lifecycle Management**: It maintains a registry (`m_LoadedAssets`) of currently active assets to prevent reloading the same resource multiple times.
+3. **Hot Reloading**: (Planned) It watches source files for changes and triggers re-imports automatically.
 
-namespace Vulkan {
+## Caching Strategy
 
-class VulkanShader {
+Processing raw assets (compiling shaders, compressing textures, converting 3D models) is expensive. The Asset System implements a robust caching mechanism:
 
--VkShaderModule m_Module
+- **Hashing**: Every source asset and its import settings are hashed to generate a unique signature.
+- **Cache Check**: Before processing, the manager checks `m_CacheDirectory` for a pre-processed binary blob matching the hash.
+- **Fast Path**: If the cache exists and is valid, the processed data is loaded directly from disk, bypassing the expensive import step.
+- **Slow Path**: If the cache is missing or stale, the raw asset is processed, the result is saved to the cache, and then loaded.
 
-+Create(spirvBlob)
+## Asset Types
 
-}
-
-}
-
-  
-
-namespace Metal {
-
-class MetalShader {
-
--MTLLibrary m_Library
-
-+Create(mslSource)
-
-}
-
-}
-
-  
-
-namespace D3D12 {
-
-class D3D12Shader {
-
--ID3DBlob* m_Blob
-
-+Create(dxilBlob)
-
-}
-
-}
-
-  
-
-namespace Mixture {
-
-class IShader {
-
-<<Interface>>
-
-+Bind()
-
-}
-
-}
-
-  
-
-%% ---------------------------------------------------------
-
-%% RELATIONSHIPS & FLOW
-
-%% ---------------------------------------------------------
-
-%% Interfaces
-
-IShader <|-- VulkanShader
-
-IShader <|-- MetalShader
-
-IShader <|-- D3D12Shader
-
-  
-
-%% Asset Manager Flow
-
-AssetManager --> ShaderCompiler : 1. Request Compile
-
-AssetManager --> ShaderAsset : 2. Stores Result in RAM/Disk
-
-AssetManager ..> IShader : 3. Factory Creates GPU Object
-
-  
-
-%% Compiler Logic
-
-ShaderCompiler --> DXCWrapper : Uses for HLSL->SPIRV/DXIL
-
-ShaderCompiler --> SPIRVCrossWrapper : Uses if Target == Metal/GL
-
-  
-
-%% Factory Logic (How the Shader is created)
-
-VulkanShader ..> CompileResult : Consumes SPIRV
-
-MetalShader ..> CompileResult : Consumes MSL
-
-D3D12Shader ..> CompileResult : Consumes DXIL
-```
+- **Shaders**: Handled via the [[Assets/Shader System|Shader System]].
+- **Textures**: Imported via `stb_image` or similar libraries, often compressed to GPU-friendly formats (BCn, ASTC).
+- **Meshes**: Imported from formats like glTF or OBJ.
