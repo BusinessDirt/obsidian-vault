@@ -27,7 +27,10 @@
   "file-recovery": true,
   "publish": false,
   "sync": false,
+<<<<<<< HEAD
   "footnotes": false,
   "bases": true,
+=======
+>>>>>>> origin/master
   "webviewer": false
 }
