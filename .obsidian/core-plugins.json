@@ -7,7 +7,8 @@
   "canvas": true,
   "outgoing-link": true,
   "tag-pane": true,
-  "properties": false,
+  "footnotes": false,
+  "properties": true,
   "page-preview": true,
   "daily-notes": true,
   "templates": true,
@@ -17,7 +18,7 @@
   "editor-status": true,
   "bookmarks": true,
   "markdown-importer": false,
-  "zk-prefixer": true,
+  "zk-prefixer": false,
   "random-note": false,
   "outline": true,
   "word-count": true,
@@ -26,11 +27,7 @@
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
-  "sync": false,
-<<<<<<< HEAD
-  "footnotes": false,
+  "sync": true,
   "bases": true,
-=======
->>>>>>> origin/master
   "webviewer": false
 }

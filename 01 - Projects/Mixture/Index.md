@@ -1,30 +1,37 @@
 ---
-date: 2025-12-23T11:06
-tags: []
+date: 2024-10-16T16:17
+tags:
+  - Mixture
+  - Index
 ---
-# Mixture Engine Architecture
+# Mixture Engine Documentation
 
-## Core Philosophy
-Mixture is a layered, cross-platform rendering engine.
-- **RHI (Render Hardware Interface):** Abstraction layer over Vulkan (primary), Metal, and D3D12.
-- **Render Graph:** A high-level frame dependency manager that automates synchronization and resource transitions.
-- **Unified Shader Pipeline:** HLSL-first workflow compiling to SPIR-V/DXIL.
+Welcome to the **Mixture Engine** documentation. This project is a C++ rendering engine with a focus on a modern, data-driven Render Graph architecture and a hardware-agnostic Render Hardware Interface (RHI).
 
-## System Map
+## Core Systems
 
-### 1. Rendering Core
-- [[01_Render_Graph_Architecture|Render Graph System]]: How we define passes and handle synchronization barriers.
-- [[04_Command_List_Abstraction|Command List]]: The interface for recording GPU commands (`SetTexture`, `Draw`).
+- **[[Render/RHI|Render Hardware Interface (RHI)]]**: The abstraction layer over low-level graphics APIs (Vulkan, DX12, etc.).
+- **[[Render/RenderGraph|Render Graph]]**: A directed acyclic graph (DAG) based rendering system handling resource management, synchronization, and pass execution.
 
-### 2. Memory & Resources
-- [[02_RHI_Buffers_and_Descriptors#Vertex & Index Buffers|Buffers]]: Staging buffer architecture using VMA.
-- [[02_RHI_Buffers_and_Descriptors#Descriptor Management|Descriptors]]: Bindless-style dynamic allocation and layout caching.
+## Platforms
 
-### 3. Asset Pipeline
-- [[03_Shader_Pipeline_and_Assets|Shader Compiler]]: DXC-based HLSL compilation with SPIR-V/MSL transpilation.
-- **Asset Manager:** Caching system for processed binary assets.
+Implementation details for specific graphics backends:
 
----
-> [!INFO] Current Status
-> - **Platform:** macOS (MoltenVK) & Windows
-> - **Context:** Vulkan 1.3 (Dynamic Rendering)
+- **[[Platform/Vulkan/Index|Vulkan Backend]]**: Detailed architecture of the Vulkan implementation.
+
+## Architecture Overview
+
+Mixture follows a layered architecture:
+1. **Core**: Windowing, Events, Time, Input.
+2. **RHI**: Abstract Graphics Device, Command Lists, Resources.
+3. **Render Graph**: High-level pass management built on top of RHI.
+4. **App**: User layers and logic.
+
+```mermaid
+graph TD
+    App --> RenderGraph
+    RenderGraph --> RHI
+    RHI --> Vulkan
+    RHI --> DX12(Future)
+    App --> Core
+```
