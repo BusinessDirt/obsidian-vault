@@ -64,27 +64,14 @@ namespace CompilerCore {
 	class ShaderCompiler {
 		<<Static Utility>>
 		%% The Asset Manager calls this
-		+Compile(source, stage, targetPlatform) CompileResult
+		+Compile(source) CompileResult
 	}
 
 	class CompileResult {
-		+vector~uint32~ SPIRV
 		+string Source
 		+vector~byte~ DXIL
+		+vector~uint32~ SPIRV
 		+bool Success
-	}
-
-	class DXCWrapper {
-		%% Wraps dxcompiler.dll / libdxcompiler.dylib
-		+Init()
-		+CompileToSPIRV(hlsl, stage) Blob
-		+CompileToDXIL(hlsl, stage) Blob
-	}
-
-	class SPIRVCrossWrapper {
-		%% Wraps spirv-cross.lib
-		+ConvertSPIRV_To_MSL(spirvBlob) string
-		+ConvertSPIRV_To_GLSL(spirvBlob) string
 	}
 }
 
@@ -121,18 +108,14 @@ namespace Mixture {
 
 
 %% Interfaces
-IShader <--- VulkanShader
-IShader <--- MetalShader
-IShader <--- D3D12Shader
+IShader <-- VulkanShader
+IShader <-- MetalShader
+IShader <-- D3D12Shader
 
 %% Asset Manager Flow
-AssetManager --> ShaderCompiler : 1. Request Compile
-AssetManager --> ShaderAsset : 2. Stores Result in RAM/Disk
-AssetManager ..> IShader : 3. Factory Creates GPU Object
-
-%% Compiler Logic
-ShaderCompiler --> DXCWrapper : Uses for HLSL->SPIRV/DXIL
-ShaderCompiler --> SPIRVCrossWrapper : Uses if Target == Metal/GL
+AssetManager --> ShaderCompiler : 1 Request Compile
+AssetManager --> ShaderAsset : 2 Stores Result in RAM/Disk
+AssetManager ..> IShader : 3 Factory Creates GPU Object
 
 %% Factory Logic (How the Shader is created)
 VulkanShader ..> CompileResult : Consumes SPIRV

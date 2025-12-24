@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Projects/Mixture/Assets/Assets System.md",
+                "file": "01 - Projects/Mixture/Assets/Shader System.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assets System"
+              "title": "Shader System"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "d3c8f4c941d8c3d7",
   "lastOpenFiles": [
-    "01 - Projects/Mixture/Assets/Shader System.md",
     "01 - Projects/Mixture/Assets/Assets System.md",
+    "01 - Projects/Mixture/Assets/Shader System.md",
     "01 - Projects/Mixture/Platform/Vulkan/CommandSystem.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Excalidraw.excalidraw.md",
