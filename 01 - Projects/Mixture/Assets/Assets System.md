@@ -66,3 +66,31 @@ sequenceDiagram
     Note left of GPU: RAM -> VRAM Transfer
     RG->>GT: Resource Handle Ready
 ```
+
+## Asset Handles
+```mermaid
+classDiagram
+    class AssetManager {
+        +GetAsset(UUID) : AssetPtr
+        +LoadAsync(Path)
+    }
+    class ResourceRegistry {
+        -m_Resources : Map<Handle, GPUObject>
+        +GetResource(Handle) : GPUObject
+        +Allocate(Descriptor) : Handle
+    }
+    class RGResourceHandle {
+        +uint32_t Index
+        +uint16_t MagicNumber
+        +IsValid() : bool
+    }
+    class GPUObject {
+        <<interface>>
+        +InternalPtr
+        +State
+    }
+
+    AssetManager ..> RGResourceHandle : deliveres References
+    ResourceRegistry o-- GPUObject : manages
+    RGResourceHandle --o ResourceRegistry : validated by
+```

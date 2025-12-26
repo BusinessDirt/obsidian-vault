@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Projects/Mixture/Render/RenderGraph.md",
+                "file": "01 - Projects/Mixture/Assets/Assets System.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "RenderGraph"
+              "title": "Assets System"
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "d3c8f4c941d8c3d7",
   "lastOpenFiles": [
+    "01 - Projects/Mixture/Render/RenderGraph.md",
     "01 - Projects/Mixture/Assets/Assets System.md",
     "01 - Projects/Mixture/Assets/Shader System.md",
     "01 - Projects/Mixture/Platform/Vulkan/CommandSystem.md",
@@ -197,7 +198,6 @@
     "01 - Projects/Mixture/Platform/Vulkan/Index.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture/Index.md",
-    "01 - Projects/Mixture/Render/RenderGraph.md",
     "RHI Buffers and Descriptors.md",
     "01 - Projects/Mixture/Render Graph Architecture.md",
     "01 - Projects/Mixture/Untitled.md",

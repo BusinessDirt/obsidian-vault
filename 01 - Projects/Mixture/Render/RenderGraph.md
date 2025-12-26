@@ -64,7 +64,7 @@ stateDiagram-v2
         Barrier_Insertion --> Command_Recording
         Command_Recording --> GPU_Submission
     }
-    Note right of Execute: Tatsächliche Befehle (Draw, Bind) werden gesendet (Ihr Lambda 2).
+    Note right of Execute: Actual Command are sent
 ```
 
 ## Example
