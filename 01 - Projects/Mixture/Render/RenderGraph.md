@@ -9,6 +9,48 @@ tags:
 
 The **Render Graph** is the heart of Mixture's rendering pipeline. It automates resource management, memory aliasing (future), and synchronization (barriers), allowing developers to focus on *what* to render rather than *how* to synchronize it.
 
+```mermaid
+classDiagram
+    class ResourceRegistry {
+        -m_ResourceMap: Map<Handle, ResourceDesc>
+        -m_MagicNumbers: Map<Index, uint16>
+        -m_RhiResources: Map<Handle, RHI::Resource>
+        +RegisterResource(desc: ResourceDesc) Handle
+        +GetDescriptor(handle: Handle) ResourceDesc
+        +GetRHI(handle: Handle) IRHIResource
+        +SyncWithDevice(device: IRHIDevice)
+    }
+
+    class RenderGraphBuilder {
+        -m_registry: ResourceRegistry
+        -m_passes: List<RenderPass>
+        +CreateTexture(desc: TextureDesc) Handle
+        +CreateBuffer(desc: BufferDesc) Handle
+        +Read(handle: Handle) Handle
+        +Write(handle: Handle) Handle
+        +AddPass(name: string, setup: Lambda, execute: Lambda)
+    }
+
+    class RenderPass {
+        -m_name: string
+        -m_inputs: List<Handle>
+        -m_outputs: List<Handle>
+        -m_executeFunc: Lambda
+        +Execute(cmd: IRHICommandList)
+    }
+
+    class RGResourceHandle {
+        +index: uint16
+        +magicNumber: uint16
+        +IsValid() bool
+    }
+
+    RenderGraphBuilder "1" --* "1" ResourceRegistry : nutzt zur Verwaltung
+    RenderGraphBuilder "1" --o "n" RenderPass : baut auf
+    RenderPass ..> RGResourceHandle : nutzt für Abhängigkeiten
+    ResourceRegistry ..> RGResourceHandle : validiert durch
+```
+
 ## Concept
 
 Instead of manually creating dependencies and transitions, the user declares:
