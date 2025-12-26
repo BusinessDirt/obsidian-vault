@@ -22,8 +22,8 @@ graph TD
         D -->|Orchestration| E[GPU Befehlsschlangen]
     end
     
-    F[Game Logic] -->|Fordert Asset an| B
-    F -->|Nutzt Handle| D
+    F[Game Logic] -->|Requests Assets| B
+    F -->|Uses Handles| D
 ```
 
 ### Responsibilities
@@ -46,3 +46,23 @@ Processing raw assets (compiling shaders, compressing textures, converting 3D mo
 - **Shaders**: Handled via the [[Assets/Shader System|Shader System]].
 - **Textures**: Imported via `stb_image` or similar libraries, often compressed to GPU-friendly formats (BCn, ASTC).
 - **Meshes**: Imported from formats like glTF or OBJ.
+
+## Asynchronous Loading
+```mermaid
+sequenceDiagram
+    participant GT as Game Thread
+    participant LT as AssetSystem
+    participant RG as RenderGraph / RHI
+    participant GPU as GPU Memory
+
+    GT->>LT: Request Asset
+    Note over LT: I/O & Parsing
+    LT->>GT: Asset Loaded
+    
+    GT->>RG: Register Resource
+    Note over RG: Calculates Lifetimes
+    
+    RG->>GPU: Create & Upload
+    Note left of GPU: RAM -> VRAM Transfer
+    RG->>GT: Resource Handle Ready
+```

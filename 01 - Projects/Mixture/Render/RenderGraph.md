@@ -40,19 +40,32 @@ Inside the `Execute` lambda, you get access to the actual GPU resources.
 
 ## Life Cycle
 
-1. **Clear**: Reset the graph state.
-2. **Setup**: Users add passes and define data flow.
-3. **Compile**:
-   - `SortPasses()`: Topological sort based on dependencies.
-   - `CalculateLifetimes()`: Determine when resources are first/last used.
-   - `CalculateBarriers()`: Insert `PipelineBarrier` calls where states change.
-4. **Execute**:
-   - Realize resources (Allocate physical textures).
-   - Iterate passes:
-     - Execute Pre-Pass Barriers.
-     - Begin Dynamic Rendering (if applicable).
-     - Execute User Lambda.
-     - End Dynamic Rendering.
+```mermaid
+stateDiagram-v2
+    [*] --> Setup
+    Setup --> Compile
+    Compile --> Execute
+    Execute --> [*]
+
+    state Setup {
+        direction LR
+        Pass_Deklaration --> Resource_Request
+        Resource_Request --> Descriptor_Creation
+    }
+    Note right of Setup: Dependency Declaration
+
+    state Compile {
+        Pass_Culling --> Lifetime_Analysis
+        Lifetime_Analysis --> Memory_Aliasing
+    }
+    Note right of Compile: Engine saves VRAM by reusing memory
+
+    state Execute {
+        Barrier_Insertion --> Command_Recording
+        Command_Recording --> GPU_Submission
+    }
+    Note right of Execute: Tatsächliche Befehle (Draw, Bind) werden gesendet (Ihr Lambda 2).
+```
 
 ## Example
 
