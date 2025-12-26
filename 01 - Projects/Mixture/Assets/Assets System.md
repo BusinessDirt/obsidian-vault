@@ -12,6 +12,20 @@ The **Asset System** is responsible for the importing, loading, management, and 
 
 The `AssetManager` is the singleton (or global service) that handles all asset requests.
 
+```mermaid
+graph TD
+    A[Disk] -->|Raw Data| B(Asset-System)
+    B -->|Parsed Blobs / RAM| C(Resource Registry / RHI)
+    
+    subgraph "Engine Core"
+        C -->|Visualized Handles| D(RenderGraph)
+        D -->|Orchestration| E[GPU Befehlsschlangen]
+    end
+    
+    F[Game Logic] -->|Fordert Asset an| B
+    F -->|Nutzt Handle| D
+```
+
 ### Responsibilities
 
 1. **Resource Loading**: It provides a unified interface (`GetAsset<T>(path/uuid)`) to retrieve assets.
