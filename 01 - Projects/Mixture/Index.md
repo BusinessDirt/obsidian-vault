@@ -12,6 +12,8 @@ Welcome to the **Mixture Engine** documentation. This project is a C++ rendering
 
 - **[[Render/RHI|Render Hardware Interface (RHI)]]**: The abstraction layer over low-level graphics APIs (Vulkan, DX12, etc.).
 - **[[Render/RenderGraph|Render Graph]]**: A directed acyclic graph (DAG) based rendering system handling resource management, synchronization, and pass execution.
+- **[[Assets System]]**: Asset Loading and Management
+- **[[Shader System]]**: Shader compilation 
 
 ## Platforms
 
@@ -32,6 +34,7 @@ graph TD
     App --> RenderGraph
     RenderGraph --> RHI
     RHI --> Vulkan
-    RHI --> DX12(Future)
+    RHI --> D3D12
+    RHI --> Metal
     App --> Core
 ```

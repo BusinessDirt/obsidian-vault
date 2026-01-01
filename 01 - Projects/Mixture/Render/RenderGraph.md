@@ -14,7 +14,7 @@ classDiagram
     class ResourceRegistry {
         -m_ResourceMap: Map<Handle, ResourceDesc>
         -m_MagicNumbers: Map<Index, uint16>
-        -m_RhiResources: Map<Handle, RHI::Resource>
+        -m_RHIResources: Map<Handle, RHI::Resource>
         +RegisterResource(desc: ResourceDesc) Handle
         +GetDescriptor(handle: Handle) ResourceDesc
         +GetRHI(handle: Handle) IRHIResource
@@ -22,8 +22,8 @@ classDiagram
     }
 
     class RenderGraphBuilder {
-        -m_registry: ResourceRegistry
-        -m_passes: List<RenderPass>
+        -m_Registry: ResourceRegistry
+        -m_Passes: List<RenderPass>
         +CreateTexture(desc: TextureDesc) Handle
         +CreateBuffer(desc: BufferDesc) Handle
         +Read(handle: Handle) Handle
@@ -32,10 +32,10 @@ classDiagram
     }
 
     class RenderPass {
-        -m_name: string
-        -m_inputs: List<Handle>
-        -m_outputs: List<Handle>
-        -m_executeFunc: Lambda
+        -m_Name: string
+        -m_Inputs: List<Handle>
+        -m_Outputs: List<Handle>
+        -m_ExecuteFunc: Lambda
         +Execute(cmd: IRHICommandList)
     }
 
@@ -45,10 +45,10 @@ classDiagram
         +IsValid() bool
     }
 
-    RenderGraphBuilder "1" --* "1" ResourceRegistry : nutzt zur Verwaltung
-    RenderGraphBuilder "1" --o "n" RenderPass : baut auf
-    RenderPass ..> RGResourceHandle : nutzt für Abhängigkeiten
-    ResourceRegistry ..> RGResourceHandle : validiert durch
+    RenderGraphBuilder "1" --* "1" ResourceRegistry : uses for management
+    RenderGraphBuilder "1" --o "n" RenderPass : builds on
+    RenderPass ..> RGResourceHandle : uses for dependencies
+    ResourceRegistry ..> RGResourceHandle : validated by
 ```
 
 ## Concept
