@@ -182,11 +182,13 @@
       "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "d3c8f4c941d8c3d7",
+  "active": "2888c0f8e844e72f",
   "lastOpenFiles": [
+    "01 - Projects/Mixture/Index.md",
     "01 - Projects/Mixture/Render/RHI.md",
     "01 - Projects/Mixture/Render/RenderGraph.md",
     "01 - Projects/Mixture/Assets/Assets System.md",
@@ -198,7 +200,6 @@
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
     "01 - Projects/Mixture/Platform/Vulkan/Index.md",
     "01 - Projects/Mixture/Assets",
-    "01 - Projects/Mixture/Index.md",
     "RHI Buffers and Descriptors.md",
     "01 - Projects/Mixture/Render Graph Architecture.md",
     "01 - Projects/Mixture/Untitled.md",

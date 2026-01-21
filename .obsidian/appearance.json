@@ -1,6 +1,6 @@
 {
   "accentColor": "#43cfea",
-  "cssTheme": "Vanilla AMOLED",
+  "cssTheme": "Catppuccin",
   "enabledCssSnippets": [
     "colored-sidebar",
     "general-tweaks",
