@@ -25,3 +25,6 @@ Kann als Grammatik umgeschrieben werden:
 - $\text{U} \to \text{"A"} \qquad \text{U} \to \text{"B"} \dots \qquad \text{U} \to \text{"Z"}$
 - $\text{LS} \to \text{L} \qquad \text{LS} \to \text{L LS}$
 - $\text{L} \to \text{"a"} \qquad \text{L} \to \text{"b"} \dots \qquad \text{L} \to \text{"z"}$
+
+# Modellierung
+- **Kontextfreie Grammatiken (CFG):** Erstellen minimaler CFGs für spezifische Phänomene (z. B. temporale Ambiguität).
