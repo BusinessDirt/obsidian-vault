@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Index"
             }
+          },
+          {
+            "id": "2e2279507386bdd7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,6 +186,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -181,12 +196,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "terminal:Open terminal": false
     }
   },
-  "active": "2888c0f8e844e72f",
+  "active": "2e2279507386bdd7",
   "lastOpenFiles": [
     "01 - Projects/Mixture/Index.md",
     "01 - Projects/Mixture/Render/RHI.md",
