@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "00 - Maps of Content/Studium/Syntax und Semantik.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Syntax und Semantik"
+            }
+          },
+          {
+            "id": "0c1956afcdb60a24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "02 - Areas/Konstituentenanalyse.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "Konstituentenanalyse"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -174,6 +188,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -182,25 +198,23 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "terminal:Open terminal": false
     }
   },
-  "active": "d3c8f4c941d8c3d7",
+  "active": "0c1956afcdb60a24",
   "lastOpenFiles": [
     "00 - Maps of Content/Studium/Syntax und Semantik.md",
-    "02 - Areas/X-Bar-Theorie.md",
-    "02 - Areas/Konstituentenanalyse.md",
-    "02 - Areas/Kontextfreie Grammatik.md",
-    "02 - Areas/Dependenzgrammatik.md",
     "02 - Areas/Chunking und Evaluation.md",
     "02 - Areas/Statistisches Parsing.md",
+    "02 - Areas/Kontextfreie Grammatik.md",
+    "02 - Areas/Konstituentenanalyse.md",
     "02 - Areas/Unifikationsgrammatik.md",
     "02 - Areas/Merkmalsstrukturen.md",
     "02 - Areas/Komplexe Sätze.md",
+    "02 - Areas/Dependenzgrammatik.md",
     "02 - Areas/Parsing.md",
+    "02 - Areas/X-Bar-Theorie.md",
     "01 - Projects/Mixture/Index.md",
     "01 - Projects/Mixture/Render/RHI.md",
     "01 - Projects/Mixture/Render/RenderGraph.md",
