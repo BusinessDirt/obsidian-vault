@@ -35,8 +35,7 @@
               "title": "Konstituentenanalyse"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,13 +201,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "0c1956afcdb60a24",
+  "active": "d3c8f4c941d8c3d7",
   "lastOpenFiles": [
+    "02 - Areas/Konstituentenanalyse.md",
     "00 - Maps of Content/Studium/Syntax und Semantik.md",
     "02 - Areas/Chunking und Evaluation.md",
     "02 - Areas/Statistisches Parsing.md",
     "02 - Areas/Kontextfreie Grammatik.md",
-    "02 - Areas/Konstituentenanalyse.md",
     "02 - Areas/Unifikationsgrammatik.md",
     "02 - Areas/Merkmalsstrukturen.md",
     "02 - Areas/Komplexe Sätze.md",
