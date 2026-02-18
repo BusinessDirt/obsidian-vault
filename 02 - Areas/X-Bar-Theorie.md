@@ -13,11 +13,11 @@ Die X-Bar-Theorie ist eine Erweiterung der Phrasenstrukturgrammatik. Sie nimmt a
 Jede Phrase wird um einen lexikalischen **Kopf** ($X$) herum aufgebaut.
 
 ### Die Regeln
-1.  **XP-Regel:** $XP \to (Spec)\ X' её
+1.  **XP-Regel:** $XP \to (Spec)\ X'$
     *   Eine Phrase ($XP$) besteht aus einem optionalen Spezifizierer ($Spec$) und einer Zwischenebene ($X'$).
-2.  **Adjunktions-Regel:** $X' \to X'\ (Adj) \mid (Adj)\ X' её
+2.  **Adjunktions-Regel:** $X' \to X'\ (Adj) \mid (Adj)\ X'$
     *   Die Zwischenebene ($X'$) kann rekursiv durch Adjunkte ($Adj$) erweitert werden.
-3.  **Komplement-Regel:** $X' \to X\ (Comp)$ её
+3.  **Komplement-Regel:** $X' \to X\ (Comp)$
     *   Der Kopf ($X$) verbindet sich mit einem Komplement ($Comp$) zur Zwischenebene ($X'$).
 
 ### Strukturbaum
