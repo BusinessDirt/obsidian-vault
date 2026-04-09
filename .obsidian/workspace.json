@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4477c3852ff4f21b",
+        "id": "185ffb63f38ce924",
         "type": "tabs",
         "children": [
           {
-            "id": "e58a547ad28bb0ad",
+            "id": "8b6f40d672add574",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+                "file": "02 - Areas/Bayes Theorem.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "(TEMPLATE) Unique"
+              "title": "Bayes Theorem"
             }
           }
         ]
@@ -197,10 +197,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "e58a547ad28bb0ad",
+  "active": "8b6f40d672add574",
   "lastOpenFiles": [
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "02 - Areas/Bayes Theorem.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
     "02 - Areas/X-Bar-Theorie.md",
     "Unbenannt.md",
     "00 - Maps of Content/Studium/Syntax und Semantik.md",
@@ -225,7 +226,6 @@
     "01 - Projects/Mixture/Assets",
     "RHI Buffers and Descriptors.md",
     "01 - Projects/Mixture/Render Graph Architecture.md",
-    "01 - Projects/Mixture/Untitled.md",
     "01 - Projects/Mixture",
     "01 - Projects",
     "01 - Projects/BDUI",
