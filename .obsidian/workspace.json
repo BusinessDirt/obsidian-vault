@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "331937f2502cf983",
+        "id": "4477c3852ff4f21b",
         "type": "tabs",
         "children": [
           {
-            "id": "0eba6eade35097f1",
+            "id": "e58a547ad28bb0ad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "title": "(TEMPLATE) Unique"
             }
           }
         ]
@@ -193,8 +197,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "0eba6eade35097f1",
+  "active": "e58a547ad28bb0ad",
   "lastOpenFiles": [
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+    "02 - Areas/X-Bar-Theorie.md",
+    "Unbenannt.md",
     "00 - Maps of Content/Studium/Syntax und Semantik.md",
     "02 - Areas/Konstituentenanalyse.md",
     "02 - Areas/Chunking und Evaluation.md",
@@ -205,23 +213,19 @@
     "02 - Areas/Komplexe Sätze.md",
     "02 - Areas/Dependenzgrammatik.md",
     "02 - Areas/Parsing.md",
-    "02 - Areas/X-Bar-Theorie.md",
     "01 - Projects/Mixture/Index.md",
     "01 - Projects/Mixture/Render/RHI.md",
     "01 - Projects/Mixture/Render/RenderGraph.md",
     "01 - Projects/Mixture/Assets/Assets System.md",
     "01 - Projects/Mixture/Assets/Shader System.md",
     "01 - Projects/Mixture/Platform/Vulkan/CommandSystem.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Excalidraw.excalidraw.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
     "01 - Projects/Mixture/Platform/Vulkan/Index.md",
     "01 - Projects/Mixture/Assets",
     "RHI Buffers and Descriptors.md",
     "01 - Projects/Mixture/Render Graph Architecture.md",
     "01 - Projects/Mixture/Untitled.md",
-    "conflict-files-obsidian-git.md",
     "01 - Projects/Mixture",
     "01 - Projects",
     "01 - Projects/BDUI",

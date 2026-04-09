@@ -1,4 +1,4 @@
 ---
-date: {{date}}T{{time}}
+date: {{date}} {{time}}
 tags: []
 ---
