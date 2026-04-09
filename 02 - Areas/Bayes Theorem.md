@@ -9,19 +9,16 @@ Für zwei Ereignisse $A$ und $B$ mit $P(B)>0$ lässt sich die Wahrscheinl
 
 $$P(A∣B)=P(B∣A)⋅P(A)P(B)$$
 
-Hierbei ist
-> $P(A∣B)$ die (bedingte) Wahrscheinlichkeit des Ereignisses $A$ unter der Bedingung, dass $B$ eingetreten ist,
-> $P(B∣A)$ die (bedingte) Wahrscheinlichkeit des Ereignisses $B$![{\displaystyle B}](https://wikimedia.org/api/rest_v1/media/math/render/svg/47136aad860d145f75f3eed3022df827cee94d7a) unter der Bedingung, dass A![{\displaystyle A}](https://wikimedia.org/api/rest_v1/media/math/render/svg/7daff47fa58cdfd29dc333def748ff5fa4c923e3) eingetreten ist,
+> **Hierbei ist**
+> _$P(A∣B)$_ die (bedingte) Wahrscheinlichkeit des Ereignisses _$A$_ unter der Bedingung, dass _$B$_ eingetreten ist,
+> _$P(B∣A)$_ die (bedingte) Wahrscheinlichkeit des Ereignisses _$B$_ unter der Bedingung, dass _$A$_ eingetreten ist,
+> _$P(A)$_ die A-priori-Wahrscheinlichkeit des Ereignisses _$A$_ und
+> _$P(B)$_ die A-priori-Wahrscheinlichkeit des Ereignisses _$B$_.
 
-P(A)![{\displaystyle P(A)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4f264d19e21604793c6dc54f8044df454db82744) die [A-priori-Wahrscheinlichkeit](https://de.wikipedia.org/wiki/A-priori-Wahrscheinlichkeit "A-priori-Wahrscheinlichkeit") des Ereignisses A![{\displaystyle A}](https://wikimedia.org/api/rest_v1/media/math/render/svg/7daff47fa58cdfd29dc333def748ff5fa4c923e3) und
+**Bei endlich vielen Ereignissen lautet der Satz von Bayes:**
+Wenn $A_{i},i=1,…,N$ eine Zerlegung der Ergebnismenge in disjunkte Ereignisse ist, gilt für die A-posteriori-Wahrscheinlichkeit $P(A_i∣B)$
 
-P(B)![{\displaystyle P(B)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/e593d180a26fd68657ea50368dbfe1a661e652aa) die A-priori-Wahrscheinlichkeit des Ereignisses B![{\displaystyle B}](https://wikimedia.org/api/rest_v1/media/math/render/svg/47136aad860d145f75f3eed3022df827cee94d7a).
-
-Bei endlich vielen Ereignissen lautet der Satz von Bayes:
-
-Wenn Ai,i=1,…,N![{\displaystyle A_{i},\;i=1,\dotsc ,N}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4d627481d985c6a77a6526b8902e52323e5aa2b7) eine [Zerlegung](https://de.wikipedia.org/wiki/Partition_\(Mengenlehre\) "Partition (Mengenlehre)") der [Ergebnismenge](https://de.wikipedia.org/wiki/Ergebnismenge "Ergebnismenge") in [disjunkte Ereignisse](https://de.wikipedia.org/wiki/Ereignis_\(Wahrscheinlichkeitstheorie\)#Schnittmenge_und_Disjunktheit "Ereignis (Wahrscheinlichkeitstheorie)") ist, gilt für die [A-posteriori-Wahrscheinlichkeit](https://de.wikipedia.org/wiki/A-posteriori-Wahrscheinlichkeit "A-posteriori-Wahrscheinlichkeit")P(Ai∣B)![{\displaystyle P(A_{i}\mid B)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/80fc2cdfe26b0d384aeb0b12d1dd85e1cd8bed42)
-
-P(Ai∣B)=P(B∣Ai)⋅P(Ai)P(B)=P(B∣Ai)⋅P(Ai)∑j=1NP(B∣Aj)⋅P(Aj)![{\displaystyle P(A_{i}\mid B)\;=\;{\frac {P(B\mid A_{i})\cdot P(A_{i})}{P(B)}}\;=\;{\frac {P\left(B\mid A_{i}\right)\cdot P(A_{i})}{\sum _{j=1}^{N}P\left(B\mid A_{j}\right)\cdot P(A_{j})}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/5ef844d433721b55fe6417a35d37b50ae19b6102).
+$$P(A_i∣B)=\frac{P(B∣A_i)⋅P(Ai)}{P(B)}=P(B∣A_i)⋅P(A_i)∑j=1NP(B∣A_j)⋅P(A_j)$$
 
 Den letzten Umformungsschritt bezeichnet man auch als _Marginalisierung_.
 
