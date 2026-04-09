@@ -5,7 +5,7 @@ tags:
   - Statistik
 ---
 ## Formel
-Für zwei Ereignisse $A$ und $B$ mit $P(B)>0$ lässt sich die Wahrscheinlichkeit von $A$ unter der Bedingung, dass $B$ eingetreten ist, durch die Wahrscheinlichkeit von $B$ unter der Bedingung, dass $A$ eingetreten ist, errechnen:
+Für zwei Ereignisse $A$ und $B$ mit $P(B)>0$ lässt sich die Wahrscheinlichkeit von $A$ unter der Bedingung, dass $B$ eingetreten ist, durch die Wahrscheinlichkeit von $B$ unter der Bedingung, dass $A$ eingetreten ist, errechnen:
 
 $$P(A∣B)=P(B∣A)⋅P(A)P(B)$$
 
@@ -26,7 +26,7 @@ Da ein Ereignis $A$ und sein Komplement ${\displaystyle A^{\mathrm {c} }}$ 
 
 $${\displaystyle P(A\mid B)\;=\;{\frac {P(B\mid A)\cdot P(A)}{P(B\mid A)\cdot P(A)+P(B\mid A^{\mathrm {c} })\cdot P(A^{\mathrm {c} })}}}$$
 
-Des Weiteren gilt der Satz auch für eine Zerlegung des Grundraumes ${\displaystyle \Omega }$ in abzählbar viele paarweise disjunkte Ereignisse.
+Des Weiteren gilt der Satz auch für eine Zerlegung des Grundraumes ${\displaystyle \Omega }$ in abzählbar viele paarweise disjunkte Ereignisse.
 
 ## Interpretation
 
@@ -36,6 +36,6 @@ Der Satz von Bayes erlaubt in gewissem Sinn das Umkehren von Schlussfolgerungen:
 
 Für das Verständnis kann ein Entscheidungsbaum oder eine Vierfeldertafel helfen. Das Verfahren ist auch als Rückwärtsinduktion bekannt.
 
-Mitunter begegnet man dem Fehlschluss, direkt von P(B∣A)![${\displaystyle P(B\mid A)}$](https://wikimedia.org/api/rest_v1/media/math/render/svg/e2fe9ad0fdfd8920e56ca948400e111852af0665) auf P(A∣B)![${\displaystyle P(A\mid B)}$](https://wikimedia.org/api/rest_v1/media/math/render/svg/8f8f30f4da85b53901e0871eb41ed8827f511bb7) schließen zu wollen, ohne die A-priori-Wahrscheinlichkeit P(A)![{\displaystyle P(A)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4f264d19e21604793c6dc54f8044df454db82744) zu berücksichtigen, beispielsweise indem angenommen wird, die beiden bedingten Wahrscheinlichkeiten müssten ungefähr gleich groß sein (siehe [Prävalenzfehler](https://de.wikipedia.org/wiki/Pr%C3%A4valenzfehler "Prävalenzfehler")). Wie der Satz von Bayes zeigt, ist das aber nur dann der Fall, wenn auch P(A)![{\displaystyle P(A)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4f264d19e21604793c6dc54f8044df454db82744) und P(B)![{\displaystyle P(B)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/e593d180a26fd68657ea50368dbfe1a661e652aa) ungefähr gleich groß sind.
+Mitunter begegnet man dem Fehlschluss, direkt von ${\displaystyle P(B\mid A)}$ auf ${\displaystyle P(A\mid B)}$ schließen zu wollen, ohne die A-priori-Wahrscheinlichkeit $P(A)$ zu berücksichtigen, beispielsweise indem angenommen wird, die beiden bedingten Wahrscheinlichkeiten müssten ungefähr gleich groß sein (siehe Prävalenzfehler). Wie der Satz von Bayes zeigt, ist das aber nur dann der Fall, wenn auch $P(A)$ und $P(B)$ ungefähr gleich groß sind.
 
-Ebenso ist zu beachten, dass bedingte Wahrscheinlichkeiten für sich allein nicht dazu geeignet sind, eine bestimmte [Kausalbeziehung](https://de.wikipedia.org/wiki/Kausalit%C3%A4t "Kausalität") nachzuweisen.
+Ebenso ist zu beachten, dass bedingte Wahrscheinlichkeiten für sich allein nicht dazu geeignet sind, eine bestimmte Kausalbeziehung nachzuweisen.

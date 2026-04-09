@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "02 - Areas/Bayes Theorem.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 292
   },
   "right": {
     "id": "d806eb3197e224c5",
@@ -198,7 +198,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "8b6f40d672add574",
+  "active": "2ce73e7ecc1ee47a",
   "lastOpenFiles": [
     "02 - Areas/Bayes Theorem.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
