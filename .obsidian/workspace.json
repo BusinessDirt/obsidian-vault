@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bedingte",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,7 +198,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "2ce73e7ecc1ee47a",
+  "active": "8b6f40d672add574",
   "lastOpenFiles": [
     "02 - Areas/Bayes Theorem.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
