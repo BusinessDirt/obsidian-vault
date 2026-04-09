@@ -11,14 +11,10 @@
             "id": "8b6f40d672add574",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Areas/Bayes Theorem.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Bayes Theorem"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph-Ansicht"
             }
           }
         ]
@@ -74,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,12 +190,14 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "wikipedia-search:Open Article": false
     }
   },
-  "active": "2ce73e7ecc1ee47a",
+  "active": "2888c0f8e844e72f",
   "lastOpenFiles": [
     "02 - Areas/Bayes Theorem.md",
+    "02 - Areas/Bayes.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
     "02 - Areas/X-Bar-Theorie.md",
@@ -226,7 +223,6 @@
     "01 - Projects/Mixture/Platform/Vulkan/Index.md",
     "01 - Projects/Mixture/Assets",
     "RHI Buffers and Descriptors.md",
-    "01 - Projects/Mixture/Render Graph Architecture.md",
     "01 - Projects/Mixture",
     "01 - Projects",
     "01 - Projects/BDUI",
