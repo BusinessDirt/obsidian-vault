@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b7bba7c7274cc15e",
+        "id": "331937f2502cf983",
         "type": "tabs",
         "children": [
           {
-            "id": "e9e76b03e6f5d000",
+            "id": "0eba6eade35097f1",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Versionshinweise 1.12.7"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -195,7 +193,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "e9e76b03e6f5d000",
+  "active": "0eba6eade35097f1",
   "lastOpenFiles": [
     "00 - Maps of Content/Studium/Syntax und Semantik.md",
     "02 - Areas/Konstituentenanalyse.md",
