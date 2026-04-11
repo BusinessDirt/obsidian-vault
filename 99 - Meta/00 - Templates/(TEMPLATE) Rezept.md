@@ -9,7 +9,7 @@ portionen: #
 > - **Dauer:** ca. # Min.
 > - **Haltbarkeit:** 
 > - **Schwierigkeit:**
-> - **Proteingehalt:** #g pro Portion
+> - **Proteingehalt:** ~#g pro Portion
 
 > [!info] 🛒 Zutaten 
 > - …

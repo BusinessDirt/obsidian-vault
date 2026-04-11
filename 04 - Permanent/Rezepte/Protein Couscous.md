@@ -11,10 +11,10 @@ proteins: 32g
 portionen: 2
 ---
 > [!abstract] **Quick-Stats** 
-> - **Dauer:** 15 Min.
-> - **Haltbarkeit:** 3-4 Tage (Kühlschrank)
+> - **Dauer:** ca. 15 Min.
+> - **Haltbarkeit:** 3-4 Tage (Kühlschrank)
 > - **Schwierigkeit:** Sehr einfach
-> - **Protein:** ~32g pro Portion
+> - **Proteingehalt:** ~32g pro Portion
 
 > [!info] 🛒 Zutaten 
 > - **150g** Couscous (mit 200ml Brühe) 

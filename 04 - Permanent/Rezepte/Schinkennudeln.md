@@ -6,7 +6,7 @@ tags:
   - Fleisch
   - Schnell
   - Mealprep
-status: todo
+status: ausprobiert
 proteins: #
 portionen: 4
 ---
@@ -14,7 +14,7 @@ portionen: 4
 > - **Dauer:** ca. 40 Min.
 > - **Haltbarkeit:** 2-3 Tage (Kühlschrank)
 > - **Schwierigkeit:** Sehr einfach
-> - **Proteingehalt:** 37g pro Portion
+> - **Proteingehalt:** ~37g pro Portion
 
 > [!info] 🛒 Zutaten 
 > - **500 g** Nudeln (z.B. Penne oder Spirelli) 
