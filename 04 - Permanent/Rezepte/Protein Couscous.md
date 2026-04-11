@@ -8,6 +8,7 @@ tags:
   - Ohne-Mikrowelle
 status: todo
 proteins: 32g
+portionen: 2
 ---
 
 > [!abstract] **Quick-Stats** 

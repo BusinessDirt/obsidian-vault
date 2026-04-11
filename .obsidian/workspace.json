@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Permanent/Rezepte/Protein Couscous.md",
+                "file": "04 - Permanent/Rezepte/Schinkennudeln.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Protein Couscous"
+              "title": "Schinkennudeln"
             }
           }
         ]
@@ -200,9 +200,9 @@
   },
   "active": "c90ac4166de71460",
   "lastOpenFiles": [
+    "04 - Permanent/Rezepte/Protein Couscous.md",
     "04 - Permanent/Rezepte/Schinkennudeln.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Rezept.md",
-    "04 - Permanent/Rezepte/Protein Couscous.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "02 - Areas/Bayes.md",
     "02 - Areas/Bayes Theorem.md",
