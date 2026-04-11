@@ -6,7 +6,10 @@ proteins: #
 portionen: #
 ---
 > [!abstract] **Quick-Stats** 
-> - …
+> - **Dauer:** ca. # Min.
+> - **Haltbarkeit:** 
+> - **Schwierigkeit:**
+> - **Proteingehalt:** #g pro Portion
 
 > [!info] 🛒 Zutaten 
 > - …
@@ -19,5 +22,4 @@ portionen: #
 > | :---      | :---     | :---          | :--- | 
 > | ~#kcal    | **#g**   | #g            | #g   | 
 
-> [!tip] Haltbarkeit 
-> …
+> [!tip] 

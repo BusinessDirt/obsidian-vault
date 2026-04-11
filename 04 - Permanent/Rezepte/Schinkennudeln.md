@@ -11,8 +11,10 @@ proteins: #
 portionen: 4
 ---
 > [!abstract] **Quick-Stats** 
-> - **Dauer:** ca. 20 Min.
-> - **
+> - **Dauer:** ca. 40 Min.
+> - **Haltbarkeit:** 2-3 Tage (Kühlschrank)
+> - **Schwierigkeit:** Sehr einfach
+> - **Proteingehalt:** 37g pro Portion
 
 > [!info] 🛒 Zutaten 
 > - **500 g** Nudeln (z.B. Penne oder Spirelli) 
