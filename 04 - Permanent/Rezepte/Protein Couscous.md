@@ -31,7 +31,7 @@ proteins: 32g
 > [!success] 📊 Makros (pro Portion) 
 > | Kalorien  | Protein  | Kohlenhydrate | Fett | 
 > | :---      | :---     | :---          | :--- | 
-> | ~860 kcal | **32 g** | 86 g          | 41 g | 
+> | ~860kcal  | **32g**  | 86g           | 41g | 
 
 > [!tip] Haltbarkeit 
 > Hält sich im Kühlschrank ca. 3–4 Tage. Wenn man es für 4 Tage plant, die Gurke erst morgens frisch hinzufügen!

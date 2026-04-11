@@ -4,26 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "185ffb63f38ce924",
+        "id": "f0a5ebae5ee13930",
         "type": "tabs",
         "children": [
           {
-            "id": "8b6f40d672add574",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph-Ansicht"
-            }
-          },
-          {
-            "id": "f03b70ecd31476ad",
+            "id": "c90ac4166de71460",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protein Couscous.md",
+                "file": "04 - Permanent/Rezepte/Protein Couscous.md",
                 "mode": "source",
                 "source": true
               },
@@ -31,8 +21,7 @@
               "title": "Protein Couscous"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,12 +198,14 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "f03b70ecd31476ad",
+  "active": "c90ac4166de71460",
   "lastOpenFiles": [
-    "Protein Couscous.md",
+    "04 - Permanent/Rezepte/Schinkennudeln.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Rezept.md",
+    "04 - Permanent/Rezepte/Protein Couscous.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "02 - Areas/Bayes.md",
     "02 - Areas/Bayes Theorem.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
     "02 - Areas/X-Bar-Theorie.md",
     "00 - Maps of Content/Studium/Syntax und Semantik.md",
@@ -235,9 +226,7 @@
     "01 - Projects/Mixture/Platform/Vulkan/CommandSystem.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Excalidraw.excalidraw.md",
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
-    "01 - Projects/Mixture/Platform/Vulkan/Index.md",
     "01 - Projects/Mixture/Assets",
-    "RHI Buffers and Descriptors.md",
     "01 - Projects/Mixture",
     "01 - Projects",
     "01 - Projects/BDUI",
