@@ -25,7 +25,7 @@
               "state": {
                 "file": "Protein Couscous.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Protein Couscous"
