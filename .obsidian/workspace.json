@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Permanent/Rezepte/Protein Couscous.md",
+                "file": "04 - Permanent/Rezepte/Bananen-Protein-Muffins.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Protein Couscous"
+              "title": "Bananen-Protein-Muffins"
             }
           }
         ]
@@ -200,8 +200,9 @@
   },
   "active": "c90ac4166de71460",
   "lastOpenFiles": [
-    "04 - Permanent/Rezepte/Schinkennudeln.md",
     "04 - Permanent/Rezepte/Protein Couscous.md",
+    "04 - Permanent/Rezepte/Bananen-Protein-Muffins.md",
+    "04 - Permanent/Rezepte/Schinkennudeln.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Rezept.md",
     "04 - Permanent/Rezepte/Dim Sum Rezept.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
@@ -225,7 +226,6 @@
     "01 - Projects/Mixture/Assets/Assets System.md",
     "01 - Projects/Mixture/Assets/Shader System.md",
     "01 - Projects/Mixture/Platform/Vulkan/CommandSystem.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Excalidraw.excalidraw.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture",
     "01 - Projects",
