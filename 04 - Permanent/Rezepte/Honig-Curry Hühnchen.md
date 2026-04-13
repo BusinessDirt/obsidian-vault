@@ -1,9 +1,10 @@
 ---
 date: 2026-04-13 16:25
 tags:
-  - proteinreich
-  - quick-meal
-  - chicken
+  - Proteinreich
+  - Quick-Meal
+  - Chicken
+  - Meat
 status: todo
 proteins: 65g
 portionen: 1
