@@ -31,7 +31,7 @@ portionen: 1
 > [!success] 📊 Makros (pro Portion) 
 > | Kalorien  | Protein  | Kohlenhydrate | Fett | 
 > | :---      | :---     | :---          | :--- | 
-> | ~750kcal  | **~65g** | ~70g          | ~22g | 
+> | ~785kcal  | **~63g** | ~31g          | ~45g | 
 
 > [!tip] 
 > Für einen extra Frische-Kick kannst du am Ende noch ein paar Frühlingszwiebeln darüber streuen!
