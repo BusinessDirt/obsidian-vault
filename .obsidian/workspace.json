@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f0a5ebae5ee13930",
+        "id": "d40a17e851b55371",
         "type": "tabs",
         "children": [
           {
-            "id": "c90ac4166de71460",
+            "id": "d3c8f4c941d8c3d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Permanent/Rezepte/Bananen-Protein-Muffins.md",
-                "mode": "preview",
-                "source": true
+                "file": "00 - Maps of Content/Studium/Syntax und Semantik.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Bananen-Protein-Muffins"
+              "title": "Syntax und Semantik"
+            }
+          },
+          {
+            "id": "0c1956afcdb60a24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Areas/Konstituentenanalyse.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Konstituentenanalyse"
             }
           }
         ]
@@ -61,7 +75,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Suchen"
+              "title": "Search"
             }
           },
           {
@@ -78,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292
+    "width": 200
   },
   "right": {
     "id": "d806eb3197e224c5",
@@ -162,19 +176,9 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
-          {
-            "id": "a6637cfaf56cd2ac",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -194,24 +198,18 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "terminal:Open terminal": false,
-      "wikipedia-search:Open Article": false
+      "terminal:Open terminal": false
     }
   },
-  "active": "c90ac4166de71460",
+  "active": "d3c8f4c941d8c3d7",
   "lastOpenFiles": [
+    "99 - Meta/00 - Templates/(TEMPLATE) Rezept.md",
+    "04 - Permanent/Rezepte/Schinkennudeln.md",
     "04 - Permanent/Rezepte/Protein Couscous.md",
     "04 - Permanent/Rezepte/Bananen-Protein-Muffins.md",
-    "04 - Permanent/Rezepte/Schinkennudeln.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Rezept.md",
-    "04 - Permanent/Rezepte/Dim Sum Rezept.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
-    "02 - Areas/Bayes.md",
     "02 - Areas/Bayes Theorem.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
-    "02 - Areas/X-Bar-Theorie.md",
-    "00 - Maps of Content/Studium/Syntax und Semantik.md",
     "02 - Areas/Konstituentenanalyse.md",
+    "00 - Maps of Content/Studium/Syntax und Semantik.md",
     "02 - Areas/Chunking und Evaluation.md",
     "02 - Areas/Statistisches Parsing.md",
     "02 - Areas/Kontextfreie Grammatik.md",
@@ -220,12 +218,17 @@
     "02 - Areas/Komplexe Sätze.md",
     "02 - Areas/Dependenzgrammatik.md",
     "02 - Areas/Parsing.md",
+    "02 - Areas/X-Bar-Theorie.md",
     "01 - Projects/Mixture/Index.md",
     "01 - Projects/Mixture/Render/RHI.md",
     "01 - Projects/Mixture/Render/RenderGraph.md",
     "01 - Projects/Mixture/Assets/Assets System.md",
     "01 - Projects/Mixture/Assets/Shader System.md",
     "01 - Projects/Mixture/Platform/Vulkan/CommandSystem.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Excalidraw.excalidraw.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture",
     "01 - Projects",
