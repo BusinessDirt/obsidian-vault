@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Maps of Content/Studium/Syntax und Semantik.md",
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Rezept.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Syntax und Semantik"
+              "title": "(TEMPLATE) Rezept"
             }
           },
           {
@@ -203,13 +203,13 @@
   },
   "active": "d3c8f4c941d8c3d7",
   "lastOpenFiles": [
+    "00 - Maps of Content/Studium/Syntax und Semantik.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Rezept.md",
     "04 - Permanent/Rezepte/Schinkennudeln.md",
     "04 - Permanent/Rezepte/Protein Couscous.md",
     "04 - Permanent/Rezepte/Bananen-Protein-Muffins.md",
     "02 - Areas/Bayes Theorem.md",
     "02 - Areas/Konstituentenanalyse.md",
-    "00 - Maps of Content/Studium/Syntax und Semantik.md",
     "02 - Areas/Chunking und Evaluation.md",
     "02 - Areas/Statistisches Parsing.md",
     "02 - Areas/Kontextfreie Grammatik.md",
