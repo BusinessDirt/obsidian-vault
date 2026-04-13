@@ -1,8 +1,12 @@
 ---
 date: 2026-04-13 16:37
-tags: [Shake, Bulking, High-Protein, Liquid-Meal]
+tags:
+  - Shake
+  - Bulking
+  - High-Protein
+  - Liquid-Meal
 status: todo
-proteins: 45g
+proteins: 51g
 portionen: 1
 ---
 > [!abstract] **Quick-Stats** 
@@ -25,7 +29,7 @@ portionen: 1
 > [!success] 📊 Makros (pro Portion) 
 > | Kalorien  | Protein  | Kohlenhydrate | Fett | 
 > | :---      | :---     | :---          | :--- | 
-> | ~820kcal  | **~45g** | ~55g          | ~48g | 
+> | 810kcal   | **~51g** | ~85g          | ~35g | 
 
 > [!tip] 
 > Durch das vorherige Häckseln der trockenen Zutaten wird der Shake besonders fein und "trinkbar", ohne dass große Nussstücke im Hals stecken bleiben!
