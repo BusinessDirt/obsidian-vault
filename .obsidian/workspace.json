@@ -11,10 +11,14 @@
             "id": "d6e4f62c31cba51f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "04 - Permanent/Rezepte/Bulking Protein Shake.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "title": "Bulking Protein Shake"
             }
           }
         ]
@@ -185,14 +189,14 @@
   },
   "active": "d6e4f62c31cba51f",
   "lastOpenFiles": [
+    "04 - Permanent/Rezepte/Breakfast Joghurt.md",
+    "04 - Permanent/Rezepte/Bananen-Protein-Muffins.md",
     "04 - Permanent/Rezepte/Schinkennudeln.md",
     "04 - Permanent/Rezepte/Quick Bolognese.md",
     "04 - Permanent/Rezepte/Protein Couscous.md",
     "04 - Permanent/Rezepte/Pre-Workout Müsli.md",
     "04 - Permanent/Rezepte/Honig-Curry Hühnchen.md",
     "04 - Permanent/Rezepte/Bulking Protein Shake.md",
-    "04 - Permanent/Rezepte/Bananen-Protein-Muffins.md",
-    "04 - Permanent/Rezepte/Breakfast Joghurt.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Rezept.md",
     "00 - Maps of Content/Studium/Syntax und Semantik.md",
     "02 - Areas/Bayes Theorem.md",

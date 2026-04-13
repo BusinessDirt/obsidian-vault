@@ -1,8 +1,12 @@
 ---
 date: 2026-04-13 16:32
-tags: [Breakfast, Vegetarian, High-Protein, Bowl]
+tags:
+  - Breakfast
+  - Vegetarian
+  - High-Protein
+  - Bowl
 status: todo
-proteins: 25g
+proteins: 46g
 portionen: 1
 ---
 > [!abstract] **Quick-Stats** 
@@ -26,7 +30,7 @@ portionen: 1
 > [!success] 📊 Makros (pro Portion) 
 > | Kalorien  | Protein  | Kohlenhydrate | Fett | 
 > | :---      | :---     | :---          | :--- | 
-> | ~620kcal  | **~25g** | ~45g          | ~38g | 
+> | 754kcal   | **~46g** | ~75g          | ~46g | 
 
 > [!tip] 
 > Wenn du die Erdnussbutter für 10 Sekunden in die Mikrowelle stellst, wird sie flüssiger und lässt sich noch schöner über die Bowl träufeln!
