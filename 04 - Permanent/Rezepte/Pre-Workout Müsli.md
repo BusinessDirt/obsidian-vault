@@ -1,6 +1,6 @@
 ---
 date: 2026-04-13 16:34
-tags: [breakfast, quick, vegetarian]
+tags: [Pre-Workout, Quick, Vegetarian]
 status: todo
 proteins: 15g
 portionen: 1
