@@ -1,0 +1,25 @@
+---
+date: 2026-04-09 11:02
+tags: []
+status: todo
+proteins: #
+portionen: #
+---
+> [!abstract] **Quick-Stats** 
+> - **Dauer:** ca. # Min.
+> - **Haltbarkeit:** 
+> - **Schwierigkeit:**
+> - **Proteingehalt:** ~#g pro Portion
+
+> [!info] 🛒 Zutaten 
+> - …
+
+> [!example] 👨‍🍳 Zubereitung 
+> 1. …
+
+> [!success] 📊 Makros (pro Portion) 
+> | Kalorien  | Protein  | Kohlenhydrate | Fett | 
+> | :---      | :---     | :---          | :--- | 
+> | ~#kcal    | **#g**   | #g            | #g   | 
+
+> [!tip] 

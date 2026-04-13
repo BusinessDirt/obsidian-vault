@@ -1,0 +1,24 @@
+{
+  "language": "en",
+  "searchLimit": 10,
+  "thumbnailWidth": null,
+  "defaultNotePath": "/02 - Areas",
+  "templates": [
+    {
+      "name": "Default",
+      "templateString": "{thumbnail}\n[{title}]({url}): {intro}",
+      "createNote": true,
+      "customPath": "/02 - Areas",
+      "useTemplateFile": false,
+      "templateFilePath": ""
+    }
+  ],
+  "autoInsertSingleResponseQueries": false,
+  "autoSearchNoteTitle": false,
+  "prioritizeArticleTitle": false,
+  "cleanupIntros": true,
+  "openArticleInFullscreen": false,
+  "openCreatedNotes": false,
+  "overrideFiles": false,
+  "showedWebviewerMessage": true
+}
