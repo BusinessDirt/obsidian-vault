@@ -1,14 +1,10 @@
 ---
 date: 2026-04-09 11:02
-tags: []
+tags:
+  - Genetik
+  - Biologie
+  - Grundlagen
 ---
-# Allele
-
-**Tags:** #Biologie #Genetik #Grundlagen 
-**Verwandte Themen:** [[Genetik]], [[Mendelsche-Regeln]], [[DNA]]
-
----
-
 ## 🧬 Definition
 Ein **Allel** (v. griech. *allélon* „einander, gegenseitig“) ist eine von mehreren möglichen Ausprägungen eines **Gens**, das an einem bestimmten Ort (Locus) auf einem Chromosom liegt.
 
@@ -24,13 +20,7 @@ Da Menschen einen diploiden Chromosomensatz haben (einen von der Mutter, einen v
 - **Homozygot (reinerbig):** Beide Allele für ein Merkmal sind identisch (z. B. `AA` oder `aa`).
 - **Heterozygot (mischerbig):** Die beiden Allele sind unterschiedlich (z. B. `Aa`).
 
-
-
-[Image of alleles on homologous chromosomes]
-
-
 ---
-
 ## 👑 Interaktion der Allele
 In einer mischerbigen (heterozygoten) Kombination bestimmt die Interaktion, welcher **Phänotyp** (das Erscheinungsbild) sichtbar wird:
 
@@ -40,24 +30,15 @@ In einer mischerbigen (heterozygoten) Kombination bestimmt die Interaktion, welc
 4. **Kodominant:** Beide Merkmale sind gleichzeitig voll ausgeprägt (z. B. Blutgruppe AB).
 
 ---
-
 ## 📊 Beispiel: Mendelsche Erbsen
-| Genotyp | Typ | Phänotyp (Aussehen) |
-| :--- | :--- | :--- |
-| **GG** | homozygot dominant | Gelbe Erbse |
-| **Gg** | heterozygot | Gelbe Erbse (Gelb dominiert) |
-| **gg** | homozygot rezessiv | Grüne Erbse |
-
-
-
-[Image of Punnett square]
-
+| Genotyp | Typ                | Phänotyp (Aussehen)          |
+| :------ | :----------------- | :--------------------------- |
+| **GG**  | homozygot dominant | Gelbe Erbse                  |
+| **Gg**  | heterozygot        | Gelbe Erbse (Gelb dominiert) |
+| **gg**  | homozygot rezessiv | Grüne Erbse                  |
 
 ---
-
-## 🛠 Visualisierung der Vererbung (Mermaid)
-In Obsidian wird daraus automatisch ein Diagramm erstellt:
-
+## 🛠 Visualisierung der Vererbung
 ```mermaid
 graph TD
     subgraph Erbgang_Gg_x_Gg
