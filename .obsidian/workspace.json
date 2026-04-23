@@ -11,14 +11,10 @@
             "id": "868dea4296609e8a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unbenannt.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Unbenannt"
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -188,12 +184,12 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "868dea4296609e8a",
+  "active": "2888c0f8e844e72f",
   "lastOpenFiles": [
     "04 - Permanent/Rezepte/Honig-Curry Hühnchen.md",
     "Unbenannt.md",
     "02 - Areas/Natürliche Sprache.md",
-    "Hardy-Weinberg-Gleichgewicht.md",
+    "02 - Areas/Hardy-Weinberg-Gleichgewicht.md",
     "Allel.md",
     "02 - Areas/Allele.md",
     "04 - Permanent/Rezepte/Quick Bolognese.md",
