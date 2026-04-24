@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f3db80c7537c9684",
+        "id": "9b5437337972c53c",
         "type": "tabs",
         "children": [
           {
-            "id": "868dea4296609e8a",
+            "id": "9f924e887a57cb51",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Zufallsvariablen.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "title": "Zufallsvariablen"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "zufall",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Suchen"
             }
           },
           {
@@ -184,9 +188,10 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "868dea4296609e8a",
+  "active": "9f924e887a57cb51",
   "lastOpenFiles": [
-    "Unbenannt.md",
+    "Zufallsvariablen.md",
+    "02 - Areas/Stochastik.md",
     "04 - Permanent/Rezepte/Honig-Curry Hühnchen.md",
     "02 - Areas/Natürliche Sprache.md",
     "02 - Areas/Hardy-Weinberg-Gleichgewicht.md",
@@ -211,7 +216,6 @@
     "02 - Areas/Komplexe Sätze.md",
     "02 - Areas/Dependenzgrammatik.md",
     "02 - Areas/Parsing.md",
-    "02 - Areas/X-Bar-Theorie.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture",
     "01 - Projects",
