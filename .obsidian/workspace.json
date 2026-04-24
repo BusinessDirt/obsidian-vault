@@ -15,7 +15,17 @@
               "state": {
                 "file": "Zufallsvariablen.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Zufallsvariablen"
@@ -190,6 +200,7 @@
   },
   "active": "9f924e887a57cb51",
   "lastOpenFiles": [
+    "02 - Areas/Abbildungen.md",
     "Zufallsvariablen.md",
     "02 - Areas/Stochastik.md",
     "04 - Permanent/Rezepte/Honig-Curry Hühnchen.md",
@@ -215,7 +226,6 @@
     "02 - Areas/Merkmalsstrukturen.md",
     "02 - Areas/Komplexe Sätze.md",
     "02 - Areas/Dependenzgrammatik.md",
-    "02 - Areas/Parsing.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture",
     "01 - Projects",
