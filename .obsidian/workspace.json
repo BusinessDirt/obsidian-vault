@@ -16,37 +16,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph-Ansicht"
             }
-          },
-          {
-            "id": "418020c898575a8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Muskelproteinsynthese.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Muskelproteinsynthese"
-            }
-          },
-          {
-            "id": "0fec2cc6914191ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Aminosäuren.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Aminosäuren"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Dichtefu",
+                "query": "tag:#Meta",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -119,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Muskelproteinsynthese.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf Muskelproteinsynthese"
+              "title": "Rückverweise"
             }
           },
           {
@@ -212,10 +183,13 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "418020c898575a8b",
+  "active": "9f924e887a57cb51",
   "lastOpenFiles": [
-    "Aminosäuren.md",
+    "04 - Permanent/Rezepte/Bulking Protein Shake.md",
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Rezept.md",
     "Muskelproteinsynthese.md",
+    "Aminosäuren.md",
     "02 - Areas/Phonologie.md",
     "02 - Areas/SMTP.md",
     "02 - Areas/Spezielle Relativitätstheorie.md",
@@ -237,9 +211,6 @@
     "02 - Areas/X-Bar-Theorie.md",
     "02 - Areas/Dopplereffekt.md",
     "02 - Areas/DNS.md",
-    "02 - Areas/Dirac-Gleichung.md",
-    "02 - Areas/Dimension.md",
-    "02 - Areas/DHCP.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture",
     "01 - Projects",

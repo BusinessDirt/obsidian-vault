@@ -1,7 +1,6 @@
 ---
 date: 2024-01-21T15:12
-tags:
-  - Meta
+tags: []
 cssclasses:
   - page-manila
   - pen-red

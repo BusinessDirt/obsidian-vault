@@ -10,8 +10,6 @@ tags:
 
 Aminosäuren sind die organischen Verbindungen, aus denen Proteine bestehen. Für den Menschen sind vor allem **20 proteinogene Aminosäuren** relevant.
 
----
-
 ## 📊 Klassifizierung der Aminosäuren
 
 Nicht alle Aminosäuren sind gleich. Man unterteilt sie nach ihrer Lebensnotwendigkeit für den Körper.

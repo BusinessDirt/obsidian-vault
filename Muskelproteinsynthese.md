@@ -7,8 +7,8 @@ tags:
   - Biologie
   - Muskelaufbau
 ---
-## ⚙️ Der Ablauf der MPS (Schritt-für-Schritt)
-Die Muskelproteinsynthese ist der Prozess, bei dem Aminosäuren in Muskelgewebe umgewandelt werden.
+## ⚙️ Der Ablauf der MPS
+Die Muskelproteinsynthese ist der Prozess, bei dem [[Aminosäuren]] in Muskelgewebe umgewandelt werden.
 
 ### 1. Die Anlieferung (Absorption)
 Proteine werden im Magen-Darm-Trakt in einzelne [[Aminosäuren]] zerlegt und über das Blut zu den Muskelzellen transportiert.
@@ -22,7 +22,7 @@ Damit die Zelle baut, muss der Proteinkomplex **$mTOR$** (*mechanistic Target of
 Im Zellkern wird eine Kopie der DNA erstellt, die sogenannte **mRNA**. Sie dient als mobiler Bauplan für das neue Protein.
 
 ### 4. Die Fabrik (Translation)
-Die mRNA wandert zu den **Ribosomen** (den Proteinfabriken). Diese lesen den Code und verknüpfen die Aminosäuren aus dem Blut (z. B. aus dem Shake) zu einer neuen Proteinkette.
+Die mRNA wandert zu den **Ribosomen** (den Proteinfabriken). Diese lesen den Code und verknüpfen die [[Aminosäuren]] aus dem Blut (z. B. aus dem Shake) zu einer neuen Proteinkette.
 
 ### 5. Die Netto-Bilanz
 Muskelwachstum findet nur statt, wenn die Synthese-Rate ($MPS$) höher ist als die Abbau-Rate ($MPB$):
@@ -35,7 +35,7 @@ $$\Delta \text{Muskelmasse} = MPS - MPB$$
 > - **Verwertung:** Die Stimulation der $MPS$ erreicht bei ca. **20–40g** ein Plateau (Muscle Full Effect).
 
 ### Was passiert mit dem Überschuss?
-Überschüssiges Protein bei massiven Mahlzeiten (wie 84g auf einmal) wird:
+Überschüssiges Protein bei massiven Mahlzeiten wird:
 1. Über einen **längeren Zeitraum** (bis zu 12h+) langsam verdaut.
 2. Zur **Energiegewinnung** oxidiert (verbrannt).
 3. Für andere Körperprozesse (Immunsystem, Organe) genutzt.
