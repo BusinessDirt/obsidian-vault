@@ -30,6 +30,20 @@
               "icon": "lucide-file",
               "title": "Muskelproteinsynthese"
             }
+          },
+          {
+            "id": "0fec2cc6914191ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aminosäuren.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Aminosäuren"
+            }
           }
         ],
         "currentTab": 1
@@ -200,6 +214,7 @@
   },
   "active": "418020c898575a8b",
   "lastOpenFiles": [
+    "Aminosäuren.md",
     "Muskelproteinsynthese.md",
     "02 - Areas/Phonologie.md",
     "02 - Areas/SMTP.md",
@@ -225,7 +240,6 @@
     "02 - Areas/Dirac-Gleichung.md",
     "02 - Areas/Dimension.md",
     "02 - Areas/DHCP.md",
-    "02 - Areas/Dependenzgrammatik.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture",
     "01 - Projects",
