@@ -4,24 +4,136 @@
     "type": "split",
     "children": [
       {
-        "id": "9b5437337972c53c",
-        "type": "tabs",
+        "id": "6e504348740984d6",
+        "type": "split",
         "children": [
           {
-            "id": "9f924e887a57cb51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Areas/Zufallsvariablen.md",
-                "mode": "preview",
-                "source": false
+            "id": "9b5437337972c53c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ff659a723b680477",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "02 - Areas/Muskelproteinsynthese.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Muskelproteinsynthese"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Zufallsvariablen"
-            }
+              {
+                "id": "e2c4fe8d0d9991d8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Mechanotransduktion & Zellreparatur.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Mechanotransduktion & Zellreparatur"
+                }
+              },
+              {
+                "id": "18762b29f132db8b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Hormonelle Steuerung.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Hormonelle Steuerung"
+                }
+              },
+              {
+                "id": "cd6ce7cf4de71576",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Regeneration & Superkomposition.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Regeneration & Superkomposition"
+                }
+              },
+              {
+                "id": "01335224d7e7c7f4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Muskelaufbau.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Muskelaufbau"
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "6d2ca53a9066e820",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c9efebc5589720d9",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/dp1key/Documents/Obsidian/obsidian-vault",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "executable": "/bin/zsh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: ◇  Ready (obsidian-vault)"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -186,9 +298,14 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "9f924e887a57cb51",
+  "active": "c9efebc5589720d9",
   "lastOpenFiles": [
+    "Muskelaufbau.md",
+    "Regeneration & Superkomposition.md",
+    "Hormonelle Steuerung.md",
     "02 - Areas/Muskelproteinsynthese.md",
+    "Mechanotransduktion & Zellreparatur.md",
+    "02 - Areas/Zufallsvariablen.md",
     "04 - Permanent/Rezepte/Bulking Protein Shake.md",
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Rezept.md",
@@ -209,11 +326,6 @@
     "02 - Areas/Vektor.md",
     "02 - Areas/Vollständige Induktion.md",
     "02 - Areas/Von-Neumann-Architektur.md",
-    "02 - Areas/Wort.md",
-    "02 - Areas/Wortstruktur.md",
-    "02 - Areas/X-Bar-Theorie.md",
-    "02 - Areas/Dopplereffekt.md",
-    "02 - Areas/DNS.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture",
     "01 - Projects",
