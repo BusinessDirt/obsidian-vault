@@ -36,4 +36,4 @@ Nach *Brad Schoenfeld* wird Muskelwachstum primär durch drei Faktoren ausgelös
 - **Muskelschaden:** Mikrotraumata, die Reparaturprozesse und Satellitenzellen aktivieren.
 
 ---
-**Verwandte Themen:** [[Aminosäuren]], [[Muskelproteinsynthese]], [[Haskell]] (für Trainings-Log-Analysen?)
+**Verwandte Themen:** [[Aminosäuren]], [[Muskelproteinsynthese]], [[Haskell]]
