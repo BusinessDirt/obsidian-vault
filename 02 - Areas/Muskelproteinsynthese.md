@@ -1,5 +1,5 @@
 ---
-date: 2026-04-09 11:02
+date: 2026-04-30
 tags:
   - Fitness
   - Ernährung
@@ -7,35 +7,34 @@ tags:
   - Biologie
   - Muskelaufbau
 ---
+# 🧪 Muskelproteinsynthese (MPS)
+
+Die Muskelproteinsynthese ist der Prozess, bei dem [[Aminosäuren]] in Muskelgewebe umgewandelt werden. Sie ist der Gegenspieler zum Muskelproteinabbau ($MPB$).
+
 ## ⚙️ Der Ablauf der MPS
-Die Muskelproteinsynthese ist der Prozess, bei dem [[Aminosäuren]] in Muskelgewebe umgewandelt werden.
 
 ### 1. Die Anlieferung (Absorption)
-Proteine werden im Magen-Darm-Trakt in einzelne [[Aminosäuren]] zerlegt und über das Blut zu den Muskelzellen transportiert.
+Proteine werden im Magen-Darm-Trakt in einzelne [[Aminosäuren]] zerlegt. Besonders wichtig sind die **EAA** (*Essential Amino Acids*), da der Körper diese nicht selbst herstellen kann.
 
-### 2. Der "Zündschlüssel" ($mTOR$)
-Damit die Zelle baut, muss der Proteinkomplex **$mTOR$** (*mechanistic Target of Rapamycin*) aktiviert werden. Dies geschieht durch:
-- **Mechanische Last:** Krafttraining.
-- **Leucin-Trigger:** Eine kritische Menge der [[Aminosäuren|Aminosäure]] Leucin (ca. 2,5g – 3g).
+### 2. Der "Zündschlüssel" ($mTORC1$)
+Der Proteinkomplex **$mTORC1$** (*mechanistic Target of Rapamycin Complex 1*) ist der zentrale Regulator des Zellwachstums. Er reagiert auf:
+- **Leucin-Trigger:** Eine kritische Konzentration von Leucin im Blut (ca. 2,5g – 3g pro Mahlzeit) signalisiert Verfügbarkeit von Baustoffen.
+- **Mechanische Last:** Aktivierung über den [[Mechanotransduktion & Zellreparatur|Mechanotransduktions-Pfad]].
+- **Insulin/IGF-1:** Hormonelle Unterstützung der Nährstoffaufnahme.
 
-### 3. Der Bauplan (Transkription)
-Im Zellkern wird eine Kopie der DNA erstellt, die sogenannte **mRNA**. Sie dient als mobiler Bauplan für das neue Protein.
+### 3. Der Bauplan (Transkription & Translation)
+- **Transkription:** Kopieren der DNA in mRNA im Zellkern.
+- **Translation:** Die **Ribosomen** lesen die mRNA und verknüpfen Aminosäuren zu Polypeptidketten. 
 
-### 4. Die Fabrik (Translation)
-Die mRNA wandert zu den **Ribosomen** (den Proteinfabriken). Diese lesen den Code und verknüpfen die [[Aminosäuren]] aus dem Blut (z. B. aus dem Shake) zu einer neuen Proteinkette.
+## ⚖️ Netto-Bilanz & Hypertrophie
+Muskelwachstum (Hypertrophie) findet nur statt, wenn die Bilanz über 24h positiv ist:
+$$\Delta \text{Muskelmasse} = \int (MPS(t) - MPB(t)) dt > 0$$
 
-### 5. Die Netto-Bilanz
-Muskelwachstum findet nur statt, wenn die Synthese-Rate ($MPS$) höher ist als die Abbau-Rate ($MPB$):
-$$\Delta \text{Muskelmasse} = MPS - MPB$$
+## 🔬 Wissenschaftliche Fakten
 
-## ⚖️ Mythos: "Nur 30g Protein pro Mahlzeit"
+### Der "Muscle Full Effect"
+Nach einer proteinreichen Mahlzeit steigt die $MPS$ stark an, kehrt aber nach ca. 2–3 Stunden auf das Ausgangsniveau zurück – selbst wenn noch reichlich Aminosäuren im Blut vorhanden sind. Die Zelle ist "gesättigt".
 
-> [!abstract] Absorption vs. Verwertung
-> - **Absorption:** Dein Körper kann fast unbegrenzte Mengen Protein aufnehmen (Darm -> Blut). Nichts wird einfach "ausgeschieden".
-> - **Verwertung:** Die Stimulation der $MPS$ erreicht bei ca. **20–40g** ein Plateau (Muscle Full Effect).
-
-### Was passiert mit dem Überschuss?
-Überschüssiges Protein bei massiven Mahlzeiten wird:
-1. Über einen **längeren Zeitraum** (bis zu 12h+) langsam verdaut.
-2. Zur **Energiegewinnung** oxidiert (verbrannt).
-3. Für andere Körperprozesse (Immunsystem, Organe) genutzt.
+### Proteinqualität
+- **Leucin-Gehalt:** Pflanzliche Proteine haben oft weniger Leucin, was durch höhere Mengen oder Kombination (z.B. Reis + Erbsen) kompensiert werden kann.
+- **DIAAS-Score:** Der modernste Standard zur Bewertung der Proteinqualität basierend auf der Verdaulichkeit im Dünndarm.

@@ -73,12 +73,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Muskelaufbau.md",
+                    "file": "Regeneration & Superkomposition.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Muskelaufbau"
+                  "title": "Regeneration & Superkomposition"
                 }
               }
             ],
@@ -127,7 +127,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: ◇  Ready (obsidian-vault)"
+                  "title": "Terminal: ✦  Working… (obsidian-vault)"
                 }
               }
             ]
@@ -300,11 +300,11 @@
   },
   "active": "c9efebc5589720d9",
   "lastOpenFiles": [
-    "Muskelaufbau.md",
     "Regeneration & Superkomposition.md",
+    "Muskelaufbau.md",
     "Hormonelle Steuerung.md",
-    "02 - Areas/Muskelproteinsynthese.md",
     "Mechanotransduktion & Zellreparatur.md",
+    "02 - Areas/Muskelproteinsynthese.md",
     "02 - Areas/Zufallsvariablen.md",
     "04 - Permanent/Rezepte/Bulking Protein Shake.md",
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
