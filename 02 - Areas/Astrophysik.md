@@ -1,9 +1,11 @@
 ---
+cssclasses: []
 date: 2024-04-17T20:14
 tags:
-  - Physik
-  - Astrophysik
-cssclasses: []
+- Astrophysik
+- Mathe
+- Pharmakologie
+- Physik
 ---
 # 0. Wozu Astronomie / Astrophysik
 <div class="grid-container">
@@ -76,7 +78,7 @@ cssclasses: []
 #### Drehimpuls
 ![[Impuls#Drehimpuls]]
 
-## 2.3 Kepler
+## 2.3 [[Kepler]]
 ![[Kepler#Keplersche Gesetze]]
 
 ## 2.4 Entfenrungen im Sonnensystem
@@ -96,7 +98,7 @@ cssclasses: []
 <span class="math inline">1AE=1,5 \cdot 10^{11} m = 1,5 \cdot 10^8km</span></p></div><br>
 
 ## 2.5 Massebestimmung von Himmelskörpern
-Ein Himmelskörper $(Z, Masse\space M)$ wird von einem anderen Körper $(K, Masse\space m)$ auf einer (praktisch) Kreisförmigen Bahn umrundet. Dann lässt sich die Masse von $Z$ bestimmen. 
+Ein Himmelskörper $(Z, Masse\space M)$ wird von einem anderen [[Körper]] $(K, Masse\space m)$ auf einer (praktisch) Kreisförmigen Bahn umrundet. Dann lässt sich die Masse von $Z$ bestimmen. 
 
 ---
 $F_G=F_Z$ <- Standardansatz
@@ -157,7 +159,7 @@ $\frac{T_{HMB}^2}{a_{HMB}^3}=\frac{T_{Erde}^2}{a_{Erde}^3}$ -> $T_{HMB}=\left(\f
 -> $F_{Flug}=\frac{1}{2}\cdot T_{HMB}=0,698a=255d$
 
 ### 2.7.3 Die kosmischen Geschwindigkeiten
-Als erste kosmische Geschwindigkeit $v_1$ bezeichnet man diejenige Geschwindigkeit, mit der ein Körper horizontal von der Erdoberfläche abgeschossen werden müsste, um antriebslos auf einer Kreisbahn an der Erdoberfläche zu bleiben, ohne auf die Erdoberfläche zurückzufallen.
+Als erste kosmische Geschwindigkeit $v_1$ bezeichnet man diejenige Geschwindigkeit, mit der ein [[Körper]] horizontal von der Erdoberfläche abgeschossen werden müsste, um antriebslos auf einer Kreisbahn an der Erdoberfläche zu bleiben, ohne auf die Erdoberfläche zurückzufallen.
 Der Wert der ersten kosmischen Geschwindigkeit beträgt $v_1 = 7,910 \frac{km}{s}$.
 
 Als zweite kosmische Geschwindigkeit $v_2$ bezeichnet man diejenige Geschwindigkeit, mit der ein Körper von der Erdoberfläche abgeschossen werden müsste, um antriebslos das Gravitationsfeld der Erde zu verlassen. Die Eigenrotation der Erde und mögliche Swing-By-Manöver am Mond oder anderen Planeten werden dabei nicht berücksichtigt.
@@ -179,7 +181,7 @@ $r=696275km$
 Literaturwert: $696340km$
 
 ## 3.2 Das Sonnenspektrum
-### 3.2.1 Die Elektromagnetische Strahlung
+### 3.2.1 Die [[Elektromagnetische Strahlung]]
 
 ![[Elektromagnetische Strahlung]]
 
@@ -235,7 +237,7 @@ $0,66 \cdot S \cdot \pi r^2 = \sigma \cdot 4\pi r^2 \cdot T^4$
 $T = \sqrt[4]{ \frac{ 0,66 \cdot S }{ 4 \cdot S } } = 251,14K \approx -22°C$ -> Temperatur der Erde ohne den Treibhauseffekt
 Realer Wert: $14°C$ -> Unterschied Hauptsächlich durch den Treibhauseffekt (mittlerweile auch anthropogener THE)
 
-## 3.4 Kernfusion
+## 3.4 [[Kernfusion]]
 ![[Kernfusion]]
 
 ### 3.4.3 Der pp-Prozess

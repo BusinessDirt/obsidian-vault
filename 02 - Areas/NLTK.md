@@ -1,11 +1,13 @@
 ---
+cssclasses:
+- pen-white
 date: 2025-02-06T17:36
 tags:
-  - Computerlinguistik
-  - NLTK
-  - NLP
-cssclasses:
-  - pen-white
+- Computerlinguistik
+- Linguistik
+- Mathe
+- NLP
+- NLTK
 ---
 <div class="card">
     <h3>📚 Korpus in NLTK</h3>
@@ -87,14 +89,14 @@ cssclasses:
     <h3>🌍 Sprachenerkenner</h3>
     <ul>
         <li>Erkennt die Sprache eines gegebenen Textes</li>
-        <li>Nutzt Wort-/Zeichenmuster und Häufigkeitsverteilungen</li>
+        <li>Nutzt [[Wort]]-/Zeichenmuster und Häufigkeitsverteilungen</li>
     </ul>
 </div>
 
 <div class="card">
     <h3>🏷️ Annotierte Korpora</h3>
     <ul>
-        <li>Texte mit zusätzlicher Metadaten (POS-Tags, Syntax, benannte Entitäten)</li>
+        <li>Texte mit zusätzlicher Metadaten (POS-Tags, [[Syntax]], benannte Entitäten)</li>
         <li>Beispiele in NLTK: Penn Treebank, CoNLL-Datensätze</li>
     </ul>
 </div>
@@ -105,8 +107,8 @@ cssclasses:
         <li>Sammlungen von Wörtern für NLP-Aufgaben</li>
         <li>Beispiele:</li>
         <ul>
-            <li><strong>Stoppwort-Liste:</strong> Häufige Wörter zum Herausfiltern</li>
-            <li><strong>Swadesh-Liste:</strong> Grundwortschatz zum Vergleich zwischen Sprachen</li>
+            <li><strong>Stoppwort-[[Liste]]:</strong> Häufige Wörter zum Herausfiltern</li>
+            <li><strong>Swadesh-[[Liste]]:</strong> Grundwortschatz zum Vergleich zwischen Sprachen</li>
         </ul>
     </ul>
 </div>

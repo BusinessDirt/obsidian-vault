@@ -1,8 +1,9 @@
 ---
+cssclasses: []
 date: 2024-04-17T20:14
 tags:
-  - Physik
-cssclasses: []
+- Mathe
+- Physik
 ---
 - [[Spezielle Relativitätstheorie|relativistischer]] Korrekturterm, im [[Hamiltonoperator]] $H$, um die [[Feinstruktur]] im Wasserstoffspektrum theoretisch zu erklären
 - ergibt sich aus der [[Dirac-Gleichung|Dirac-Theorie]]

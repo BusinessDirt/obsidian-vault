@@ -1,9 +1,9 @@
 ---
+cssclasses:
+- center-images
 date: 2024-04-17T23:41
 tags:
-  - "#Informatik"
-cssclasses:
-  - center-images
+- Informatik
 ---
 In seiner Grundstruktur besteht ein Digitalrechner aus einem Verbundsystem von Prozessor, Speicher und Geräten für die Ein– und Ausgabe. Dazu kommen noch Verbindungen zwischen diesen Einheiten, sogenannte Busse
 

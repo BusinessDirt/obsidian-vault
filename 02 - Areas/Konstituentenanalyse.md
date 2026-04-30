@@ -1,9 +1,11 @@
 ---
 date: 2026-02-18
 tags:
-  - Informatik
-  - Computerlinguistik
-  - Syntax
+- Computerlinguistik
+- Informatik
+- Linguistik
+- Physik
+- Syntax
 ---
 # Konstituentenanalyse
 
@@ -18,7 +20,7 @@ Kann die Wortfolge als Ganzes an eine andere Position im Satz verschoben werden 
 *   $	o$ *[Das Buch] liest der Mann im Park.* (Positiv)
 
 ### Substitution (Ersatzprobe)
-Kann die Wortfolge durch ein einzelnes Wort (z.B. Pronomen) ersetzt werden?
+Kann die Wortfolge durch ein einzelnes [[Wort]] (z.B. Pronomen) ersetzt werden?
 *   *Der Mann liest [das interessante Buch].*
 *   $	o$ *Der Mann liest [es].* (Positiv)
 

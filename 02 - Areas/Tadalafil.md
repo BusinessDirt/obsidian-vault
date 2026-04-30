@@ -1,10 +1,9 @@
 ---
 date: 2024-05-22
 tags:
-  - #Pharma
-  - #PED
-  - #Gesundheit
-  - #PDE5
+- Biologie
+- Linguistik
+- Training
 ---
 ## Einleitung
 Tadalafil ist ein langanhaltender PDE-5-Inhibitor, bekannt unter dem Markennamen **Cialis**. Es zeichnet sich durch eine Halbwertszeit von ca. 17,5 Stunden aus ("The Weekend Pill").

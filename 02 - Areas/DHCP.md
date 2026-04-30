@@ -1,23 +1,25 @@
 ---
+aliases:
+- Dynamic Host Configuration Protocol
+- DHCPv6
+- DHCP-Server
 date: 2025-07-24T15:01
 tags:
-  - Informatik
-  - Rechnernetze
-  - Internet
-  - OSI-Schicht-7
-  - OSI-Schicht-6
-  - OSI-Schicht-5
-  - Protocol
-aliases:
-  - Dynamic Host Configuration Protocol
-  - DHCPv6
-  - DHCP-Server
+- Biologie
+- Informatik
+- Internet
+- Linguistik
+- OSI-Schicht-5
+- OSI-Schicht-6
+- OSI-Schicht-7
+- Protocol
+- Rechnernetze
 ---
-> **DHCP** ist ein Protokoll zur **automatischen Zuweisung von IP-Adressen und weiteren Netzwerkeinstellungen** (z.B. Gateway, [[DNS|DNS-Server]]) an Geräte im Netzwerk
+> **DHCP** ist ein Protokoll zur **automatischen Zuweisung von [[IP]]-Adressen und weiteren Netzwerkeinstellungen** (z.B. Gateway, [[DNS|DNS-Server]]) an Geräte im Netzwerk
 > Wird in **[[IP#IPv4|IPv4]]-Netzwerken** und in fast jeden Heimnetz verwendet
 
 ## Funktion
-1. Gerät startet, hat keine IP-Adresse
+1. Gerät startet, hat keine [[IP]]-Adresse
 2. Sendet eine **DHCP Discover**-Nachricht (Broadcast)
 3. DHCP-Server antwortet mit **DHCP Offer**
 4. Gerät sendet **DHCP Request**, um Angebot anzunehmen

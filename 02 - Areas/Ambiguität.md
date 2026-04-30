@@ -1,9 +1,10 @@
 ---
+cssclasses: []
 date: 2024-04-17T20:14
 tags:
-  - Informatik
-  - Computerlinguistik
-cssclasses: []
+- Computerlinguistik
+- Informatik
+- Linguistik
 ---
 Dieselbe sprachliche Form kann verschiedene Informationen ausdrücken (erst durch den Kontext kann erschlossen werden, was gemeint ist).
 
@@ -22,7 +23,7 @@ $\Rightarrow$ Eine [[Wort#Wortform|Wortform]] kann auf unterschiedliche Arten in
 
 ### Lexikalische Ambiguität (Homonyme)
 Maria geht zum *Ball*.
-$\Rightarrow$ Ein Wort hat mehrere verschiedene Bedeutungen.
+$\Rightarrow$ Ein [[Wort]] hat mehrere verschiedene Bedeutungen.
 
 ### Strukturelle/[[Syntax|syntaktische]] Ambiguität
 1. Visiting relatives can be boring.

@@ -1,10 +1,11 @@
 ---
 date: 2026-02-18
 tags:
-  - Informatik
-  - Computerlinguistik
-  - Syntax
-  - Parsing
+- Computerlinguistik
+- Informatik
+- Linguistik
+- Parsing
+- Syntax
 ---
 # Parsingalgorithmen
 
@@ -26,7 +27,7 @@ Parsing ist der Prozess, bei dem ein Computer die syntaktische Struktur eines Sa
 ## 3. Shift-Reduce Parser
 Ein Bottom-Up Parser, der einen **Stack** (Stapel) und einen **Buffer** (Input) verwendet.
 Er kennt zwei Hauptoperationen:
-- **Shift:** Ein Wort vom Buffer auf den Stack schieben.
+- **Shift:** Ein [[Wort]] vom Buffer auf den Stack schieben.
 - **Reduce:** Elemente auf dem Stack durch ein Nicht-Terminal ersetzen (gemäß einer Regel $A \to \alpha$).
 
 ### Beispieltrace
@@ -48,4 +49,4 @@ Satz: "The cat chases mice"
 
 ## 4. Chart Parsing (Earley)
 Um Backtracking und redundante Berechnungen zu vermeiden, nutzen Chart-Parser eine Tabelle (Chart), um Zwischenergebnisse zu speichern (Dynamische Programmierung).
-- Löst Ambiguität effizienter ($O(n^3)$).
+- Löst [[Ambiguität]] effizienter ($O(n^3)$).

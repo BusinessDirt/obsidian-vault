@@ -1,9 +1,10 @@
 ---
 date: 2026-02-18
 tags:
-  - Informatik
-  - Computerlinguistik
-  - Syntax
+- Computerlinguistik
+- Informatik
+- Linguistik
+- Syntax
 ---
 # X-Bar-Theorie
 

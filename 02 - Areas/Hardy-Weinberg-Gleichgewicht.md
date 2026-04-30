@@ -1,14 +1,15 @@
 ---
+aliases:
+- HWG
 date: 2026-04-09 11:02
 tags:
-  - Stochastik
-  - Statistik
-  - Biologie
-  - Genetik
-  - Populationsgenetik
-  - Evolution
-aliases:
-  - HWG
+- Biologie
+- Evolution
+- Genetik
+- Mathe
+- Populationsgenetik
+- Statistik
+- Stochastik
 ---
 ## 🧬 Definition
 Das Hardy-Weinberg-Gleichgewicht beschreibt einen theoretischen Zustand einer Population, in der keine Evolution stattfindet. Die Allelfrequenzen und Genotypfrequenzen bleiben von Generation zu Generation konstant.
@@ -56,6 +57,6 @@ Angenommen, wir untersuchen eine Population von 100 Individuen. Wir wissen, dass
 ---
 ## ⚠️ Das Hardy-Weinberg-Ungleichgewicht
 In der Realität sind die Bedingungen einer Idealpopulation fast nie erfüllt. Weichen die beobachteten Zahlen von den berechneten HWG-Werten ab, deutet dies auf **Evolutionsfaktoren** hin:
-- **Mutationen** verändern Allele.
+- **Mutationen** verändern [[Allele]].
 - **Selektion** bevorzugt bestimmte Genotypen.
 - **Migration** bringt neue Gene ein.

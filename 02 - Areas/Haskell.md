@@ -1,10 +1,11 @@
 ---
+cssclasses: null
 date: 2024-04-17T16:43
 tags:
-  - Informatik
-  - Haskell
-  - Programmiersprache
-cssclasses:
+- Haskell
+- Informatik
+- Mathe
+- Programmiersprache
 ---
 # Wichtige Ausdrücke
 - Constructor: `(:) :: a -> [a] -> [a]`

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "016629ef58bfab6d",
+        "id": "194bd853b8bc4fc3",
         "type": "tabs",
         "children": [
           {
-            "id": "b1fdada2304e45c2",
+            "id": "897a2c5d091efb1f",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph-Ansicht"
             }
           }
         ]
@@ -182,9 +182,10 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "2888c0f8e844e72f",
+  "active": "897a2c5d091efb1f",
   "lastOpenFiles": [
     "02 - Areas/Anavar.md",
+    "update_notes.py",
     "02 - Areas/Laktatazidose.md",
     "02 - Areas/Rhabdomyolyse.md",
     "02 - Areas/Tadalafil.md",
@@ -209,7 +210,6 @@
     "02 - Areas/Hormonelle Steuerung.md",
     "02 - Areas/Mechanotransduktion & Zellreparatur.md",
     "02 - Areas/Muskelproteinsynthese.md",
-    "02 - Areas/Zufallsvariablen.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture",
     "01 - Projects",
@@ -219,7 +219,6 @@
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-12.pdf",
     "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-11.pdf",
     "02 - Areas/Anatomie",
-    "02 - Areas/Medizin",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",

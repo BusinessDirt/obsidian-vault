@@ -1,8 +1,9 @@
 ---
+cssclasses: []
 date: 2024-04-17T20:14
 tags:
-  - Physik
-cssclasses: []
+- Mathe
+- Physik
 ---
 - Im Raum um eine Ladung herrscht ein elektrisches Feld. Dieses elektrische Feld überträgt die Kraftwirkung dieser Ladung auf andere Ladungen
 - Die elektrische Feldstärke ist definiert als der Quotient aus der elektrischen Kraft $\vec{F}_{el}$ auf eine Probeladung und der Probeladung $q$: $\vec{E}=\frac{\vec{F}_{el}}{q}$

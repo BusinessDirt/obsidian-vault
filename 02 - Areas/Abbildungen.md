@@ -7,7 +7,7 @@ tags:
 ---
 **Definition**: Wir nennen eine [[Relationen|Relation]] $f = (X,Y,R)$ eine Abbildung oder Funktion genau dann, wenn gilt:
 $$\forall x \in X \quad \exists! \quad y \in Y : (x,y) \in R$$
-Hier bedeutet $\exists!$: "es existiert genau ein". Wir nennen $y$ den Funktionswert von $f$ an der Stelle $x$ und schreiben $x = f(x)$. Statt $f = (X,Y,R)$ schreiben wir $f: X \to Y$. Wir nennen $X$ den Definitionsbereich, $Y$ den Wertebereich und $R = G_f$ den Graph von $f$.
+Hier bedeutet $\exists!$: "es existiert genau ein". Wir nennen $y$ den Funktionswert von $f$ an der Stelle $x$ und schreiben $x = f(x)$. Statt $f = (X,Y,R)$ schreiben wir $f: X \to Y$. Wir nennen $X$ den Definitionsbereich, $Y$ den Wertebereich und $R = G_f$ den [[Graph]] von $f$.
 $D(f) := X$: Definitionsbereich (domain) von $f$
 $F(f) := Y$: Wertebereich (range) von $f$
 

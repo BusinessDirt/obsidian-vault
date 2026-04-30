@@ -8,7 +8,7 @@ tags:
 Eine komplexe Zahl $z$ ist ein Paar $z = (x,y)$ reeller Zahlen $x,y \in \mathbb{R}$. Die Menge $\mathbb{C} = \set{(x,y)|x,y \in \mathbb{R}} = \mathbb{R}^2$ mit den [[Gruppen, Ringe, Körper#Verknüpfung|Verknüpfungen]]
 $$+ \quad :\mathbb{R}^2 \times \mathbb{R}^2 \to \mathbb{R}^2, \quad (x_1, y_1) + (x_2, y_2) := (x_1 + x_2, y_1 + y_2)$$
 $$\cdot \quad :\mathbb{R}^2 \times \mathbb{R}^2 \to \mathbb{R}^2, \quad (x_1, y_1) \cdot (x_2, y_2) := (x_1 \cdot x_2 - y_1 \cdot y_2, x_1 \cdot y_2 + x_2 \cdot y_1)$$
-wird als Körper der komplexen Zahlen bezeichnet.
+wird als [[Körper]] der komplexen Zahlen bezeichnet.
 ## Imaginäre Einheit
 Wie definieren die imaginäre Einheit $i := (0,1)$
 ## Real- und Imaginärteil

@@ -1,8 +1,10 @@
 ---
+cssclasses: []
 date: 2024-04-17T20:14
 tags:
-  - Physik
-cssclasses: []
+- Mathe
+- Pharmakologie
+- Physik
 ---
 # Keplersche Gesetze
 **Erstes Keplersches Gesetz**
@@ -45,7 +47,7 @@ Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie di
 	<div style="display: inline-block; padding: 1em; background: #1e1e1e; border-radius: 25px; flex-grow: 2;">
 		<div style="display: inline-block;">
 			<p class="external-refference"><span>Animation</span>Schwerpunktsbewegung</p>
-			<p style="margin-bottom: 10px; color: white;">Der Zentralkörper ruht nicht im Brennpunkt der <a href="Mathe/Ellipse.md" class="internal-link">Ellipse</a>. Zentralkörper und umkreisendender Körper drehen sich um den gemeinsamen Schwerpunkt.</p>
+			<p style="margin-bottom: 10px; color: white;">Der Zentralkörper ruht nicht im Brennpunkt der <a href="Mathe/Ellipse.md" class="internal-link">Ellipse</a>. Zentralkörper und umkreisendender [[Körper]] drehen sich um den gemeinsamen Schwerpunkt.</p>
 		</div>
 		<div style="display: flex; margin-top: 1em;">
 			<div style="display: inline-block; flex-grow: 1; text-align: center;">

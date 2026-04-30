@@ -1,10 +1,8 @@
 ---
 date: 2024-05-22
 tags:
-  - #Pharma
-  - #Gesundheit
-  - #Blutdruck
-  - #ARB
+- Rezepte
+- Training
 ---
 ## Einleitung
 Losartan war der erste oral verfügbare Angiotensin-II-Rezeptor-Antagonist und wird zur Behandlung von Bluthochdruck eingesetzt.

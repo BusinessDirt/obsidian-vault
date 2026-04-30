@@ -1,7 +1,9 @@
 ---
 date: 2025-07-25T11:29
 tags:
-  - Informatik
+- Informatik
+- Linguistik
+- Mathe
 ---
 > Das **Pumping-Lemma** ist ein **Beweiswerkzeug**, um zu zeigen, dass **eine [[Formale Sprachen|Sprache]] nicht regulär** ist
 	 
@@ -14,7 +16,7 @@ mit folgenden Eigenschaften:
 3. Für alle $i \geq 0: xy^iz \in L$
 
 ### Bedeutung
-Man kann den mittleren Teil $y$ beliebig oft wiederholen, und das neue Wort bleibt immer noch in der Sprache - **wenn die Sprache regulär ist**
+Man kann den mittleren Teil $y$ beliebig oft wiederholen, und das neue [[Wort]] bleibt immer noch in der Sprache - **wenn die Sprache regulär ist**
 
 ## Beispiel
 Sprache: $L = \{ a^n b^n \mid n \geq 0 \}$

@@ -8,7 +8,7 @@ tags:
 Seien $V$ und $W$ $K$-[[Vektor#Vektorräume|Vektorräume]]. Eine [[Abbildungen|Abbildung]] $f:V \to W$ heißt lineare Abbildung oder Vektorraumhomomorphismus  genau dann, wenn gilt:
 1) $\forall \vec{u},\vec{v} \in V: \quad f(\vec{u}+\vec{v}) = f(\vec{u}) + f(\vec{v})$
 2) $\forall \lambda \in K : \quad f(\lambda \vec{v}) = \lambda f(\vec{v})$
-Für die Menge der linearen Abbildungen $f$ von $V$ nach $W$ schreiben wir:
+Für die Menge der linearen [[Abbildungen]] $f$ von $V$ nach $W$ schreiben wir:
 $$Hom(V, W) := \set{f:V \to W|f \space linear}$$
 Alternativ bezeichnet man die Menge $Hom(V,W)$ auch als $\mathcal{L}(V,W)$.
 Ist $f$ zusätzlich bijektiv, dann heißt $f:V \to W$ Vektorraumisomorphismus. In dem Fall sagen wir, $V$ und $W$ sind isomorph.

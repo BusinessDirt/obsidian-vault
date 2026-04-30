@@ -1,13 +1,15 @@
 ---
 date: 2026-02-18
 tags:
-  - Informatik
-  - Computerlinguistik
-  - Syntax
+- Computerlinguistik
+- Informatik
+- Linguistik
+- Mathe
+- Syntax
 ---
 # Komplexe Sätze
 
-Die Syntax natürlicher Sprache erlaubt die Konstruktion beliebig langer und komplexer Sätze durch Rekursion.
+Die [[Syntax]] natürlicher Sprache erlaubt die Konstruktion beliebig langer und komplexer Sätze durch Rekursion.
 
 ## 1. Koordination (Parataxe)
 Verbindung von gleichrangigen Konstituenten (z.B. zwei Hauptsätze oder zwei $NP$s).

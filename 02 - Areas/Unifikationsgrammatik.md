@@ -1,13 +1,15 @@
 ---
 date: 2026-02-18
 tags:
-  - Informatik
-  - Computerlinguistik
-  - Syntax
+- Computerlinguistik
+- Informatik
+- Linguistik
+- Mathe
+- Syntax
 ---
 # Unifikationsgrammatiken
 
-Unifikationsgrammatiken erweitern kontextfreie Grammatiken durch Merkmalsstrukturen. Dies ermöglicht eine kompakte Darstellung syntaktischer Phänomene wie Kongruenz, Rektion und Subkategorisierung.
+Unifikationsgrammatiken erweitern kontextfreie Grammatiken durch [[Merkmalsstrukturen]]. Dies ermöglicht eine kompakte Darstellung syntaktischer Phänomene wie Kongruenz, Rektion und Subkategorisierung.
 
 ## 1. Erweiterung von Regeln
 Jede CFG-Regel wird mit einer Menge von Gleichungen (Constraints) versehen, die bestimmen, welche Merkmale die Konstituenten haben müssen.
@@ -36,6 +38,6 @@ Statt Regeln für jede mögliche Merkmalskombination ($S \to NP_{sg}\ VP_{sg}, S
 
 ## 4. Head-Driven Phrase Structure Grammar (HPSG)
 Eine bedeutende Theorie, die fast vollständig auf Unifikation basiert.
-- Jedes linguistische Objekt ist eine Merkmalsstruktur (Zeichen, Wort, Phrase).
+- Jedes linguistische Objekt ist eine Merkmalsstruktur (Zeichen, [[Wort]], Phrase).
 - Prinzipien (z.B. Kopf-Merkmal-Prinzip) ersetzen viele explizite Regeln.
-- **SUBCAT-Liste:** Ein Merkmal, das angibt, welche Argumente ein Wort noch benötigt (Valenz als Liste, die "abgearbeitet" wird).
+- **SUBCAT-[[Liste]]:** Ein Merkmal, das angibt, welche Argumente ein [[Wort]] noch benötigt (Valenz als [[Liste]], die "abgearbeitet" wird).

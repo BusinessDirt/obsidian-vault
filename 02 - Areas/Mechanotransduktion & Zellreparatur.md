@@ -1,17 +1,21 @@
 ---
 date: 2026-04-30
 tags:
-  - Biophysik
-  - Zellbiologie
-  - Muskelaufbau
-  - Mechanobiologie
+- Biologie
+- Biophysik
+- Mathe
+- Mechanobiologie
+- Muskelaufbau
+- Physik
+- Training
+- Zellbiologie
 ---
 # ⚙️ Mechanotransduktion & Zellreparatur
 
 Die Mechanotransduktion beschreibt den Prozess, durch den Muskelzellen physikalische Kräfte (Spannung) in chemische Signale umwandeln.
 
 ## 🌉 Die Brücke: Integrine
-Integrine sind Proteine in der Zellmembran, die die extrazelluläre Matrix mit dem Zytoskelett verbinden.
+Integrine sind Proteine in der Zellmembran, die die extrazelluläre [[Matrix]] mit dem Zytoskelett verbinden.
 - **Kraftfühler:** Bei mechanischer Belastung verändern sie ihre Struktur.
 - **Signalweiterleitung:** Sie aktivieren Enzyme wie die **Focal Adhesion Kinase (FAK)**, die wiederum den [[02 - Areas/Muskelproteinsynthese|mTOR-Pfad]] einschaltet.
 

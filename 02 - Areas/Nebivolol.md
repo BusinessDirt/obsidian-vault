@@ -1,10 +1,8 @@
 ---
 date: 2024-05-22
 tags:
-  - #Pharma
-  - #Gesundheit
-  - #Blutdruck
-  - #Betablocker
+- Pharmakologie
+- Rezepte
 ---
 ## Einleitung
 Nebivolol ist ein Betablocker der dritten Generation, der sich durch eine sehr hohe Selektivität für den β1-Rezeptor und zusätzliche vasodilatorische Eigenschaften auszeichnet.

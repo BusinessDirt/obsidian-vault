@@ -1,9 +1,10 @@
 ---
 date: 2025-07-24T16:22
 tags:
-  - Rechnernetze
-  - Informatik
-  - Internet
+- Biologie
+- Informatik
+- Internet
+- Rechnernetze
 ---
 > Ein **Router** ist ein Netzwerkgerät, das **Datenpakete zwischen Netzwerken weiterleitet**
 > Er sorgt dafür, dass ein [[IP]]-Paket **vom Absender zum Empfänger gelangt**, auch wenn sie sich in völlig unterschiedlichen Netzwerken befinden

@@ -1,13 +1,14 @@
 ---
+aliases:
+- User Datagram Protocol
 date: 2025-07-24T15:11
 tags:
-  - Informatik
-  - Rechnernetze
-  - Internet
-  - OSI-Schicht-4
-  - Protocol
-aliases:
-  - User Datagram Protocol
+- Biologie
+- Informatik
+- Internet
+- OSI-Schicht-4
+- Protocol
+- Rechnernetze
 ---
 ## Eigenschaften
 - **Verbindungslos**: Keine vorherige Verbindung nötig.

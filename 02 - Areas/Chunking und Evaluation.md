@@ -1,9 +1,11 @@
 ---
 date: 2026-02-18
 tags:
-  - Informatik
-  - Computerlinguistik
-  - Evaluation
+- Computerlinguistik
+- Evaluation
+- Informatik
+- Linguistik
+- Mathe
 ---
 # Chunking & Evaluation
 
@@ -16,8 +18,8 @@ Identifikation von nicht-überlappenden Phrasen (z.B. $NP$-Chunks, $VP$-Chunks).
 
 ### IOB-Tagging
 Ein Standardformat zur Repräsentation von Chunks als Sequenz von Labels.
-- **B (Begin):** Erstes Wort eines Chunks.
-- **I (Inside):** Wort innerhalb eines Chunks.
+- **B (Begin):** Erstes [[Wort]] eines Chunks.
+- **I (Inside):** [[Wort]] innerhalb eines Chunks.
 - **O (Outside):** Wort außerhalb eines Chunks.
 
 **Beispiel:**

@@ -1,8 +1,9 @@
 ---
+cssclasses: []
 date: 2024-04-17T20:14
 tags:
-  - Physik
-cssclasses: []
+- Mathe
+- Physik
 ---
 ## Basics
 $\ce{ ^{14}_{6}C }$ -> Ordnungszahl, Massenzahl -> Ordnungszahl überflüssig -> $C14$

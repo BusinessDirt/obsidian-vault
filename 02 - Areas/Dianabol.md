@@ -1,10 +1,11 @@
 ---
 date: 2024-05-22
 tags:
-  - #PED
-  - #Pharma
-  - #AAS
-  - #Dianabol
+- Biologie
+- Pharmakologie
+- Physik
+- Rezepte
+- Training
 ---
 ## Einleitung
 Methandienon (auch Methandrostenolon) ist eines der bekanntesten und historisch bedeutendsten oralen anabolen androgenen Steroide. Es wurde ursprünglich in den 1950er Jahren entwickelt, um die anabolen Eigenschaften von Testosteron bei reduzierter Androgenität zu optimieren.

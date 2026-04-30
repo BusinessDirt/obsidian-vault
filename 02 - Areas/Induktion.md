@@ -1,13 +1,14 @@
 ---
+cssclasses: []
 date: 2024-04-17T20:14
 tags:
-  - Physik
-cssclasses: []
+- Mathe
+- Physik
 ---
 # Elektromagnetische Induktion
 - [[Elektrisches Feld]], [[Magnetisches Feld]]
 
-- die [[Magnetische Flussdichte|magnetische Flussdichte]] $B$ des [Magnetisches Feld|magnetischen Feldes]]
+- die [[Magnetische Flussdichte|magnetische Flussdichte]] $B$ des [[[Magnetisches Feld]]|magnetischen Feldes]]
 - der Inhalt $A$ der Leiterschleife, die vom magnetischen Feld durchsetzt wird
 - die Weite $\varphi$ des Winkels zwischen dem Megnetfeld und der Leiterschleife
 ## Magnetische Fluss und Induktionsgesetz

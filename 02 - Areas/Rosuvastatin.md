@@ -1,10 +1,9 @@
 ---
 date: 2024-05-22
 tags:
-  - #Pharma
-  - #Gesundheit
-  - #Lipidmanagement
-  - #Statin
+- Biologie
+- Rezepte
+- Training
 ---
 ## Einleitung
 Rosuvastatin ist ein hochpotentes Statine (HMG-CoA-Reduktase-Inhibitor), das zur Senkung erhöhter Cholesterinspiegel eingesetzt wird.
@@ -17,7 +16,7 @@ Rosuvastatin hemmt kompetitiv das Enzym HMG-CoA-Reduktase, welches den geschwind
 - **Performance:** Aggressives Management der Lipidwerte bei AAS-Gebrauch.
 
 ## Nebenwirkungen und Risiken
-Muskelschmerzen (Myalgie), Erhöhung der Leberenzyme, selten **Rhabdomyolyse**. Ein geringfügig erhöhtes Risiko für Diabetes mellitus Typ 2 wurde unter Langzeittherapie beobachtet.
+Muskelschmerzen (Myalgie), Erhöhung der Leberenzyme, selten **[[Rhabdomyolyse]]**. Ein geringfügig erhöhtes Risiko für Diabetes mellitus Typ 2 wurde unter Langzeittherapie beobachtet.
 
 ## Chemische Strukturformel
 $\text{C}_{22}\text{H}_{28}\text{FN}_{3}\text{O}_{6}\text{S}$

@@ -1,9 +1,10 @@
 ---
+cssclasses: null
 date: 2024-04-17T16:43
 tags:
-  - Informatik
-  - Datenstruktur
-cssclasses:
+- Datenstruktur
+- Informatik
+- Mathe
 ---
 # Arten
 - gerichtet / ungerichtet

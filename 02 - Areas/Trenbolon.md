@@ -1,10 +1,11 @@
 ---
 date: 2024-05-22
 tags:
-  - #PED
-  - #Pharma
-  - #AAS
-  - #Trenbolon
+- Biologie
+- Pharmakologie
+- Physik
+- Rezepte
+- Training
 ---
 ## Einleitung
 Trenbolon ist ein hochpotentes injizierbares anaboles androgenes Steroid aus der Gruppe der 19-nor-Verbindungen (Nandrolon-Derivat). Es gilt als eines der stärksten verfügbaren PEDs mit einer anabolen und androgenen Bewertung von jeweils 500 im Vergleich zu Testosteron (100/100).

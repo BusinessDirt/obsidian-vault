@@ -7,7 +7,7 @@ tags:
 aliases:
   - Stateless Address Autoconfiguration
 ---
-> Ein Mechanismus bei **[[IP#IPv6|IPv6]]**, mit dem ein Gerät **automatisch** eine eigene IP-Adresse erhält - **ohne [[DHCP|DHCP-Server]]**
+> Ein Mechanismus bei **[[IP#IPv6|IPv6]]**, mit dem ein Gerät **automatisch** eine eigene [[IP]]-Adresse erhält - **ohne [[DHCP|DHCP-Server]]**
 
 ## Funktion
 1. Das Gerät lauscht im Netzwerk auf [[Router#Router Advertisement (RA)|Router-Advertisements (RA)]]

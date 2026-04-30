@@ -1,7 +1,8 @@
 ---
 date: 2025-07-25T11:30
 tags:
-  - Informatik
+- Informatik
+- Linguistik
 ---
 > Der **Kleene-Stern** ist ein Operator, der in [[Reguläre Ausdrücke|regulären Ausdrücken]] verwendet wird. 
 > Er bedeutet **”Null oder mehr Wiederholungen”** eines Zeichens oder Musters.

@@ -7,7 +7,7 @@ tags:
 aliases:
   - Network Address Translation
 ---
-> Ein Mechanismus, bei dem eine oder mehrere private IP-Adressen (z.B. im Heimnetz) in eine öffentliche IP-Adresse umgewandelt werden - und umgekehrt
+> Ein Mechanismus, bei dem eine oder mehrere private [[IP]]-Adressen (z.B. im Heimnetz) in eine öffentliche [[IP]]-Adresse umgewandelt werden - und umgekehrt
 
 ## Warum gibt es NAT?
 - Weil **IPv4 zu wenig Adressen bietet**
@@ -15,7 +15,7 @@ aliases:
 
 ## Beispiel:
 - Dein PC hat die private IP `192.168.0.2`
-- Der Router übersetzt sie nach außen zu z.B. `85.214.50.1`
+- Der [[Router]] übersetzt sie nach außen zu z.B. `85.214.50.1`
 - Für Webseiten sieht es so aus, als käme der gesamte Datenverkehr von `85.214.50.1`
 
 ## Probleme:

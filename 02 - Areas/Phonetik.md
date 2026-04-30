@@ -1,9 +1,12 @@
 ---
+cssclasses: []
 date: 2024-04-17T20:14
 tags:
-  - Informatik
-  - Computerlinguistik
-cssclasses: []
+- Computerlinguistik
+- Informatik
+- Linguistik
+- Physik
+- Rezepte
 ---
 - Laute der natürlichen Sprache
 - welche Laute sind in einer betreffenden Sprache unterscheidbar?

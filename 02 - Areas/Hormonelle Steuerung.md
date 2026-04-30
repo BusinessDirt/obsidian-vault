@@ -1,10 +1,15 @@
 ---
 date: 2026-04-30
 tags:
-  - Hormone
-  - Physiologie
-  - Endokrinologie
-  - Muskelaufbau
+- Biologie
+- Endokrinologie
+- Hormone
+- Muskelaufbau
+- Pharmakologie
+- Physik
+- Physiologie
+- Rezepte
+- Training
 ---
 # 🩸 Hormonelle Steuerung des Muskelaufbaus
 
@@ -29,7 +34,7 @@ Ermöglicht den Transport von [[Aminosäuren]] und Glukose in die Muskelzelle. W
 
 ### 1. Cortisol
 Das "Stresshormon".
-- Stimuliert den Proteinabbau, um Aminosäuren für die Energiegewinnung (Gluconeogenese) freizusetzen.
+- Stimuliert den Proteinabbau, um [[Aminosäuren]] für die Energiegewinnung (Gluconeogenese) freizusetzen.
 - Ein chronisch hohes Verhältnis von Cortisol zu Testosteron ist ein Zeichen für Übertraining.
 
 ### 2. Myostatin
@@ -38,4 +43,4 @@ Ein Protein, das als **genetische Bremse** fungiert.
 - Krafttraining senkt die Myostatin-Konzentration temporär, was Hypertrophie ermöglicht.
 
 ---
-**Zusammenhang:** Ein optimaler Muskelaufbau erfordert eine Maximierung der anabolen Signale bei gleichzeitiger Kontrolle der katabolen Hormone durch ausreichend Schlaf und [[Regeneration & Superkomposition|Regeneration]].
+**Zusammenhang:** Ein optimaler [[Muskelaufbau]] erfordert eine Maximierung der anabolen Signale bei gleichzeitiger Kontrolle der katabolen Hormone durch ausreichend Schlaf und [[Regeneration & Superkomposition|Regeneration]].

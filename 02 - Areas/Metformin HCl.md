@@ -1,9 +1,9 @@
 ---
 date: 2024-05-22
 tags:
-  - #Pharma
-  - #Gesundheit
-  - #MetabolicHealth
+- Biologie
+- Pharmakologie
+- Training
 ---
 ## Einleitung
 Metformin ist ein Biguanid-Derivat und das weltweit am häufigsten verschriebene orale Antidiabetikum zur Behandlung des Diabetes mellitus Typ 2.
@@ -20,7 +20,7 @@ Es verursacht im Gegensatz zu Sulfonylharnstoffen keine Hypoglykämie.
 - **Performance:** Management der Insulinsensitivität bei Einsatz von Wachstumshormon (GH) oder hochkalorischen Diäten; potenziell lebensverlängernde (anti-aging) Eigenschaften.
 
 ## Nebenwirkungen und Risiken
-Häufig gastrointestinale Beschwerden (Blähungen, Durchfall). Die schwerwiegendste, wenn auch seltene Nebenwirkung ist die **Laktatazidose**, insbesondere bei Niereninsuffizienz oder Hypoxie.
+Häufig gastrointestinale Beschwerden (Blähungen, Durchfall). Die schwerwiegendste, wenn auch seltene Nebenwirkung ist die **[[Laktatazidose]]**, insbesondere bei Niereninsuffizienz oder Hypoxie.
 
 ## Chemische Strukturformel
 $\text{C}_{4}\text{H}_{11}\text{N}_{5}$

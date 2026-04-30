@@ -7,7 +7,7 @@ tags:
 aliases:
   - Internet Protocol Security
 ---
-> Ein Sicherheitsprotokoll auf der IP-Ebene, das Datenverkehr verschlüsselt und authentifiziert - unabhängig davon, welche Anwendung die Daten sendet
+> Ein Sicherheitsprotokoll auf der [[IP]]-Ebene, das Datenverkehr verschlüsselt und authentifiziert - unabhängig davon, welche Anwendung die Daten sendet
 
 ## Funktionen
 - **Verschlüsselung**: Schutz vor Abhören
