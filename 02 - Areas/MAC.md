@@ -1,16 +1,17 @@
 ---
-aliases:
-- Media Access Control
-- MAC-Adresse
 date: 2025-07-24T15:01
+aliases:
 tags:
-- Informatik
-- Internet
-- Linguistik
-- OSI-Schicht-2
-- Physik
-- Rechnernetze
+  - Informatik
+  - Internet
+  - Linguistik
+  - MAC-Adresse
+  - Media Access Control
+  - OSI-Schicht-2
+  - Physik
+  - Rechnernetze
 ---
+
 >  Eine MAC-Adresse (**Media Access Control**) ist eine physikalische Adresse, die einem Netzwerkadapter fest zugewiesen ist.
 >  Sie ist weltweit eindeutig (meist in die Hardware eingebrannt) und besteht aus 48 Bit, dargestellt in 6 [[Gruppen]] zu je 2 Hex-Zeichen. Beispiel: <code>00:1A:2B:3C:4D:5E</code>
 >  MAC-Adressen gelten nur bis zum nächsten [[Router]] oder Gateway, also im lokalen Netz
@@ -23,6 +24,6 @@ a) Sender kennt MAC-Adresse des Empfängers
 - Netzwerk Switch liest den Frame und leitet ihn gezielt weiter
 b) Sender kennt nur [[IP]]-Adresse
 - [[ARP]] (Address Resolution Protocol) wird verwendet
-- Sender fragt: “Wer hat [[IP]]-Adresse X? Sag mir deine MAC-Adresse!”
-- Das Gerät mit der IP Antwortet mit der MAC-Adresse → Sender speichert sie in seiner [[ARP]]-Tabelle
+- Sender fragt: “Wer hat IP-Adresse X? Sag mir deine MAC-Adresse!”
+- Das Gerät mit der IP Antwortet mit der MAC-Adresse → Sender speichert sie in seiner ARP-Tabelle
 

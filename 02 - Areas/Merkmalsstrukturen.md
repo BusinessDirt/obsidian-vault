@@ -1,11 +1,12 @@
 ---
 date: 2026-02-18
 tags:
-- Computerlinguistik
-- Informatik
-- Mathe
-- Syntax
+  - Computerlinguistik
+  - Informatik
+  - Mathe
+  - Syntax
 ---
+
 # Merkmalsstrukturen & Unifikation
 
 Atomare Symbole wie $NP$ oder $VP$ reichen oft nicht aus, um grammatische Übereinstimmungen (Kongruenz) zu modellieren (z.B. *Subjekt und Verb müssen in Numerus und Person übereinstimmen*). Merkmalsstrukturen lösen dieses Problem.

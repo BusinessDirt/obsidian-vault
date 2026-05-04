@@ -1,14 +1,15 @@
 ---
-cssclasses:
-- pen-white
 date: 2025-02-06T17:36
+cssclasses:
 tags:
-- Computerlinguistik
-- Linguistik
-- Mathe
-- NLP
-- NLTK
+  - Computerlinguistik
+  - Linguistik
+  - Mathe
+  - NLP
+  - NLTK
+  - pen-white
 ---
+
 <div class="card">
     <h3>📚 Korpus in NLTK</h3>
     <ul>
@@ -108,7 +109,7 @@ tags:
         <li>Beispiele:</li>
         <ul>
             <li><strong>Stoppwort-[[Liste]]:</strong> Häufige Wörter zum Herausfiltern</li>
-            <li><strong>Swadesh-[[Liste]]:</strong> Grundwortschatz zum Vergleich zwischen Sprachen</li>
+            <li><strong>Swadesh-Liste:</strong> Grundwortschatz zum Vergleich zwischen Sprachen</li>
         </ul>
     </ul>
 </div>

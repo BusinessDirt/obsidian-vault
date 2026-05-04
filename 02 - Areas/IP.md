@@ -1,18 +1,19 @@
 ---
-aliases:
-- Internet Protocol
-- IPv4
-- IPv6
-- IP-Adresse
 date: 2025-07-24T15:01
+aliases:
 tags:
-- Informatik
-- Internet
-- Mathe
-- OSI-Schicht-3
-- Protocol
-- Rechnernetze
+  - IP-Adresse
+  - IPv4
+  - IPv6
+  - Informatik
+  - Internet
+  - Internet Protocol
+  - Mathe
+  - OSI-Schicht-3
+  - Protocol
+  - Rechnernetze
 ---
+
 > IP (Internet Protocol) ist grundlegend für die Kommunikation im Internet.
 > Es sorgt dafür, dass Datenpakete den richtigen Weg von einem Absender zu einem Empfänger finden - ähnlich wie eine Postadresse bei einem Brief
 > Jedes Gerät im Netzwerk braucht eine eindeutige IP-Adresse, um erreichbar zu sein

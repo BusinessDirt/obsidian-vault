@@ -1,15 +1,16 @@
 ---
 date: 2026-02-18
 tags:
-- Biologie
-- Computerlinguistik
-- Informatik
-- Linguistik
-- Parsing
+  - Biologie
+  - Computerlinguistik
+  - Informatik
+  - Linguistik
+  - Parsing
 ---
+
 # Statistisches & Datengestütztes [[Parsing]]
 
-Statistisches [[Parsing]] nutzt Wahrscheinlichkeiten, um Ambiguitäten aufzulösen und die wahrscheinlichste Analyse für einen Satz zu finden.
+Statistisches Parsing nutzt Wahrscheinlichkeiten, um Ambiguitäten aufzulösen und die wahrscheinlichste Analyse für einen Satz zu finden.
 
 ## 1. Probabilistische [[Kontextfreie Grammatik]] (PCFG)
 Eine PCFG erweitert jede Regel $A \to \alpha$ einer CFG um eine Wahrscheinlichkeit $P(A \to \alpha)$.
@@ -27,7 +28,7 @@ $$P(T) = \prod_{i \in T} P(r_i)$$
 - Der [[Baum]] mit der höheren Gesamtwahrscheinlichkeit gewinnt.
 
 ## 2. Viterbi-Algorithmus
-Der Viterbi-Algorithmus (oft im CYK-Parser integriert) findet effizient den **wahrscheinlichsten** [[Baum]] ($T_{best}$) für einen Satz $S$, ohne alle möglichen Bäume explizit aufzuzählen (Dynamische Programmierung).
+Der Viterbi-Algorithmus (oft im CYK-Parser integriert) findet effizient den **wahrscheinlichsten** Baum ($T_{best}$) für einen Satz $S$, ohne alle möglichen Bäume explizit aufzuzählen (Dynamische Programmierung).
 - Er speichert in jeder Zelle der Chart nur die Teilbäume mit der höchsten Wahrscheinlichkeit.
 - $T_{best} = \arg\max_{T} P(T|S)$
 

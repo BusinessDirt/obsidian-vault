@@ -1,10 +1,11 @@
 ---
 date: 2025-07-26T14:08
+links: '[[Stochastik]]'
 tags:
   - Mathe
   - Stochastik
-links: "[[Stochastik]]"
 ---
+
 ### Stochastische Unabhängigkeit von zwei Ereignissen
 Zwei Ereignisse $A$, und $B$ sind genau dann unabhängig, wenn
 $$P(A \cap B)=P(A) \cdot P(B)$$

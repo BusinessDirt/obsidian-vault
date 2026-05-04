@@ -1,10 +1,11 @@
 ---
 date: 2024-10-16T16:17
 tags:
-  - Mathe
   - Analysis
   - LinAlg
+  - Mathe
 ---
+
 # [[Gruppen]]
 ## Verknüpfung
 Sei $M$ eine Menge. Eine Verknüpfung $\circ$ auf $M$ ist eine Abbildung $\circ : M \times M \to M,(a,b) \to a \circ b$.
@@ -18,10 +19,10 @@ $(G, \circ)$ heißt abelsche oder kommutative Gruppe, wenn zusätzlich gilt:
 
 ## Permutationsgruppe
 Sei $M = \{1, \dots, n\}$. Man nennt die Menge der bijektiven [[Abbildungen]] auf $M$, i.e. $S_n := \{\phi: M \to M \space bijektiv\}$, zusammen mit der Funktionsverkettung $\circ$ die Permutationsgruppe.
-	Die bijektiven [[Abbildungen]] $\phi:\{1,\dots,n\} \to \{1, \dots, n\},i \to \phi(i)$ nennt man Permutationen
+	Die bijektiven Abbildungen $\phi:\{1,\dots,n\} \to \{1, \dots, n\},i \to \phi(i)$ nennt man Permutationen
 
 ## Homomorphismus, Isomorphismus, Automorphismus
-Seien $(G, \circ)$ und $(H, \star)$ [[Gruppen]]. Eine Abbildung $\phi : G \to H$ heißt
+Seien $(G, \circ)$ und $(H, \star)$ Gruppen. Eine Abbildung $\phi : G \to H$ heißt
 1) Homomorphismus genau dann, wenn $\forall a,b \in G: \phi(a \circ b) = \phi(a) \star \phi(b)$
 2) Isomorphismus genau dann, wenn $\phi$ Homomorphismus und $\phi$ bijektiv ist. In dem Fall nennen wir $(G, \circ)$ und $(H, \star)$ isomorphe Gruppen.
 	1) Man bezeichnet zwei isomorphe Strukturen $S$ und $S'$ (Gruppen, [[Körper]], [[Vektor#Vektorräume|Vektorräume]]) als "strukturgleich" und schreibt: $S \cong S'$
@@ -46,7 +47,7 @@ $$1 \cdot a = a \cdot 1 = a$$
 Sei $(R, +, \cdot)$ ein Ring. Wir nennen $R$ nullteilerfrei genau dann, wenn $\forall a,b \in R$ gilt:
 $$a \cdot b = 0 \Rightarrow a = 0 \lor b = 0$$
 
-# [[Körper]]
+# Körper
 $(K,+,\cdot)$ heißt Körper genau dann, wenn gilt:
 1) $(K,+,\cdot)$ ist ein Ring
 2) $(K \setminus \set{0}, \cdot)$ ist eine kommutative Gruppe

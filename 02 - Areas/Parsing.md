@@ -1,12 +1,13 @@
 ---
 date: 2026-02-18
 tags:
-- Computerlinguistik
-- Informatik
-- Linguistik
-- Parsing
-- Syntax
+  - Computerlinguistik
+  - Informatik
+  - Linguistik
+  - Parsing
+  - Syntax
 ---
+
 # Parsingalgorithmen
 
 Parsing ist der Prozess, bei dem ein Computer die syntaktische Struktur eines Satzes basierend auf einer Grammatik analysiert. Man unterscheidet verschiedene Strategien.

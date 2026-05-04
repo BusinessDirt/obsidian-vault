@@ -1,12 +1,13 @@
 ---
 date: 2025-07-24T17:24
-tags:
-  - Rechnernetze
-  - Internet
-  - Informatik
 aliases:
+tags:
   - CRC
+  - Informatik
+  - Internet
+  - Rechnernetze
 ---
+
 Der **CRC** ist ein Verfahren zur **Fehlererkennung** bei der Datenübertragung oder -speicherung.  
 Er hilft zu prüfen, ob Daten unterwegs beschädigt wurden.
 

@@ -1,11 +1,12 @@
 ---
 date: 2026-02-18
 tags:
-- Computerlinguistik
-- Informatik
-- Linguistik
-- Syntax
+  - Computerlinguistik
+  - Informatik
+  - Linguistik
+  - Syntax
 ---
+
 # X-Bar-Theorie
 
 Die X-Bar-Theorie ist eine Erweiterung der Phrasenstrukturgrammatik. Sie nimmt an, dass alle Phrasen ($XP$) dieselbe hierarchische Grundstruktur haben.

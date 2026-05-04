@@ -1,10 +1,11 @@
 ---
 date: 2024-05-22
 tags:
-- Biologie
-- Pharmakologie
-- Training
+  - Biologie
+  - Pharmakologie
+  - Training
 ---
+
 ## Einleitung
 Metformin ist ein Biguanid-Derivat und das weltweit am häufigsten verschriebene orale Antidiabetikum zur Behandlung des Diabetes mellitus Typ 2.
 

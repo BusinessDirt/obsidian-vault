@@ -1,10 +1,11 @@
 ---
 date: 2024-05-22
 tags:
-- Biologie
-- Pharmakologie
-- Training
+  - Biologie
+  - Pharmakologie
+  - Training
 ---
+
 ## Einleitung
 Die Rhabdomyolyse ist ein akut auftretender Zerfall von Skelettmuskulatur, bei dem Muskelinhaltsstoffe (wie Myoglobin, Kreatinkinase und Elektrolyte) in den Blutkreislauf freigesetzt werden. Dies kann zu schwerem Organversagen führen.
 

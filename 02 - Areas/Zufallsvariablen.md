@@ -1,11 +1,12 @@
 ---
 date: 2026-04-09 11:02
 tags:
-- Mathe
-- Statistik
-- Stochastik
-- Wahrscheinlichkeit
+  - Mathe
+  - Statistik
+  - Stochastik
+  - Wahrscheinlichkeit
 ---
+
 ## 1. Definition und Grundlagen
 Eine **Zufallsvariable (ZV)** $X$ ist formal eine [[Abbildungen|Abbildung]] von der Ergebnismenge $\Omega$ eines Zufallsexperiments in die reellen Zahlen $\mathbb{R}$:
 $$X: \Omega \rightarrow \mathbb{R}$$

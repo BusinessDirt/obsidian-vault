@@ -1,10 +1,7 @@
 ---
 date: 2024-05-22
-tags:
-  - #Gesundheit
-  - #Nebenwirkung
-  - #Metformin
 ---
+
 ## Einleitung
 Die Laktatazidose ist eine schwere Stoffwechselstörung, bei der der pH-Wert des Blutes aufgrund einer Akkumulation von Milchsäure (Laktat) sinkt. Im Kontext pharmakologischer Interventionen ist sie vor allem als seltene, aber lebensbedrohliche Komplikation einer Metformin-Therapie bekannt.
 

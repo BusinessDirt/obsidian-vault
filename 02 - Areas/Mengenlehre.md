@@ -1,10 +1,11 @@
 ---
 date: 2024-10-16T16:17
 tags:
-  - Mathe
   - Analysis
   - LinAlg
+  - Mathe
 ---
+
 # Cantor
 "Eine Menge $M$ ist die Zusammenfassung zu einem Ganzen von wohlunterschiedenen Objekten $m$ unserer Anschauung oder unseres Denkens".
 -> $m$ sind die Elemente von $M$

@@ -1,14 +1,15 @@
 ---
 date: 2025-07-24T15:01
+aliases:
 tags:
   - Informatik
-  - Rechnernetze
   - Internet
+  - Internet Message Access Protocol
   - OSI-Schicht-7
   - Protocol
-aliases:
-  - Internet Message Access Protocol
+  - Rechnernetze
 ---
+
 > **Verwendet für**: E-Mails lesen und verwalten auf dem Mailserver
 > **Vorteil**: E-Mails bleiben auf dem Server - Zugriff von mehreren Geräten möglich
 > **Port**: 143 (bzw. 993 für IMAPS)

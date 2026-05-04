@@ -1,15 +1,16 @@
 ---
-aliases:
-- User Datagram Protocol
 date: 2025-07-24T15:11
+aliases:
 tags:
-- Biologie
-- Informatik
-- Internet
-- OSI-Schicht-4
-- Protocol
-- Rechnernetze
+  - Biologie
+  - Informatik
+  - Internet
+  - OSI-Schicht-4
+  - Protocol
+  - Rechnernetze
+  - User Datagram Protocol
 ---
+
 ## Eigenschaften
 - **Verbindungslos**: Keine vorherige Verbindung nötig.
 - **Unzuverlässig**: Es gibt keine Garantie, dass Pakete ankommen oder in der richtigen Reihenfolge

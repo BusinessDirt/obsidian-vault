@@ -1,11 +1,12 @@
 ---
-cssclasses: []
 date: 2024-04-17T20:14
+cssclasses: []
 tags:
-- Computerlinguistik
-- Informatik
-- Linguistik
+  - Computerlinguistik
+  - Informatik
+  - Linguistik
 ---
+
 Mehrere Ebenen:
 - [[Phonetik]]
 - [[Phonologie]]

@@ -1,15 +1,15 @@
 ---
-aliases:
-- reguläre Ausdrücke
-- regulärer Ausdruck
-cssclasses: null
 date: 2024-04-17T20:14
+aliases:
+cssclasses: null
 tags:
-- Computerlinguistik
-- Informatik
-- Linguistik
-- Mathe
+  - Computerlinguistik
+  - Informatik
+  - Linguistik
+  - reguläre Ausdrücke
+  - regulärer Ausdruck
 ---
+
 ## Definition
 Die **regulären Ausdrücke** über einem Alphabet $\Sigma$ werden induktiv definiert:
 1. **Basisfälle**:

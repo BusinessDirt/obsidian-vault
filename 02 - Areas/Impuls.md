@@ -1,10 +1,11 @@
 ---
-cssclasses: []
 date: 2024-04-17T20:14
+cssclasses: []
 tags:
-- Linguistik
-- Physik
+  - Linguistik
+  - Physik
 ---
+
 Der Impuls ist eine grundlegende physikalische Größe, die den mechanischen Bewegungszustand eines physikalischen Objekts charakterisiert. Der Impuls eines physikalischen Objekts ist umso größer, je schneller es sich bewegt und je massereicher es ist. Damit steht der Impuls für das, was in der Umgangssprache unscharf mit „Schwung" und „Wucht“ bezeichnet wird.
 
 <br>

@@ -1,10 +1,10 @@
 ---
 date: 2024-05-22
 tags:
-- Biologie
-- Pharmakologie
-- Rezepte
+  - Biologie
+  - Pharmakologie
 ---
+
 ## Einleitung
 Ezetimib ist ein Lipidsenker aus einer relativ neuen Wirkstoffklasse, der die Aufnahme von Cholesterin aus dem Darm hemmt.
 

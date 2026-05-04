@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "194bd853b8bc4fc3",
+        "id": "2fdba0f4838252c1",
         "type": "tabs",
         "children": [
           {
-            "id": "897a2c5d091efb1f",
+            "id": "f3afa4541cca1e08",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -182,8 +182,12 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "897a2c5d091efb1f",
+  "active": "2888c0f8e844e72f",
   "lastOpenFiles": [
+    "final_tag_fix.py",
+    "fix_everything.py",
+    "update_links_v2.py",
+    "update_links.py",
     "02 - Areas/Anavar.md",
     "update_notes.py",
     "02 - Areas/Laktatazidose.md",
@@ -216,9 +220,6 @@
     "01 - Projects/BDUI",
     "02 - Areas/Software Engineering",
     "01 - Projects/Onyx",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-12.pdf",
-    "03 - Resources/Studium/Rechnerarchitektur/Probeklausurblatt-11.pdf",
-    "02 - Areas/Anatomie",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",

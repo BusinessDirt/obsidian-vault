@@ -1,10 +1,11 @@
 ---
-cssclasses: []
 date: 2024-04-17T20:14
+cssclasses: []
 tags:
-- Mathe
-- Physik
+  - Mathe
+  - Physik
 ---
+
 - [[Spezielle Relativitätstheorie|relativistischer]] Korrekturterm, im [[Hamiltonoperator]] $H$, um die [[Feinstruktur]] im Wasserstoffspektrum theoretisch zu erklären
 - ergibt sich aus der [[Dirac-Gleichung|Dirac-Theorie]]
 - in nicht-relativistischer Näherung ist die elektrostatishe Wechselwirkung des Elektrons mit dem elektrischen Feld des Kerns aufgrund der Zitterbewegung nicht mehr lokal

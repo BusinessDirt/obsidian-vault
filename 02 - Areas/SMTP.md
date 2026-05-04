@@ -1,16 +1,17 @@
 ---
 date: 2025-07-24T15:01
+aliases:
 tags:
   - Informatik
-  - Rechnernetze
   - Internet
-  - OSI-Schicht-7
-  - OSI-Schicht-6
   - OSI-Schicht-5
+  - OSI-Schicht-6
+  - OSI-Schicht-7
   - Protocol
-aliases:
+  - Rechnernetze
   - Simple Mail Transfer Protocol
 ---
+
 > **Verwendet für**: E-Mail versenden
 > **Port**: 25 (bzw. 465/587 mit [[TLS]]/[[SSL]])
 > **Richtung**: Client → Mailserver oder Mailserver → Mailserver

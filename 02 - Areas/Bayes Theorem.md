@@ -1,12 +1,13 @@
 ---
 date: 2026-04-09 11:02
 tags:
-- Mathe
-- Pharmakologie
-- Physik
-- Statistik
-- Stochastik
+  - Mathe
+  - Pharmakologie
+  - Physik
+  - Statistik
+  - Stochastik
 ---
+
 ## Formel
 Für zwei Ereignisse $A$ und $B$ mit $P(B)>0$ lässt sich die Wahrscheinlichkeit von $A$ unter der Bedingung, dass $B$ eingetreten ist, durch die Wahrscheinlichkeit von $B$ unter der Bedingung, dass $A$ eingetreten ist, errechnen:
 

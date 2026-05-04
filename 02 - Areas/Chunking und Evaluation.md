@@ -1,12 +1,13 @@
 ---
 date: 2026-02-18
 tags:
-- Computerlinguistik
-- Evaluation
-- Informatik
-- Linguistik
-- Mathe
+  - Computerlinguistik
+  - Evaluation
+  - Informatik
+  - Linguistik
+  - Mathe
 ---
+
 # Chunking & Evaluation
 
 Chunking ist eine robuste, flache syntaktische Analyse, die Phrasen (Chunks) identifiziert, ohne eine vollständige, rekursive Baumstruktur aufzubauen.
@@ -19,7 +20,7 @@ Identifikation von nicht-überlappenden Phrasen (z.B. $NP$-Chunks, $VP$-Chunks).
 ### IOB-Tagging
 Ein Standardformat zur Repräsentation von Chunks als Sequenz von Labels.
 - **B (Begin):** Erstes [[Wort]] eines Chunks.
-- **I (Inside):** [[Wort]] innerhalb eines Chunks.
+- **I (Inside):** Wort innerhalb eines Chunks.
 - **O (Outside):** Wort außerhalb eines Chunks.
 
 **Beispiel:**

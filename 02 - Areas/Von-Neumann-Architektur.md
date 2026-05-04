@@ -1,10 +1,11 @@
 ---
-cssclasses:
-- center-images
 date: 2024-04-17T23:41
+cssclasses:
 tags:
-- Informatik
+  - Informatik
+  - center-images
 ---
+
 In seiner Grundstruktur besteht ein Digitalrechner aus einem Verbundsystem von Prozessor, Speicher und Geräten für die Ein– und Ausgabe. Dazu kommen noch Verbindungen zwischen diesen Einheiten, sogenannte Busse
 
 ![[Von-Neumann-Architektur 2024-04-18 00.00.55.excalidraw]]

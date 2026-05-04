@@ -1,12 +1,13 @@
 ---
-cssclasses: null
 date: 2024-04-17T16:43
+cssclasses: null
 tags:
-- Haskell
-- Informatik
-- Mathe
-- Programmiersprache
+  - Haskell
+  - Informatik
+  - Mathe
+  - Programmiersprache
 ---
+
 # Wichtige Ausdrücke
 - Constructor: `(:) :: a -> [a] -> [a]`
 - Listen Aufzählungen: `[1,3..99]`

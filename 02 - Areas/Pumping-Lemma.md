@@ -1,10 +1,11 @@
 ---
 date: 2025-07-25T11:29
 tags:
-- Informatik
-- Linguistik
-- Mathe
+  - Informatik
+  - Linguistik
+  - Mathe
 ---
+
 > Das **Pumping-Lemma** ist ein **Beweiswerkzeug**, um zu zeigen, dass **eine [[Formale Sprachen|Sprache]] nicht regulär** ist
 	 
 ## Idee

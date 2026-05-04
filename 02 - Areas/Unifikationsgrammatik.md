@@ -1,12 +1,13 @@
 ---
 date: 2026-02-18
 tags:
-- Computerlinguistik
-- Informatik
-- Linguistik
-- Mathe
-- Syntax
+  - Computerlinguistik
+  - Informatik
+  - Linguistik
+  - Mathe
+  - Syntax
 ---
+
 # Unifikationsgrammatiken
 
 Unifikationsgrammatiken erweitern kontextfreie Grammatiken durch [[Merkmalsstrukturen]]. Dies ermöglicht eine kompakte Darstellung syntaktischer Phänomene wie Kongruenz, Rektion und Subkategorisierung.
@@ -40,4 +41,4 @@ Statt Regeln für jede mögliche Merkmalskombination ($S \to NP_{sg}\ VP_{sg}, S
 Eine bedeutende Theorie, die fast vollständig auf Unifikation basiert.
 - Jedes linguistische Objekt ist eine Merkmalsstruktur (Zeichen, [[Wort]], Phrase).
 - Prinzipien (z.B. Kopf-Merkmal-Prinzip) ersetzen viele explizite Regeln.
-- **SUBCAT-[[Liste]]:** Ein Merkmal, das angibt, welche Argumente ein [[Wort]] noch benötigt (Valenz als [[Liste]], die "abgearbeitet" wird).
+- **SUBCAT-[[Liste]]:** Ein Merkmal, das angibt, welche Argumente ein Wort noch benötigt (Valenz als Liste, die "abgearbeitet" wird).

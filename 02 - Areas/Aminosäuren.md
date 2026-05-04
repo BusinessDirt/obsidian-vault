@@ -1,13 +1,13 @@
 ---
 date: 2026-04-09 11:02
 tags:
-- Biochemie
-- Biologie
-- Ernährung
-- Fitness
-- Physik
-- Supplemente
-- Training
+  - Biochemie
+  - Biologie
+  - Ernährung
+  - Fitness
+  - Physik
+  - Supplemente
+  - Training
 ---
 
 Aminosäuren sind die organischen Verbindungen, aus denen Proteine bestehen. Für den Menschen sind vor allem **20 proteinogene Aminosäuren** relevant.
@@ -17,7 +17,7 @@ Aminosäuren sind die organischen Verbindungen, aus denen Proteine bestehen. Fü
 Nicht alle Aminosäuren sind gleich. Man unterteilt sie nach ihrer Lebensnotwendigkeit für den [[Körper]].
 
 ### 1. Essenzielle Aminosäuren (EAAs)
-Diese **9 Aminosäuren** kann der [[Körper]] nicht selbst herstellen. Sie müssen zwingend über die Nahrung (oder den Lidl-Shake) aufgenommen werden.
+Diese **9 Aminosäuren** kann der Körper nicht selbst herstellen. Sie müssen zwingend über die Nahrung (oder den Lidl-Shake) aufgenommen werden.
 - **Leucin, Isoleucin, Valin** (Die BCAAs)
 - Lysin, Methionin, Phenylalanin, Threonin, Tryptophan, Histidin.
 
@@ -52,7 +52,7 @@ Gibt an, wie effizient ein Nahrungsprotein in körpereigenes Protein umgewandelt
 
 ### Das Gesetz des Minimums (Liebig-Fass)
 Die Proteinsynthese wird immer durch die Aminosäure begrenzt, die im kleinsten Verhältnis zum Bedarf vorhanden ist (**Limitierende Aminosäure**). 
-*Beispiel:* Fehlt in einem pflanzlichen Protein Lysin, kann der Körper den Rest der Aminosäuren nicht voll für den [[Muskelaufbau]] nutzen.
+*Beispiel:* Fehlt in einem pflanzlichen Protein Lysin, kann der Körper den Rest der Aminosäuren nicht voll für den Muskelaufbau nutzen.
 
 ## 💡 Supplement-Check: EAA vs. BCAA
 - **BCAA-Supplements:** Meist unnötig, wenn genug Protein konsumiert wird, da alle BCAAs dort enthalten sind.

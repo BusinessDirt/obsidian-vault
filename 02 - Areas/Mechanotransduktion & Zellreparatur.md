@@ -1,15 +1,17 @@
 ---
 date: 2026-04-30
 tags:
-- Biologie
-- Biophysik
-- Mathe
-- Mechanobiologie
-- Muskelaufbau
-- Physik
-- Training
-- Zellbiologie
+  - Biologie
+  - Biophysik
+  - Chemie
+  - Mathe
+  - Mechanobiologie
+  - Muskelaufbau
+  - Physik
+  - Training
+  - Zellbiologie
 ---
+
 # ⚙️ Mechanotransduktion & Zellreparatur
 
 Die Mechanotransduktion beschreibt den Prozess, durch den Muskelzellen physikalische Kräfte (Spannung) in chemische Signale umwandeln.
@@ -28,7 +30,7 @@ Durch mechanischen Reiz oder Muskelschäden werden sie aktiviert. Sie beginnen s
 ### Fusion & Myonukleäre Domäne
 Die neuen Zellen fusionieren mit der bestehenden Muskelfaser. 
 - **Theorie der myonukleären Domäne:** Ein Zellkern kann nur ein begrenztes Volumen an Zytoplasma steuern. Um größer zu werden, muss die Faser neue Kerne (aus Satellitenzellen) "importieren".
-- Dies ermöglicht eine dauerhaft erhöhte Rate der [[02 - Areas/Muskelproteinsynthese|Muskelproteinsynthese]].
+- Dies ermöglicht eine dauerhaft erhöhte Rate der [[Muskelproteinsynthese]].
 
 ## 🛠️ Zellreparatur
 Mikrotraumata (kleinste Risse in den Z-Scheiben der Muskelfaser) lösen eine Entzündungsreaktion aus. Diese ist notwendig, um Immunzellen und Wachstumsfaktoren an den Ort des Geschehens zu locken und den Umbauprozess einzuleiten.

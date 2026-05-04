@@ -1,10 +1,10 @@
 ---
 date: 2024-05-22
 tags:
-- Biologie
-- Rezepte
-- Training
+  - Biologie
+  - Training
 ---
+
 ## Einleitung
 Rosuvastatin ist ein hochpotentes Statine (HMG-CoA-Reduktase-Inhibitor), das zur Senkung erhöhter Cholesterinspiegel eingesetzt wird.
 

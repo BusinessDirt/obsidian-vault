@@ -1,11 +1,12 @@
 ---
 date: 2026-02-18
 tags:
-- Computerlinguistik
-- Informatik
-- Linguistik
-- Syntax
+  - Computerlinguistik
+  - Informatik
+  - Linguistik
+  - Syntax
 ---
+
 # Dependenzgrammatik
 
 Im Gegensatz zur Konstituentengrammatik (Phrasenstruktur) stellt die Dependenzgrammatik die **Abhängigkeitsbeziehungen** ([[Relationen]]) zwischen Wörtern in den Mittelpunkt. Es gibt keine Phrasenknoten ($NP, VP$), sondern direkte Links zwischen Wörtern.
@@ -27,7 +28,7 @@ Die Valenz eines Wortes bestimmt, wie viele und welche Art von Dependenten es fo
 
 ## 3. Universal Dependencies (UD)
 Ein Standard für sprachübergreifende Dependenzannotation.
-Wichtige [[Relationen]] (Labels):
+Wichtige Relationen (Labels):
 - `nsubj`: Nominal subject (Subjekt)
 - `obj`: Object (Objekt)
 - `root`: Wurzel

@@ -1,16 +1,17 @@
 ---
 date: 2025-07-24T15:01
-tags:
-  - Informatik
-  - Rechnernetze
-  - Internet
-  - OSI-Schicht-7
-  - OSI-Schicht-6
-  - OSI-Schicht-5
-  - Protocol
 aliases:
+tags:
   - File Transfer Protocol
+  - Informatik
+  - Internet
+  - OSI-Schicht-5
+  - OSI-Schicht-6
+  - OSI-Schicht-7
+  - Protocol
+  - Rechnernetze
 ---
+
 > **Verwendet für**: Dateien übertragen zwischen Client und Server
 > **Port**: 21
 > **Funktionen**: Hochladen, Herunterladen, Umbenennen, Löschen von Dateien

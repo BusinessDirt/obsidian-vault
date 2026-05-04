@@ -1,10 +1,13 @@
 ---
 date: 2024-05-22
 tags:
-- Biologie
-- Pharmakologie
-- Rezepte
+  - AAS
+  - Biologie
+  - PED
+  - Pharma
+  - Pharmakologie
 ---
+
 ## Einleitung
 Clomifen ist ein selektiver Östrogenrezeptor-Modulator (SERM), der primär in der Fertilitätsbehandlung eingesetzt wird. Es handelt sich um ein Gemisch aus zwei Isomeren: Zuclomifen (östrogen wirksam) und [[Enclomifen]] (antioestrogen wirksam).
 

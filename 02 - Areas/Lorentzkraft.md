@@ -1,9 +1,10 @@
 ---
 date: 2024-04-17T20:14
+cssclasses: []
 tags:
   - Physik
-cssclasses: []
 ---
+
 - Bewegen sich Ladungsträger senkrecht oder schräg zu einem Magnetfeld, so wirkt eine Lorentzkraft auf die Ladungsträger
 - Die Kraftrichtung kann mit der Drei-Finger-Regel bestimmt werden
 - Die Lorentzkraft wirkt auch auf freie Ladungsträger

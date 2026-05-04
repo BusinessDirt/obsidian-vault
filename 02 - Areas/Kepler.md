@@ -1,11 +1,12 @@
 ---
-cssclasses: []
 date: 2024-04-17T20:14
+cssclasses: []
 tags:
-- Mathe
-- Pharmakologie
-- Physik
+  - Mathe
+  - Pharmakologie
+  - Physik
 ---
+
 # Keplersche Gesetze
 **Erstes Keplersches Gesetz**
 Die Planeten bewegen sich auf [[Ellipse|elliptischen]] Bahnen. In einem ihrer Brennpunkte steht die Sonne.
@@ -18,7 +19,7 @@ Ein von der Sonne zum Planeten gezogener Fahrstrahl überstreicht in gleichen 
 <br>
 
 **Drittes Keplersches Gesetz**
-Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen Halbachsen ihrer [[Ellipse|Bahnellipsen]].
+Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen Halbachsen ihrer Bahnellipsen.
 
 <br>
 

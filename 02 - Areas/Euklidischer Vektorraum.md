@@ -1,9 +1,10 @@
 ---
 date: 2024-10-16T16:17
 tags:
-  - Mathe
   - LinAlg
+  - Mathe
 ---
+
 Der [[Vektor#Vektorräume|Vektorraum]] $\mathbb{R}^n$ mit darauf definiertem Skalarprodukt ist ein euklidischer Vektorraum.
 
 ## Skalarprodukt

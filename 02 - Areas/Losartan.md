@@ -1,9 +1,9 @@
 ---
 date: 2024-05-22
 tags:
-- Rezepte
-- Training
+  - Training
 ---
+
 ## Einleitung
 Losartan war der erste oral verfügbare Angiotensin-II-Rezeptor-Antagonist und wird zur Behandlung von Bluthochdruck eingesetzt.
 

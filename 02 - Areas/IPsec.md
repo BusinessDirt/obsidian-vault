@@ -1,12 +1,13 @@
 ---
 date: 2025-07-24T15:55
+aliases:
 tags:
   - Informatik
-  - Rechnernetze
   - Internet
-aliases:
   - Internet Protocol Security
+  - Rechnernetze
 ---
+
 > Ein Sicherheitsprotokoll auf der [[IP]]-Ebene, das Datenverkehr verschlüsselt und authentifiziert - unabhängig davon, welche Anwendung die Daten sendet
 
 ## Funktionen

@@ -1,10 +1,11 @@
 ---
-cssclasses: []
 date: 2024-04-17T20:14
+cssclasses: []
 tags:
-- Mathe
-- Physik
+  - Mathe
+  - Physik
 ---
+
 ## Basics
 $\ce{ ^{14}_{6}C }$ -> Ordnungszahl, Massenzahl -> Ordnungszahl überflüssig -> $C14$
 $C12$ und $C14$ sind Kohlenstoff Isotope: Sie unterscheiden sich in der Anzahl der Neutronen und nicht in der Anzahl der Protonen

@@ -1,9 +1,10 @@
 ---
 date: 2024-04-17T20:14
+cssclasses: []
 tags:
   - Physik
-cssclasses: []
 ---
+
 # Lorentzfaktor
 - Faktor zur Berechnung relativistischer Eigenschaften
 - Längenkontraktion, Zeitdilatation, Relativistische Energie

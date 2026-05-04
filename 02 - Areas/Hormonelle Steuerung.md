@@ -1,16 +1,16 @@
 ---
 date: 2026-04-30
 tags:
-- Biologie
-- Endokrinologie
-- Hormone
-- Muskelaufbau
-- Pharmakologie
-- Physik
-- Physiologie
-- Rezepte
-- Training
+  - Biologie
+  - Endokrinologie
+  - Hormone
+  - Muskelaufbau
+  - Pharmakologie
+  - Physik
+  - Physiologie
+  - Training
 ---
+
 # 🩸 Hormonelle Steuerung des Muskelaufbaus
 
 Die hormonelle Umgebung bestimmt die Kapazität des Körpers, auf Trainingsreize zu reagieren. Man unterscheidet zwischen anabolen (aufbauenden) und katabolen (abbauenden) Signalen.
@@ -34,7 +34,7 @@ Ermöglicht den Transport von [[Aminosäuren]] und Glukose in die Muskelzelle. W
 
 ### 1. Cortisol
 Das "Stresshormon".
-- Stimuliert den Proteinabbau, um [[Aminosäuren]] für die Energiegewinnung (Gluconeogenese) freizusetzen.
+- Stimuliert den Proteinabbau, um Aminosäuren für die Energiegewinnung (Gluconeogenese) freizusetzen.
 - Ein chronisch hohes Verhältnis von Cortisol zu Testosteron ist ein Zeichen für Übertraining.
 
 ### 2. Myostatin

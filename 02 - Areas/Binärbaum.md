@@ -1,13 +1,14 @@
 ---
-cssclasses: null
 date: 2024-04-17T16:43
+cssclasses: null
 tags:
-- Datenstruktur
-- Informatik
-- Mathe
+  - Datenstruktur
+  - Informatik
+  - Mathe
 ---
+
 - Spezialisierung des [[Baum|Baumes]] 
-- Ein [[Knoten]] hat nur einen linken und einen rechten [[Knoten]] als Nachfolger
+- Ein [[Knoten]] hat nur einen linken und einen rechten Knoten als Nachfolger
 - Schnellere Durchsuchung großer Datenmengen als bei der [[Liste]] (nur sortierter Binärbaum)
-- Wurzel als erster [[Knoten]]
+- Wurzel als erster Knoten
 

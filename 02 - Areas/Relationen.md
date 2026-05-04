@@ -1,9 +1,10 @@
 ---
 date: 2024-10-16T16:17
 tags:
-  - Mathe
   - Analysis
+  - Mathe
 ---
+
 **Definition** Seien $X,Y$ Mengen, $R \subseteq X \times Y$. Das Tripel $R:= (X,Y,R)$ heißt (zweistellige) Relation zwischen (Elementen von) $X$ und (Elementen von) $Y$. Formal:
 $$x \sim y :\Leftrightarrow (x,y) \in R$$
 Statt $(X,Y,R)$ schreiben wir auch $(X,Y,\sim)$. Falls $Y=X$, spricht man von einer Relation auf $X$. In dem Fall schreibt man $(X,\sim)$ statt $(X,X,\sim)$.

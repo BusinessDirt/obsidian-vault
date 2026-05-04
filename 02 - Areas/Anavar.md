@@ -1,12 +1,13 @@
 ---
 date: 2024-05-22
 tags:
-- Biologie
-- Pharmakologie
-- Physik
-- Rezepte
-- Training
+  - AAS
+  - Biologie
+  - PED
+  - Pharma
+  - Pharmakologie
 ---
+
 ## Einleitung
 Oxandrolon, weitläufig bekannt unter dem Markennamen **Anavar**, ist ein synthetisches, oral verabreichtes anaboles androgenes Steroid (AAS), das ein Derivat von Dihydrotestosteron (DHT) darstellt. Es zeichnet sich durch eine hohe anabole Potenz bei gleichzeitig geringer androgener Aktivität aus.
 

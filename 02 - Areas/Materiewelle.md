@@ -1,9 +1,10 @@
 ---
 date: 2024-04-17T20:14
+cssclasses: []
 tags:
   - Physik
-cssclasses: []
 ---
+
 Wellenlänge eines Elementarteilchens (z.B. Elektron)
 
 # De-Broglie-Wellenlänge

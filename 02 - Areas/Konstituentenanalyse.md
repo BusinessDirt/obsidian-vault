@@ -1,12 +1,13 @@
 ---
 date: 2026-02-18
 tags:
-- Computerlinguistik
-- Informatik
-- Linguistik
-- Physik
-- Syntax
+  - Computerlinguistik
+  - Informatik
+  - Linguistik
+  - Physik
+  - Syntax
 ---
+
 # Konstituentenanalyse
 
 Die Konstituentenanalyse zerlegt Sätze in hierarchisch geordnete Einheiten, die **Konstituenten**. Eine Konstituente ist eine Wortgruppe, die eine syntaktische Einheit bildet.

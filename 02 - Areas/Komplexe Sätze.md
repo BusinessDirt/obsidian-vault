@@ -1,12 +1,13 @@
 ---
 date: 2026-02-18
 tags:
-- Computerlinguistik
-- Informatik
-- Linguistik
-- Mathe
-- Syntax
+  - Computerlinguistik
+  - Informatik
+  - Linguistik
+  - Mathe
+  - Syntax
 ---
+
 # Komplexe Sätze
 
 Die [[Syntax]] natürlicher Sprache erlaubt die Konstruktion beliebig langer und komplexer Sätze durch Rekursion.

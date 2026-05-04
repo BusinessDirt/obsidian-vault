@@ -1,9 +1,9 @@
 ---
 date: 2024-05-22
 tags:
-- Rezepte
-- Training
+  - Training
 ---
+
 ## Einleitung
 Telmisartan ist ein potenter, lang wirksamer Angiotensin-II-Rezeptor-Antagonist (Sartan), der primär zur Behandlung von Hypertonie eingesetzt wird.
 

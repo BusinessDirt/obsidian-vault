@@ -1,10 +1,11 @@
 ---
 date: 2026-04-09 11:02
 tags:
-  - Genetik
   - Biologie
+  - Genetik
   - Grundlagen
 ---
+
 ## 🧬 Definition
 Ein **Allel** (v. griech. *allélon* „einander, gegenseitig“) ist eine von mehreren möglichen Ausprägungen eines **Gens**, das an einem bestimmten Ort (Locus) auf einem Chromosom liegt.
 

@@ -1,15 +1,16 @@
 ---
 date: 2024-04-17T16:43
+cssclasses: null
 tags:
-  - Informatik
   - Datenstruktur
-cssclasses:
+  - Informatik
 ---
+
 - Behälter für Daten
 - Selbstreferenz für Vorgänger, Nachfolger, etc.
 - Anwendung in [[Graph]], [[Baum]], [[Binärbaum]], [[Liste]]
 
-## Knoten einer [[Liste]]
+## Knoten einer Liste
 ```java
 public class Node<T> {
 	

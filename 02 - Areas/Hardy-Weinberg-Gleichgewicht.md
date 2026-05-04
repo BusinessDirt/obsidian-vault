@@ -1,16 +1,17 @@
 ---
-aliases:
-- HWG
 date: 2026-04-09 11:02
+aliases:
 tags:
-- Biologie
-- Evolution
-- Genetik
-- Mathe
-- Populationsgenetik
-- Statistik
-- Stochastik
+  - Biologie
+  - Evolution
+  - Genetik
+  - HWG
+  - Mathe
+  - Populationsgenetik
+  - Statistik
+  - Stochastik
 ---
+
 ## 🧬 Definition
 Das Hardy-Weinberg-Gleichgewicht beschreibt einen theoretischen Zustand einer Population, in der keine Evolution stattfindet. Die Allelfrequenzen und Genotypfrequenzen bleiben von Generation zu Generation konstant.
 
@@ -52,11 +53,11 @@ Angenommen, wir untersuchen eine Population von 100 Individuen. Wir wissen, dass
    Da $p + q = 1$, ist $p = 1 - 0,2 = 0,8$. -> Das Allel **A** hat eine Frequenz von **80%**.
 
 4. **Anteil der Mischerbigen (Aa) berechnen:**
-   $2pq = 2 \cdot 0,8 \cdot 0,2 = 0,32$. -> **32%** der Population sind Überträger ([[Allele]]-Kombination Aa).
+   $2pq = 2 \cdot 0,8 \cdot 0,2 = 0,32$. -> **32%** der Population sind Überträger (Allele-Kombination Aa).
 
 ---
 ## ⚠️ Das Hardy-Weinberg-Ungleichgewicht
 In der Realität sind die Bedingungen einer Idealpopulation fast nie erfüllt. Weichen die beobachteten Zahlen von den berechneten HWG-Werten ab, deutet dies auf **Evolutionsfaktoren** hin:
-- **Mutationen** verändern [[Allele]].
+- **Mutationen** verändern Allele.
 - **Selektion** bevorzugt bestimmte Genotypen.
 - **Migration** bringt neue Gene ein.
