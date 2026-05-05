@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Permanent/Rezepte/Quick Bolognese.md",
+                "file": "01 - Projects/Axite/Pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick Bolognese"
+              "title": "Pipeline"
             }
           }
         ]
@@ -188,6 +188,9 @@
   },
   "active": "c959f5e598f5dbc5",
   "lastOpenFiles": [
+    "04 - Permanent/Rezepte/Quick Bolognese.md",
+    "01 - Projects/Axite/Pipeline.md",
+    "01 - Projects/Axite",
     "final_tag_fix.py",
     "fix_everything.py",
     "update_links_v2.py",
@@ -217,13 +220,10 @@
     "02 - Areas/Regeneration & Superkomposition.md",
     "02 - Areas/Hormonelle Steuerung.md",
     "02 - Areas/Mechanotransduktion & Zellreparatur.md",
-    "02 - Areas/Muskelproteinsynthese.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture",
     "01 - Projects",
     "01 - Projects/BDUI",
-    "02 - Areas/Software Engineering",
-    "01 - Projects/Onyx",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
