@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Projects/Axite/Pipeline.md",
+                "file": "01 - Projects/Axite/SceneGraph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pipeline"
+              "title": "SceneGraph"
             }
           }
         ]
@@ -188,8 +188,12 @@
   },
   "active": "c959f5e598f5dbc5",
   "lastOpenFiles": [
-    "04 - Permanent/Rezepte/Quick Bolognese.md",
     "01 - Projects/Axite/Pipeline.md",
+    "01 - Projects/Axite/RenderGraph.md",
+    "01 - Projects/Axite/SceneGraph.md",
+    "01 - Projects/Axite/AssetManagement.md",
+    "01 - Projects/Axite/VulkanRenderer.md",
+    "04 - Permanent/Rezepte/Quick Bolognese.md",
     "01 - Projects/Axite",
     "final_tag_fix.py",
     "fix_everything.py",
@@ -216,10 +220,6 @@
     "00 - Maps of Content/Studium/Logik und Diskrete Strukturen.md",
     "00 - Maps of Content/Studium/Algorithmen und Datenstrukturen.md",
     "00 - Maps of Content/Muskelaufbau.md",
-    "02 - Areas/Haskell.md",
-    "02 - Areas/Regeneration & Superkomposition.md",
-    "02 - Areas/Hormonelle Steuerung.md",
-    "02 - Areas/Mechanotransduktion & Zellreparatur.md",
     "01 - Projects/Mixture/Assets",
     "01 - Projects/Mixture",
     "01 - Projects",
