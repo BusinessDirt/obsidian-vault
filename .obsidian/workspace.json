@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/PHPC/06 Algorithms Topologies/Domain Decomposition & Parallele Algorithmen.md",
+                "file": "02 - Areas/PHPC/01 Fundamentals/Parallele Kennzahlen & Skalierung.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Domain Decomposition & Parallele Algorithmen"
+              "title": "Parallele Kennzahlen & Skalierung"
             }
           }
         ]
@@ -188,6 +188,9 @@
   },
   "active": "a77dde1e183824fe",
   "lastOpenFiles": [
+    "02 - Areas/PHPC/02 Shared Memory/False Sharing & Array Padding.md",
+    "02 - Areas/PHPC/07 Klausurvorbereitung/Klausur - Gedächtnisprotokolle.md",
+    "02 - Areas/PHPC/06 Algorithms Topologies/Domain Decomposition & Parallele Algorithmen.md",
     "02 - Areas/PHPC/05 Performance Analysis/Profiling & Tracing Tools.md",
     "02 - Areas/PHPC/04 Accelerators GPUs/OpenMP - Offloading.md",
     "02 - Areas/PHPC/04 Accelerators GPUs/GPU-Architektur & CUDA Grundlagen.md",
@@ -205,13 +208,10 @@
     "update_phpc_part3.py",
     "update_phpc_part2.py",
     "update_phpc_part1.py",
-    "02 - Areas/PHPC/07 Klausurvorbereitung/Klausur - Gedächtnisprotokolle.md",
     "02 - Areas/PHPC/06 Algorithms Topologies/Matrixmultiplikation Optimierung.md",
     "02 - Areas/PHPC/06 Algorithms Topologies/Interconnection Networks & Topologien.md",
-    "02 - Areas/PHPC/06 Algorithms Topologies/Domain Decomposition & Parallele Algorithmen.md",
     "02 - Areas/PHPC/05 Performance Analysis/Roofline Modell & Arithmetic Intensity.md",
     "02 - Areas/PHPC/02 Shared Memory/NUMA & First-Touch Policy.md",
-    "02 - Areas/PHPC/02 Shared Memory/False Sharing & Array Padding.md",
     "02 - Areas/PHPC/02 Shared Memory/OpenMP - Tasks.md",
     "02 - Areas/PHPC/02 Shared Memory/OpenMP - Synchronisation.md",
     "02 - Areas/PHPC/07 Klausurvorbereitung/Klausur - Q&A Repetitorium.md",
