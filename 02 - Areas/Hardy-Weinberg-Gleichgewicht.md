@@ -53,7 +53,7 @@ Angenommen, wir untersuchen eine Population von 100 Individuen. Wir wissen, dass
    Da $p + q = 1$, ist $p = 1 - 0,2 = 0,8$. -> Das Allel **A** hat eine Frequenz von **80%**.
 
 4. **Anteil der Mischerbigen (Aa) berechnen:**
-   $2pq = 2 \cdot 0,8 \cdot 0,2 = 0,32$. -> **32%** der Population sind Überträger (Allele-Kombination Aa).
+   $2pq = 2 \cdot 0,8 \cdot 0,2 = 0,32$. -> **32%** der Population sind Überträger ([[Allele]]-Kombination Aa).
 
 ---
 ## ⚠️ Das Hardy-Weinberg-Ungleichgewicht

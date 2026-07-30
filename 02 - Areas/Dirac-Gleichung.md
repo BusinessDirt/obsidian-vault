@@ -1,8 +1,9 @@
 ---
-date: 2024-04-17T20:14
 cssclasses: []
+date: 2024-04-17T20:14
 tags:
-  - Mathe
+- Mathe
+- Physik
 ---
 
 # Dirac-Gleichung eines ungeladenen Teilchens

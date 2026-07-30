@@ -1,11 +1,12 @@
 ---
 date: 2024-05-22
 tags:
-  - AAS
-  - Biologie
-  - PED
-  - Pharma
-  - Pharmakologie
+- AAS
+- Biologie
+- PED
+- Pharma
+- Pharmakologie
+- Physik
 ---
 
 ## Einleitung

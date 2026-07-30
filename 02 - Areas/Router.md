@@ -11,7 +11,7 @@ tags:
 > Er sorgt dafür, dass ein [[IP]]-Paket **vom Absender zum Empfänger gelangt**, auch wenn sie sich in völlig unterschiedlichen Netzwerken befinden
 
 
-## IP Routing
+## [[IP]] Routing
 1. **Ein Paket wird verschickt**: Dein PC will z.B. mit `142.251.37.4` (Google) kommunizieren
 2. **Zieladresse wird geprüft**: Dein PC sieht: Die IP gehört **nicht** zum lokalen Netzwerk
 3. **Standardgateway (Router) wird verwendet**: Das Paket wird an den **Router** weitergeleitet

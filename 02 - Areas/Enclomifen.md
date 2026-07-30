@@ -17,7 +17,7 @@ Enclomifen blockiert spezifisch die negativen Rückkopplungseffekte von Östroge
 - **Performance:** PCT oder als "Testosteron-Booster" zur Aufrechterhaltung der Eigenproduktion während oder nach moderaten Zyklen.
 
 ## Nebenwirkungen und Risiken
-Generell besser vertragen als Clomifen, jedoch können dennoch Kopfschmerzen, Übelkeit oder Gelenkschmerzen auftreten. Langzeitdaten zur isolierten Anwendung sind im Vergleich zu Clomifen begrenzter.
+Generell besser vertragen als [[Clomifen]], jedoch können dennoch Kopfschmerzen, Übelkeit oder Gelenkschmerzen auftreten. Langzeitdaten zur isolierten Anwendung sind im Vergleich zu Clomifen begrenzter.
 
 ## Chemische Strukturformel
 $\text{C}_{26}\text{H}_{28}\text{ClNO}$

@@ -19,7 +19,7 @@ Das Modell der Superkompensation beschreibt die Anpassungsreaktion des Organismu
 
 1. **Belastung:** Das Training führt zu Ermüdung und einer temporären Senkung des Leistungsniveaus (Glykogenentleerung, Mikrotraumata).
 2. **Regeneration:** In der Erholungsphase kehrt der [[Körper]] zum Ausgangsniveau zurück (Homöostase).
-3. **Superkompensation:** Der Körper baut Ressourcen über das ursprüngliche Niveau hinaus auf, um für künftige Belastungen gewappnet zu sein ([[Muskelaufbau]]).
+3. **Superkompensation:** Der [[Körper]] baut Ressourcen über das ursprüngliche Niveau hinaus auf, um für künftige Belastungen gewappnet zu sein ([[Muskelaufbau]]).
 4. **Involution:** Bleibt ein neuer Reiz aus, bildet sich die Anpassung wieder zurück.
 
 ## ⚠️ Wissenschaftliche Kritik & Grenzen

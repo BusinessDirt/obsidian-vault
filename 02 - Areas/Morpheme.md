@@ -17,5 +17,5 @@ tags:
 > Beispiele: $\{ \text{Garten} \}$, $\{ \text{Zwerg} \}$, $\{ \text{book} \}$, $\{ \text{sing} \}$
 
 ### Gebundenes Morphem
-> Morphem, das nicht selbstständig ein Wort bilden kann.
+> Morphem, das nicht selbstständig ein [[Wort]] bilden kann.
 > Beispiele: $\{ \text{ver-} \}$ (sprechen), $\{ \text{-s} \}$ als Genitiv Singular (Peters)

@@ -15,7 +15,7 @@ tags:
 
 > **Telefonbuch** des Internets
 > Statt sich [[IP|IP-Adressen]] wie `142.251.37.4` zu merken, nutzt man **Domainnamen** wie `www.google.com` 
-> Der DNS-Dienst sorgt dafür, dass dieser Name in die passende IP-Adresse übersetzt wird - und umgekehrt
+> Der DNS-Dienst sorgt dafür, dass dieser Name in die passende [[IP]]-Adresse übersetzt wird - und umgekehrt
 
 ## Funktion
 1. Du gibst `www.example.com` im Browser ein

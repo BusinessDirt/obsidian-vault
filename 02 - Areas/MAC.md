@@ -24,6 +24,6 @@ a) Sender kennt MAC-Adresse des Empfängers
 - Netzwerk Switch liest den Frame und leitet ihn gezielt weiter
 b) Sender kennt nur [[IP]]-Adresse
 - [[ARP]] (Address Resolution Protocol) wird verwendet
-- Sender fragt: “Wer hat IP-Adresse X? Sag mir deine MAC-Adresse!”
-- Das Gerät mit der IP Antwortet mit der MAC-Adresse → Sender speichert sie in seiner ARP-Tabelle
+- Sender fragt: “Wer hat [[IP]]-Adresse X? Sag mir deine MAC-Adresse!”
+- Das Gerät mit der IP Antwortet mit der MAC-Adresse → Sender speichert sie in seiner [[ARP]]-Tabelle
 

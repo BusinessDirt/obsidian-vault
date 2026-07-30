@@ -11,5 +11,5 @@ tags:
 
 > Vorgänger von [[TLS]] (veraltet)
 > SSL 2.0 und 3.0 gelten heute als unsicher und werden nicht mehr verwendet
-> Der Begriff “SSL” wird im Alltag oft fälschlich für TLS benutzt
+> Der Begriff “SSL” wird im Alltag oft fälschlich für [[TLS]] benutzt
 > 	→ z.B. “SSL-Zertifikat” = eigentlich TLS-Zertifikat

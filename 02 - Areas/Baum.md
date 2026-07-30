@@ -7,7 +7,7 @@ tags:
 ---
 
 - [[Knoten]] haben einen Vorgänger
-- Knoten haben unendlich viele Nachfolger
+- [[Knoten]] haben unendlich viele Nachfolger
 
 ## Wurzel
 - erster Knoten, von dem aus alle anderen Knoten erreichbar sind

@@ -9,5 +9,5 @@ tags:
 # Reaktion
 - Abgastemperatur > 180°C
 - [[Harnstoff]] reagiert zu [[Ammoniak]] und [[ Isocyansäure]]
-- Isocyansäure reagiert mit Wasser zu Ammoniak und Kohlenstoffdioxid
+- [[Isocyansäure]] reagiert mit Wasser zu [[Ammoniak]] und Kohlenstoffdioxid
 - Ammoniak reagiert mit Stickoxiden zu Wasser und Stickstoff 

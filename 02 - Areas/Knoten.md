@@ -10,7 +10,7 @@ tags:
 - Selbstreferenz für Vorgänger, Nachfolger, etc.
 - Anwendung in [[Graph]], [[Baum]], [[Binärbaum]], [[Liste]]
 
-## Knoten einer Liste
+## Knoten einer [[Liste]]
 ```java
 public class Node<T> {
 	

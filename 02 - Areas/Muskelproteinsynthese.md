@@ -18,7 +18,7 @@ Die Muskelproteinsynthese ist der Prozess, bei dem [[Aminosäuren]] in Muskelgew
 ## ⚙️ Der Ablauf der MPS
 
 ### 1. Die Anlieferung (Absorption)
-Proteine werden im Magen-Darm-Trakt in einzelne Aminosäuren zerlegt. Besonders wichtig sind die **EAA** (*Essential Amino Acids*), da der [[Körper]] diese nicht selbst herstellen kann.
+Proteine werden im Magen-Darm-Trakt in einzelne [[Aminosäuren]] zerlegt. Besonders wichtig sind die **EAA** (*Essential Amino Acids*), da der [[Körper]] diese nicht selbst herstellen kann.
 
 ### 2. Der "Zündschlüssel" ($mTORC1$)
 Der Proteinkomplex **$mTORC1$** (*mechanistic Target of Rapamycin Complex 1*) ist der zentrale Regulator des Zellwachstums. Er reagiert auf:

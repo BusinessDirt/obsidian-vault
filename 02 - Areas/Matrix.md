@@ -19,7 +19,7 @@ Seien $m, n \in \mathbb{N}$. Sei $K$ ein [[Gruppen, Ringe, Körper#Körper|Körp
 2) $\lambda A := (\lambda a_{ij})_{i=1,\dots,m;j=1,\dots,n} \quad$ (skalare Multiplikation)
 
 # Matrizenmultiplikation
-Seien $m,n,p \in \mathbb{N}$. Sei $K$ ein Körper. Seien $A=(a_{ij})_{i=1,\dots,m;j=1,\dots,n} \in K^{m \times n}$, $B=(b_{jk})_{j=1,\dots,n;k=1,\dots,p} \in K^{n \times p}$. Wir definieren:
+Seien $m,n,p \in \mathbb{N}$. Sei $K$ ein [[Körper]]. Seien $A=(a_{ij})_{i=1,\dots,m;j=1,\dots,n} \in K^{m \times n}$, $B=(b_{jk})_{j=1,\dots,n;k=1,\dots,p} \in K^{n \times p}$. Wir definieren:
 $$A \cdot B := \left( \sum_{j=1}^{n}{a_{ij}b_{jk}} \right)_{i=1,\dots,n;k=1,\dots,p} \in K^{m \times p}$$
 ## Transponierte Matrix
 Seien $m,n \in \mathbb{N}$. Sei $K$ ein Körper und die Matrix $A=(a_{ij})_{i=1,\dots,m;j=1,\dots,n} \in K^{m \times n}$. Wir nennen

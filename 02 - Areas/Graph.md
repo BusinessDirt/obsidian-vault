@@ -14,7 +14,7 @@ tags:
 
 # Algorithmen
 ## Tiefensuche
-Die Tiefensuche sucht nach der Tiefe des Graphen, also der größten Anzahl an Kanten in einer Reihe von Knoten $a$ bis $b$
+Die Tiefensuche sucht nach der Tiefe des Graphen, also der größten Anzahl an Kanten in einer Reihe von [[Knoten]] $a$ bis $b$
 - Vom Startknoten $a$ zum nächsten Knoten nach der angegebenen Sortierung
 - Wiederholung bis "Sackgasse", dann ein Knoten zurück und zum nächsten
 - Tiefensuche merkt sich die besuchten Knoten

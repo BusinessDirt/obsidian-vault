@@ -1,8 +1,9 @@
 ---
-date: 2024-04-17T20:14
 cssclasses: []
+date: 2024-04-17T20:14
 tags:
-  - Physik
+- Mathe
+- Physik
 ---
 
 # Elektromagnetische Induktion
@@ -16,7 +17,7 @@ tags:
 - Die Induktionsspannung $U_i$ berechnet sich durch $U_i=-\frac{d\Phi}{dt}$ bzw. für eine Spule mit $N$ Windungen $U_i=-N\cdot\frac{d\Phi}{dt}$
 
 ## Induktion und [[Lorentzkraft]]
-- Das Auftreten von Induktionsspannungen kann mithilfe der Lorentzkraft erklärt werden
+- Das Auftreten von Induktionsspannungen kann mithilfe der [[Lorentzkraft]] erklärt werden
 - Ändert sich die vom Magnetfeld durchsetzte Fläche einer Spule, so tritt Induktion auf
 - Eine Flächenänderung kann auch durch Rotation der Spule erreicht werden
 

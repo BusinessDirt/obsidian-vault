@@ -109,7 +109,7 @@ tags:
         <li>Beispiele:</li>
         <ul>
             <li><strong>Stoppwort-[[Liste]]:</strong> Häufige Wörter zum Herausfiltern</li>
-            <li><strong>Swadesh-Liste:</strong> Grundwortschatz zum Vergleich zwischen Sprachen</li>
+            <li><strong>Swadesh-[[Liste]]:</strong> Grundwortschatz zum Vergleich zwischen Sprachen</li>
         </ul>
     </ul>
 </div>

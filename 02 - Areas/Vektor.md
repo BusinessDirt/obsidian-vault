@@ -15,7 +15,7 @@ $$a_1\vec{v_1} + a_2\vec{v_2} + \cdots + a_n\vec{v_n} = \vec{0}$$
 mit Koeffizienten $a_1, a_2, \dots , a_n$ aus dem Grundkörper $K$ diejenige ist, bei der alle Koeffizienten $a_i$ gleich null sind. Lässt sich dagegen der Nullvektor auch nichttrivial (mit Koeffizienten ungleich null) erzeugen, dann sind die Vektoren linear abhängig.
 
 # Vektorräume
-**Definition**: Sei $K$ ein Körper. Eine [[Mengenlehre|Menge]] $V$ mit zwei [[Gruppen, Ringe, Körper#Gruppen#Verknüpfung|Verknüpfungen]]
+**Definition**: Sei $K$ ein [[Körper]]. Eine [[Mengenlehre|Menge]] $V$ mit zwei [[Gruppen, Ringe, Körper#Gruppen#Verknüpfung|Verknüpfungen]]
 i) $+:V \times K \to V, \space (\vec{v},\vec{w}) \to \vec{v} + \vec{w}$ (Vektoraddition)
 ii) $\cdot : K \times V \to V, \space (\lambda ,\vec{v}) \to \lambda \cdot \vec{v}$ (skalare Multiplikation)
 heißt Vektorraum über $K$ oder $K$-Vektorraum genau dann, wenn gilt:

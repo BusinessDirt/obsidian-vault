@@ -34,7 +34,7 @@ Ermöglicht den Transport von [[Aminosäuren]] und Glukose in die Muskelzelle. W
 
 ### 1. Cortisol
 Das "Stresshormon".
-- Stimuliert den Proteinabbau, um Aminosäuren für die Energiegewinnung (Gluconeogenese) freizusetzen.
+- Stimuliert den Proteinabbau, um [[Aminosäuren]] für die Energiegewinnung (Gluconeogenese) freizusetzen.
 - Ein chronisch hohes Verhältnis von Cortisol zu Testosteron ist ein Zeichen für Übertraining.
 
 ### 2. Myostatin

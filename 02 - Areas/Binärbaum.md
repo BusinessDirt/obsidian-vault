@@ -8,7 +8,7 @@ tags:
 ---
 
 - Spezialisierung des [[Baum|Baumes]] 
-- Ein [[Knoten]] hat nur einen linken und einen rechten Knoten als Nachfolger
+- Ein [[Knoten]] hat nur einen linken und einen rechten [[Knoten]] als Nachfolger
 - Schnellere Durchsuchung großer Datenmengen als bei der [[Liste]] (nur sortierter Binärbaum)
 - Wurzel als erster Knoten
 

@@ -42,7 +42,7 @@ Eine Ableitung ist eine Folge von Ersetzungsschritten, beginnend beim Startsymbo
 7.  $\to \text{Der}\ \text{Hund}\ \text{schläft}$ (Regel $V \to \text{schläft}$)
 
 ## 4. [[Ambiguität]]
-Eine Grammatik ist ambig, wenn es für einen Satz **mehr als einen** Ableitungsbaum gibt (strukturelle Ambiguität).
+Eine Grammatik ist ambig, wenn es für einen Satz **mehr als einen** Ableitungsbaum gibt (strukturelle [[Ambiguität]]).
 *   **Klassiker:** "I shot an elephant in my pajamas."
     *   Lesart 1: Ich trug den Pyjama. ($[_{VP} \text{shot} [_{NP} \text{an elephant}] [_{PP} \text{in my pajamas}]]]$)
     *   Lesart 2: Der Elefant trug den Pyjama. ($[_{VP} \text{shot} [_{NP} \text{an elephant} [_{PP} \text{in my pajamas}]]]]$)

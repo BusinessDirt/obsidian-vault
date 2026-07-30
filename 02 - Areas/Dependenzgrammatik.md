@@ -28,7 +28,7 @@ Die Valenz eines Wortes bestimmt, wie viele und welche Art von Dependenten es fo
 
 ## 3. Universal Dependencies (UD)
 Ein Standard für sprachübergreifende Dependenzannotation.
-Wichtige Relationen (Labels):
+Wichtige [[Relationen]] (Labels):
 - `nsubj`: Nominal subject (Subjekt)
 - `obj`: Object (Objekt)
 - `root`: Wurzel
