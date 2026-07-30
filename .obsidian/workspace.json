@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/PHPC/03 Distributed Memory/MPI - Grundlagen & P2P.md",
-                "mode": "source",
+                "file": "02 - Areas/PHPC/04 Accelerators GPUs/GPU-Architektur & CUDA Grundlagen.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MPI - Grundlagen & P2P"
+              "title": "GPU-Architektur & CUDA Grundlagen"
             }
           }
         ]
@@ -188,6 +188,10 @@
   },
   "active": "a77dde1e183824fe",
   "lastOpenFiles": [
+    "02 - Areas/PHPC/03 Distributed Memory/MPI - One-Sided Communication (RMA).md",
+    "02 - Areas/PHPC/03 Distributed Memory/MPI - Nicht-blockierende Kommunikation.md",
+    "02 - Areas/PHPC/03 Distributed Memory/MPI - Kollektive Kommunikation.md",
+    "02 - Areas/PHPC/03 Distributed Memory/MPI - Grundlagen & P2P.md",
     "02 - Areas/PHPC/01 Fundamentals/Parallele Kennzahlen & Skalierung.md",
     "00 - Maps of Content/Studium/Parallel and High Performance Computing.md",
     "02 - Areas/PHPC/04 Accelerators GPUs/GPU-Architektur & CUDA Grundlagen.md",
@@ -206,15 +210,11 @@
     "02 - Areas/PHPC/05 Performance Analysis/Roofline Modell & Arithmetic Intensity.md",
     "02 - Areas/PHPC/05 Performance Analysis/Profiling & Tracing Tools.md",
     "02 - Areas/PHPC/04 Accelerators GPUs/OpenMP - Offloading.md",
-    "02 - Areas/PHPC/03 Distributed Memory/MPI - Nicht-blockierende Kommunikation.md",
-    "02 - Areas/PHPC/03 Distributed Memory/MPI - Kollektive Kommunikation.md",
-    "02 - Areas/PHPC/03 Distributed Memory/MPI - Grundlagen & P2P.md",
     "02 - Areas/PHPC/02 Shared Memory/NUMA & First-Touch Policy.md",
     "02 - Areas/PHPC/02 Shared Memory/False Sharing & Array Padding.md",
     "02 - Areas/PHPC/02 Shared Memory/OpenMP - Tasks.md",
     "02 - Areas/PHPC/02 Shared Memory/OpenMP - Synchronisation.md",
     "02 - Areas/PHPC/07 Klausurvorbereitung/Klausur - Q&A Repetitorium.md",
-    "02 - Areas/PHPC/03 Distributed Memory/MPI - One-Sided Communication (RMA).md",
     "02 - Areas/PHPC/03 Distributed Memory/PGAS & UPC.md",
     "02 - Areas/PHPC/03 Distributed Memory/Unbenannt.md",
     "02 - Areas/PHPC/07 Klausurvorbereitung",
