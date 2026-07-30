@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "02 - Areas/PHPC/01 Fundamentals/Rechnerarchitektur & ILP.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Rechnerarchitektur & ILP"
