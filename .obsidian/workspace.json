@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/PHPC/01 Fundamentals/Parallele Kennzahlen & Skalierung.md",
+                "file": "02 - Areas/PHPC/03 Distributed Memory/MPI - Grundlagen & P2P.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Parallele Kennzahlen & Skalierung"
+              "title": "MPI - Grundlagen & P2P"
             }
           }
         ]
@@ -188,11 +188,11 @@
   },
   "active": "a77dde1e183824fe",
   "lastOpenFiles": [
+    "02 - Areas/PHPC/01 Fundamentals/Parallele Kennzahlen & Skalierung.md",
     "00 - Maps of Content/Studium/Parallel and High Performance Computing.md",
     "02 - Areas/PHPC/04 Accelerators GPUs/GPU-Architektur & CUDA Grundlagen.md",
     "02 - Areas/PHPC/02 Shared Memory/OpenMP - Scheduling.md",
     "02 - Areas/PHPC/02 Shared Memory/OpenMP - Grundlagen & Worksharing.md",
-    "02 - Areas/PHPC/01 Fundamentals/Parallele Kennzahlen & Skalierung.md",
     "02 - Areas/PHPC/01 Fundamentals/Memory Wall & Caches.md",
     "02 - Areas/PHPC/01 Fundamentals/Rechnerarchitektur & ILP.md",
     "update_phpc_part4.py",
