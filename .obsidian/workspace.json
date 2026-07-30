@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel and High Performance Computing.md",
+                "file": "00 - Maps of Content/Studium/Parallel and High Performance Computing.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 435
   },
   "right": {
     "id": "d806eb3197e224c5",
@@ -186,9 +186,14 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "a77dde1e183824fe",
+  "active": "2888c0f8e844e72f",
   "lastOpenFiles": [
-    "Parallel and High Performance Computing.md",
+    "02 - Areas/PHPC/Unbenannt",
+    "02 - Areas/PHPC/02 Shared Memory",
+    "02 - Areas/PHPC/01 Fundamentals",
+    "02 - Areas/PHPC",
+    "04 - Permanent/Rezepte/Honig-Curry Hühnchen.md",
+    "00 - Maps of Content/Studium/Parallel and High Performance Computing.md",
     "01 - Projects/Axite/SceneGraph.md",
     "01 - Projects/Axite/Pipeline.md",
     "01 - Projects/Axite/RenderGraph.md",
@@ -218,12 +223,7 @@
     "00 - Maps of Content/Performance Enhancing Drugs.md",
     "00 - Maps of Content/Studium/Syntax und Semantik.md",
     "00 - Maps of Content/Studium/Rechnerarchitektur.md",
-    "00 - Maps of Content/Studium/Logik und Diskrete Strukturen.md",
-    "00 - Maps of Content/Studium/Algorithmen und Datenstrukturen.md",
     "01 - Projects/Mixture/Assets",
-    "01 - Projects/Mixture",
-    "01 - Projects",
-    "01 - Projects/BDUI",
     "03 - Resources/Von-Neumann_Architektur.svg",
     "03 - Resources/Mathe-Geraden_und_Ebenen_Schnittpunkt.jpg",
     "03 - Resources/IMG_20230228_092655.jpg",
