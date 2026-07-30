@@ -204,6 +204,7 @@
   "active": "ede752176fac2b65",
   "lastOpenFiles": [
     "00 - Maps of Content/Studium/Parallel and High Performance Computing.md",
+    "02 - Areas/PHPC/01 Fundamentals/Memory Wall & Caches.md",
     "02 - Areas/PHPC/01 Fundamentals/Rechnerarchitektur & ILP.md",
     "02 - Areas/PHPC/01 Fundamentals/Parallele Kennzahlen & Skalierung.md",
     "update_phpc_part4.py",
@@ -227,7 +228,6 @@
     "02 - Areas/PHPC/02 Shared Memory/OpenMP - Synchronisation.md",
     "02 - Areas/PHPC/02 Shared Memory/OpenMP - Scheduling.md",
     "02 - Areas/PHPC/02 Shared Memory/OpenMP - Grundlagen & Worksharing.md",
-    "02 - Areas/PHPC/01 Fundamentals/Memory Wall & Caches.md",
     "02 - Areas/PHPC/07 Klausurvorbereitung/Klausur - Q&A Repetitorium.md",
     "02 - Areas/PHPC/03 Distributed Memory/MPI - One-Sided Communication (RMA).md",
     "02 - Areas/PHPC/03 Distributed Memory/PGAS & UPC.md",
