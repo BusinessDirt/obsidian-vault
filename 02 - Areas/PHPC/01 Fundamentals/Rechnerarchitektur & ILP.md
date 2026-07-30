@@ -4,5 +4,6 @@ tags:
   - PHPC
   - Pipelining
   - Superskalarität
+  - SIMD
 links: "[[Memory Wall & Caches]]"
 ---
