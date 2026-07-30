@@ -1,61 +1,97 @@
 ---
-date: 2026-04-09 11:02
+date: 2026-07-30 11:02
 tags:
-  - PHPC
   - MOC
+  - PHPC
+  - HPC
+status: in-progress
+last_updated: 2026-07-30
 ---
-### 🗺️ Lern-Roadmap
 
-#### 🔴 PHASE 1: Höchste Priorität (Kernkonzepte & Hauptprogrammiermodelle)
+# 🖥️ PHPC - Master Map of Content
 
->[!info]
->Diese Themen bilden das Fundament und stellen gewöhnlich den größten Teil der Klausurfragen dar.
+Willkommen zur zentralen Übersichtsseite für das Modul **Parallel and High Performance Computing (PHPC)**. Dieses MOC strukturiert das gesamte Vorlesungsmaterial, Praktikumsaufgaben und Prüfungsvorbereitungen in atomare Notizen.
 
-1. **Shared Memory Programming mit OpenMP**
-    - **Grundlagen & Direktiven:** `#pragma omp parallel`, `for`, `sections`, Variable Scoping (`private`, `shared`, `firstprivate`, `reduction`).
-    - **Worksharing & Scheduling:** `static`, `dynamic`, `guided`, `runtime` (Wann nutzt man welches?).  
-    - **Synchronisation:** `critical`, `atomic`, `barrier`, `single`, `master`.
-    - **Task-basierte Ausführung:** `#pragma omp task`, `taskwait`, Task-Abhängigkeiten (`depend`).
-    - **Performance & Pitfalls:**
-        - **False Sharing** & **Array Padding** (Ursachen, Cache-Line-Ebene, Vermeidung). 
-        - **NUMA-Architekturen** & **First-Touch-Policy** (Thread-Affinität / Data Placement).
-2. **Distributed Memory Programming mit MPI (Message Passing Interface)**
-    - **MPI-Grundlagen:** Ranks, Kommunikatoren (`MPI_COMM_WORLD`), Datentypen, Nachrichtenstruktur.
-    - **Point-to-Point (P2P) Kommunikation:**
-        - Blockierend (`MPI_Send`, `MPI_Recv`) vs. Nicht-blockierend (`MPI_Isend`, `MPI_Irecv`, `MPI_Wait`). 
-        - Deadlock-Szenarien und Vermeidung. 
-        - Überlappung von Kommunikation und Berechnung (Communication/Computation Overlap).
-    - **Kollektive Kommunikation:** `MPI_Bcast`, `MPI_Reduce`, `MPI_Allreduce`, `MPI_Scatter`, `MPI_Gather`, `MPI_Barrier`.
-    - **Einseitige Kommunikation (RMA / One-Sided):** `MPI_Win_create`, `MPI_Put`, `MPI_Get`, `MPI_Accumulate`, Synchronisations-Epochen (`MPI_Win_fence`).
-3. **Rechnerarchitektur & Speicherhierarchie**
-    - **CPU-Mikroarchitektur & ILP:** Instruction-Level Parallelism, Pipelining, Superskalarität, Out-of-Order Execution (OoO), SIMD/Vektorisierung. 
-    - **Caches & Memory Wall:** Cache-Hierarchien (L1, L2, L3), Temporal & Spatial Locality, Cache Line Size (typisch 64 Bytes).
+---
 
-#### 🟡 PHASE 2: Hohe Priorität (Skalierung, Metriken & Beschleuniger)
+## 📌 Schnellzugriff & Prüfungsfokus
+- 🎯 **Hauptfokus:** OpenMP (Shared Memory) & MPI (Distributed Memory)
+- 📊 **Metriken & Formeln:** Speedup, Efficiency, Amdahl/Gustafson, Roofline
+- 🧪 **Prüfungsvorbereitung:** [[Klausur - Q&A Repetitorium]] | [[Klausur - Gedächtnisprotokolle]]
 
-4. **Konzepte der Parallelisierung & Skalierungsgesetze**
-    - **Kennzahlen:** Speedup S(p), Effizienz E(p).
-    - **Skalierung:**
-        - **Strong Scaling:** Feste Problemgröße, steigende Prozessoranzahl → Limitiert durch den sequentiellen Anteil (**Amdahlsches Gesetz**).
-        - **Weak Scaling:** Skalierende Problemgröße mit der Prozessoranzahl → **Gustafsonsches Gesetz**.
-5. **GPU-Programmierung & Heterogene Systeme**
-    - **CUDA-Architektur & Terminology:** Grid, Block, Thread, Warp (32 Threads), Executing Threads in Lockstep.
-    - **Speicherhierarchie bei GPUs:** Registers, Shared Memory, Global Memory.
-    - **OpenMP Offloading:** Pragmas für Accelerators (`#pragma omp target`, `map(to/from)`).
-6. **Leistungsanalyse & Metriken**
-    - **Arithmetic / Computational Intensity:** FLOPs pro Byte Hauptspeicherzugriff.
-    - **Roofline-Modell:** Speicherbandbreiten-Limitierung vs. Compute-Limitierung.
-    - **Profiling-Tools:** Grundlagen zu Vampir, IPM, PAPI.
-#### 🟢 PHASE 3: Mittlere Priorität (Netzwerke, PGAS & Spezialthemen)
+---
 
-7. **Interconnection Networks & Netzwerktopologien**
-    - **Netzwerkeigenschaften:** Durchmesser (Diameter), Bisektionsbandbreite (Bisection Bandwidth), Latenz, Durchsatz.
-    - **Topologien:** Hypercube (Metriken wie Durchmesser log2​N), Mesh, Torus, Fat Tree. 
-    - **Kommunikationsmodelle:** Hockney-Modell (T=α+β⋅L), LogP. 
-8. **PGAS (Partitioned Global Address Space)**
-    - **Konzept:** Logisch gemeinsamer Adressraum auf verteiltem Speicher. 
-    - **Sprachen & Bibliotheken:** Unified Parallel C (UPC), DASH.
-    - Vergleich zwischen PGAS, MPI und OpenMP (Vor- und Nachteile bzgl. Produktivität und Kontrolle).
-9. **Parallele Algorithmen & Anwendungen**
-    - **Domain Decomposition:** Gebietszerlegung, Oberflächen-zu-Volumen-Verhältnis (_Surface-to-Volume Ratio_) zur Minimierung des Kommunikationsaufwands.
-    - **Anwendungsfälle:** Parallele Matrixmultiplikation, Fast Fourier Transform (FFT), Paralleles Sortieren, Sparse Matrices.
+## 🔴 Phase 1: Kernkonzepte (Höchste Priorität)
+
+### 🔹 01. Grundlagen & Hardware-Architektur
+- [[Rechnerarchitektur & ILP]]
+  - *Instruction-Level Parallelism, Superskalarität, Out-of-Order Execution, SIMD/Vektorisierung*
+- [[Memory Wall & Caches]]
+  - *Cache-Hierarchien (L1-L3), Temporal/Spatial Locality, Cache Line Size (64 Byte), Stride-1 Access*
+- [[Parallele Kennzahlen & Skalierung]]
+  - *Speedup $S(p)$, Effizienz $E(p)$, Strong Scaling (Amdahlsches Gesetz) vs. Weak Scaling (Gustafsonsches Gesetz)*
+
+### 🔹 02. Shared Memory Programming (OpenMP)
+- [[OpenMP - Grundlagen & Worksharing]]
+  - *Fork-Join-Modell, `#pragma omp parallel`, `for`, `sections`, Variable Scoping (`shared`, `private`, `firstprivate`, `reduction`)*
+- [[OpenMP - Scheduling]]
+  - *`static`, `dynamic`, `guided`, `runtime` – Trade-offs zwischen Load Balancing und Overhead*
+- [[OpenMP - Synchronisation]]
+  - *`critical`, `atomic`, `barrier`, `single`, `master`, Deadlocks, Critical Sections*
+- [[OpenMP - Tasks]]
+  - *Task-basierte Ausführung, `#pragma omp task`, `taskwait`, `depend(in/out/inout)`, Rekursion (z. B. Fibonacci)*
+- [[False Sharing & Array Padding]]
+  - *Cache Line Invalidation Ping-Pong, Cache-Kohärenz, Vermeidung durch Pad-Structs oder thread-lokale Puffer*
+- [[NUMA & First-Touch Policy]]
+  - *Non-Uniform Memory Access, UMA vs. NUMA, Data Placement bei First-Touch*
+
+### 🔹 03. Distributed Memory Programming (MPI)
+- [[MPI - Grundlagen & P2P]]
+  - *Ranks, Communicators (`MPI_COMM_WORLD`), Datentypen, Point-to-Point (`MPI_Send`, `MPI_Recv`)*
+- [[MPI - Nicht-blockierende Kommunikation]]
+  - *`MPI_Isend`, `MPI_Irecv`, `MPI_Wait`, Computation/Communication Overlap, Deadlock-Vermeidung*
+- [[MPI - Kollektive Kommunikation]]
+  - *`MPI_Bcast`, `MPI_Reduce`, `MPI_Allreduce`, `MPI_Scatter`, `MPI_Gather`, `MPI_Barrier`*
+- [[MPI - One-Sided Communication (RMA)]]
+  - *Remote Memory Access, RMA Windows (`MPI_Win_create`), `MPI_Put`, `MPI_Get`, `MPI_Accumulate`, Synchronization Epoches (`MPI_Win_fence`)*
+
+---
+
+## 🟡 Phase 2: Beschleuniger, Metriken & Netze (Hohe Priorität)
+
+### 🔹 04. GPU-Programmierung & Heterogene Systeme
+- [[GPU-Architektur & CUDA Grundlagen]]
+  - *Streaming Multiprocessors (SM), CUDA Cores, Warps (32 Threads), Grid/Block/Thread Hierarchy, Shared vs. Global Memory*
+- [[OpenMP - Offloading]]
+  - *Host-Target Model, `#pragma omp target`, `teams`, `distribute`, `parallel for`, Data Mapping (`map(to/from)`)*
+
+### 🔹 05. Performance-Analyse & Profiling
+- [[Roofline Modell & Arithmetic Intensity]]
+  - *Operational / Arithmetic Intensity (FLOPs/Byte), Memory-bound vs. Compute-bound Regionen*
+- [[Profiling & Tracing Tools]]
+  - *Hardware Performance Counter, PAPI, `perf`, IPM, Vampir, MPE, Tracing vs. Profiling*
+
+### 🔹 06. Netzwerke & Topologien
+- [[Interconnection Networks & Topologien]]
+  - *Durchmesser, Bisektionsbandbreite, Latenz, Durchsatz, Topologien (Hypercube, Mesh, Torus, Fat Tree), Hockney-Modell ($T = \alpha + \beta \cdot L$)*
+
+---
+
+## 🟢 Phase 3: Algorithmen & Fortgeschrittene Paradigmen
+
+### 🔹 07. PGAS & Spezielle Algorithmen
+- [[PGAS & UPC]]
+  - *Partitioned Global Address Space, Logisch gemeinsamer Speicher auf verteilter HW, UPC, DASH*
+- [[Domain Decomposition & Parallele Algorithmen]]
+  - *Gebietszerlegung, Surface-to-Volume Ratio, Stencil Computations, Sparse Matrices, FFT*
+- [[Matrixmultiplikation Optimierung]]
+  - *Naiv ($ijk$) vs. Loop Interchange ($ikj$), Cache Blocking / Tiling, AVX-Vektorisierung*
+
+---
+
+## 🎯 Phase 4: Klausurvorbereitung & Praxistests
+
+- [[Klausur - Q&A Repetitorium]]
+  - *Fragenkatalog aus den offiziellen Q&A-Folien (15.QandA.pdf)*
+- [[Klausur - Gedächtnisprotokolle]]
+  - *Ausgearbeitete Lösungen zu den Altklausuren (2021/22 & Folgende)*
