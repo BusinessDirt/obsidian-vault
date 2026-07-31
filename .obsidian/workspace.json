@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ddfad22e1b819b6e",
+        "id": "1c0cce82d25353f3",
         "type": "tabs",
         "children": [
           {
-            "id": "99a672f49c114c38",
+            "id": "073b1ba0b51b994e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Areas/CG1/Animation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Animation"
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -186,9 +182,13 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "99a672f49c114c38",
+  "active": "073b1ba0b51b994e",
   "lastOpenFiles": [
+    "02 - Areas/CG1/Virtuelle & Erweiterte Realität.md",
     "00 - Maps of Content/Studium/Computergrafik 1.md",
+    "02 - Areas/CG1/Alternative Rendering-Pipelines.md",
+    "02 - Areas/CG1/3D-Interaktion.md",
+    "02 - Areas/CG1/Animation.md",
     "02 - Areas/CG1/Shading & Rendering.md",
     "02 - Areas/CG1/Licht, Aussehen & Material.md",
     "02 - Areas/CG1/Rasterisierung.md",
@@ -196,11 +196,7 @@
     "02 - Areas/CG1/3D-Geometrie & Modellierung.md",
     "02 - Areas/CG1/Transformationen & Szenengraph.md",
     "02 - Areas/CG1/Einführung & Grundlagen.md",
-    "02 - Areas/CG1/3D-Interaktion.md",
     "02 - Areas/CG1",
-    "02 - Areas/CG1/Virtuelle & Erweiterte Realität.md",
-    "02 - Areas/CG1/Alternative Rendering-Pipelines.md",
-    "02 - Areas/CG1/Animation.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "00 - Maps of Content/Muskelaufbau.md",
     "02 - Areas/PHPC/01 Fundamentals/Parallele Kennzahlen & Skalierung.md",
