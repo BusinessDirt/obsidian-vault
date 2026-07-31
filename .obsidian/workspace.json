@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/CG1/Kameramodell & Projektion.md",
+                "file": "02 - Areas/CG1/Animation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kameramodell & Projektion"
+              "title": "Animation"
             }
           }
         ]
@@ -189,6 +189,10 @@
   "active": "99a672f49c114c38",
   "lastOpenFiles": [
     "00 - Maps of Content/Studium/Computergrafik 1.md",
+    "02 - Areas/CG1/Shading & Rendering.md",
+    "02 - Areas/CG1/Licht, Aussehen & Material.md",
+    "02 - Areas/CG1/Rasterisierung.md",
+    "02 - Areas/CG1/Kameramodell & Projektion.md",
     "02 - Areas/CG1/3D-Geometrie & Modellierung.md",
     "02 - Areas/CG1/Transformationen & Szenengraph.md",
     "02 - Areas/CG1/Einführung & Grundlagen.md",
@@ -197,10 +201,6 @@
     "02 - Areas/CG1/Virtuelle & Erweiterte Realität.md",
     "02 - Areas/CG1/Alternative Rendering-Pipelines.md",
     "02 - Areas/CG1/Animation.md",
-    "02 - Areas/CG1/Shading & Rendering.md",
-    "02 - Areas/CG1/Licht, Aussehen & Material.md",
-    "02 - Areas/CG1/Rasterisierung.md",
-    "02 - Areas/CG1/Kameramodell & Projektion.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "00 - Maps of Content/Muskelaufbau.md",
     "02 - Areas/PHPC/01 Fundamentals/Parallele Kennzahlen & Skalierung.md",
