@@ -36,14 +36,14 @@ Der Prozess der Bildsynthese transformiert dreidimensionale Objektmodelle Schrit
 
 ```
 [ 3D-Modelle ] (Modellkoordinaten)
-       
-         Scene Graph & Modell-Transformation
+       │
+       ▼  Scene Graph & Modell-Transformation
 [ 3D-Welt ] (Weltkoordinaten)
-       
-         Kamera-Transformation
+       │
+       ▼  Kamera-Transformation
 [ 2D-Polygone ] (Kamerakoordinaten)
-       
-         Rasterisierung & Shading
+       │
+       ▼  Rasterisierung & Shading
 [ Pixels ] (Imagekoordinaten)
 ```
 
@@ -100,7 +100,7 @@ $$\mathbf{a} \times \mathbf{b} = \begin{pmatrix} a_y b_z - a_z b_y \\ a_z b_x - 
 > [!note] Wichtige Eigenschaften des Kreuzprodukts
 > - Die Länge $\Vert{}\mathbf{a} \times \mathbf{b}\Vert{}$ entspricht der Fläche des von $\mathbf{a}$und $\mathbf{b}$ aufgespannten Parallelogramms.
 > - Die Richtung folgt der **Rechte-Hand-Regel**.
-> - **Anwendung**: Berechnung von **Flächen- und Normalenvektoren** auf Polygonen sowie der Konstruktion von Kamerakoordinatensystemen.  
+> - **Anwendung**: Berechnung von **Flächen- und Normalenvektoren** auf Polygonen sowie der Konstruktion von Kamerakoordinatensystemen.
 
 ### 4. Matrizen
 [[Matrix|Matrizen]] dienen zur mathematischen Beschreibung von Transformationen (Skalierung, Rotation, Translation).

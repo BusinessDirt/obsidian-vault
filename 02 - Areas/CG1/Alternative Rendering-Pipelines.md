@@ -33,22 +33,15 @@ Klassische [[Pipeline|Grafik-Pipelines]] setzen voraus, dass [[Dimension|3D-Szen
 Eingeführt von Mildenhall et al. (2020), revolutionierten NeRFs die Bildsynthese durch die Nutzung künstlicher [[Künstliche Intelligenz|neuronaler Netze]] als implizite Szenendarstellung.
 
 > [!note] Funktionsweise eines NeRF Ein NeRF speichert eine Szene nicht als Geometrie, sondern repräsentiert sie als eine kontinuierliche Funktion innerhalb eines geschulten neuronalen Netzes (eines mehrschichtigen Perzeptrons / MLP).
-> 
 > - **Eingabe (5D-[[Vektor]])**:
->     
 >     - 3D-Raumkoordinaten $\mathbf{x} = (x, y, z)$
->         
 >     - 2D-Blickrichtung $\mathbf{d} = (\theta, \phi)$
->         
 > - **Ausgabe**:
->     
 >     - Volumendichte $\sigma$ (Wie dicht/undurchsichtig ist der Raum an dieser Stelle?)
->         
 >     - Emittierte Farbe $\mathbf{c} = (r, g, b)$ (Richtungsabhängige Radianz)
->         
-
+>
 ```
-(x, y, z, θ, ϕ)  [ Multilayer Perceptron (MLP) ]  (r, g, b, σ)
+(x, y, z, θ, ϕ) ──► [ Multilayer Perceptron (MLP) ] ──► (r, g, b, σ)
 ```
 
 ### Rendering via Volume Ray Marching
@@ -60,19 +53,13 @@ $$C(\mathbf{r}) = \int_{t_{near}}^{t_{far}} T(t) \cdot \sigma(\mathbf{r}(t)) \cd
 wobei $T(t) = \exp\left(-\int_{t_{near}}^{t} \sigma(\mathbf{r}(s)) \, ds\right)$ die Kumulierte Transmission (Transparenz) beschreibt.
 
 > [!tip] Meilensteine & Weiterentwicklungen
-> 
 > - **NeRF in the Wild (2021)**: Verarbeitet unstrukturierte Internet- und Touristennamen-Fotos mit wechselnden Lichtverhältnissen und vorübergehenden Störfaktoren (Passanten).
->     
 > - **Instant-NGP / NVIDIA (2022)**: Ersetzt das reine MLP durch multiresolutionale Hash-Tabellen. Reduziert die Trainingszeit von mehreren Stunden auf **wenige Sekunden** und ermöglicht Echtzeit-Auswertung.
->     
-
+>
 > [!danger] Grenzen von NeRFs
-> 
 > - Implizites Blackbox-Modell: Die Szene enthält keine greifbaren Geometrieschichten, was die Nachbearbeitung (Editing, Animation) erschwert.
->     
 > - Hoher Rechenaufwand beim Ray Marching, da für jedes Pixel Dutzende Netz-Evaluierungen nötig sind.
->     
-
+>
 ## 🟢 3D Gaussian Splatting (3DGS)
 
 Eingeführt von Kerbl et al. (2023), verbindet 3D Gaussian Splatting die fotorealistische Qualität von NeRFs mit der extremen Rendering-Geschwindigkeit klassischer Rasterisierung ($> 100 \text{ fps}$).
@@ -100,27 +87,20 @@ Mithilfe von **Structure from Motion (SfM)** (z. B. COLMAP) werden aus den Ein
 Jedes 3D-Gauß-Primitiv besitzt folgende optimierbare Attribute:
 
 - **Position (Center** $\mathbf{\mu}$**)**: 3D-Koordinaten $(x, y, z)$.
-    
 - **Kovarianzmatrix** $\mathbf{\Sigma}$: Bestimmt Form und Ausrichtung im Raum. Um mathematische Gültigkeit zu garantieren, wird sie zerlegt in:
-    
     - **Skalierung** $\mathbf{S}$: Ausdehnung in 3 Achsen.
-        
     - **Rotation** $\mathbf{R}$: Orientierung im Raum (gespeichert als Quaternion).
-        
+
         $$\mathbf{\Sigma} = \mathbf{R} \mathbf{S} \mathbf{S}^T \mathbf{R}^T$$
 - **Opazität** $\alpha$: Transparenzwert.
-    
 - **Farbe**: Dargestellt über **Spherical Harmonics (SH)**, um richtungsabhängige Reflexionen und Glanzlichter abzubilden.
-    
 
 #### 3. Scene Rendering (Splatting)
 
 1. **Projektion**: Die 3D-Gauß-Ellipsoide werden in die 2D-Bildebene der Zielkamera projiziert (EWA-Splatting).
-    
 2. **Tile-based Sorting**: Das Bild wird in $16 \times 16$ Pixel große Kacheln (Tiles) unterteilt. Die Splats werden extrem schnell nach ihrer Tiefe ($z$-Abstand) auf der GPU sortiert.
-    
 3. $\alpha$**-Blending**: Zeilenweises Aufakkumulieren der Farben pro Pixel von vorne nach hinten:
-    
+
     $$C = \sum_{i \in N} c_i \alpha_i' \prod_{j=1}^{i-1} (1 - \alpha_j')$$
 
 #### 4. Datenoptimierung (Adaptive Control)
@@ -128,32 +108,22 @@ Jedes 3D-Gauß-Primitiv besitzt folgende optimierbare Attribute:
 Während des Trainings vergleichen Verlustfunktionen (Loss: $L_1$ + D-SSIM) das gerenderte Bild mit den Originalfotos:
 
 - **Densification (Verdichtung)**:
-    
     - _Clone_: Große Bildfehler bei kleinen Splats $\rightarrow$ Duplizieren.
-        
     - _Split_: Große Bildfehler bei zu großen Splats $\rightarrow$ Aufspalten in zwei kleinere Splats.
-        
 - **Pruning (Ausdünnen)**: Entfernen von Splats mit fast transparenter Opazität ($\alpha \approx 0$).
-    
 
 > [!tip] Vorteile von 3D Gaussian Splatting
-> 
 > - **Echtzeit-Rendering**: Extrem schnelle Rasterisierung dank direkter GPU-Sortierung.
->     
 > - **Explizite Datenstruktur**: Splats können direkt im [[Dimension|3D-Raum]] verschoben, skaliert, gecullt oder mit klassischer Geometrie kombiniert werden.
->     
-
+>
 ## Neuartige Anwendungen & Triangle Splatting
 
 Da 3DGS eine explizite Punktstruktur nutzt, lässt es sich ideal mit Animationen und Rigs kombinieren.
 
 > [!example] Aktuelle Forschungsfelder
-> 
 > - **GaussianAvatars & Avat3r**: Kopplung von 3D-Gauß-Splats an ein elastisches Bewegungsskelett zur Erzeugung fotorealistischer, animierbarer digitaler Menschen und Gesichter.
->     
 > - **Triangle Splatting (2025)**: Übertragung der differentiablen Splatting-Idee von Gauß-Ellipsoiden zurück auf **flache Dreiecks-Primitive**, um bessere Schnittstellen zu klassischen Physik- und [[Pipeline|Grafik-Pipelines]] zu schaffen.
->     
-
+>
 ## Nächste Themen
 
 - [[Virtuelle & Erweiterte Realität]]

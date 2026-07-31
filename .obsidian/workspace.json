@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "02 - Areas/CG1/Kameramodell & Projektion.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Kameramodell & Projektion"
