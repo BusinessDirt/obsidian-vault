@@ -1,25 +1,23 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - Computergrafik
+  - LMU
+  - Szenengraph
+  - Transformationen
 ---
-# 🔄 Transformationen & Szenengraph
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Vorheriges Thema: [[Einführung & Grundlagen]] | Nächstes Thema: [[3D-Geometrie & Modellierung]]
 
-#computergrafik #lmu #transformationen #szenengraph
-
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[MOC - Computergrafik 1]] Vorheriges Thema: [[Einführung & Grundlagen]]
-
-> [!info] Themenüberblick Diese Notiz behandelt alle Kernkonzepte zu Transformationen und Szenengraphen:
-> 
-> - 2D- und 3D-Geometrische Transformationen
->     
-> - Homogene Koordinaten und 4x4-Matrizen
->     
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu Transformationen & Szenengraph:
+> - 2D- und 3D-Geometrische [[Transformationen & Szenengraph|Transformationen]]
+> - Homogene Koordinaten und [[Matrix|4x4-Matrizen]]
 > - Kombinieren & Verkapseln von Transformationen
->     
-> - Konzept, Aufbau und Traversierung des Szenengraphen
->     
+> - Konzept, Aufbau und Traversierung des [[Transformationen & Szenengraph|Szenengraphen]]
 
-## 📐 Geometric Transformations
+## Geometric Transformations
 
 Transformations sind mathematische Operationen, die Position, Orientierung oder Form von geometrischen Objekten im Raum verändern.
 
@@ -34,7 +32,7 @@ Transformations sind mathematische Operationen, die Position, Orientierung oder 
 
 ### Grundtypen der Transformationen
 
-- **Translation (Verschiebung)**: Verschiebt alle Punkte um einen festen Vektor $\mathbf{t}$.
+- **Translation (Verschiebung)**: Verschiebt alle Punkte um einen festen [[Vektor]] $\mathbf{t}$.
     
 - **Skalierung (Scaling)**:
     
@@ -49,9 +47,9 @@ Transformations sind mathematische Operationen, die Position, Orientierung oder 
 - **Spiegelung (Reflection)**: Invertierung von Objektkoordinaten an einer Achse oder Ebene.
     
 
-## 🧮 Homogene Koordinaten
+## Homogene Koordinaten
 
-In kartesischen Koordinaten lässt sich eine Skalierung oder Rotation als Matrizenmultiplikation $M \cdot \mathbf{p}$darstellen, eine Translation jedoch nur als Vektoraddition $\mathbf{p} + \mathbf{t}$. Dies verhindert das einfache Zusammenfassen aller Transformationsschritte in eine einzige Matrix.
+In kartesischen Koordinaten lässt sich eine Skalierung oder Rotation als Matrizenmultiplikation $M \cdot \mathbf{p}$darstellen, eine Translation jedoch nur als Vektoraddition $\mathbf{p} + \mathbf{t}$. Dies verhindert das einfache Zusammenfassen aller Transformationsschritte in eine einzige [[Matrix]].
 
 > [!warning] Klausurrelevanz: Warum homogene Koordinaten? Homogene Koordinaten betten $n$-dimensionale Punkte in einen $(n+1)$-dimensionalen Raum ein.
 > 
@@ -59,9 +57,9 @@ In kartesischen Koordinaten lässt sich eine Skalierung oder Rotation als Matriz
 >     
 > - **Effizienz**: Beliebig viele Transformationen (Translation, Rotation, Skalierung) können zu **einer einzigen Gesamtmatrix** multipliziert werden.
 >     
-> - **Unterscheidung Punkt vs. Vektor**:
+> - **Unterscheidung Punkt vs. [[Vektor]]**:
 >     
->     - Punkt im 3D-Raum: $\mathbf{p} = \begin{pmatrix} x & y & z & 1 \end{pmatrix}^T$ (wird verschoben)
+>     - Punkt im [[Dimension|3D-Raum]]: $\mathbf{p} = \begin{pmatrix} x & y & z & 1 \end{pmatrix}^T$ (wird verschoben)
 >         
 >     - Vektor (Richtung): $\mathbf{v} = \begin{pmatrix} x & y & z & 0 \end{pmatrix}^T$ (wird durch Translation nicht verändert)
 >         
@@ -90,7 +88,7 @@ Rotation um die **Z-Achse**:
 
 $$\mathbf{R}_z(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta & 0 & 0 \\ \sin\theta & \cos\theta & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
 
-## 🔀 Kombinieren von Transformationen
+## Kombinieren von Transformationen
 
 Da Matrizenmultiplikation **nicht kommutativ** ist ($A \cdot B \neq B \cdot A$), ist die Reihenfolge der Anwendung entscheidend!
 
@@ -112,9 +110,9 @@ Da Matrizenmultiplikation **nicht kommutativ** ist ($A \cdot B \neq B \cdot A$
 > 
 > $$\mathbf{M}_{ges} = \mathbf{T}(P) \cdot \mathbf{R}(\theta) \cdot \mathbf{T}(-P)$$
 
-## 🌳 Der Szenengraph (Scene Graph)
+## Der Szenengraph (Scene Graph)
 
-Ein Szenengraph ist eine baumförmige Datenstruktur (DAG – Directed Acyclic Graph), die logische und räumliche Beziehungen zwischen Objekten einer 3D-Szene repräsentiert.
+Ein Szenengraph ist eine baumförmige Datenstruktur (DAG – Directed Acyclic [[Graph]]), die logische und räumliche Beziehungen zwischen Objekten einer [[Dimension|3D-Szene]] repräsentiert.
 
 > [!tip] Vorteile eines Szenengraphen
 > 
@@ -129,9 +127,9 @@ Ein Szenengraph ist eine baumförmige Datenstruktur (DAG – Directed Acyclic Gr
 
 Ein Szenengraph besteht aus verschiedenen Knotenarten:
 
-- **Transformations-Knoten**: Entspricht einer Matrizen-Transformation für den darunterliegenden Teilbaum.
+- **Transformations-[[Knoten]]**: Entspricht einer [[Matrix|Matrizen]]-Transformation für den darunterliegenden Teilbaum.
     
-- **Geometrie- / Objekt-Knoten**: Reale 3D-Formen (Polygon-Meshes, Primitive).
+- **Geometrie- / Objekt-[[Knoten]]**: Reale 3D-Formen (Polygon-Meshes, Primitive).
     
 - **Material- / Appearance-Knoten**: Farb-, Textur- und Shaderinformationen.
     
@@ -140,19 +138,19 @@ Ein Szenengraph besteht aus verschiedenen Knotenarten:
 
 ```
        [ Root Node ]
-             │
-     ┌───────┴───────┐
-     ▼               ▼
+             
+     
+                    
 [Trans: T1]     [Trans: T2]
-     │               │
-     ▼               ▼
+                    
+                    
 [ Body Mesh ]   [ Arm Group ]
-                     │
-             ┌───────┴───────┐
-             ▼               ▼
+                     
+             
+                            
         [Trans: T3]     [Trans: T4]
-             │               │
-             ▼               ▼
+                            
+                            
        [ Hand Mesh ]   [ Finger Mesh ]
 ```
 
@@ -160,7 +158,7 @@ Ein Szenengraph besteht aus verschiedenen Knotenarten:
 
 Beim Rendering wird der Szenengraph per **Tiefensuche (Depth-First Search)** durchlaufen.
 
-> [!note] Funktionsweise des Matrix-Stacks
+> [!note] Funktionsweise des [[Matrix]]-Stacks
 > 
 > 1. Beim Abstieg zu einem Kindknoten wird die aktuelle Transformationsmatrix dupliziert und auf den **Stack gelegt (Push)**.
 >     
@@ -175,10 +173,10 @@ Beim Rendering wird der Szenengraph per **Tiefensuche (Depth-First Search)** d
     
 - **Game Engines**: Unity (Transform-Hierarchie), jMonkeyEngine.
     
-- **Historische / Standards**: VRML / X3D, OpenInventor, Open Scene Graph (OSG).
+- **Historische / Standards**: VRML / X3D, OpenInventor, Open Scene [[Graph]] (OSG).
     
 
-## 🔗 Nächste Themen
+## Nächste Themen
 
 - [[3D-Geometrie & Modellierung]]
     

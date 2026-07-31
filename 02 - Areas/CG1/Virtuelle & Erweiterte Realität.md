@@ -1,35 +1,35 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - AR
+  - Computergrafik
+  - HMD
+  - Immersion
+  - LMU
+  - Milgram
+  - Tracking
+  - VR
 ---
-# 🕶️ Virtuelle & Erweiterte Realität
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Vorheriges Thema: [[Alternative Rendering-Pipelines]]
 
-#computergrafik #lmu #vr #ar #tracking #hmd #immersion #milgram
-
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[MOC - Computergrafik 1]] Vorheriges Thema: [[Alternative Rendering-Pipelines]]
-
-> [!info] Themenüberblick Diese Notiz behandelt die Grundlagen, Hardware-Komponenten, Tracking-Verfahren und Interaktionskonzepte von Virtual Reality (VR) und Augmented Reality (AR):
-> 
-> - Das Reality-Virtuality-Continuum (Milgram et al.)
->     
-> - Virtual Reality (VR): Meilensteine, Immersion vs. Präsenz, Hardware & Displays
->     
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu Virtuelle & Erweiterte Realität:
+> - Das [[Virtuelle & Erweiterte Realität#Das Reality-Virtuality-Continuum|Reality-Virtuality-Continuum]] (Milgram et al.)
+> - [[Virtuelle & Erweiterte Realität#Virtual Reality (VR)|Virtual Reality (VR)]]: Meilensteine, Immersion vs. Präsenz, Hardware & Displays
 > - Stereo-Rendering, Motion-to-Photon Latency & Motion Sickness
->     
-> - Augmented Reality (AR): Definition, Optical See-Through vs. Video See-Through, Handheld AR
->     
-> - Tracking-Technologien: 3-DOF vs. 6-DOF, Marker-basiertes Tracking & SLAM
->     
-> - UI- & Interaktionskonzepte in AR (Personal Interaction Panel, Emmie)
->     
+> - [[Virtuelle & Erweiterte Realität#Augmented Reality (AR)|Augmented Reality (AR)]]: Definition, Optical See-Through vs. Video See-Through, Handheld AR
+> - Tracking-Technologien: 3-DOF vs. 6-DOF, Marker-basiertes Tracking & [[Virtuelle & Erweiterte Realität#AR-Spezifisches Tracking: Marker vs. SLAM|SLAM]]
+> - UI- & [[Virtuelle & Erweiterte Realität#UI- & Interaktionskonzepte in AR|Interaktionskonzepte in AR]]
 
-## 🌌 Das Reality-Virtuality-Continuum
+## Das Reality-Virtuality-Continuum
 
 Paul Milgram und Fumio Kishino (1994) definierten das kontinuierliche Spektrum zwischen rein realer und rein virtueller Umgebung, das als **Mixed Reality (MR)** zusammengefasst wird.
 
 ```
-[ Reale Umwelt ] ──► [ Augmented Reality (AR) ] ──► [ Augmented Virtuality (AV) ] ──► [ Virtuelle Umwelt (VR) ]
-└───────────────────────────────────── Mixed Reality (MR) ─────────────────────────────────────┘
+[ Reale Umwelt ]  [ Augmented Reality (AR) ]  [ Augmented Virtuality (AV) ]  [ Virtuelle Umwelt (VR) ]
+ Mixed Reality (MR) 
 ```
 
 > [!tip] Einordnung der Begriffe
@@ -43,7 +43,7 @@ Paul Milgram und Fumio Kishino (1994) definierten das kontinuierliche Spektrum z
 > - **Virtual Reality (VR)**: Vollständig computergenerierte Welt; die reale Umgebung wird ausgeblendet.
 >     
 
-## 🥽 Virtual Reality (VR)
+## Virtual Reality (VR)
 
 Virtual Reality bezeichnet eine interaktive, computergenerierte Umgebung, in die der Nutzer visuell und akustisch eintaucht.
 
@@ -81,7 +81,7 @@ Tragbare Headsets mit zwei getrennten Displays oder einem geteilten Screen für 
 
 - **Stereo-Rendering**: Generierung von zwei perspektivisch korrekten Bildern mit einem leicht versetzten Kameraabstand (Stereobasis / Interpupillardistanz $\approx 6.3 \text{ cm}$).
     
-- **Optische Linsenverzerrung (Distortion Correction)**: Die Linsen im Headset verzerren das Licht optisch (Kissenverzerrung). Die Grafik-Pipeline muss das Bild vorab umgekehrt tonnenförmig verzerren (**Barrel Distortion**), damit es das Auge korrekt wahrnimmt.
+- **Optische Linsenverzerrung (Distortion Correction)**: Die Linsen im Headset verzerren das Licht optisch (Kissenverzerrung). Die [[Pipeline|Grafik-Pipeline]] muss das Bild vorab umgekehrt tonnenförmig verzerren (**Barrel Distortion**), damit es das Auge korrekt wahrnimmt.
     
 
 #### 2. CAVE (Cave Automatic Virtual Environment)
@@ -97,7 +97,7 @@ Ein kubischer Raum, bei dem 3 bis 6 Wände (inkl. Boden/Decke) von außen mit st
 > - **Folge bei zu hoher Latenz**: Vokabulärer Widerspruch zwischen dem Gleichgewichtssinn (Vestibuläres System) und dem visuellen System führt zu **Simulator Sickness** (Übelkeit, Schwindel, Kopfschmerzen).
 >     
 
-## 👓 Augmented Reality (AR)
+## Augmented Reality (AR)
 
 Nach Ronald Azuma (1997) ist Augmented Reality durch drei Hauptkriterien definiert:
 
@@ -137,7 +137,7 @@ Nach Ronald Azuma (1997) ist Augmented Reality durch drei Hauptkriterien definie
 >     - Direkte Projektion von Licht/Texturen auf physikalische Objekte im Raum.
 >         
 
-## 🎯 Tracking in VR & AR
+## Tracking in VR & AR
 
 Tracking ist das kontinuierliche Messen der Position und Orientierung von Objekten, Headsets oder Eingabegeräten im Raum.
 
@@ -174,7 +174,7 @@ Tracking ist das kontinuierliche Messen der Position und Orientierung von Objekt
 >     - Erkennt charakteristische Merkmalspunkte (Feature Points) in Videobildern, berechnet eine spärliche 3D-Punktwolke des Raums und schätzt zeitgleich die Bewegung der Kamera.
 >         
 
-## 🖐️ UI- & Interaktionskonzepte in AR
+## UI- & Interaktionskonzepte in AR
 
 Da klassische 2D-WIMP-Interfaces (Windows, Icons, Menus, Pointer) in AR-Umgebungen ungeeignet sind, wurden spezialisierte Räumliche UI-Konzepte erforscht:
 
@@ -188,7 +188,7 @@ Da klassische 2D-WIMP-Interfaces (Windows, Icons, Menus, Pointer) in AR-Umgebung
 >         
 > - **Emmie UI Konzept (1999)**:
 >     
->     - Kollaboratives AR-Environment: Nutzer teilen sich Informationsfenster im 3D-Raum, die als virtuelle Widgets an realen Orten oder Personen verankert werden können.
+>     - Kollaboratives AR-Environment: Nutzer teilen sich Informationsfenster im [[Dimension|3D-Raum]], die als virtuelle Widgets an realen Orten oder Personen verankert werden können.
 >         
 > - **Tangible User Interfaces (TUI)**:
 >     

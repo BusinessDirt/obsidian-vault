@@ -1,31 +1,28 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - CSG
+  - Computergrafik
+  - Curves
+  - Geometrie
+  - LMU
+  - Modellierung
 ---
-# 🧊 3D-Geometrie & Modellierung
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Vorheriges Thema: [[Transformationen & Szenengraph]] | Nächstes Thema: [[Kameramodell & Projektion]]
 
-#computergrafik #lmu #geometrie #modellierung #csg #curves
-
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[MOC - Computergrafik 1]] Vorheriges Thema: [[Transformationen & Szenengraph]]
-
-> [!info] Themenüberblick Diese Notiz behandelt alle Repräsentationsformen und Modellierungstechniken für 3D-Objekte:
-> 
-> - Repräsentationsformen & Polygonnetze (Triangle Meshes)
->     
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu 3D-Geometrie & Modellierung:
+> - Repräsentationsformen & [[3D-Geometrie & Modellierung|Polygonnetze]] (Triangle Meshes)
 > - Datenstrukturen für Meshes (Indexed Face Sets, Half-Edge)
->     
-> - Geometrische Primitive & CSG (Constructive Solid Geometry)
->     
+> - Geometrische [[3D-Geometrie & Modellierung|Primitive]] & [[3D-Geometrie & Modellierung#Constructive Solid Geometry (CSG)|CSG]]
 > - Erzeugungsverfahren: Extrusion & Rotationskörper
->     
-> - Freiformkurven & -flächen (Bézier-Kurven, De-Casteljau-Algorithmus, NURBS)
->     
+> - Freiformkurven & -flächen ([[3D-Geometrie & Modellierung#Bézier-Kurven|Bézier-Kurven]], De-Casteljau-Algorithmus, [[3D-Geometrie & Modellierung#Splines & NURBS|NURBS]])
 > - Levels of Detail (LOD) & Netz-Vereinfachung (QEM)
->     
 > - Voxel- und punktbasierte Grafik
->     
 
-## 📐 Repräsentation von 3D-Objekten
+## Repräsentation von 3D-Objekten
 
 Um dreidimensionale Körper im Computer darzustellen, werden unterschiedliche Modellierungsansätze genutzt. Man unterscheidet grundsätzlich zwischen Volumen-Repräsentationen (Solid Representations) und Oberflächen-Repräsentationen (Boundary Representation / B-Rep).
 
@@ -40,11 +37,11 @@ Um dreidimensionale Körper im Computer darzustellen, werden unterschiedliche Mo
 > - **Kompaktheit & Effizienz**: Geringer Speicherbedarf und schnelle Verarbeitung durch Grafikhardware.
 >     
 
-## 🔺 Polygonnetze (Triangle Meshes)
+## Polygonnetze (Triangle Meshes)
 
-Polygonnetze sind die Standard-Repräsentation in der Echtzeit-3D-Grafik. Sie approximieren Oberflächen durch eine Menge von verbundenen Polygonen.
+Polygonnetze sind die Standard-Repräsentation in der Echtzeit-[[Dimension|3D-Grafik]]. Sie approximieren Oberflächen durch eine Menge von verbundenen Polygonen.
 
-> [!warning] Klausurrelevanz: Warum fast ausschließlich Dreiecke? In internen Datenstrukturen und Grafik-Pipelines werden Oberflächen fast immer auf **Dreiecke (Triangles)** reduziert:
+> [!warning] Klausurrelevanz: Warum fast ausschließlich Dreiecke? In internen Datenstrukturen und [[Pipeline|Grafik-Pipelines]] werden Oberflächen fast immer auf **Dreiecke (Triangles)** reduziert:
 > 
 > 1. **Garantierte Planarität**: Drei Punkte im Raum liegen immer exakt in einer gemeinsamen Ebene. (Vierecke können windschief sein).
 >     
@@ -55,11 +52,11 @@ Polygonnetze sind die Standard-Repräsentation in der Echtzeit-3D-Grafik. Sie ap
 
 ### Vertex-Orientierung & Winding Order
 
-Die Reihenfolge, in der die Eckpunkte (Vertices) eines Dreiecks definiert werden, bestimmt die Ausrichtung seiner Vorder- und Rückseite.
+Die Reihenfolge, in der die Eckpunkte ([[Knoten|Vertices]]) eines Dreiecks definiert werden, bestimmt die Ausrichtung seiner Vorder- und Rückseite.
 
 > [!tip] Rechte-Hand-Regel (Right-Hand-Rule)
 > 
-> - **Counter-Clockwise (CCW)**: Werden die Vertices gegen den Uhrzeigersinn definiert, zeigt der Normalenvektor nach außen (Vorderseite / Front Face).
+> - **Counter-Clockwise (CCW)**: Werden die [[Knoten|Vertices]] gegen den Uhrzeigersinn definiert, zeigt der Normalenvektor nach außen (Vorderseite / Front Face).
 >     
 > - **Clockwise (CW)**: Definition im Uhrzeigersinn kennzeichnet die Rückseite (Back Face).
 >     
@@ -109,7 +106,7 @@ Trennt die geometrische Position von der topologischen Verknüpfung.
 
 Zeigerbasierte Datenstrukturen, die explizit Nachbarschaftsbeziehungen zwischen Kanten, Flächen und Vertices speichern. Essenziell für Geometrie-Editoren (z. B. Subdivisions, Mesh Editing).
 
-## 🔮 Geometrische Primitive & CSG
+## Geometrische Primitive & CSG
 
 ### Geometrische Primitive
 
@@ -117,7 +114,7 @@ Einfache Grundkörper (Würfel, Kugel, Zylinder, Kegel, Torus), die entweder imp
 
 ### Constructive Solid Geometry (CSG)
 
-CSG kombiniert einfache Grundkörper mittels boolescher Mengenoperationen zu komplexen festen 3D-Objekten.
+CSG kombiniert einfache Grundkörper mittels boolescher Mengenoperationen zu komplexen festen [[Dimension|3D-Objekten]].
 
 > [!note] Die 3 booleschen Hauptoperationen
 > 
@@ -130,13 +127,13 @@ CSG kombiniert einfache Grundkörper mittels boolescher Mengenoperationen zu kom
 
 ```
         [ CSG Tree Root: Differenz (\) ]
-                    │
-        ┌───────────┴───────────┐
-        ▼                       ▼
+                    
+        
+                               
   [ Würfel (Cube) ]     [ Zylinder (Cylinder) ]
 ```
 
-## 🌀 Swept Volumes (Extrusion & Rotation)
+## Swept Volumes (Extrusion & Rotation)
 
 Erzeugung von 3D-Körpern durch das Bewegen (Sweeping) eines 2D-Profils entlang eines Pfades im Raum.
 
@@ -145,7 +142,7 @@ Erzeugung von 3D-Körpern durch das Bewegen (Sweeping) eines 2D-Profils entlang 
 - **Rotationskörper (Rotational Sweeps / Lathing)**: Rotation einer 2D-Kurve um eine Rotationsachse (z. B. Erzeugung von Vasen, Flaschen, Gläsern oder Donut-Formen).
     
 
-## 〰️ Kurven & Freiformflächen
+## Kurven & Freiformflächen
 
 Einfache Polygonnetze stoßen bei organischen, geschwungenen Formen an Grenzen. Hier werden mathematische Freiformkurven genutzt.
 
@@ -195,7 +192,7 @@ Numerisch stabiler und intuitiver Algorithmus zur Auswertung von Bézier-Kurven 
 - **NURBS (Non-Uniform Rational B-Splines)**: Industriestandard im CAD-Bereich. Ermöglichen die exakte Darstellung von Kegelschnitten (Kreise, Ellipsen) durch gewichtete homogene Koordinaten.
     
 
-## 📉 Levels of Detail (LOD) & Netz-Vereinfachung
+## Levels of Detail (LOD) & Netz-Vereinfachung
 
 Um Rechenleistung beim Rendering großer Szenen zu sparen, werden Objekte je nach Entfernung zur Kamera in unterschiedlichen Detailstufen dargestellt.
 
@@ -219,7 +216,7 @@ Um Rechenleistung beim Rendering großer Szenen zu sparen, werden Objekte je nac
 
 Flache 2D-Polygone (bestehend aus 2 Dreiecken) mit einer transparenten Textur, die sich immer automatisch zur Kamera ausrichten. Extrem effizient für Vegetation, Partikel oder weit entfernte Objekte.
 
-## 🧱 Volumen- und Punktbasierte Grafik
+## Volumen- und Punktbasierte Grafik
 
 Neben polylokalen Grenzflächendarstellungen existieren Ansätze für spezielle Anwendungsfälle:
 
@@ -243,7 +240,7 @@ Neben polylokalen Grenzflächendarstellungen existieren Ansätze für spezielle 
 - Häufig das Ergebnis von 3D-Laserscans.
     
 
-## 🔗 Nächste Themen
+## Nächste Themen
 
 - [[Kameramodell & Projektion]]
     

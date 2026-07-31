@@ -1,29 +1,29 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - Computergrafik
+  - LMU
+  - NPR
+  - Radiosity
+  - Raytracing
+  - Rendering
+  - RenderingEquation
+  - Shading
 ---
-# 🎨 Shading & Rendering
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Vorheriges Thema: [[Licht, Aussehen & Material]] | Nächstes Thema: [[Animation]]
 
-#computergrafik #lmu #shading #rendering #raytracing #radiosity #renderingequation #npr
-
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[MOC - Computergrafik 1]] Vorheriges Thema: [[Licht, Aussehen & Material]]
-
-> [!info] Themenüberblick Diese Notiz behandelt die Verfahren zur Interpolation von Farben auf Polygonen sowie globale Beleuchtungsverfahren:
-> 
-> - Lokale Shading-Verfahren (Flat Shading, Gouraud Shading, Phong Shading)
->     
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu Shading & Rendering:
+> - Lokale [[Shading & Rendering#Lokales Shading (Local Shading)|Shading-Verfahren]] (Flat Shading, Gouraud Shading, Phong Shading)
 > - Unterschied: Phong-Beleuchtungsmodell vs. Phong-Shading
->     
-> - Globale Beleuchtungsmodelle I: Ray Tracing (Ray Casting & Whitted Ray Tracing)
->     
-> - Globale Beleuchtungsmodelle II: Radiosity & Formfaktoren
->     
-> - Die Rendering-Gleichung (Rendering Equation) & Monte-Carlo-Methoden
->     
+> - Globale Beleuchtungsmodelle I: [[Shading & Rendering#Globale Beleuchtungsmodelle: Ray Tracing|Ray Tracing]] (Ray Casting & Whitted Ray Tracing)
+> - Globale Beleuchtungsmodelle II: [[Shading & Rendering#Globale Beleuchtungsmodelle: Radiosity|Radiosity]] & Formfaktoren
+> - Die [[Shading & Rendering#Die Rendering-Gleichung & Monte-Carlo-Methoden|Rendering-Gleichung]] & Monte-Carlo-Methoden
 > - Non-Photorealistic Rendering (NPR / Cel Shading)
->     
 
-## 🖌️ Lokales Shading (Local Shading)
+## Lokales Shading (Local Shading)
 
 Das Beleuchtungsmodell (z. B. Phong) berechnet die Lichtintensität an einzelnen Punkten. Shading-Algorithmen bestimmen, wie diese Farbwerte über ein gesamtes Polygon verteilt bzw. interpoliert werden.
 
@@ -55,7 +55,7 @@ Entwickelt von Henri Gouraud (1971). Interpoliert Farbwerte sanft über die Flä
 
 > [!warning] Nachteile des Gouraud Shading
 > 
-> - **Verlorene Glanzpunkte (Specular Highlights)**: Fällt ein enges Glanzlicht in die Mitte eines Polygons, aber nicht auf die Vertices, geht der Glanzpunkt vollständig verloren.
+> - **Verlorene Glanzpunkte (Specular Highlights)**: Fällt ein enges Glanzlicht in die Mitte eines Polygons, aber nicht auf die [[Knoten|Vertices]], geht der Glanzpunkt vollständig verloren.
 >     
 > - **Mach-Bänder**: Sichtbar bei ungünstigen Übergängen der Intensitätsgradienten.
 >     
@@ -72,7 +72,7 @@ Entwickelt von Phong Bui-Tuong (1975). Interpoliert Normalenvektoren statt Farbw
 >     
 > 2. Interpoliere die **Normalenvektoren** linear über die Kanten und die Scanline für jedes einzelne Fragment/Pixel.
 >     
-> 3. Normalisiere den interpolierten Vektor pro Pixel und wende das **Beleuchtungsmodell pro Pixel** an.
+> 3. Normalisiere den interpolierten [[Vektor]] pro Pixel und wende das **Beleuchtungsmodell pro Pixel** an.
 >     
 
 > [!tip] Vorteile des Phong Shading
@@ -91,7 +91,7 @@ Entwickelt von Phong Bui-Tuong (1975). Interpoliert Normalenvektoren statt Farbw
 > - **Phong-Shading (Interpolationsverfahren)**: Das Verfahren, bei dem Normalenvektoren über ein Polygon interpoliert werden, um das Beleuchtungsmodell pro Pixel auszuwerten.
 >     
 
-## 🔍 Globale Beleuchtungsmodelle: Ray Tracing
+## Globale Beleuchtungsmodelle: Ray Tracing
 
 Im Gegensatz zu lokalen Modellen berücksichtigen globale Beleuchtungsmodelle Wechselwirkungen zwischen allen Objekten der Szene (Schattenwurf, Spiegelungen, Lichtbrechung, indirektes Licht).
 
@@ -105,7 +105,7 @@ Erweitert Ray Casting um spiegelnde Reflexion und Lichtbrechung durch rekursives
 
 > [!info] Die Strahlenarten im Whitted Ray Tracing
 > 
-> - **Primary Ray (Sehstrahl)**: Verläuft vom Augpunkt durch das Pixel in die 3D-Szene.
+> - **Primary Ray (Sehstrahl)**: Verläuft vom Augpunkt durch das Pixel in die [[Dimension|3D-Szene]].
 >     
 > - **Shadow Ray (Schattenstrahl)**: Verläuft vom Schnittpunkt zur Lichtquelle. Ist der Weg blockiert, liegt der Punkt im Schatten.
 >     
@@ -116,10 +116,10 @@ Erweitert Ray Casting um spiegelnde Reflexion und Lichtbrechung durch rekursives
 >     $$\eta_1 \sin(\theta_1) = \eta_2 \sin(\theta_2)$$
 
 ```
-[ Kamera ] ──Primary Ray──► [ Oberfläche A (Glas) ]
-                                 │           │
+[ Kamera ] Primary Ray [ Oberfläche A (Glas) ]
+                                            
                      Reflection Ray         Refraction Ray
-                                 ▼           ▼
+                                            
                       [ Spiegel B ]       [ Objekt C ]
 ```
 
@@ -132,7 +132,7 @@ Erweitert Ray Casting um spiegelnde Reflexion und Lichtbrechung durch rekursives
 > - **Nachteil**: Sehr hoher Rechenaufwand durch kontinuierliche Schnittpunktberechnungen (erfordert Beschleunigungsdatenstrukturen wie BVH oder Octrees).
 >     
 
-## 📻 Globale Beleuchtungsmodelle: Radiosity
+## Globale Beleuchtungsmodelle: Radiosity
 
 Radiosity basiert auf dem Modell des Wärmeaustauschs (Thermal Engineering) und simuliert diffuse Interreflexionen zwischen allen Oberflächen einer Szene.
 
@@ -149,14 +149,14 @@ Radiosity basiert auf dem Modell des Wärmeaustauschs (Thermal Engineering) und 
 > 
 > - **Verfahren**: Objektraumbasiert (Object-Order Algorithm).
 >     
-> - **Bildelement-Unabhängigkeit**: Die Lichtverteilung wird im 3D-Raum (auf den Vertices/Patches) berechnet und ist **vollständig unabhängig vom Kamerastandort**. Nach der Radiosity-Berechnung kann sich die Kamera frei in Echtzeit durch die Szene bewegen.
+> - **Bildelement-Unabhängigkeit**: Die Lichtverteilung wird im [[Dimension|3D-Raum]] (auf den [[Knoten|Vertices]]/Patches) berechnet und ist **vollständig unabhängig vom Kamerastandort**. Nach der Radiosity-Berechnung kann sich die Kamera frei in Echtzeit durch die Szene bewegen.
 >     
 > - **Vorteil**: Extrem weiche, natürliche Schattenverläufe und indirektes Farbliefern (Color Bleeding).
 >     
 > - **Nachteil**: Keine spekulären Glanzpunkte oder Spiegelungen.
 >     
 
-## 📜 Die Rendering-Gleichung & Monte-Carlo-Methoden
+## Die Rendering-Gleichung & Monte-Carlo-Methoden
 
 Die von James Kajiya (1986) eingeführte **Rendering Equation** bildet das physikalische und mathematische Fundament der gesamten Bildsynthese.
 
@@ -182,7 +182,7 @@ Da die Rendering-Gleichung eine hochdimensionale Fredholm-Integralgleichung ist,
 > - **Path Tracing**: Verfolgt zufällige Pfade von Photonen/Strahlen durch die Szene. Bei zu wenigen Samples entsteht Bildrauschen (Noise), das mit steigender Anzahl an Samples pro Pixel stochastisch konvergiert.
 >     
 
-## 🎨 Non-Photorealistic Rendering (NPR)
+## Non-Photorealistic Rendering (NPR)
 
 Nicht alle Grafikanwendungen streben nach Photorealismus. Non-Photorealistic Rendering erzeugt stilisierte, künstlerische oder technische Illustrationen.
 
@@ -195,7 +195,7 @@ Nicht alle Grafikanwendungen streben nach Photorealismus. Non-Photorealistic Ren
 > - **Hatching & Cross-Hatching**: Erzeugt Schattierungen durch Strichmuster und Gravur-Stile.
 >     
 
-## 🔗 Nächste Themen
+## Nächste Themen
 
 - [[Alternative Rendering-Pipelines]]
     

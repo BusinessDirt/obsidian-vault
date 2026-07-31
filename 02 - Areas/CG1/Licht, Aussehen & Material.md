@@ -1,31 +1,30 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - Computergrafik
+  - LMU
+  - Licht
+  - Material
+  - Phong
+  - Shader
+  - Texturen
 ---
-# 💡 Licht, Aussehen & Material
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Vorheriges Thema: [[Rasterisierung]] | Nächstes Thema: [[Shading & Rendering]]
 
-#computergrafik #lmu #licht #material #phong #texturen #shader
-
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[MOC - Computergrafik 1]] Vorheriges Thema: [[Rasterisierung]]
-
-> [!info] Themenüberblick Diese Notiz behandelt das optische Erscheinungsbild von Oberflächen und Lichtquellen:
-> 
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu Licht, Aussehen & Material:
 > - Physik von Licht & Abstandsgesetz in Natur vs. Computergrafik
->     
-> - Lichtquellentypen in der CG (Ambient, Directional, Point, Spot)
->     
-> - Schattenbildung (Kern- vs. Halbschatten, Shadow Mapping)
->     
-> - Lokale Beleuchtungsmodelle (Phong & Blinn-Phong)
->     
-> - Texturen & Mappings (UV-Mapping, Filtering, Normal/Bump/Displacement Mapping)
->     
-> - Prozedurale Oberflächen & Shader
->     
+> - [[Licht, Aussehen & Material#Lichtquellen in der Computergrafik|Lichtquellentypen in der CG]] (Ambient, Directional, Point, Spot)
+> - Schattenbildung (Kern- vs. Halbschatten, [[Licht, Aussehen & Material#Shadow Mapping (Schattenmap-Verfahren)|Shadow Mapping]])
+> - Lokale Beleuchtungsmodelle ([[Licht, Aussehen & Material#Das Phong-Beleuchtungsmodell|Phong & Blinn-Phong]])
+> - [[Licht, Aussehen & Material#Texturen & Mappings (Texture Mapping)|Texturen & Mappings]] (UV-Mapping, Filtering, Normal/Bump/Displacement Mapping)
+> - Prozedurale Oberflächen & [[Licht, Aussehen & Material#Prozedurale Oberflächen & Shader|Shader]]
 
-## ☀️ Licht in der Natur vs. Computergrafik
+## Licht in der Natur vs. Computergrafik
 
-Licht lässt sich physikalisch als elektromagnetische Welle oder Photonenstrom beschreiben. Das menschliche Auge deckt einen riesigen Dynamikumfang ab, den digitale Displays nur näherungsweise darstellen können.
+Licht lässt sich physikalisch als [[Elektromagnetische Strahlung|elektromagnetische Welle]] oder Photonenstrom beschreiben. Das menschliche Auge deckt einen riesigen Dynamikumfang ab, den digitale Displays nur näherungsweise darstellen können.
 
 ### Das Abstandsgesetz (Inverse Square Law)
 
@@ -49,7 +48,7 @@ Licht lässt sich physikalisch als elektromagnetische Welle oder Photonenstrom b
 > 
 > Oft wird die Dämpfung im interaktiven Rendering sogar komplett auf $1$ gesetzt (keine Dämpfung), um eine gleichmäßige Ausleuchtung zu garantieren.
 
-## 🔦 Lichtquellen in der Computergrafik
+## Lichtquellen in der Computergrafik
 
 Um reale Beleuchtung in Echtzeit anzunähern, nutzt man vereinfachte abstrakte Lichtquellentypen:
 
@@ -80,7 +79,7 @@ Um reale Beleuchtung in Echtzeit anzunähern, nutzt man vereinfachte abstrakte L
 >     - Strahlungsbereich ist auf einen Kegel eingeschränkt (Position, Richtung, Öffnungswinkel/Cutoff und Fokus-Exponent).
 >         
 
-## 👤 Schattenbildung (Shadows)
+## Schattenbildung (Shadows)
 
 Schatten entstehen, wenn undurchsichtige Objekte den Lichtstrom von einer Lichtquelle zu einer Oberfläche blockieren.
 
@@ -98,7 +97,7 @@ Schatten entstehen, wenn undurchsichtige Objekte den Lichtstrom von einer Lichtq
 >     - Ist der Punkt weiter entfernt als der Wert im Shadow Buffer $\rightarrow$ **Punkt liegt im Schatten**.
 >         
 
-## 🎨 Das Phong-Beleuchtungsmodell
+## Das Phong-Beleuchtungsmodell
 
 Das empirische Beleuchtungsmodell nach Bui Tuong Phong berechnet die reflektierte Lichtintensität an einem Punkt als Summe aus drei Komponenten.
 
@@ -106,13 +105,13 @@ Das empirische Beleuchtungsmodell nach Bui Tuong Phong berechnet die reflektiert
 Reflektierte Farbe = Ambient + Diffus + Spekulär (Glanzlicht)
 ```
 
-> [!warning] Klausurrelevanz: Vektoren des Phong-Modells Für die Berechnung an einem Punkt $\mathbf{P}$auf der Oberfläche werden vier normierte Vektoren benötigt:
+> [!warning] Klausurrelevanz: [[Vektor|Vektoren]] des Phong-Modells Für die Berechnung an einem Punkt $\mathbf{P}$auf der Oberfläche werden vier normierte [[Vektor|Vektoren]] benötigt:
 > 
 > - $\mathbf{N}$: Oberflächennormalenvektor (Normal Vector)
 >     
-> - $\mathbf{L}$: Vektor von $\mathbf{P}$ zur Lichtquelle (Light Vector)
+> - $\mathbf{L}$: [[Vektor]] von $\mathbf{P}$ zur Lichtquelle (Light Vector)
 >     
-> - $\mathbf{V}$: Vektor von $\mathbf{P}$ zur Kamera / Augpunkt (View Vector)
+> - $\mathbf{V}$: [[Vektor]] von $\mathbf{P}$ zur Kamera / Augpunkt (View Vector)
 >     
 > - $\mathbf{R}$: Vektor des ideal reflektierten Lichtstrahls (Reflection Vector)
 >     
@@ -166,7 +165,7 @@ $$\mathbf{H} = \frac{\mathbf{L} + \mathbf{V}}{\Vert{}\mathbf{L} + \mathbf{V}\Ver
 - Recheneffizienter auf Hardware, da $\mathbf{H}$ bei unendlicher Lichtquelle und Kamera konstant ist.
     
 
-## 🖼️ Texturen & Mappings (Texture Mapping)
+## Texturen & Mappings (Texture Mapping)
 
 Texturen überziehen einfache 3D-Geometrien mit 2D-Bilddaten, um hohe visuelle Komplexität ohne zusätzliche Polygone zu erzeugen.
 
@@ -200,12 +199,12 @@ Wird eine 2D-Textur auf Bildschirm-Pixel abgebildet, entstehen Größendifferenz
 >     
 > - **Normal Mapping**: Verwendet ein RGB-Bild, um echte 3D-Normalenvektoren $(x, y, z)$ direkt im Tangentenraum abzuspeichern (R-Kanal = X, G-Kanal = Y, B-Kanal = Z).
 >     
-> - **Displacement Mapping**: Verschiebt die tatsächlichen Vertices des Polygonnetzes anhand einer Map. Verändert die reale 3D-Geometrie und die Silhouette (erfordert dichte Meshes).
+> - **Displacement Mapping**: Verschiebt die tatsächlichen [[Knoten|Vertices]] des Polygonnetzes anhand einer Map. Verändert die reale 3D-Geometrie und die Silhouette (erfordert dichte Meshes).
 >     
 > - **Environment Mapping (Reflection Map)**: Bildebene wird auf eine umgebende Kugel oder einen Würfel (Cube Map) abgebildet, um spiegelnde Oberflächen ohne aufwendiges Raytracing zu simulieren.
 >     
 
-## ⚙️ Prozedurale Oberflächen & Shader
+## Prozedurale Oberflächen & Shader
 
 Anstatt statische Grafiken zu nutzen, können Material- und Oberflächeneigenschaften auch mathematisch/programmatisch generiert werden.
 
@@ -216,7 +215,7 @@ Anstatt statische Grafiken zu nutzen, können Material- und Oberflächeneigensch
 > - **Fragment Shader (Pixel Shader)**: Berechnet für jedes projizierte Raster-Fragment den finalen Farb- und Tiefenwert (Implementierung des Phong-Modells, Textur-Lookups, Noise-Funktionen wie Perlin Noise).
 >     
 
-## 🔗 Nächste Themen
+## Nächste Themen
 
 - [[Shading & Rendering]]
     

@@ -1,27 +1,28 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - 3D
+  - Computergrafik
+  - DOF
+  - Gizmo
+  - Interaktion
+  - LMU
+  - Raycasting
 ---
-# 👆 3D-Interaktion
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Vorheriges Thema: [[Animation]] | Nächstes Thema: [[Alternative Rendering-Pipelines]]
 
-#computergrafik #lmu #interaktion #3d #gizmo #raycasting #dof
-
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[MOC - Computergrafik 1]] Vorheriges Thema: [[Animation]]
-
-> [!info] Themenüberblick Diese Notiz behandelt die Eingabegeräte, Interaktionskonzepte und Algorithmen zur Interaktion in 3D-Räumen:
-> 
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu 3D-Interaktion:
 > - 2D- vs. 3D-Eingabegeräte & Freiheitsgrade (DOF)
->     
 > - 3D-Navigation & Kamerasteuerung (Kanonische Bewegungen & Metaphern)
->     
 > - Objektselektion & -manipulation (Ray Casting, Go-Go, Image Plane Interaction)
->     
-> - 3D-Widgets & Transformations-Gizmos
->     
+> - [[3D-Interaktion#3D-Widgets & Gizmos|3D-Widgets & Transformations-Gizmos]]
 
-## 🖱️ Die Lücke: 2D-Eingabe vs. 3D-Szenengraph
+## Die Lücke: 2D-Eingabe vs. 3D-Szenengraph
 
-Die meisten klassischen Eingabegeräte (Maus, Touchscreen, Grafiktablett) arbeiten primär auf einem **zweidimensionalen Raster** und Bildschirmen. Das Rendering-Ergebnis der Grafik-Pipeline ist ebenfalls ein 2D-Pixelbild.
+Die meisten klassischen Eingabegeräte (Maus, Touchscreen, Grafiktablett) arbeiten primär auf einem **zweidimensionalen Raster** und Bildschirmen. Das Rendering-Ergebnis der [[Pipeline|Grafik-Pipeline]] ist ebenfalls ein 2D-Pixelbild.
 
 > [!warning] Die Interaktions-Herausforderung Interaktionen sollen jedoch Objekte innerhalb der **dreidimensionalen Welt (Szenengraph)** verändern.
 > 
@@ -45,7 +46,7 @@ Die Anzahl unabhängiger Bewegungsmöglichkeiten eines Objekts im Raum bestimmt 
 >     - Kombination aus 3 Translationsachsen $(x, y, z)$ und 3 Rotationsachsen $(\theta_x, \theta_y, \theta_z)$.
 >         
 
-## 🎮 3D-Eingabegeräte & Sensorik
+## 3D-Eingabegeräte & Sensorik
 
 Um 3D-Welten direkt zu steuern, wurden verschiedene Eingabegeräte entwickelt:
 
@@ -57,7 +58,7 @@ Um 3D-Welten direkt zu steuern, wurden verschiedene Eingabegeräte entwickelt:
 >     
 > - **Spatial Tracker & VR-Controller**:
 >     
->     - Erfassen Position und Orientierung im Raum via optischem Tracking (Inside-Out / Outside-In), elektromagnetischen Feldern oder Inertialsensoren (IMU: Beschleunigungsmesser & Gyroskop).
+>     - Erfassen Position und Orientierung im Raum via optischem Tracking (Inside-Out / Outside-In), [[Elektromagnetische Strahlung|elektromagnetischen Feldern]] oder Inertialsensoren (IMU: Beschleunigungsmesser & Gyroskop).
 >         
 > - **Datenhandschuhe (Data Gloves) & Hand-Tracking**:
 >     
@@ -68,9 +69,9 @@ Um 3D-Welten direkt zu steuern, wurden verschiedene Eingabegeräte entwickelt:
 >     - Analog-Sticks kombiniert mit Infrarot- oder Bewegungssensoren.
 >         
 
-## 🧭 Navigation in 3D-Szenen
+## Navigation in 3D-Szenen
 
-Navigation bezeichnet die gezielte Veränderung des Betrachterstandpunkts (Steuerung der virtuellen Kamera bzw. View-Matrix).
+Navigation bezeichnet die gezielte Veränderung des Betrachterstandpunkts (Steuerung der virtuellen Kamera bzw. View-[[Matrix]]).
 
 ### Kanonische Kamerabewegungen
 
@@ -97,7 +98,7 @@ Je nach Anwendungsfall werden unterschiedliche mentale Modelle zur Kamerasteueru
         
 - **World-in-Hand**:
     
-    - Der Nutzer bewegt gedanklich nicht die Kamera, sondern packt und verschiebt die gesamte 3D-Welt.
+    - Der Nutzer bewegt gedanklich nicht die Kamera, sondern packt und verschiebt die gesamte [[Dimension|3D-Welt]].
         
 - **Flying / First-Person (Fly-through / WASD)**:
     
@@ -108,9 +109,9 @@ Je nach Anwendungsfall werden unterschiedliche mentale Modelle zur Kamerasteueru
     - Boden-gebundenes Gehen oder kurzzeitiges Punkt-zu-Punkt-Springen (Teleport-Strahl), um Reisekrankheit (Motion Sickness) zu vermeiden.
         
 
-## 🎯 Selektion & Manipulation von 3D-Objekten
+## Selektion & Manipulation von 3D-Objekten
 
-Bevor ein Objekt im 3D-Raum transformiert werden kann, muss es ausgewählt (selektiert) werden.
+Bevor ein Objekt im [[Dimension|3D-Raum]] transformiert werden kann, muss es ausgewählt (selektiert) werden.
 
 ### 1. Direct 3D Manipulation
 
@@ -146,20 +147,20 @@ Ermöglicht das Greifen von Objekten außerhalb der physischen Armreichweite dur
 
 ### 4. Image Plane Interaction (2D-Bildebenen-Interaktion)
 
-Selektion und Manipulation direkt im projizierten 2D-Kamerabild (häufig bei HMDs oder Touchscreens):
+Selektion und Manipulation direkt im projizierten [[Dimension|2D-Kamerabild]] (häufig bei HMDs oder Touchscreens):
 
 > [!example] Techniken der Bildebenen-Interaktion
 > 
-> - **Head Crusher**: Das entfernte 3D-Objekt wird im 2D-Kamerabild gedanklich zwischen Daumen und Zeigefinger „zerquetscht“ und dadurch gegriffen.
+> - **Head Crusher**: Das entfernte 3D-Objekt wird im [[Dimension|2D-Kamerabild]] gedanklich zwischen Daumen und Zeigefinger „zerquetscht“ und dadurch gegriffen.
 >     
 > - **Sticky Finger**: Platzieren des Fingers auf dem Bildschirm-Imagepunkt des Objekts.
 >     
 > - **Framing Hands**: Aufspannen eines Rahmens mit beiden Händen zur Objektauswahl.
 >     
 
-## 🛠️ 3D-Widgets & Gizmos
+## 3D-Widgets & Gizmos
 
-3D-Widgets sind visuelle Steuerungselemente, die direkt in die 3D-Szene gerendert werden, um komplexe 3D-Transformationen mit einfachen 2D-Mausbewegungen durchzuführen.
+3D-Widgets sind visuelle Steuerungselemente, die direkt in die [[Dimension|3D-Szene]] gerendert werden, um komplexe 3D-Transformationen mit einfachen 2D-Mausbewegungen durchzuführen.
 
 > [!tip] Aufbau eines 3D-Transformations-Gizmos
 > 
@@ -174,18 +175,18 @@ Selektion und Manipulation direkt im projizierten 2D-Kamerabild (häufig bei HMD
 
 ```
           Y (Grün)
-          ▲
-          │  ┌── Ebene YZ
-          │ /
-          │/
-──────────┼──────────► X (Rot)
-         /│
-        / │
-       ▼  ▼
+          
+             Ebene YZ
+           /
+          /
+ X (Rot)
+         /
+        / 
+         
  Z (Blau)
 ```
 
-## 🔗 Nächste Themen
+## Nächste Themen
 
 - [[Alternative Rendering-Pipelines]]
     

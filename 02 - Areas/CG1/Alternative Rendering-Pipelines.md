@@ -1,39 +1,40 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - 3DGS
+  - Computergrafik
+  - GaussianSplatting
+  - LMU
+  - NeRF
+  - NovelViewSynthesis
+  - Rendering
 ---
-# 🤖 Alternative Rendering-Pipelines
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Vorheriges Thema: [[3D-Interaktion]] | Nächstes Thema: [[Virtuelle & Erweiterte Realität]]
 
-#computergrafik #lmu #nerf #gaussiansplatting #3dgs #rendering #novelviewsynthesis
-
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[MOC - Computergrafik 1]] Vorheriges Thema: [[3D-Interaktion]]
-
-> [!info] Themenüberblick Diese Notiz behandelt moderne, KI- und punktbasierte Rendering-Methoden zur Erzeugung fotorealistischer 3D-Szenen aus 2D-Fotos:
-> 
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu Alternative [[Pipeline|Rendering-Pipelines]]:
 > - Paradigmenwechsel: Von Polygonen zu impliziten & expliziten Volumendarstellungen
->     
-> - Neural Radiance Fields (NeRFs) & Volume Rendering
->     
-> - 3D Gaussian Splatting (3DGS) – Erfassung, Repräsentation, Rendering & Optimierung
->     
+> - [[Alternative Rendering-Pipelines#Neural Radiance Fields (NeRFs)|Neural Radiance Fields (NeRFs)]] & Volume Rendering
+> - [[Alternative Rendering-Pipelines#3D Gaussian Splatting (3DGS)|3D Gaussian Splatting (3DGS)]] – Erfassung, Repräsentation, Rendering & Optimierung
 > - Neuartige Erweiterungen & Ausblick (GaussianAvatars, Triangle Splatting)
->     
 
-## 🔄 Paradigmenwechsel: Novel View Synthesis
+## Paradigmenwechsel: Novel View Synthesis
 
-Klassische Grafik-Pipelines setzen voraus, dass 3D-Szenen als explizite Polygonnetze (Meshes) vorliegen und von Hand modelliert oder aufwendig gescannt wurden.
+Klassische [[Pipeline|Grafik-Pipelines]] setzen voraus, dass [[Dimension|3D-Szenen]] als explizite Polygonnetze (Meshes) vorliegen und von Hand modelliert oder aufwendig gescannt wurden.
 
 > [!warning] Das Problem klassischer Rekonstruktion Versucht man real existierende Objekte oder Umgebungen aus Kamerafotos in Dreiecks-Meshes umzuwandeln, entstehen oft Artefakte, fehlerhafte Löcher und Probleme bei spiegelnden, feinen oder transparenten Strukturen (z. B. Haare, Glas, Rauch).
 
 > [!tip] Das Ziel: Novel View Synthesis (NVS) Rekonstruiere aus einer Reihe von 2D-Fotos einer echten Szene eine Repräsentation, aus der die Szene aus **beliebigen neuen Kameraperspektiven** fotorealistisch gerendert werden kann.
 
-## 🧠 Neural Radiance Fields (NeRFs)
+## Neural Radiance Fields (NeRFs)
 
-Eingeführt von Mildenhall et al. (2020), revolutionierten NeRFs die Bildsynthese durch die Nutzung künstlicher neuronaler Netze als implizite Szenendarstellung.
+Eingeführt von Mildenhall et al. (2020), revolutionierten NeRFs die Bildsynthese durch die Nutzung künstlicher [[Künstliche Intelligenz|neuronaler Netze]] als implizite Szenendarstellung.
 
 > [!note] Funktionsweise eines NeRF Ein NeRF speichert eine Szene nicht als Geometrie, sondern repräsentiert sie als eine kontinuierliche Funktion innerhalb eines geschulten neuronalen Netzes (eines mehrschichtigen Perzeptrons / MLP).
 > 
-> - **Eingabe (5D-Vektor)**:
+> - **Eingabe (5D-[[Vektor]])**:
 >     
 >     - 3D-Raumkoordinaten $\mathbf{x} = (x, y, z)$
 >         
@@ -47,7 +48,7 @@ Eingeführt von Mildenhall et al. (2020), revolutionierten NeRFs die Bildsynthes
 >         
 
 ```
-(x, y, z, θ, ϕ) ──► [ Multilayer Perceptron (MLP) ] ──► (r, g, b, σ)
+(x, y, z, θ, ϕ)  [ Multilayer Perceptron (MLP) ]  (r, g, b, σ)
 ```
 
 ### Rendering via Volume Ray Marching
@@ -81,12 +82,12 @@ Eingeführt von Kerbl et al. (2023), verbindet 3D Gaussian Splatting die fotorea
 ### Der Ablauf der 3DGS-Pipeline
 
 ```
-[ 2D-Kamerafotos ] ──► [ Structure from Motion (SfM) ] ──► [ Initialpunkte & Kameras ]
-                                                                   │
-                                                                   ▼
-[ Finales Raster-Bild ] ◄── [ Tile-basiertes Rendering ] ◄── [ 3D Gaussians (Splats) ]
-                                                                   ▲
-                                                                   │ (Gradienten-Loss)
+[ 2D-Kamerafotos ]  [ Structure from Motion (SfM) ]  [ Initialpunkte & Kameras ]
+                                                                   
+                                                                   
+[ Finales Raster-Bild ]  [ Tile-basiertes Rendering ]  [ 3D Gaussians (Splats) ]
+                                                                   
+                                                                    (Gradienten-Loss)
                                                        [ Adaptives Optimieren ]
 ```
 
@@ -139,10 +140,10 @@ Während des Trainings vergleichen Verlustfunktionen (Loss: $L_1$ + D-SSIM) da
 > 
 > - **Echtzeit-Rendering**: Extrem schnelle Rasterisierung dank direkter GPU-Sortierung.
 >     
-> - **Explizite Datenstruktur**: Splats können direkt im 3D-Raum verschoben, skaliert, gecullt oder mit klassischer Geometrie kombiniert werden.
+> - **Explizite Datenstruktur**: Splats können direkt im [[Dimension|3D-Raum]] verschoben, skaliert, gecullt oder mit klassischer Geometrie kombiniert werden.
 >     
 
-## 🔮 Neuartige Anwendungen & Triangle Splatting
+## Neuartige Anwendungen & Triangle Splatting
 
 Da 3DGS eine explizite Punktstruktur nutzt, lässt es sich ideal mit Animationen und Rigs kombinieren.
 
@@ -150,9 +151,9 @@ Da 3DGS eine explizite Punktstruktur nutzt, lässt es sich ideal mit Animationen
 > 
 > - **GaussianAvatars & Avat3r**: Kopplung von 3D-Gauß-Splats an ein elastisches Bewegungsskelett zur Erzeugung fotorealistischer, animierbarer digitaler Menschen und Gesichter.
 >     
-> - **Triangle Splatting (2025)**: Übertragung der differentiablen Splatting-Idee von Gauß-Ellipsoiden zurück auf **flache Dreiecks-Primitive**, um bessere Schnittstellen zu klassischen Physik- und Grafik-Pipelines zu schaffen.
+> - **Triangle Splatting (2025)**: Übertragung der differentiablen Splatting-Idee von Gauß-Ellipsoiden zurück auf **flache Dreiecks-Primitive**, um bessere Schnittstellen zu klassischen Physik- und [[Pipeline|Grafik-Pipelines]] zu schaffen.
 >     
 
-## 🔗 Nächste Themen
+## Nächste Themen
 
 - [[Virtuelle & Erweiterte Realität]]

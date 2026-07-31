@@ -1,33 +1,33 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - Antialiasing
+  - Bresenham
+  - Clipping
+  - Computergrafik
+  - LMU
+  - Rasterisierung
+  - Scanline
 ---
-# 🔲 Rasterisierung
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Vorheriges Thema: [[Kameramodell & Projektion]] | Nächstes Thema: [[Licht, Aussehen & Material]]
 
-#computergrafik #lmu #rasterisierung #clipping #bresenham #scanline #antialiasing
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu Rasterisierung:
+> - Aufgabe & Prinzip der [[Rasterisierung]]
+> - [[Rasterisierung#Clipping (Beschneidung)|Clipping]]-Algorithmen (Cohen-Sutherland für Linien, Sutherland-Hodgman für Polygone)
+> - Linienrasterisierung (DDA-Algorithmus, [[Rasterisierung#2. Bresenham-Algorithmus (Midpoint Line Algorithm)|Bresenham-Algorithmus]])
+> - Polygonfüllung ([[Rasterisierung#Flächenfüllen (Filling Areas)|Scanline-Algorithmus]] & Paritätsregel)
+> - [[Rasterisierung#Antialiasing (Kantenglättung)|Antialiasing]] & Supersampling
 
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[MOC - Computergrafik 1]] Vorheriges Thema: [[Kameramodell & Projektion]]
+## Was ist Rasterisierung?
 
-> [!info] Themenüberblick Diese Notiz behandelt die Verfahren zur Umwandlung kontinuierlicher Vektorgeometrie in ein diskretes Pixelraster:
-> 
-> - Aufgabe & Prinzip der Rasterisierung
->     
-> - Clipping-Algorithmen (Cohen-Sutherland für Linien, Sutherland-Hodgman für Polygone)
->     
-> - Linienrasterisierung (DDA-Algorithmus, Bresenham-Algorithmus)
->     
-> - Polygonfüllung (Scanline-Algorithmus & Paritätsregel)
->     
-> - Antialiasing & Supersampling
->     
-
-## 📌 Was ist Rasterisierung?
-
-Die Rasterisierung bildet die Brücke zwischen kontinuierlicher Vektorgeometrie (Punkte, Linien, Polygone im 2D/3D-Raum) und dem diskreten Pixelraster eines Bildschirms.
+Die Rasterisierung bildet die Brücke zwischen kontinuierlicher Vektorgeometrie (Punkte, Linien, Polygone im 2D/[[Dimension|3D-Raum]]) und dem diskreten Pixelraster eines Bildschirms.
 
 > [!note] Kernaufgabe Bestimme für jedes geometrische Primitiv (z. B. ein projiziertes 2D-Dreieck in Viewport-Koordinaten), welche Pixel des Framebuffers davon überdeckt werden und welche Farb- bzw. Tiefenwerte diese Pixel erhalten.
 
-## ✂️ Clipping (Beschneidung)
+## Clipping (Beschneidung)
 
 Geometrie, die sich außerhalb des sichtbaren Bildschirmfensters (Viewport / Clipping Rectangle) befindet, muss vor der Rasterisierung abgeschnitten oder verworfen werden.
 
@@ -77,7 +77,7 @@ Beschneidet ein gesamtes Polygon nacheinander an den vier Begrenzungskanten eine
 > 4. **Draußen** $\rightarrow$ **Drinnen**: Berechne Schnittpunkt $I$, speichere $I$ und den Endpunkt $V_{i+1}$.
 >     
 
-## ✏️ Linienrasterisierung (Drawing Lines)
+## Linienrasterisierung (Drawing Lines)
 
 Eine mathematische Linie $y = m \cdot x + b$ muss auf eine Folge diskreter Rasterpixel $(x, y) \in \mathbb{Z}^2$abgebildet werden.
 
@@ -111,7 +111,7 @@ Der Bresenham-Algorithmus löst das Problem rein mittels **Ganzzahlarithmetik (
 > - Extrem effizient direkt in Grafikhardware (GPUs) umsetzbar.
 >     
 
-## 🎨 Flächenfüllen (Filling Areas)
+## Flächenfüllen (Filling Areas)
 
 Das Füllen von geschlossenen 2D-Polygonen erfolgt standardmäßig über den **Scanline-Algorithmus**.
 
@@ -131,12 +131,12 @@ Der Algorithmus tastet das Bildelement zeilenweise von oben nach unten (oder unt
 >     
 
 ```
-Scanline y ───►  [Außen (0)] ──| Edge 1 |──► [Innen (1)] ──| Edge 2 |──► [Außen (0)]
+Scanline y   [Außen (0)] | Edge 1 | [Innen (1)] | Edge 2 | [Außen (0)]
 ```
 
 > [!note] Optimierung mittels Edge Tables Um nicht in jeder Zeile alle Kanten prüfen zu müssen, verwaltet der Algorithmus eine **Edge Table (ET)** und eine **Active Edge Table (AET)**. Letztere enthält nur diejenigen Kanten, die die aktuelle Scanline kreuzen, sortiert nach ihren $x$-Schnittpunkten.
 
-## 🏁 Antialiasing (Kantenglättung)
+## Antialiasing (Kantenglättung)
 
 Da Pixel diskrete Quadrate sind, führen harte Übergänge an Polygonkanten zu störenden Treppeneffekten (Jaggies / Aliasing).
 
@@ -155,7 +155,7 @@ Die grundlegendste und qualitativ hochwertige Technik zur Kantenglättung.
 > 3. Skaliere das Bild auf die Zielauflösung herunter, indem der Farbwert eines Pixels durch den **Mittelwert seiner Subpixel** gebildet wird (Tiefpassfilterung).
 >     
 
-## 🔗 Nächste Themen
+## Nächste Themen
 
 - [[Licht, Aussehen & Material]]
     

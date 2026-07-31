@@ -1,27 +1,28 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - Animation
+  - Computergrafik
+  - Disney
+  - Keyframing
+  - Kinematik
+  - LMU
+  - MoCap
+  - Simulation
 ---
-# 🎬 Animation
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Vorheriges Thema: [[Shading & Rendering]] | Nächstes Thema: [[3D-Interaktion]]
 
-#computergrafik #lmu #animation #keyframing #kinematik #mocap #simulation #disney
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu Animation:
+> - Grundlagen & Geschichte der [[Animation]]
+> - [[Animation#Keyframing & Interpolation|Keyframing]] & Parameter-Interpolation
+> - [[Animation#Skelettanimation & Motion Capture|Skelettanimation]] (Rigging, Forward vs. Inverse Kinematics) & Motion Capture
+> - [[Animation#Physikalische Simulation|Physikalische Simulation]] (Partikel, Masse-Feder-Systeme, Rigid Bodies)
+> - Die [[Animation#Die 12 Prinzipien der Animation (Disney)|12 klassischen Prinzipien der Animation]] (Disney)
 
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[MOC - Computergrafik 1]] Vorheriges Thema: [[Shading & Rendering]]
-
-> [!info] Themenüberblick Diese Notiz behandelt die Erzeugung bewegter Bildelemente und Charaktere in der 3D-Computergrafik:
-> 
-> - Grundlagen & Geschichte der Animation
->     
-> - Keyframing & Parameter-Interpolation
->     
-> - Skelettanimation (Rigging, Forward vs. Inverse Kinematics) & Motion Capture
->     
-> - Physikalische Simulation (Partikel, Masse-Feder-Systeme, Rigid Bodies)
->     
-> - Die 12 klassischen Prinzipien der Animation (Disney)
->     
-
-## ⏱️ Grundlagen der Animation
+## ⏱ Grundlagen der Animation
 
 Das Wort Animation stammt vom lateinischen _animare_ („zum Leben erwecken“). Es bezeichnet die Erzeugung der Illusion von Bewegung durch die schnelle Abfolge von statischen Einzelbildern (Frames).
 
@@ -37,10 +38,10 @@ Das Wort Animation stammt vom lateinischen _animare_ („zum Leben erwecken“
 >         
 >     - Fernsehen (PAL/NTSC): $25 \text{ / } 30 \text{ fps}$
 >         
->     - Interaktive 3D-Grafik / Gaming: $60 \text{ bis } 144+ \text{ fps}$ für flüssige Interaktion.
+>     - Interaktive [[Dimension|3D-Grafik]] / Gaming: $60 \text{ bis } 144+ \text{ fps}$ für flüssige Interaktion.
 >         
 
-## 🔑 Keyframing & Interpolation
+## Keyframing & Interpolation
 
 In der klassischen Zeichentrick-Herstellung zeichneten Chefzeichner nur die wichtigsten Hauptbilder (**Keyframes**), während Assistenten die Zwischenbilder (**Inbetweens**) anfertigten. In der Computergrafik übernimmt der Computer die Rolle des Inbetweeners.
 
@@ -52,7 +53,7 @@ In der klassischen Zeichentrick-Herstellung zeichneten Chefzeichner nur die wich
 >     
 
 ```
-[ Keyframe t0 ] ──────── Interpolationskurve (Spline) ────────► [ Keyframe t1 ]
+[ Keyframe t0 ]  Interpolationskurve (Spline)  [ Keyframe t1 ]
   (Pos: x0, y0)                                                   (Pos: x1, y1)
 ```
 
@@ -67,7 +68,7 @@ In der klassischen Zeichentrick-Herstellung zeichneten Chefzeichner nur die wich
 - **Spline- / Bézier-Interpolation**: Verwendet kubische Kurven zur sanften Überblendung. Ermöglicht **Ease-In**(sanftes Anfahren/Beschleunigen) und **Ease-Out** (sanftes Abbremsen).
     
 
-## 🦴 Skelettanimation & Motion Capture
+## Skelettanimation & Motion Capture
 
 Um komplexe organische Charaktere (Menschen, Tiere, Monster) realistisch zu bewegen, nutzt man eine Trennung von Oberflächengeometrie und Bewegungsstruktur.
 
@@ -75,7 +76,7 @@ Um komplexe organische Charaktere (Menschen, Tiere, Monster) realistisch zu bewe
 
 - **Rigging**: Erstellung eines inneren virtuellen Skeletts aus miteinander verknüpften Knochen (Bones/Joints) in einer Baumhierarchie.
     
-- **Skinning / Weighting**: Verknüpfung der äußeren Mesh-Vertices mit den Knochen. Jeder Vertex erhält Gewichtungsfaktoren (Weights), die angeben, zu wie viel Prozent er der Bewegung welches Knochens folgt.
+- **Skinning / Weighting**: Verknüpfung der äußeren Mesh-[[Knoten|Vertices]] mit den Knochen. Jeder Vertex erhält Gewichtungsfaktoren (Weights), die angeben, zu wie viel Prozent er der Bewegung welches Knochens folgt.
     
 
 ### Forward vs. Inverse Kinematics (FK vs. IK)
@@ -103,7 +104,7 @@ Um komplexe organische Charaktere (Menschen, Tiere, Monster) realistisch zu bewe
 
 Erfassung der Bewegungen realer Darsteller mithilfe von Sensoren oder Markern (optisch, magnetisch, exskelettal) und Übertragung der 3D-Koordinaten auf das virtuelle Rig des Charakters.
 
-## 🌊 Physikalische Simulation
+## Physikalische Simulation
 
 Für Phänomene mit extrem vielen Freiheitsgraden ist manuelle Keyframe-Animation unpraktisch. Hier kommen physikalische Gesetzmäßigkeiten (Newton'sche Mechanik) zum Einsatz.
 
@@ -113,10 +114,10 @@ Für Phänomene mit extrem vielen Freiheitsgraden ist manuelle Keyframe-Animatio
 >     
 > - **Masse-Feder-Systeme (Mass-Spring Systems)**: Punkte im Raum werden durch elastische Federn verbunden. Dient zur Simulation flexibler Textilien (Cloth Simulation), Seilen und weichen Körpern.
 >     
-> - **Rigid Body Dynamics (Körperdynamik)**: Berechnung von Kollisionen, Reibung und Impulserhaltung unformbarer 3D-Körper (z. B. einstürzende Mauern, Würfel).
+> - **Rigid Body Dynamics (Körperdynamik)**: Berechnung von Kollisionen, Reibung und [[Impuls|Impulserhaltung]] unformbarer [[Dimension|3D-Körper]] (z. B. einstürzende Mauern, Würfel).
 >     
 
-## 🎨 Die 12 Prinzipien der Animation (Disney)
+## Die 12 Prinzipien der Animation (Disney)
 
 Von Frank Thomas und Ollie Johnston (Disney-Animatoren) in den 1980ern formuliert, bilden diese Regeln die Basis für ausdrucksstarke und glaubwürdige Bewegungen.
 
@@ -155,7 +156,7 @@ Von Frank Thomas und Ollie Johnston (Disney-Animatoren) in den 1980ern formulier
 > 12. **Appeal (Ausstrahlung / Charme)**: Ansprechende Gestaltung und Konsistenz von Charakteren und deren Persönlichkeit.
 >     
 
-## 🔗 Nächste Themen
+## Nächste Themen
 
 - [[3D-Interaktion]]
     

@@ -1,29 +1,27 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - Computergrafik
+  - Culling
+  - Kamera
+  - LMU
+  - Projektion
+  - ZBuffer
 ---
-# 📷 Kameramodell & Projektion
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Vorheriges Thema: [[3D-Geometrie & Modellierung]] | Nächstes Thema: [[Rasterisierung]]
 
-#computergrafik #lmu #kamera #projektion #zbuffer #culling
-
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[MOC - Computergrafik 1]] Vorheriges Thema: [[3D-Geometrie & Modellierung]]
-
-> [!info] Themenüberblick Diese Notiz behandelt das virtuelle Kameramodell und die Abbildung von 3D-Szenen auf Bildebenen:
-> 
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu Kameramodell & Projektion:
 > - Klassische Projektionstaxonomie (Parallel vs. Perspektivisch)
->     
 > - Synthetisches Kameramodell (Lochkamera-Prinzip)
->     
-> - Die Kamera-Transformation (LookAt-Matrix)
->     
+> - Die Kamera-Transformation (LookAt-[[Matrix]])
 > - Sichtvolumen (Frustum) & Perspektivische Projektion
->     
 > - Perspektivische Division & Viewport-Transformation
->     
-> - Sichtbarkeitsberechnung & Verdeckung (Backface Culling, Z-Buffer, Painter's Algorithm)
->     
+> - Sichtbarkeitsberechnung & Verdeckung ([[Kameramodell & Projektion#2. Backface Culling|Backface Culling]], [[Kameramodell & Projektion#4. Der Z-Buffer Algorithm (Depth Buffer)|Z-Buffer]], Painter's Algorithm)
 
-## 🏛️ Klassische Projektionstaxonomie
+## Klassische Projektionstaxonomie
 
 Die Abbildung einer dreidimensionalen Szene auf eine zweidimensionale Projektionsfläche erfordert Projektionsstrahlen (Projectors), die von Objektpunkten zur Projektionsfläche verlaufen.
 
@@ -35,11 +33,11 @@ Die Abbildung einer dreidimensionalen Szene auf eine zweidimensionale Projektion
 >     
 
 ```
-                      ┌── Parallele Projektoren ──► Parallelprojektion
-                      │                             (Orthographisch, Axonometrisch, Schräg)
-Projektionsstrahlen ──┤
-                      │
-                      └── Konvergierende Strahlen ─► Perspektivische Projektion
+                       Parallele Projektoren  Parallelprojektion
+                                                   (Orthographisch, Axonometrisch, Schräg)
+Projektionsstrahlen 
+                      
+                       Konvergierende Strahlen  Perspektivische Projektion
                                                     (1, 2 oder 3 Fluchtpunkte)
 ```
 
@@ -72,7 +70,7 @@ Projektionsstrahlen laufen in einem gemeinsamen Projektionszentrum (Center of Pr
 
 > [!tip] Fluchtpunkte (Vanishing Points) Parallele Objektlinien, die nicht parallel zur Bildebene verlaufen, schneiden sich im projizierten Bild in sogenannten **Fluchtpunkten**. Je nach Orientierung des Koordinatensystems zur Bildebene spricht man von **1-, 2- oder 3-Punkt-Perspektive**.
 
-## 🎥 Das synthetische Kameramodell
+## Das synthetische Kameramodell
 
 In der Computergrafik wird das Prinzip der **Lochkamera (Pinhole Camera)** als mathematisches Modell verwendet.
 
@@ -82,7 +80,7 @@ In der Computergrafik wird das Prinzip der **Lochkamera (Pinhole Camera)** als
 >     
 > - **Blickrichtung (Look-At Point** $\mathbf{g}$ **/ View Vector** $\mathbf{v}$**)**: Zielpunkt, auf den die Kamera gerichtet ist.
 >     
-> - **Up-Vektor (**$\mathbf{u}$**)**: Richtungsvektor, der angibt, wo für die Kamera „oben“ ist.
+> - **Up-[[Vektor]] (**$\mathbf{u}$**)**: Richtungsvektor, der angibt, wo für die Kamera „oben“ ist.
 >     
 > - **Öffnungswinkel (Field of View / FOV)**: Vertikaler oder horizontaler Sehwinkel.
 >     
@@ -93,13 +91,13 @@ In der Computergrafik wird das Prinzip der **Lochkamera (Pinhole Camera)** als
 
 ```
        [ Eye / Kamera e ]
-             │   \
-             │    \  Projektionsstrahl
-             │     \
-             ▼      ▼
-    [ Near Plane ] ──► [ Intersecting Point ]
-             │
-             ▼
+                \
+                 \  Projektionsstrahl
+                  \
+                   
+    [ Near Plane ]  [ Intersecting Point ]
+             
+             
      [ Far Plane ]
 ```
 
@@ -107,7 +105,7 @@ In der Computergrafik wird das Prinzip der **Lochkamera (Pinhole Camera)** als
 
 Um die Szene aus Sicht der Kamera zu rendern, wird das globale Koordinatensystem so transformiert, dass die Kamera im Ursprung liegt und entlang der negativen Z-Achse blickt.
 
-> [!warning] Konstruktion der Kamera-Basisvektoren Aus den Vektoren Position $\mathbf{e}$, Zielpunkt $\mathbf{g}$ und Up-Vektor $\mathbf{u}$ wird ein orthonormales Koordinatensystem $(\mathbf{w}, \mathbf{u}', \mathbf{v}')$ gebildet:
+> [!warning] Konstruktion der Kamera-Basisvektoren Aus den [[Vektor|Vektoren]] Position $\mathbf{e}$, Zielpunkt $\mathbf{g}$ und Up-[[Vektor]] $\mathbf{u}$ wird ein orthonormales Koordinatensystem $(\mathbf{w}, \mathbf{u}', \mathbf{v}')$ gebildet:
 > 
 > 1. **Blickrichtung (Z-Achse der Kamera)**: $\mathbf{w} = \frac{\mathbf{e} - \mathbf{g}}{\Vert{}\mathbf{e} - \mathbf{g}\Vert{}}$ (zeigt vom Ziel weg zur Kamera)
 >     
@@ -133,7 +131,7 @@ $$\mathbf{M}_{view} = \mathbf{R}_{view} \cdot \mathbf{T}(-\mathbf{e}) = \begin{p
 > scene.add(camera);
 > ```
 
-## 📐 Perspektivische Projektion & Frustum
+## Perspektivische Projektion & Frustum
 
 Das Sichtvolumen einer Perspektivkamera bildet einen Pyramidenstumpf (Viewing Frustum).
 
@@ -167,19 +165,19 @@ $$\mathbf{p}_{ndc} = \begin{pmatrix} x / w \\ y / w \\ z_{ndc} / w \\ 1 \end{pma
 > - Punkte auf der optischen Achse ($x=0, y=0$) bleiben exakt in der Bildmitte.
 >     
 
-### 🖼️ Viewport-Transformation (NDC $\rightarrow$ Screen Coordinates)
+### Viewport-Transformation (NDC $\rightarrow$ Screen Coordinates)
 
 Abschließend werden die normierten Koordinaten $[-1, 1]^2$ auf die tatsächlichen Pixelkoordinaten des Fensters/Bildschirms $[0, w_{screen}] \times [0, h_{screen}]$ abgebildet:
 
 $$x_{screen} = \frac{x_{ndc} + 1}{2} \cdot w_{screen} + x_{min}$$$$y_{screen} = \frac{y_{ndc} + 1}{2} \cdot h_{screen} + y_{min}$$
 
-## 🔍 Sichtbarkeit & Verdeckungsrechnung (Occlusion)
+## Sichtbarkeit & Verdeckungsrechnung (Occlusion)
 
-Da bei der Projektion die dreidimensionale Szene auf ein flaches 2D-Raster reduziert wird, muss bestimmt werden, welche Oberflächen vom Betrachter aus sichtbar sind und welche verdeckt werden.
+Da bei der Projektion die dreidimensionale Szene auf ein flaches [[Dimension|2D-Raster]] reduziert wird, muss bestimmt werden, welche Oberflächen vom Betrachter aus sichtbar sind und welche verdeckt werden.
 
 > [!info] Einteilung der Verfahren
 > 
-> - **Object-Precision Algorithms**: Arbeiten im kontinuierlichen 3D-Raum (z. B. Roberts-Algorithmus).
+> - **Object-Precision Algorithms**: Arbeiten im kontinuierlichen [[Dimension|3D-Raum]] (z. B. Roberts-Algorithmus).
 >     
 > - **Image-Precision Algorithms**: Arbeiten im diskreten 2D-Rasterbereich (z. B. Z-Buffer).
 >     
@@ -242,7 +240,7 @@ Der Standard-Algorithmus moderner Grafikkarten auf Pixel-Ebene.
 > - **Nachteil**: Erfordert zusätzlichen Speicherplatz; Präzisionsverlust in der Tiefe durch die nichtlineare $z$-Skalierung der Perspektivprojektion (Z-Fighting bei nahe beieinander liegenden Flächen).
 >     
 
-## 🔗 Nächste Themen
+## Nächste Themen
 
 - [[Rasterisierung]]
     

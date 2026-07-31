@@ -1,26 +1,30 @@
 ---
 date: 2026-07-31
-tags: []
+tags:
+  - Computergrafik
+  - LMU
 ---
-# 🖥️ Einführung & Grundlagen
-> [!abstract] Navigation & MOC Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> [!abstract] Navigation & MOC
+> Zurück zur Hauptübersicht: [[Computergrafik 1]]
+> Nächstes Thema: [[Transformationen & Szenengraph]]
 
-> [!info] Themenüberblick Diese Notiz deckt alle Grundlagen und Kernkonzepte des ersten Kapitels ab:
+> [!info] Themenüberblick
+> Diese Notiz behandelt alle Kernkonzepte zu Einführung & Grundlagen:
 > - Definition & Einordnung der Computergrafik
-> - Die 3D-Rendering-Pipeline und ihre Koordinatensysteme
+> - Die 3D-Rendering-[[Pipeline]] und ihre Koordinatensysteme
 > - Hauptkomponenten einer virtuellen Szene
-> - Mathematisches Überlebens-Kit (Vektoren, Produkte, Matrizen)
+> - Mathematisches Überlebens-Kit ([[Vektor|Vektoren]], Produkte, [[Matrix|Matrizen]])
 
-## 📌 Was ist Computergrafik?
+## Was ist Computergrafik?
 
 Die Computergrafik befasst sich mit der computergestützten Erzeugung, Darstellung und Manipulation von visuellen Inhalten und Bildern aus digitalen Datenmodellen. Sie bildet das Fundament für Animationen, Spiele, wissenschaftliche Visualisierungen, medizinische Bildgebung und Benutzeroberflächen.
 
 > [!tip] Abgrenzung verwandter Disziplinen
-> - **Computergrafik (Bildsynthese)**: _Daten / 3D-Modell_ $\rightarrow$ **2D-Bild**
+> - **Computergrafik (Bildsynthese)**: _Daten / 3D-Modell_ $\rightarrow$ **[[Dimension|2D-Bild]]**
 > - **Computer Vision / Bildverarbeitung (Bildanalyse)**: _2D-Bild_ $\rightarrow$ **Daten / 3D-Modell**
 > - **Visualisierung**: Aufbereitung abstrakter Datenmengen in grafische Repräsentationen.
 
-## 🔄 Die Grafik-Pipeline im Überblick
+## Die Grafik-Pipeline im Überblick
 
 Der Prozess der Bildsynthese transformiert dreidimensionale Objektmodelle Schritt für Schritt in ein zweidimensionales Rasterbild aus Pixeln.
 
@@ -32,27 +36,27 @@ Der Prozess der Bildsynthese transformiert dreidimensionale Objektmodelle Schrit
 
 ```
 [ 3D-Modelle ] (Modellkoordinaten)
-       │
-       ▼  Scene Graph & Modell-Transformation
+       
+         Scene Graph & Modell-Transformation
 [ 3D-Welt ] (Weltkoordinaten)
-       │
-       ▼  Kamera-Transformation
+       
+         Kamera-Transformation
 [ 2D-Polygone ] (Kamerakoordinaten)
-       │
-       ▼  Rasterisierung & Shading
+       
+         Rasterisierung & Shading
 [ Pixels ] (Imagekoordinaten)
 ```
 
 > [!info] Kernaufgaben der Stufen
 > - **Tesselierung / Modellierung**: Zerlegung komplexer Oberflächen in einfache Grundelemente (Primitiven wie Dreiecke).
-> - **Transformation**: Umrechnung von Punkten zwischen den einzelnen Koordinatensystemen mittels Matrizen.
+> - **Transformation**: Umrechnung von Punkten zwischen den einzelnen Koordinatensystemen mittels [[Matrix|Matrizen]].
 > - **Clipping & Culling**: Entfernen von Objekten oder Polygonen, die außerhalb des Sichtfelds liegen oder dem Betrachter abgewandt sind.
 > - **Beleuchtung & Shading**: Berechnung der Farbwerte an den Objektgrenzen basierend auf Lichtquellen und Materialeigenschaften.
 > - **Rasterisierung**: Diskretisierung der kontinuierlichen Geometrie in konkrete Bildschirm-Pixel.
 
-## 🧱 Bestandteile einer virtuellen Szene
+## Bestandteile einer virtuellen Szene
 
-Eine vollständige 3D-Szene besteht aus verschiedenen Bausteinen, die zusammenwirken:
+Eine vollständige [[Dimension|3D-Szene]] besteht aus verschiedenen Bausteinen, die zusammenwirken:
 
 > [!example] Komponentenübersicht
 > - **Geometrie (3D-Meshes)**: Repräsentation von Objektformen durch Punktwolken, Polygonnetze (z. B. Stanford Bunny, Utah Teapot) oder mathematische Flächen.
@@ -61,11 +65,11 @@ Eine vollständige 3D-Szene besteht aus verschiedenen Bausteinen, die zusammenwi
 > - **Kamera**: Parameter wie Standort, Blickrichtung, Öffnungswinkel (FOV) und Projektionsart (perspektivisch vs. orthographisch).
 > - **Animation & Dynamik**: Hierarchie- und Zeitveränderungen von Objektpositionen, Deformationen und Eigenschaften.
 
-## 📐 Mathematisches Überlebens-Kit
+## Mathematisches Überlebens-Kit
 
 Lineare Algebra und Vektorrechnung bilden das mathematische Fundament der gesamten Computergrafik.
 
-> [!warning] Klausurrelevanz Das Verständnis und sichere Anwenden von Vektoren, Skalar- und Kreuzprodukten sowie Matrizen ist essenziell für Prüfungsaufgaben zu Transformationen, Beleuchtung und Projektionen.
+> [!warning] Klausurrelevanz Das Verständnis und sichere Anwenden von [[Vektor|Vektoren]], Skalar- und Kreuzprodukten sowie [[Matrix|Matrizen]] ist essenziell für Prüfungsaufgaben zu Transformationen, Beleuchtung und Projektionen.
 
 ### 1. Vektoren
 
@@ -103,7 +107,7 @@ $$\mathbf{a} \times \mathbf{b} = \begin{pmatrix} a_y b_z - a_z b_y \\ a_z b_x - 
 
 - **Multiplikation**: Matrizenmultiplikation ist i. d. R. **nicht kommutativ** ($A \cdot B \neq B \cdot A$). Die Reihenfolge der Ausführung ist entscheidend!
 
-## 🔗 Nächste Themen
+## Nächste Themen
 - [[Transformationen & Szenengraph]]
 - [[3D-Geometrie & Modellierung]]
 - [[Kameramodell & Projektion]]
