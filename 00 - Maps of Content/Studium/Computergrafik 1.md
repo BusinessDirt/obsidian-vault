@@ -2,6 +2,7 @@
 date: 2026-07-31
 tags:
   - Computergrafik
+  - MOC
 ---
 ## 📐 Grundlagen & Modellierung
 * [[Einführung & Grundlagen]]: Motivation, Geschichte und mathematische Grundlagen

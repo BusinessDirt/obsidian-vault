@@ -69,7 +69,7 @@ Lineare Algebra und Vektorrechnung bilden das mathematische Fundament der gesamt
 
 ### 1. Vektoren
 
-Ein Vektor $\mathbf{v} \in \mathbb{R}^3$ beschreibt eine Richtung und Länge im Raum:
+Ein [[Vektor]] $\mathbf{v} \in \mathbb{R}^3$ beschreibt eine Richtung und Länge im Raum:
 
 $$\mathbf{v} = \begin{pmatrix} x \\ y \\ z \end{pmatrix}$$
 
@@ -78,18 +78,18 @@ $$\mathbf{v} = \begin{pmatrix} x \\ y \\ z \end{pmatrix}$$
 
 ### 2. Skalarprodukt (Dot Product)
 
-Das Skalarprodukt zweier Vektoren $\mathbf{a}$ und $\mathbf{b}$ liefert einen Skalarwert:
+Das Skalarprodukt zweier [[Vektor|Vektoren]] $\mathbf{a}$ und $\mathbf{b}$ liefert einen Skalarwert:
 
 $$\mathbf{a} \cdot \mathbf{b} = a_x b_x + a_y b_y + a_z b_z = \Vert{}\mathbf{a}\Vert{} \Vert{}\mathbf{b}\Vert{} \cos(\theta)$$
 
 > [!tip] Wichtige Eigenschaften des Skalarprodukts
-> - $\mathbf{a} \cdot \mathbf{b} = 0$: Vektoren stehen **orthogonal** (senkrecht) zueinander.
-> - **Für normierte Vektoren**: Liefert direkt den Kosinus des eingeschlossenen Winkels $\cos(\theta)$.
+> - $\mathbf{a} \cdot \mathbf{b} = 0$: [[Vektor|Vektoren]] stehen **orthogonal** (senkrecht) zueinander.
+> - **Für normierte [[Vektor|Vektoren]]**: Liefert direkt den Kosinus des eingeschlossenen Winkels $\cos(\theta)$.
 > - **Anwendung**: Beleuchtungsberechnung (z. B. Lambert-Shader: Einstrahlwinkel des Lichts auf eine Oberfläche).
 
 ### 3. Kreuzprodukt (Cross Product)
 
-Das Kreuzprodukt zweier [[Vektor|3D-Vektoren]] erzeugt einen neuen Vektor, der senkrecht auf beiden Ausgangsvektoren steht:
+Das Kreuzprodukt zweier [[Vektor|3D-Vektoren]] erzeugt einen neuen [[Vektor]], der senkrecht auf beiden Ausgangsvektoren steht:
 
 $$\mathbf{a} \times \mathbf{b} = \begin{pmatrix} a_y b_z - a_z b_y \\ a_z b_x - a_x b_z \\ a_x b_y - a_y b_x \end{pmatrix}$$
 

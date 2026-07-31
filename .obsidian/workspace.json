@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/CG1/Einführung & Grundlagen.md",
+                "file": "02 - Areas/CG1/Kameramodell & Projektion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Einführung & Grundlagen"
+              "title": "Kameramodell & Projektion"
             }
           }
         ]
@@ -190,6 +190,8 @@
   "lastOpenFiles": [
     "00 - Maps of Content/Studium/Computergrafik 1.md",
     "02 - Areas/CG1/3D-Geometrie & Modellierung.md",
+    "02 - Areas/CG1/Transformationen & Szenengraph.md",
+    "02 - Areas/CG1/Einführung & Grundlagen.md",
     "02 - Areas/CG1/3D-Interaktion.md",
     "02 - Areas/CG1",
     "02 - Areas/CG1/Virtuelle & Erweiterte Realität.md",
@@ -199,8 +201,6 @@
     "02 - Areas/CG1/Licht, Aussehen & Material.md",
     "02 - Areas/CG1/Rasterisierung.md",
     "02 - Areas/CG1/Kameramodell & Projektion.md",
-    "02 - Areas/CG1/Transformationen & Szenengraph.md",
-    "02 - Areas/CG1/Einführung & Grundlagen.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "00 - Maps of Content/Muskelaufbau.md",
     "02 - Areas/PHPC/01 Fundamentals/Parallele Kennzahlen & Skalierung.md",
