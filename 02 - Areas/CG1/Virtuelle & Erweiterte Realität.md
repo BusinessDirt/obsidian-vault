@@ -37,7 +37,7 @@ Paul Milgram und Fumio Kishino (1994) definierten das kontinuierliche Spektrum z
 > - **Augmented Reality (AR)**: Reale Welt dominiert; digitale 3D-Inhalte werden in Echtzeit passgenau eingeblendet.
 > - **Augmented Virtuality (AV)**: Virtuelle Welt dominiert; reale Objekte (z. B. Live-Videostreams der eigenen Hände) werden eingebunden.
 > - **Virtual Reality (VR)**: Vollständig computergenerierte Welt; die reale Umgebung wird ausgeblendet.
->
+
 ## Virtual Reality (VR)
 
 Virtual Reality bezeichnet eine interaktive, computergenerierte Umgebung, in die der Nutzer visuell und akustisch eintaucht.
@@ -51,13 +51,13 @@ Virtual Reality bezeichnet eine interaktive, computergenerierte Umgebung, in die
 > - **Myron Krueger's „Videoplace“ (1989)**:
 >     - Begründete das Konzept der „Artificial Reality“.
 >     - Kamerabasierte 2D-Schattensimulation: Nutzer interagierten über Projektionen mit virtuellen Objekten und anderen Nutzern.
->
+
 ### Immersion vs. Präsenz (Presence)
 
 > [!warning] Wichtige begriffliche Unterscheidung
 > - **Immersion (Objektiv / Technisch)**: Beschreibt das Ausmaß, in dem ein System sensorische Reize der realen Welt ausblendet und durch synthetische Reize ersetzt (z. B. hohes FOV, hohe Auflösung, Head-Tracking, Raumklang).
 > - **Präsenz / Presence (Subjektiv / Psychologisch)**: Das mentale Gefühl des Nutzers, sich tatsächlich „an diesem virtuellen Ort zu befinden“ („Being there“).
->
+
 ### VR-Hardware & Display-Technologien
 
 #### 1. Head-Mounted Displays (HMDs)
@@ -73,10 +73,11 @@ Ein kubischer Raum, bei dem 3 bis 6 Wände (inkl. Boden/Decke) von außen mit st
 
 ### Motion-to-Photon Latency & Motion Sickness
 
-> [!danger] Das Latenz-Problem **Motion-to-Photon Latency** beschreibt die Zeitverzögerung zwischen der physischen Kopfbewegung des Nutzers und dem fertigen neuen Pixelbild auf dem Display.
+> [!danger] Das Latenz-Problem 
+> **Motion-to-Photon Latency** beschreibt die Zeitverzögerung zwischen der physischen Kopfbewegung des Nutzers und dem fertigen neuen Pixelbild auf dem Display.
 > - **Grenzwert**: Muss unter $20 \text{ ms}$ liegen!
 > - **Folge bei zu hoher Latenz**: Vokabulärer Widerspruch zwischen dem Gleichgewichtssinn (Vestibuläres System) und dem visuellen System führt zu **Simulator Sickness** (Übelkeit, Schwindel, Kopfschmerzen).
->
+
 ## Augmented Reality (AR)
 
 Nach Ronald Azuma (1997) ist Augmented Reality durch drei Hauptkriterien definiert:
@@ -100,7 +101,7 @@ Nach Ronald Azuma (1997) ist Augmented Reality durch drei Hauptkriterien definie
 >     - Nutzung von Alltagsgeräten wie Smartphones oder Tablets (z. B. Pokémon GO, Möbel-Visualisierung).
 > - **Spatial AR (Projection-based AR)**:
 >     - Direkte Projektion von Licht/Texturen auf physikalische Objekte im Raum.
->
+
 ## Tracking in VR & AR
 
 Tracking ist das kontinuierliche Messen der Position und Orientierung von Objekten, Headsets oder Eingabegeräten im Raum.
@@ -108,7 +109,7 @@ Tracking ist das kontinuierliche Messen der Position und Orientierung von Objekt
 > [!tip] Freiheitsgrade im Tracking
 > - **3-DOF (Degrees of Freedom)**: Erfasst nur Orientierung/Rotation (Roll, Pitch, Yaw / Nicken, Gieren, Wanken). Z. B. einfache Smartphone-VR (Google Cardboard).
 > - **6-DOF**: Erfasst 3D-Position $(x, y, z)$ **und** 3D-Orientierung. Unerlässlich für Raum-Skalierte VR/AR.
->
+
 ### Tracking-Verfahren & Sensorik
 
 - **Outside-In Tracking**: Externe Sensoren/Kameras im Raum tracken Marker am Headset (z. B. HTC Vive Base Stations, OptiTrack).
@@ -124,7 +125,7 @@ Tracking ist das kontinuierliche Messen der Position und Orientierung von Objekt
 > - **Markerloses Tracking / SLAM (Simultaneous Localization and Mapping)**:
 >     - Erfasst unbekannte Räume in Echtzeit.
 >     - Erkennt charakteristische Merkmalspunkte (Feature Points) in Videobildern, berechnet eine spärliche 3D-Punktwolke des Raums und schätzt zeitgleich die Bewegung der Kamera.
->
+
 ## UI- & Interaktionskonzepte in AR
 
 Da klassische 2D-WIMP-Interfaces (Windows, Icons, Menus, Pointer) in AR-Umgebungen ungeeignet sind, wurden spezialisierte Räumliche UI-Konzepte erforscht:

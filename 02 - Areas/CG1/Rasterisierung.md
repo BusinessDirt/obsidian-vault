@@ -116,7 +116,8 @@ Scanline y ───►  [Außen (0)] ──| Edge 1 |──► [Innen (1)] ─�
 
 Da Pixel diskrete Quadrate sind, führen harte Übergänge an Polygonkanten zu störenden Treppeneffekten (Jaggies / Aliasing).
 
-> [!warning] Abtasttheorem (Nyquist-Shannon) Hard Edges entsprechen unendlich hohen Raumfrequenzen im Bildsignal. Wird die Abtastfrequenz des Pixelrasters unterschritten, entsteht Aliasing.
+> [!warning] Abtasttheorem (Nyquist-Shannon) 
+> Hard Edges entsprechen unendlich hohen Raumfrequenzen im Bildsignal. Wird die Abtastfrequenz des Pixelrasters unterschritten, entsteht Aliasing.
 
 ### Supersampling (SSAA - Supersample Anti-Aliasing)
 
@@ -126,7 +127,7 @@ Die grundlegendste und qualitativ hochwertige Technik zur Kantenglättung.
 > 1. Rendere das Bild intern mit einer deutlich höheren Auflösung (z. B. $2\times2 = 4$ Subpixel pro Bildpixel).
 > 2. Berechne für jeden Subpixel Farbe und Sichtbarkeit.
 > 3. Skaliere das Bild auf die Zielauflösung herunter, indem der Farbwert eines Pixels durch den **Mittelwert seiner Subpixel** gebildet wird (Tiefpassfilterung).
->
+
 ## Nächste Themen
 
 - [[Licht, Aussehen & Material]]

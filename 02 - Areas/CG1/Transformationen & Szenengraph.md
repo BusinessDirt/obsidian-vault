@@ -40,13 +40,14 @@ Transformations sind mathematische Operationen, die Position, Orientierung oder 
 
 In kartesischen Koordinaten lässt sich eine Skalierung oder Rotation als Matrizenmultiplikation $M \cdot \mathbf{p}$darstellen, eine Translation jedoch nur als Vektoraddition $\mathbf{p} + \mathbf{t}$. Dies verhindert das einfache Zusammenfassen aller Transformationsschritte in eine einzige [[Matrix]].
 
-> [!warning] Klausurrelevanz: Warum homogene Koordinaten? Homogene Koordinaten betten $n$-dimensionale Punkte in einen $(n+1)$-dimensionalen Raum ein.
+> [!warning] Klausurrelevanz: Warum homogene Koordinaten? 
+> Homogene Koordinaten betten $n$-dimensionale Punkte in einen $(n+1)$-dimensionalen Raum ein.
 > - **Einheitliche Darstellung**: Translation wird ebenfalls als Matrizenmultiplikation darstellbar.
 > - **Effizienz**: Beliebig viele Transformationen (Translation, Rotation, Skalierung) können zu **einer einzigen Gesamtmatrix** multipliziert werden.
 > - **Unterscheidung Punkt vs. [[Vektor]]**:
 >     - Punkt im [[Dimension|3D-Raum]]: $\mathbf{p} = \begin{pmatrix} x & y & z & 1 \end{pmatrix}^T$ (wird verschoben)
 >     - Vektor (Richtung): $\mathbf{v} = \begin{pmatrix} x & y & z & 0 \end{pmatrix}^T$ (wird durch Translation nicht verändert)
->
+
 ### Die wichtigsten 4x4 Transformationsmatrizen
 
 #### Translation Matrix
@@ -80,7 +81,7 @@ Da Matrizenmultiplikation **nicht kommutativ** ist ($A \cdot B \neq B \cdot A$
 > $$\mathbf{p}' = \mathbf{M}_{ges} \cdot \mathbf{p} = (\mathbf{M}_n \cdot \dots \cdot \mathbf{M}_2 \cdot \mathbf{M}_1) \cdot \mathbf{p}$$
 >
 > - Zuerst wird $\mathbf{M}_1$ ausgeführt, danach $\mathbf{M}_2$, bis schlussendlich $\mathbf{M}_n$ angewendet wird.
->
+
 > [!example] Transformation um einen beliebigen Pivot-Punkt $P$ Möchte man ein Objekt nicht um den Koordinatenursprung, sondern um einen Punkt $P$ rotieren:
 > 1. Verschiebe den Punkt $P$ in den Ursprung: $\mathbf{T}(-P)$
 > 2. Führe die gewünschte Rotation aus: $\mathbf{R}(\theta)$
@@ -96,7 +97,7 @@ Ein Szenengraph ist eine baumförmige Datenstruktur (DAG – Directed Acyclic [[
 > - **Hierarchische Transformationen**: Unterobjekte (Child-Nodes) erben automatisch die Transformationen ihrer Elternknoten (Parent-Nodes).
 > - **Wiederverwendbarkeit**: Komplexe Objekte können definiert und an verschiedenen Stellen der Szene instanziiert werden.
 > - **Strukturierung**: Abstraktion von hardwarenahen OpenGL/WebGL-Aufrufen auf ein objektorientiertes Modell.
->
+
 ### Was speichert ein Szenengraph?
 
 Ein Szenengraph besteht aus verschiedenen Knotenarten:
@@ -132,7 +133,7 @@ Beim Rendering wird der Szenengraph per **Tiefensuche (Depth-First Search)** d
 > 1. Beim Abstieg zu einem Kindknoten wird die aktuelle Transformationsmatrix dupliziert und auf den **Stack gelegt (Push)**.
 > 2. Die lokale Transformation des Kindknotens wird auf die bestehende Matrix aufmultipliziert.
 > 3. Nach dem Rendern des Teilbaums wird der Ursprungszustand vom Stack wieder **wiederhergestellt (Pop)**.
->
+
 ### Praktische Szenengraph-Bibliotheken
 
 - **Three.js** (JavaScript/WebGL): Sehr verbreitet im Web-Bereich (`THREE.Scene`, `THREE.Group`, `THREE.Mesh`).

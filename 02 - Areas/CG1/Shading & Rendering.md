@@ -27,7 +27,8 @@ tags:
 
 Das Beleuchtungsmodell (z. B. Phong) berechnet die Lichtintensität an einzelnen Punkten. Shading-Algorithmen bestimmen, wie diese Farbwerte über ein gesamtes Polygon verteilt bzw. interpoliert werden.
 
-> [!note] Prinzip der lokalen Beleuchtung Bei lokalen Beleuchtungsverfahren wird die Farbe jedes Polygons nur anhand der Lichtquellen und der eigenen Geometrie/Materialeigenschaften berechnet. Objekte werfen **keine Schatten aufeinander** und erzeugen **keine gegenseitigen Reflexionen**.
+> [!note] Prinzip der lokalen Beleuchtung 
+> Bei lokalen Beleuchtungsverfahren wird die Farbe jedes Polygons nur anhand der Lichtquellen und der eigenen Geometrie/Materialeigenschaften berechnet. Objekte werfen **keine Schatten aufeinander** und erzeugen **keine gegenseitigen Reflexionen**.
 
 ### 1. Flat Shading (Facet Shading)
 
@@ -45,12 +46,12 @@ Entwickelt von Henri Gouraud (1971). Interpoliert Farbwerte sanft über die Flä
 > 1. Berechne an jedem **Vertex** eine geglättete Vertex-Normale $\mathbf{N}_v$ als Mittelwert der angrenzenden Flächennormalen.
 > 2. Wende das Beleuchtungsmodell an jedem Vertex an, um die **Vertex-Farben** zu berechnen.
 > 3. Interpoliere die Farbwerte entlang der Polygonkanten und anschließend zeilenweise über die Scanline (baryzentrische / lineare Interpolation).
->
+
 > [!warning] Nachteile des Gouraud Shading
 > - **Verlorene Glanzpunkte (Specular Highlights)**: Fällt ein enges Glanzlicht in die Mitte eines Polygons, aber nicht auf die [[Knoten|Vertices]], geht der Glanzpunkt vollständig verloren.
 > - **Mach-Bänder**: Sichtbar bei ungünstigen Übergängen der Intensitätsgradienten.
 > - **Anisotropie**: Interpolationsergebnisse hängen von der Ausrichtung des Polygons im Raster ab.
->
+
 ### 3. Phong Shading (Normal Vector Interpolation)
 
 Entwickelt von Phong Bui-Tuong (1975). Interpoliert Normalenvektoren statt Farbwerte.
@@ -59,16 +60,16 @@ Entwickelt von Phong Bui-Tuong (1975). Interpoliert Normalenvektoren statt Farbw
 > 1. Berechne an jedem **Vertex** die Vertex-Normale $\mathbf{N}_v$.
 > 2. Interpoliere die **Normalenvektoren** linear über die Kanten und die Scanline für jedes einzelne Fragment/Pixel.
 > 3. Normalisiere den interpolierten [[Vektor]] pro Pixel und wende das **Beleuchtungsmodell pro Pixel** an.
->
+
 > [!tip] Vorteile des Phong Shading
 > - **Exakte Glanzpunkte**: Glanzlichter werden auch mitten auf Polygonflächen korrekt dargestellt.
 > - Sehr weiche, realistisch wirkende Oberflächenkrümmungen.
 > - Eliminierung des Mach-Bänder-Effekts.
->
+
 > [!danger] Klausur-Klassiker: Phong-Beleuchtungsmodell vs. Phong-Shading
 > - **Phong-Beleuchtungsmodell (Empirische Formel)**: Die mathematische Gleichung $I = I_{amb} + I_{diff} + I_{spec}$, die beschreibt, wie aus Normalen-, Licht- und Blickvektor eine Farbe entsteht.
 > - **Phong-Shading (Interpolationsverfahren)**: Das Verfahren, bei dem Normalenvektoren über ein Polygon interpoliert werden, um das Beleuchtungsmodell pro Pixel auszuwerten.
->
+
 ## Globale Beleuchtungsmodelle: Ray Tracing
 
 Im Gegensatz zu lokalen Modellen berücksichtigen globale Beleuchtungsmodelle Wechselwirkungen zwischen allen Objekten der Szene (Schattenwurf, Spiegelungen, Lichtbrechung, indirektes Licht).
@@ -101,7 +102,7 @@ Erweitert Ray Casting um spiegelnde Reflexion und Lichtbrechung durch rekursives
 > - **Verfahren**: Bildraumbasiert (Image-Order Algorithm).
 > - **Vorteile**: Perfekte Spiegelungen, Brechungen und scharfe Schatten.
 > - **Nachteil**: Sehr hoher Rechenaufwand durch kontinuierliche Schnittpunktberechnungen (erfordert Beschleunigungsdatenstrukturen wie BVH oder Octrees).
->
+
 ## Globale Beleuchtungsmodelle: Radiosity
 
 Radiosity basiert auf dem Modell des Wärmeaustauschs (Thermal Engineering) und simuliert diffuse Interreflexionen zwischen allen Oberflächen einer Szene.
@@ -110,13 +111,13 @@ Radiosity basiert auf dem Modell des Wärmeaustauschs (Thermal Engineering) und 
 > - Alle Oberflächen der Szene werden in kleine Patches (Teilflächen) zerlegt.
 > - Jedes Patch emittiert und reflektiert Licht ideal diffus (**Lambertsche Reflektoren**).
 > - **Formfaktoren (Form Factors** $F_{ij}$**)** beschreiben rein geometrisch, wie viel Energie von Patch $i$auf Patch $j$ trifft.
->
+
 > [!tip] Eigenschaften von Radiosity
 > - **Verfahren**: Objektraumbasiert (Object-Order Algorithm).
 > - **Bildelement-Unabhängigkeit**: Die Lichtverteilung wird im [[Dimension|3D-Raum]] (auf den [[Knoten|Vertices]]/Patches) berechnet und ist **vollständig unabhängig vom Kamerastandort**. Nach der Radiosity-Berechnung kann sich die Kamera frei in Echtzeit durch die Szene bewegen.
 > - **Vorteil**: Extrem weiche, natürliche Schattenverläufe und indirektes Farbliefern (Color Bleeding).
 > - **Nachteil**: Keine spekulären Glanzpunkte oder Spiegelungen.
->
+
 ## Die Rendering-Gleichung & Monte-Carlo-Methoden
 
 Die von James Kajiya (1986) eingeführte **Rendering Equation** bildet das physikalische und mathematische Fundament der gesamten Bildsynthese.
@@ -128,7 +129,7 @@ Die von James Kajiya (1986) eingeführte **Rendering Equation** bildet das phy
 > - $f_r$: Die BRDF (Bidirectional Reflectance Distribution Function) des Materials.
 > - $\Omega$: Die Halbkugel (Hemisphere) aller Einfallswinkel.
 > - $\mathbf{N} \cdot \mathbf{\omega}_i$: Lambertscher Kosinus-Faktor.
->
+
 ### Path Tracing & Monte-Carlo-Integration
 
 Da die Rendering-Gleichung eine hochdimensionale Fredholm-Integralgleichung ist, lässt sie sich analytisch nicht lösen.
@@ -136,7 +137,7 @@ Da die Rendering-Gleichung eine hochdimensionale Fredholm-Integralgleichung ist,
 > [!tip] Monte-Carlo-Integration
 > - Das Integral wird numerisch durch stochastisches Stichprobennehmen (Random Sampling) von Lichtstrahlen approximiert.
 > - **Path Tracing**: Verfolgt zufällige Pfade von Photonen/Strahlen durch die Szene. Bei zu wenigen Samples entsteht Bildrauschen (Noise), das mit steigender Anzahl an Samples pro Pixel stochastisch konvergiert.
->
+
 ## Non-Photorealistic Rendering (NPR)
 
 Nicht alle Grafikanwendungen streben nach Photorealismus. Non-Photorealistic Rendering erzeugt stilisierte, künstlerische oder technische Illustrationen.
@@ -145,7 +146,7 @@ Nicht alle Grafikanwendungen streben nach Photorealismus. Non-Photorealistic Ren
 > - **Cel Shading / Toon Shading**: Quantisiert kontinuierliche Beleuchtung in wenige diskrete Farb-Stufen (z. B. 2–3 Helligkeitsstufen für Comic-Look).
 > - **Outline / Silhouette Rendering**: Zeichnet schwarze Außenlinien um Objekte (z. B. über Normalen- und Tiefenvergleiche im Post-Processing oder Backface-Expansion).
 > - **Hatching & Cross-Hatching**: Erzeugt Schattierungen durch Strichmuster und Gravur-Stile.
->
+
 ## Nächste Themen
 
 - [[Alternative Rendering-Pipelines]]
