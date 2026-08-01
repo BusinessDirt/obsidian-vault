@@ -31,16 +31,17 @@ Um dreidimensionale Körper im Computer darzustellen, werden unterschiedliche Mo
 > - **Eindeutigkeit**: Eineindeutige Zuordnung zwischen Datenstruktur und geometrischem Körper.
 > - **Gültigkeit (Surjektivität)**: Jede gültige Parameterkombination ergibt ein mathematisch/physikalisch mögliches Objekt.
 > - **Kompaktheit & Effizienz**: Geringer Speicherbedarf und schnelle Verarbeitung durch Grafikhardware.
->
+
 ## Polygonnetze (Triangle Meshes)
 
 Polygonnetze sind die Standard-Repräsentation in der Echtzeit-[[Dimension|3D-Grafik]]. Sie approximieren Oberflächen durch eine Menge von verbundenen Polygonen.
 
-> [!warning] Klausurrelevanz: Warum fast ausschließlich Dreiecke? In internen Datenstrukturen und [[Pipeline|Grafik-Pipelines]] werden Oberflächen fast immer auf **Dreiecke (Triangles)** reduziert:
+> [!warning] Klausurrelevanz: Warum fast ausschließlich Dreiecke? 
+> In internen Datenstrukturen und [[Pipeline|Grafik-Pipelines]] werden Oberflächen fast immer auf **Dreiecke (Triangles)** reduziert:
 > 1. **Garantierte Planarität**: Drei Punkte im Raum liegen immer exakt in einer gemeinsamen Ebene. (Vierecke können windschief sein).
 > 2. **Garantierte Konvexität**: Ein Dreieck ist immer konvex, was Rasterisierung und Inside/Outside-Tests vereinfacht.
 > 3. **Hardware-Optimierung**: GPUs sind speziell auf das extrem schnelle Verarbeiten und Interpolieren von Dreiecken ausgelegt.
->
+
 ### Vertex-Orientierung & Winding Order
 
 Die Reihenfolge, in der die Eckpunkte ([[Knoten|Vertices]]) eines Dreiecks definiert werden, bestimmt die Ausrichtung seiner Vorder- und Rückseite.
@@ -49,7 +50,7 @@ Die Reihenfolge, in der die Eckpunkte ([[Knoten|Vertices]]) eines Dreiecks defin
 > - **Counter-Clockwise (CCW)**: Werden die [[Knoten|Vertices]] gegen den Uhrzeigersinn definiert, zeigt der Normalenvektor nach außen (Vorderseite / Front Face).
 > - **Clockwise (CW)**: Definition im Uhrzeigersinn kennzeichnet die Rückseite (Back Face).
 > - **Bedeutung**: Unerlässlich für das **Backface Culling** (Verwerfen abgewandter Polygone im Rendering-Prozess).
->
+
 ### Datenstrukturen für Polygonnetze
 
 #### 1. Explicit Mesh (Naive Liste)
@@ -104,7 +105,7 @@ CSG kombiniert einfache Grundkörper mittels boolescher Mengenoperationen zu kom
 > - **Vereinigung (**$\cup$**, Union)**: Verbindet zwei Objekte zu einem gemeinsamen Volumen.
 > - **Schnittmenge (**$\cap$**, Intersection)**: Behält nur den Bereich bei, der in beiden Objekten gleichzeitig enthalten ist.
 > - **Differenz (**$\setminus$**, Difference)**: Schneidet das Volumen des zweiten Objekts aus dem ersten Objekt heraus (z. B. Erzeugung von Bohrungen).
->
+
 ```
         [ CSG Tree Root: Differenz (\) ]
                     │
@@ -128,7 +129,8 @@ Einfache Polygonnetze stoßen bei organischen, geschwungenen Formen an Grenzen. 
 
 Eine Bézier-Kurve wird durch $n+1$ Kontrollpunkte $P_0, P_1, \dots, P_n$ definiert.
 
-> [!note] Mathematische Formel (Bernstein-Polynome) Eine Bézier-Kurve vom Grad $n$ ist definiert als:
+> [!note] Mathematische Formel (Bernstein-Polynome) 
+> Eine Bézier-Kurve vom Grad $n$ ist definiert als:
 >
 > $$C(t) = \sum_{i=0}^{n} B_{i,n}(t) \cdot P_i \quad \text{mit } t \in [0, 1]$$
 >
@@ -141,7 +143,7 @@ Eine Bézier-Kurve wird durch $n+1$ Kontrollpunkte $P_0, P_1, \dots, P_n$ de
 > - **Tangenten an den Endpunkten**: Die Ausrichtung der Kurve in $P_0$ entspricht der Richtung des Vektors $(P_1 - P_0)$, am Ende entsprechend $(P_n - P_{n-1})$.
 > - **Konvexe-Hülle-Eigenschaft**: Die gesamte Kurve liegt vollständig innerhalb der konvexen Hülle ihrer Kontrollpunkte.
 > - **Affine Invarianz**: Eine affine Transformation der Kontrollpunkte führt zur selben Kurve wie die spätere Transformation der Kurvenpunkte.
->
+
 ### De-Casteljau-Algorithmus
 
 Numerisch stabiler und intuitiver Algorithmus zur Auswertung von Bézier-Kurven durch wiederholte lineare Interpolation.

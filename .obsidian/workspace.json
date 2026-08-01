@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Areas/CG1/Kameramodell & Projektion.md",
-                "mode": "preview",
+                "file": "02 - Areas/CG1/3D-Geometrie & Modellierung.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kameramodell & Projektion"
+              "title": "3D-Geometrie & Modellierung"
             }
           }
         ]
@@ -188,6 +188,7 @@
   },
   "active": "073b1ba0b51b994e",
   "lastOpenFiles": [
+    "02 - Areas/CG1/Kameramodell & Projektion.md",
     "02 - Areas/CG1/Einführung & Grundlagen.md",
     "02 - Areas/CG1/Virtuelle & Erweiterte Realität.md",
     "00 - Maps of Content/Studium/Computergrafik 1.md",
@@ -197,7 +198,6 @@
     "02 - Areas/CG1/Shading & Rendering.md",
     "02 - Areas/CG1/Licht, Aussehen & Material.md",
     "02 - Areas/CG1/Rasterisierung.md",
-    "02 - Areas/CG1/Kameramodell & Projektion.md",
     "02 - Areas/CG1/3D-Geometrie & Modellierung.md",
     "02 - Areas/CG1/Transformationen & Szenengraph.md",
     "02 - Areas/CG1",
