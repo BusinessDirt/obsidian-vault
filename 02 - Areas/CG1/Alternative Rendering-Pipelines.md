@@ -63,7 +63,7 @@ wobei $T(t) = \exp\left(-\int_{t_{near}}^{t} \sigma(\mathbf{r}(s)) \, ds\right)
 > - Implizites Blackbox-Modell: Die Szene enthält keine greifbaren Geometrieschichten, was die Nachbearbeitung (Editing, Animation) erschwert.
 > - Hoher Rechenaufwand beim Ray Marching, da für jedes Pixel Dutzende Netz-Evaluierungen nötig sind.
 
-## 🟢 3D Gaussian Splatting (3DGS)
+## 3D Gaussian Splatting (3DGS)
 
 Eingeführt von Kerbl et al. (2023), verbindet 3D Gaussian Splatting die fotorealistische Qualität von NeRFs mit der extremen Rendering-Geschwindigkeit klassischer Rasterisierung ($> 100 \text{ fps}$).
 
@@ -94,8 +94,7 @@ Jedes 3D-Gauß-Primitiv besitzt folgende optimierbare Attribute:
 - **Kovarianzmatrix** $\mathbf{\Sigma}$: Bestimmt Form und Ausrichtung im Raum. Um mathematische Gültigkeit zu garantieren, wird sie zerlegt in:
     - **Skalierung** $\mathbf{S}$: Ausdehnung in 3 Achsen.
     - **Rotation** $\mathbf{R}$: Orientierung im Raum (gespeichert als Quaternion).
-
-        $$\mathbf{\Sigma} = \mathbf{R} \mathbf{S} \mathbf{S}^T \mathbf{R}^T$$
+$$\mathbf{\Sigma} = \mathbf{R} \mathbf{S} \mathbf{S}^T \mathbf{R}^T$$
 - **Opazität** $\alpha$: Transparenzwert.
 - **Farbe**: Dargestellt über **Spherical Harmonics (SH)**, um richtungsabhängige Reflexionen und Glanzlichter abzubilden.
 
