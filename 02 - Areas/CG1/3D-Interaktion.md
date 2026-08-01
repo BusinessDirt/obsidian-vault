@@ -71,13 +71,13 @@ Navigation bezeichnet die gezielte Veränderung des Betrachterstandpunkts (Steue
 Je nach Anwendungsfall werden unterschiedliche mentale Modelle zur Kamerasteuerung verwendet:
 
 - **Virtual Sphere / Arcball (Eyeball-in-Hand)**:
-    - Um das Zielobjekt wird gedanklich eine transparente Kugel gelegt. Mausbewegungen auf dem 2D-Bildschirm rotieren diese Kugel.
+    Um das Zielobjekt wird gedanklich eine transparente Kugel gelegt. Mausbewegungen auf dem 2D-Bildschirm rotieren diese Kugel.
 - **World-in-Hand**:
-    - Der Nutzer bewegt gedanklich nicht die Kamera, sondern packt und verschiebt die gesamte [[Dimension|3D-Welt]].
+    Der Nutzer bewegt gedanklich nicht die Kamera, sondern packt und verschiebt die gesamte [[Dimension|3D-Welt]].
 - **Flying / First-Person (Fly-through / WASD)**:
-    - Freie Flug-Steuerung wie in einem Ego-Shooter (Maus steuert Blickrichtung, Tastatur bewegt die Position vor/zurück/seitlich).
+    Freie Flug-Steuerung wie in einem Ego-Shooter (Maus steuert Blickrichtung, Tastatur bewegt die Position vor/zurück/seitlich).
 - **Walking & Teleportation (VR-Standard)**:
-    - Boden-gebundenes Gehen oder kurzzeitiges Punkt-zu-Punkt-Springen (Teleport-Strahl), um Reisekrankheit (Motion Sickness) zu vermeiden.
+    Boden-gebundenes Gehen oder kurzzeitiges Punkt-zu-Punkt-Springen (Teleport-Strahl), um Reisekrankheit (Motion Sickness) zu vermeiden.
 
 ## Selektion & Manipulation von 3D-Objekten
 
@@ -97,7 +97,8 @@ Standardverfahren für die Selektion aus der Distanz.
 > 2. Berechne Schnittpunkte (Ray-Triangle-Intersections oder Bounding-Box-Tests) mit allen Objekten der Szene.
 > 3. Das Objekt mit dem kleinsten positiven Schnittabstand $t_{min}$ wird selektiert.
 
-> [!danger] Problem beim Ray Casting Bei sehr kleinen oder weit entfernten Objekten führt Handzittern (Tremor) dazu, dass das Objekt schwer zu treffen ist.
+> [!danger] Problem beim Ray Casting 
+> Bei sehr kleinen oder weit entfernten Objekten führt Handzittern (Tremor) dazu, dass das Objekt schwer zu treffen ist.
 > - **Lösung**: **Cone Casting / Spotlight** – Verwende einen virtuellen Lichtkegel anstelle eines dünnen Strahls.
 
 ### 3. Go-Go-Technik (Non-Linear Arm Extension)
