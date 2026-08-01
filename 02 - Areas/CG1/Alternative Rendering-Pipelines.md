@@ -24,22 +24,25 @@ tags:
 
 Klassische [[Pipeline|Grafik-Pipelines]] setzen voraus, dass [[Dimension|3D-Szenen]] als explizite Polygonnetze (Meshes) vorliegen und von Hand modelliert oder aufwendig gescannt wurden.
 
-> [!warning] Das Problem klassischer Rekonstruktion Versucht man real existierende Objekte oder Umgebungen aus Kamerafotos in Dreiecks-Meshes umzuwandeln, entstehen oft Artefakte, fehlerhafte Löcher und Probleme bei spiegelnden, feinen oder transparenten Strukturen (z. B. Haare, Glas, Rauch).
+> [!warning] Das Problem klassischer Rekonstruktion 
+> Versucht man real existierende Objekte oder Umgebungen aus Kamerafotos in Dreiecks-Meshes umzuwandeln, entstehen oft Artefakte, fehlerhafte Löcher und Probleme bei spiegelnden, feinen oder transparenten Strukturen (z. B. Haare, Glas, Rauch).
 
-> [!tip] Das Ziel: Novel View Synthesis (NVS) Rekonstruiere aus einer Reihe von 2D-Fotos einer echten Szene eine Repräsentation, aus der die Szene aus **beliebigen neuen Kameraperspektiven** fotorealistisch gerendert werden kann.
+> [!tip] Das Ziel: Novel View Synthesis (NVS) 
+> Rekonstruiere aus einer Reihe von 2D-Fotos einer echten Szene eine Repräsentation, aus der die Szene aus **beliebigen neuen Kameraperspektiven** fotorealistisch gerendert werden kann.
 
 ## Neural Radiance Fields (NeRFs)
 
 Eingeführt von Mildenhall et al. (2020), revolutionierten NeRFs die Bildsynthese durch die Nutzung künstlicher [[Künstliche Intelligenz|neuronaler Netze]] als implizite Szenendarstellung.
 
-> [!note] Funktionsweise eines NeRF Ein NeRF speichert eine Szene nicht als Geometrie, sondern repräsentiert sie als eine kontinuierliche Funktion innerhalb eines geschulten neuronalen Netzes (eines mehrschichtigen Perzeptrons / MLP).
+> [!note] Funktionsweise eines NeRF 
+> Ein NeRF speichert eine Szene nicht als Geometrie, sondern repräsentiert sie als eine kontinuierliche Funktion innerhalb eines geschulten neuronalen Netzes (eines mehrschichtigen Perzeptrons / MLP).
 > - **Eingabe (5D-[[Vektor]])**:
 >     - 3D-Raumkoordinaten $\mathbf{x} = (x, y, z)$
 >     - 2D-Blickrichtung $\mathbf{d} = (\theta, \phi)$
 > - **Ausgabe**:
 >     - Volumendichte $\sigma$ (Wie dicht/undurchsichtig ist der Raum an dieser Stelle?)
 >     - Emittierte Farbe $\mathbf{c} = (r, g, b)$ (Richtungsabhängige Radianz)
->
+
 ```
 (x, y, z, θ, ϕ) ──► [ Multilayer Perceptron (MLP) ] ──► (r, g, b, σ)
 ```
@@ -55,16 +58,17 @@ wobei $T(t) = \exp\left(-\int_{t_{near}}^{t} \sigma(\mathbf{r}(s)) \, ds\right)
 > [!tip] Meilensteine & Weiterentwicklungen
 > - **NeRF in the Wild (2021)**: Verarbeitet unstrukturierte Internet- und Touristennamen-Fotos mit wechselnden Lichtverhältnissen und vorübergehenden Störfaktoren (Passanten).
 > - **Instant-NGP / NVIDIA (2022)**: Ersetzt das reine MLP durch multiresolutionale Hash-Tabellen. Reduziert die Trainingszeit von mehreren Stunden auf **wenige Sekunden** und ermöglicht Echtzeit-Auswertung.
->
+
 > [!danger] Grenzen von NeRFs
 > - Implizites Blackbox-Modell: Die Szene enthält keine greifbaren Geometrieschichten, was die Nachbearbeitung (Editing, Animation) erschwert.
 > - Hoher Rechenaufwand beim Ray Marching, da für jedes Pixel Dutzende Netz-Evaluierungen nötig sind.
->
+
 ## 🟢 3D Gaussian Splatting (3DGS)
 
 Eingeführt von Kerbl et al. (2023), verbindet 3D Gaussian Splatting die fotorealistische Qualität von NeRFs mit der extremen Rendering-Geschwindigkeit klassischer Rasterisierung ($> 100 \text{ fps}$).
 
-> [!note] Die Kernidee von 3DGS Anstelle eines neuronalen Netzes wird die Szene als eine riesige Menge (Hunderte Tausende bis Millionen) von flexiblen, dreidimensionalen **Gauß-Ellipsoiden (Splats)**repräsentiert.
+> [!note] Die Kernidee von 3DGS 
+> Anstelle eines neuronalen Netzes wird die Szene als eine riesige Menge (Hunderte Tausende bis Millionen) von flexiblen, dreidimensionalen **Gauß-Ellipsoiden (Splats)**repräsentiert.
 
 ### Der Ablauf der 3DGS-Pipeline
 
@@ -115,7 +119,7 @@ Während des Trainings vergleichen Verlustfunktionen (Loss: $L_1$ + D-SSIM) da
 > [!tip] Vorteile von 3D Gaussian Splatting
 > - **Echtzeit-Rendering**: Extrem schnelle Rasterisierung dank direkter GPU-Sortierung.
 > - **Explizite Datenstruktur**: Splats können direkt im [[Dimension|3D-Raum]] verschoben, skaliert, gecullt oder mit klassischer Geometrie kombiniert werden.
->
+
 ## Neuartige Anwendungen & Triangle Splatting
 
 Da 3DGS eine explizite Punktstruktur nutzt, lässt es sich ideal mit Animationen und Rigs kombinieren.
@@ -123,7 +127,7 @@ Da 3DGS eine explizite Punktstruktur nutzt, lässt es sich ideal mit Animationen
 > [!example] Aktuelle Forschungsfelder
 > - **GaussianAvatars & Avat3r**: Kopplung von 3D-Gauß-Splats an ein elastisches Bewegungsskelett zur Erzeugung fotorealistischer, animierbarer digitaler Menschen und Gesichter.
 > - **Triangle Splatting (2025)**: Übertragung der differentiablen Splatting-Idee von Gauß-Ellipsoiden zurück auf **flache Dreiecks-Primitive**, um bessere Schnittstellen zu klassischen Physik- und [[Pipeline|Grafik-Pipelines]] zu schaffen.
->
+
 ## Nächste Themen
 
 - [[Virtuelle & Erweiterte Realität]]

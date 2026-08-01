@@ -61,7 +61,7 @@ Um reale Beleuchtung in Echtzeit anzunähern, nutzt man vereinfachte abstrakte L
 >     - Besitzt eine feste Position im Raum und strahlt gleichmäßig in alle Richtungen ab.
 > - **Spotlicht (Spot Light)**:
 >     - Strahlungsbereich ist auf einen Kegel eingeschränkt (Position, Richtung, Öffnungswinkel/Cutoff und Fokus-Exponent).
->
+
 ## Schattenbildung (Shadows)
 
 Schatten entstehen, wenn undurchsichtige Objekte den Lichtstrom von einer Lichtquelle zu einer Oberfläche blockieren.
@@ -69,11 +69,12 @@ Schatten entstehen, wenn undurchsichtige Objekte den Lichtstrom von einer Lichtq
 - **Kernschatten (Umbra)**: Bereich, der von keinem Punkt der Lichtquelle erreicht wird (entsteht bei Punktlichtquellen $\rightarrow$ **harte Schattenkanten**).
 - **Halbschatten (Penumbra)**: Bereich, der nur von einem Teil einer ausgedehnten Lichtquelle erreicht wird (entsteht bei Flächenlichtquellen $\rightarrow$ **weiche Schattenkanten**).
 
-> [!note] Shadow Mapping (Schattenmap-Verfahren) Bildraumbasiertes 2-Pass-Verfahren zur Schattenberechnung:
+> [!note] Shadow Mapping (Schattenmap-Verfahren) 
+> Bildraumbasiertes 2-Pass-Verfahren zur Schattenberechnung:
 > 1. **Pass 1**: Rendere die Szene aus der **Perspektive der Lichtquelle** und speichere nur die Tiefenwerte im **Shadow Buffer (Depth Map)**.
 > 2. **Pass 2**: Rendere die Szene aus Kamerasicht. Transformiere jeden Oberflächenpunkt in das Koordinatensystem der Lichtquelle und vergleiche seinen Abstand zur Lichtquelle mit dem Wert im Shadow Buffer.
 >     - Ist der Punkt weiter entfernt als der Wert im Shadow Buffer $\rightarrow$ **Punkt liegt im Schatten**.
->
+
 ## Das Phong-Beleuchtungsmodell
 
 Das empirische Beleuchtungsmodell nach Bui Tuong Phong berechnet die reflektierte Lichtintensität an einem Punkt als Summe aus drei Komponenten.
@@ -82,12 +83,13 @@ Das empirische Beleuchtungsmodell nach Bui Tuong Phong berechnet die reflektiert
 Reflektierte Farbe = Ambient + Diffus + Spekulär (Glanzlicht)
 ```
 
-> [!warning] Klausurrelevanz: [[Vektor|Vektoren]] des Phong-Modells Für die Berechnung an einem Punkt $\mathbf{P}$auf der Oberfläche werden vier normierte [[Vektor|Vektoren]] benötigt:
+> [!warning] Klausurrelevanz: [[Vektor|Vektoren]] des Phong-Modells 
+> Für die Berechnung an einem Punkt $\mathbf{P}$auf der Oberfläche werden vier normierte [[Vektor|Vektoren]] benötigt:
 > - $\mathbf{N}$: Oberflächennormalenvektor (Normal Vector)
 > - $\mathbf{L}$: [[Vektor]] von $\mathbf{P}$ zur Lichtquelle (Light Vector)
 > - $\mathbf{V}$: [[Vektor]] von $\mathbf{P}$ zur Kamera / Augpunkt (View Vector)
 > - $\mathbf{R}$: Vektor des ideal reflektierten Lichtstrahls (Reflection Vector)
->
+
 ### 1. Ambiente Komponente ($I_{amb}$)
 
 $$I_{amb} = k_a \cdot I_a$$
@@ -137,7 +139,7 @@ Texturen überziehen einfache 3D-Geometrien mit 2D-Bilddaten, um hohe visuelle K
 > [!note] UV-Koordinaten Jeder Vertex eines 3D-Meshes erhält ein zweidimensionales Texturkoordinaten-Paar $(u, v) \in [0, 1]^2$.
 > - $u$: Horizontale Achse der 2D-Textur.
 > - $v$: Vertikale Achse der 2D-Textur.
->
+
 ### Texturfilterung & Mipmapping
 
 Wird eine 2D-Textur auf Bildschirm-Pixel abgebildet, entstehen Größendifferenzen:
@@ -155,7 +157,7 @@ Wird eine 2D-Textur auf Bildschirm-Pixel abgebildet, entstehen Größendifferenz
 > - **Normal Mapping**: Verwendet ein RGB-Bild, um echte 3D-Normalenvektoren $(x, y, z)$ direkt im Tangentenraum abzuspeichern (R-Kanal = X, G-Kanal = Y, B-Kanal = Z).
 > - **Displacement Mapping**: Verschiebt die tatsächlichen [[Knoten|Vertices]] des Polygonnetzes anhand einer Map. Verändert die reale 3D-Geometrie und die Silhouette (erfordert dichte Meshes).
 > - **Environment Mapping (Reflection Map)**: Bildebene wird auf eine umgebende Kugel oder einen Würfel (Cube Map) abgebildet, um spiegelnde Oberflächen ohne aufwendiges Raytracing zu simulieren.
->
+
 ## Prozedurale Oberflächen & Shader
 
 Anstatt statische Grafiken zu nutzen, können Material- und Oberflächeneigenschaften auch mathematisch/programmatisch generiert werden.
@@ -163,7 +165,7 @@ Anstatt statische Grafiken zu nutzen, können Material- und Oberflächeneigensch
 > [!info] Shader-Typen in OpenGL / WebGL
 > - **Vertex Shader**: Verarbeitet einzelne Eckpunkte der Geometrie (Transformationen, Positionen, Projektionen).
 > - **Fragment Shader (Pixel Shader)**: Berechnet für jedes projizierte Raster-Fragment den finalen Farb- und Tiefenwert (Implementierung des Phong-Modells, Textur-Lookups, Noise-Funktionen wie Perlin Noise).
->
+
 ## Nächste Themen
 
 - [[Shading & Rendering]]

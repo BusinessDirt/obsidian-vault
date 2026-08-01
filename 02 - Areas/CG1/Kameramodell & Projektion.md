@@ -123,7 +123,7 @@ Das Sichtvolumen einer Perspektivkamera bildet einen Pyramidenstumpf (Viewing Fr
 > Die Perspektivtransformation erfolgt strikt in zwei aufeinanderfolgenden Phasen:
 > 1. **Anwendung der Projektionsmatrix** $M_{proj}$: Transformation der homogenen Koordinaten. Hier wird der $z$-Wert in die vierte Koordinate $w$ geschrieben.
 > 2. **Perspektivische Division (Perspective Division)**: Multiplikation bzw. Division aller Komponenten durch $w$.
->
+
 #### Schritt 1: Projektionsmatrix
 
 Für ein Sichtfeld mit Fokusdistanz $d$ (oder skaliert auf $z_{near}, z_{far}$) sieht die Matrixform typischerweise wie folgt aus:

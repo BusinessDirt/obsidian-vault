@@ -25,7 +25,8 @@ tags:
 
 Die Rasterisierung bildet die Brücke zwischen kontinuierlicher Vektorgeometrie (Punkte, Linien, Polygone im 2D/[[Dimension|3D-Raum]]) und dem diskreten Pixelraster eines Bildschirms.
 
-> [!note] Kernaufgabe Bestimme für jedes geometrische Primitiv (z. B. ein projiziertes 2D-Dreieck in Viewport-Koordinaten), welche Pixel des Framebuffers davon überdeckt werden und welche Farb- bzw. Tiefenwerte diese Pixel erhalten.
+> [!note] Kernaufgabe 
+> Bestimme für jedes geometrische Primitiv (z. B. ein projiziertes 2D-Dreieck in Viewport-Koordinaten), welche Pixel des Framebuffers davon überdeckt werden und welche Farb- bzw. Tiefenwerte diese Pixel erhalten.
 
 ## Clipping (Beschneidung)
 
@@ -34,7 +35,7 @@ Geometrie, die sich außerhalb des sichtbaren Bildschirmfensters (Viewport / Cli
 > [!tip] Warum Clipping?
 > - **Effizienz**: Vermeidet unnötige Rasterisierungsberechnungen für nicht sichtbare Objekte.
 > - **Fehlervermeidung**: Verhindert Speicherzugriffsfehler (Out-of-Bounds) beim Schreiben in den Framebuffer.
->
+
 ### 1. Cohen-Sutherland-Algorithmus (Line Clipping)
 
 Der Cohen-Sutherland-Algorithmus teilt den 2D-Raum durch das Clipping-Rechteck in 9 Regionen ein und weist jedem Endpunkt $P$ einer Linie einen **4-Bit-Outcode** `[Top, Bottom, Right, Left]` zu:
@@ -49,7 +50,7 @@ Der Cohen-Sutherland-Algorithmus teilt den 2D-Raum durch das Clipping-Rechteck i
 > - **Trivial Accept (**$P \text{ OR } Q == 0000$**)**: Die Linie liegt vollständig innerhalb des Rechtecks $\rightarrow$ **Unverändert zeichnen**.
 > - **Trivial Reject (**$P \text{ AND } Q \neq 0000$**)**: Beide Punkte liegen auf derselben äußeren Seite des Rechtecks $\rightarrow$ **Komplett verwerfen**.
 > - **Sonst**: Die Linie schneidet mindestens eine Kante. Berechne den Schnittpunkt mit der Kante und wende den Algorithmus rekursiv auf die gekürzten Segmente an.
->
+
 ### 2. Sutherland-Hodgman-Algorithmus (Polygon Clipping)
 
 Beschneidet ein gesamtes Polygon nacheinander an den vier Begrenzungskanten eines konvexen Clipping-Fensters.
@@ -59,7 +60,7 @@ Beschneidet ein gesamtes Polygon nacheinander an den vier Begrenzungskanten eine
 > 2. **Drinnen** $\rightarrow$ **Draußen**: Berechne Schnittpunkt $I$ mit der Kante und speichere nur $I$.
 > 3. **Draußen** $\rightarrow$ **Draußen**: Speichere keinen Punkt.
 > 4. **Draußen** $\rightarrow$ **Drinnen**: Berechne Schnittpunkt $I$, speichere $I$ und den Endpunkt $V_{i+1}$.
->
+
 ## Linienrasterisierung (Drawing Lines)
 
 Eine mathematische Linie $y = m \cdot x + b$ muss auf eine Folge diskreter Rasterpixel $(x, y) \in \mathbb{Z}^2$abgebildet werden.
@@ -70,13 +71,15 @@ Inkrementeller Ansatz: Gehe in Einzelsschritten entlang der Hauptachse ($\Delta 
 
 $$x_{k+1} = x_k + 1, \quad y_{k+1} = y_k + m$$
 
-> [!danger] Nachteil des DDA Erfordert in jeder Iteration **Gleitkomma-Additionen** und Rundungsoperationen (`round(y)`), was auf Hardware langsam ist.
+> [!danger] Nachteil des DDA 
+> Erfordert in jeder Iteration **Gleitkomma-Additionen** und Rundungsoperationen (`round(y)`), was auf Hardware langsam ist.
 
 ### 2. Bresenham-Algorithmus (Midpoint Line Algorithm)
 
 Der Bresenham-Algorithmus löst das Problem rein mittels **Ganzzahlarithmetik (Integer Arithmetic)**.
 
-> [!tip] Funktionsprinzip Angenommen, der Pixel $(x_k, y_k)$ wurde gezeichnet. Für den nächsten Schritt $x_k + 1$ kommen nur zwei Nachbarpixel infrage:
+> [!tip] Funktionsprinzip 
+> Angenommen, der Pixel $(x_k, y_k)$ wurde gezeichnet. Für den nächsten Schritt $x_k + 1$ kommen nur zwei Nachbarpixel infrage:
 > - Östlicher Nachbar $E = (x_k + 1, y_k)$
 > - Nord-östlicher Nachbar $NE = (x_k + 1, y_k + 1)$
 >
@@ -86,7 +89,7 @@ Der Bresenham-Algorithmus löst das Problem rein mittels **Ganzzahlarithmetik (
 > - Keine Gleitkomma-Operationen (kein `float`, keine Multiplikation, keine Division im Haupt-Loop).
 > - Nur Additionen, Subtraktionen und Bit-Shifts (`<< 1` für Multiplikation mit 2).
 > - Extrem effizient direkt in Grafikhardware (GPUs) umsetzbar.
->
+
 ## Flächenfüllen (Filling Areas)
 
 Das Füllen von geschlossenen 2D-Polygonen erfolgt standardmäßig über den **Scanline-Algorithmus**.
@@ -95,17 +98,19 @@ Das Füllen von geschlossenen 2D-Polygonen erfolgt standardmäßig über den **
 
 Der Algorithmus tastet das Bildelement zeilenweise von oben nach unten (oder unten nach oben) ab.
 
-> [!tip] Bestimmung der Innen-/Außenbereiche (Parität) Um zu entscheiden, ob ein Pixel $(x, y)$ innerhalb des Polygons liegt:
+> [!tip] Bestimmung der Innen-/Außenbereiche (Parität) 
+> Um zu entscheiden, ob ein Pixel $(x, y)$ innerhalb des Polygons liegt:
 > 1. Sende einen gedanklichen Strahl vom Pixel ins Unendliche.
 > 2. Zähle die Anzahl der Schnittpunkte des Strahls mit den Polygonkanten.
 > 3. **Parität 0 (Gerade Anzahl)**: Pixel liegt **außerhalb** (Even) $\rightarrow$ Nicht zeichnen.
 > 4. **Parität 1 (Ungerade Anzahl)**: Pixel liegt **innerhalb** (Odd) $\rightarrow$ Pixel füllen.
->
+
 ```
 Scanline y ───►  [Außen (0)] ──| Edge 1 |──► [Innen (1)] ──| Edge 2 |──► [Außen (0)]
 ```
 
-> [!note] Optimierung mittels Edge Tables Um nicht in jeder Zeile alle Kanten prüfen zu müssen, verwaltet der Algorithmus eine **Edge Table (ET)** und eine **Active Edge Table (AET)**. Letztere enthält nur diejenigen Kanten, die die aktuelle Scanline kreuzen, sortiert nach ihren $x$-Schnittpunkten.
+> [!note] Optimierung mittels Edge Tables 
+> Um nicht in jeder Zeile alle Kanten prüfen zu müssen, verwaltet der Algorithmus eine **Edge Table (ET)** und eine **Active Edge Table (AET)**. Letztere enthält nur diejenigen Kanten, die die aktuelle Scanline kreuzen, sortiert nach ihren $x$-Schnittpunkten.
 
 ## Antialiasing (Kantenglättung)
 

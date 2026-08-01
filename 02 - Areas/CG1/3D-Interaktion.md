@@ -27,7 +27,7 @@ Die meisten klassischen Eingabegeräte (Maus, Touchscreen, Grafiktablett) arbeit
 > [!warning] Die Interaktions-Herausforderung Interaktionen sollen jedoch Objekte innerhalb der **dreidimensionalen Welt (Szenengraph)** verändern.
 > - **Problem**: Abbildung von 2D-Bildschirmkoordinaten $(x, y)$ auf 3D-Transformationen $(x, y, z, \text{Rotation}, \text{Skalierung})$.
 > - **Lösung**: Mathematische Mappings, Constraints (Einschränkungen auf Achsen/Ebenen) und räumliche Hilfskonstrukte (Gizmos).
->
+
 ### Freiheitsgrade (Degrees of Freedom - DOF)
 
 Die Anzahl unabhängiger Bewegungsmöglichkeiten eines Objekts im Raum bestimmt seine Freiheitsgrade:
@@ -37,7 +37,7 @@ Die Anzahl unabhängiger Bewegungsmöglichkeiten eines Objekts im Raum bestimmt 
 >     - Reine Position im Raum $(x, y, z)$ **oder** reine Orientierung (Roll, Pitch, Yaw / Wanken, Nicken, Gieren).
 > - **6 DOF (Vollständige 3D-Transformation)**:
 >     - Kombination aus 3 Translationsachsen $(x, y, z)$ und 3 Rotationsachsen $(\theta_x, \theta_y, \theta_z)$.
->
+
 ## 3D-Eingabegeräte & Sensorik
 
 Um 3D-Welten direkt zu steuern, wurden verschiedene Eingabegeräte entwickelt:
@@ -51,7 +51,7 @@ Um 3D-Welten direkt zu steuern, wurden verschiedene Eingabegeräte entwickelt:
 >     - Erfassung von Fingerbiegungen und Handgesten zur natürlichen Interaktion.
 > - **Gamepad & Wiimote**:
 >     - Analog-Sticks kombiniert mit Infrarot- oder Bewegungssensoren.
->
+
 ## Navigation in 3D-Szenen
 
 Navigation bezeichnet die gezielte Veränderung des Betrachterstandpunkts (Steuerung der virtuellen Kamera bzw. View-[[Matrix]]).
@@ -64,7 +64,7 @@ Navigation bezeichnet die gezielte Veränderung des Betrachterstandpunkts (Steue
 > - **Dolly / Zoom**:
 >     - _Dolly_: Physisches Verschieben der Kamera-Position entlang der optischen Achse ($Z$-Achse). Verändert Parallaxe und Perspektive.
 >     - _Zoom_: Verändern der Brennweite / des Öffnungswinkels (FOV) bei starrer Kameraposition.
->
+
 ### Navigationsmetaphern
 
 Je nach Anwendungsfall werden unterschiedliche mentale Modelle zur Kamerasteuerung verwendet:
@@ -92,14 +92,13 @@ Standardverfahren für die Selektion aus der Distanz.
 
 > [!note] Funktionsweise von Ray Casting
 > 1. Erzeuge einen virtuellen unendlichen Strahl (Ray), ausgehend von der Kamera/Mausposition oder dem VR-Controller in Blickrichtung:
->
 >     $$\mathbf{r}(t) = \mathbf{o} + t \cdot \mathbf{d} \quad \text{mit } t \ge 0$$
 > 2. Berechne Schnittpunkte (Ray-Triangle-Intersections oder Bounding-Box-Tests) mit allen Objekten der Szene.
 > 3. Das Objekt mit dem kleinsten positiven Schnittabstand $t_{min}$ wird selektiert.
->
+
 > [!danger] Problem beim Ray Casting Bei sehr kleinen oder weit entfernten Objekten führt Handzittern (Tremor) dazu, dass das Objekt schwer zu treffen ist.
 > - **Lösung**: **Cone Casting / Spotlight** – Verwende einen virtuellen Lichtkegel anstelle eines dünnen Strahls.
->
+
 ### 3. Go-Go-Technik (Non-Linear Arm Extension)
 
 Ermöglicht das Greifen von Objekten außerhalb der physischen Armreichweite durch eine nicht-lineare Skalierung der Armlänge:
@@ -115,7 +114,7 @@ Selektion und Manipulation direkt im projizierten [[Dimension|2D-Kamerabild]] (h
 > - **Head Crusher**: Das entfernte 3D-Objekt wird im [[Dimension|2D-Kamerabild]] gedanklich zwischen Daumen und Zeigefinger „zerquetscht“ und dadurch gegriffen.
 > - **Sticky Finger**: Platzieren des Fingers auf dem Bildschirm-Imagepunkt des Objekts.
 > - **Framing Hands**: Aufspannen eines Rahmens mit beiden Händen zur Objektauswahl.
->
+
 ## 3D-Widgets & Gizmos
 
 3D-Widgets sind visuelle Steuerungselemente, die direkt in die [[Dimension|3D-Szene]] gerendert werden, um komplexe 3D-Transformationen mit einfachen 2D-Mausbewegungen durchzuführen.
@@ -125,7 +124,7 @@ Selektion und Manipulation direkt im projizierten [[Dimension|2D-Kamerabild]] (h
 > - **Ebenen-Quadrate**: Kleine Flächen zwischen zwei Achsen erlauben Verschiebungen parallel zu einer Haupt-Koordinatenebene ($XY, XZ, YZ$).
 > - **Rotations-Ringe**: Kreisförmige Ringe um die Objektmitte ermöglichen Rotationen um die jeweilige Achse.
 > - **Skalierungs-Boxen**: Würfel an den Achsenenden skalieren das Objekt isotrop oder anisotrop.
->
+
 ```
           Y (Grün)
           ▲

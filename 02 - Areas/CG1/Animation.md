@@ -33,7 +33,7 @@ Das Wort Animation stammt vom lateinischen _animare_ („zum Leben erwecken“
 >     - Kinofilm: $24 \text{ fps}$
 >     - Fernsehen (PAL/NTSC): $25 \text{ / } 30 \text{ fps}$
 >     - Interaktive [[Dimension|3D-Grafik]] / Gaming: $60 \text{ bis } 144+ \text{ fps}$ für flüssige Interaktion.
->
+
 ## Keyframing & Interpolation
 
 In der klassischen Zeichentrick-Herstellung zeichneten Chefzeichner nur die wichtigsten Hauptbilder (**Keyframes**), während Assistenten die Zwischenbilder (**Inbetweens**) anfertigten. In der Computergrafik übernimmt der Computer die Rolle des Inbetweeners.
@@ -41,7 +41,7 @@ In der klassischen Zeichentrick-Herstellung zeichneten Chefzeichner nur die wich
 > [!tip] Prinzip des digitalen Keyframings
 > 1. Der Animator legt zu bestimmten Zeitpunkten $t_0, t_1, \dots$ Schlüsselwerte für Objektparameter fest (z. B. Position, Rotation, Skalierung, Farbe, Kamera-FOV).
 > 2. Die Grafiksoftware berechnet für alle Frames dazwischen automatisch die Werte mittels mathematischer **Interpolationsfunktionen**.
->
+
 ```
 [ Keyframe t0 ] ──────── Interpolationskurve (Spline) ────────► [ Keyframe t1 ]
   (Pos: x0, y0)                                                   (Pos: x1, y1)
@@ -77,7 +77,7 @@ Um komplexe organische Charaktere (Menschen, Tiere, Monster) realistisch zu bewe
 >     - Steuerung erfolgt **von unten nach oben**.
 >     - Der Animator gibt nur die gewünschte Zielposition der Hand (Endeffektor) vor.
 >     - Der Algorithmus berechnet mathematisch die dafür notwendigen Rotationswinkel aller übergeordneten Gelenke (Schulter und Ellbogen).
->
+
 ### Motion Capture (MoCap)
 
 Erfassung der Bewegungen realer Darsteller mithilfe von Sensoren oder Markern (optisch, magnetisch, exskelettal) und Übertragung der 3D-Koordinaten auf das virtuelle Rig des Charakters.
@@ -90,7 +90,7 @@ Für Phänomene mit extrem vielen Freiheitsgraden ist manuelle Keyframe-Animatio
 > - **Partikelsysteme (Particle Systems)**: Erzeugung großer Mengen einfacher Partikel mit Masse, Lebensdauer und Geschwindigkeit zur Simulation von Feuer, Rauch, Funken, Wasserfällen oder Schnee.
 > - **Masse-Feder-Systeme (Mass-Spring Systems)**: Punkte im Raum werden durch elastische Federn verbunden. Dient zur Simulation flexibler Textilien (Cloth Simulation), Seilen und weichen Körpern.
 > - **Rigid Body Dynamics (Körperdynamik)**: Berechnung von Kollisionen, Reibung und [[Impuls|Impulserhaltung]] unformbarer [[Dimension|3D-Körper]] (z. B. einstürzende Mauern, Würfel).
->
+
 ## Die 12 Prinzipien der Animation (Disney)
 
 Von Frank Thomas und Ollie Johnston (Disney-Animatoren) in den 1980ern formuliert, bilden diese Regeln die Basis für ausdrucksstarke und glaubwürdige Bewegungen.
@@ -112,7 +112,7 @@ Von Frank Thomas und Ollie Johnston (Disney-Animatoren) in den 1980ern formulier
 > 10. **Exaggeration (Übertreibung)**: Maßvolle Überhöhung von Bewegungen und Mimik zur Steigerung der Dramatik und des emotionalen Ausdrucks.
 > 11. **Solid Drawing / Weight (Glaubwürdige Anatomie & Gewicht)**: Beachtung von 3D-Volumen, Gewicht, Balance und physikalischen Dichteunterschieden.
 > 12. **Appeal (Ausstrahlung / Charme)**: Ansprechende Gestaltung und Konsistenz von Charakteren und deren Persönlichkeit.
->
+
 ## Nächste Themen
 
 - [[3D-Interaktion]]

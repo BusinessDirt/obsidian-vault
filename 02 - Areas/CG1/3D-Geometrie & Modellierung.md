@@ -148,15 +148,13 @@ Eine Bézier-Kurve wird durch $n+1$ Kontrollpunkte $P_0, P_1, \dots, P_n$ de
 
 Numerisch stabiler und intuitiver Algorithmus zur Auswertung von Bézier-Kurven durch wiederholte lineare Interpolation.
 
-> [!example] Algorithmus-Idee für ein Parameter $t \in [0,1]$ Gegeben seien die Kontrollpunkte $P_0, P_1, P_2, P_3$ (kubische Bézier-Kurve):
+> [!example] Algorithmus-Idee für ein Parameter $t \in [0,1]$ 
+> Gegeben seien die Kontrollpunkte $P_0, P_1, P_2, P_3$ (kubische Bézier-Kurve):
 > 1. Interpoliere linear zwischen je zwei benachbarten Punkten:
->
 >     $$P_0^1(t) = (1-t)P_0 + tP_1$$$$P_1^1(t) = (1-t)P_1 + tP_2$$$$P_2^1(t) = (1-t)P_2 + tP_3$$
 > 2. Wiederhole den Schritt für die neuen Punkte:
->
 >     $$P_0^2(t) = (1-t)P_0^1(t) + tP_1^1(t)$$$$P_1^2(t) = (1-t)P_1^1(t) + tP_2^1(t)$$
 > 3. Der finale Kurvenpunkt ergibt sich aus:
->
 >     $$C(t) = P_0^3(t) = (1-t)P_0^2(t) + tP_1^2(t)$$
 
 ### Splines & NURBS
@@ -171,7 +169,7 @@ Um Rechenleistung beim Rendering großer Szenen zu sparen, werden Objekte je nac
 > [!info] Arten von LOD
 > - **Diskreter LOD**: Mehrere vorgefertigte Varianten eines Meshes mit unterschiedlicher Polygonanzahl (z. B. High-Poly, Mid-Poly, Low-Poly).
 > - **Kontinuierlicher LOD**: Dynamische Echtzeit-Reduktion der Polygonanzahl basierend auf dem Abstand zur Kamera.
->
+
 ### Algorithmen zur Mesh-Simplifizierung
 
 - **Vertex Clustering**: Einteilen des Raums in ein Gitter; alle Vertices innerhalb einer Gitterzelle werden zu einem einzigen Vertex verschmolzen. Fast, aber führt oft zu Qualitätsverlusten.
