@@ -24,7 +24,8 @@ tags:
 
 Die meisten klassischen Eingabegeräte (Maus, Touchscreen, Grafiktablett) arbeiten primär auf einem **zweidimensionalen Raster** und Bildschirmen. Das Rendering-Ergebnis der [[Pipeline|Grafik-Pipeline]] ist ebenfalls ein 2D-Pixelbild.
 
-> [!warning] Die Interaktions-Herausforderung Interaktionen sollen jedoch Objekte innerhalb der **dreidimensionalen Welt (Szenengraph)** verändern.
+> [!warning] Die Interaktions-Herausforderung 
+> Interaktionen sollen jedoch Objekte innerhalb der **dreidimensionalen Welt (Szenengraph)** verändern.
 > - **Problem**: Abbildung von 2D-Bildschirmkoordinaten $(x, y)$ auf 3D-Transformationen $(x, y, z, \text{Rotation}, \text{Skalierung})$.
 > - **Lösung**: Mathematische Mappings, Constraints (Einschränkungen auf Achsen/Ebenen) und räumliche Hilfskonstrukte (Gizmos).
 
